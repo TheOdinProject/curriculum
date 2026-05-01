@@ -2,7 +2,7 @@
 
 #### Step 0: Prerequisites
 
-Firstly, run the following in your terminal to make sure your Ubuntu package lists is up-to-date:
+Firstly, run the following in your terminal to make sure your Ubuntu package lists are up-to-date:
 
 ```bash
 sudo apt update && sudo apt upgrade
