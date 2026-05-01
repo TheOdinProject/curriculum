@@ -538,13 +538,13 @@ See the <a href="./templates/lesson-template.md" target="_blank" rel="noreferrer
 See the [lesson template](./templates/lesson-template.md) for a more easily copyable lesson file.
 ```
 
-### Use informative titles
+### Use informative text labels
 
 Markdownlint: [`descriptive-link-text-labels`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP001.md), [`no-empty-links`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md042.md)
 
-Markdown link syntax allows you to set a link title, just as HTML does. Use it wisely.
+Markdown link syntax allows you to set text for a link, just as HTML does. Use it wisely.
 
-Titling your links as "link" or "here" tells the reader precisely nothing when quickly scanning your doc and is a waste of space. Users of screen readers will also not get any surrounding context when listing or reading out links, which will only list or read out the link's text/accessible name. Instead, write the sentence naturally, then go back and wrap the most appropriate phrase with the link:
+Links saying "link" or "here" tell the reader precisely nothing when quickly scanning your doc and is a waste of space. Users of screen readers will also not get any surrounding context when listing or reading out links, which will only list or read out the link's text/accessible name. Instead, write the sentence naturally, then go back and wrap the most appropriate phrase with the link:
 
 ```markdown
 See the [lesson template](./templates/lesson-template.md) for a more easily copyable lesson file.
