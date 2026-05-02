@@ -64,8 +64,8 @@ It's important to remember that mobile browsers are not one-to-one with their de
 
 <div class="lesson-content__panel" markdown="1">
 
-- Review [Can I Use](https://caniuse.com/). Are all technologies you have encountered so far supported by popular browsers?
-- Read this article [about browsers on iOS](https://adactio.com/journal/17428).
+1. Review [Can I Use](https://caniuse.com/). Are all technologies you have encountered so far supported by popular browsers?
+1. Read this article [about browsers on iOS](https://adactio.com/journal/17428).
 
 </div>
 
