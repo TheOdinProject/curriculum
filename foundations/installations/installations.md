@@ -102,10 +102,10 @@ Google Chrome includes powerful developer tools that you'll use throughout this 
 <div class="lesson-content__panel" markdown="1">
 
 1. If you're not already running a supported environment, follow one of the <span id="os-installation">installation guides</span> below:
-   - [Virtual Machine (Recommended)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/virtual_machine.md) - The easiest and most reliable way to get started. A VM runs inside your current OS like Windows.
-   - [Ubuntu/Windows Dual-Boot](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/dual_boot.md) - Install Ubuntu alongside Windows on your computer.
-   - [ChromeOS/ChromeOS Flex](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/chromeos.md) - Instructions for Chromebook users.
-   - [WSL2 (Advanced)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/wsl2.md) - Run Linux from within Windows. Can cause confusion for new learners due to less clear separation between operating systems.
+   - [Virtual machine (recommended)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/virtual_machine.md "Linux virtual machine installation instructions (recommended option)") - The easiest and most reliable way to get started. A VM runs inside your current OS like Windows.
+   - [Ubuntu/Windows dual-boot](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/dual_boot.md "Ubuntu dual-boot instructions") - Install Ubuntu as a separate OS alongside Windows on your computer. Great for lower-end systems since no virtualization is required.
+   - [ChromeOS/ChromeOS Flex](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/chromeos.md "Linux installation instructions for ChromeOS") - Instructions for Chromebook users.
+   - [WSL2 (advanced)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/wsl2.md "WSL2 installation instructions (advanced option)") - Run Linux from within Windows. Can cause confusion for new learners due to less clear separation between operating systems.
 
    <div class="lesson-note lesson-note--warning" markdown="1">
 
@@ -120,9 +120,9 @@ Google Chrome includes powerful developer tools that you'll use throughout this 
 1. Because our lessons use Google Chrome, and Chrome/Chromium are overwhelmingly used by developers and consumers, the recommendations we make are very intentional. Look at this [usage share of web browsers](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables) and see what other folks are using the most.
 
    <span id="google-chrome-installation">Install Google Chrome</span> for your operating system:
-   - [Linux](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/linux.md) - For Ubuntu, Xubuntu, and other Linux distributions.
-   - [MacOS](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/macos.md) - For Mac users.
-   - [WSL2](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/wsl2.md) - For WSL2 users on Windows.
+   - [Linux](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/linux.md "Google Chrome installation for Linux") - For VM or dual-booting users, **not** WSL2 users.
+   - [MacOS](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/macos.md "Google Chrome installation for MacOS")
+   - [WSL2](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/wsl2.md "Google Chrome installation for WSL2")
 
    <div class="lesson-note lesson-note--tip" markdown="1">
 
