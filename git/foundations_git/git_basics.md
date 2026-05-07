@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Before you start!
 
-- Github recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
+- GitHub recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
   `git --version`
 - If you haven't already, set your <span id="main-push"></span>local default Git branch to `main`. You can do so by running:
   `git config --global init.defaultBranch main`
@@ -48,8 +48,8 @@ This section contains a general overview of topics that you will learn in this l
 1. <span id="origin-push"></span>That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this, run `cd git_test` to move into the new **git_test** folder that was downloaded, then enter `git remote -v` in your command line. You should see an output similar to the following, where `USER-NAME` is your GitHub username:
 
    ```bash
-   origin  git@github.com:USER-NAME/git_test.git (fetch)
-   origin  git@github.com:USER-NAME/git_test.git (push)
+   origin git@github.com:USER-NAME/git_test.git (fetch)
+   origin git@github.com:USER-NAME/git_test.git (push)
    ```
 
    This displays the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana" (don't worry about the details of "origin" for now; it will come up again near the end of this tutorial).
@@ -104,7 +104,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 
 #### Avoid editing directly on GitHub
 
-When trying to make quick changes to the files in your repo, such as attempting to fix a typo in your README.md, you might be tempted to make this change directly via Github. However, it is best to avoid this, as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson). For now, it is advised to make any changes via your local files, then commit and push them using Git commands in your terminal once ready.
+When trying to make quick changes to the files in your repo, such as attempting to fix a typo in your README.md, you might be tempted to make this change directly via GitHub. However, it is best to avoid this, as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson). For now, it is advised to make any changes via your local files, then commit and push them using Git commands in your terminal once ready.
 
 </div>
 
