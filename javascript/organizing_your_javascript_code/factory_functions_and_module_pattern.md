@@ -360,7 +360,6 @@ But then why not just write the factory function then call it once? Why bother w
 1. WesBos has a beautiful and in-depth section on scopes and closures. Please check out these sections under "Module 3 - The Tricky Bits":
    - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
    - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
-1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
 1. Read [MDN's guide on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures).
 
 </div>
