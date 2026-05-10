@@ -10,7 +10,7 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Install and configure nvm (Node Version Manager), Node and npm.
+- Install and configure nvm (Node Version Manager), Node, and npm.
 - Run the Node REPL.
 
 ### Assignment
