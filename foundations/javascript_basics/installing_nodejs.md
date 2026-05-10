@@ -55,6 +55,14 @@ Now that we have nvm installed, we can use it to install Node.
 
    If you see those messages, you have successfully installed Node and npm!
 
+1. Finally, we'll implement a setting introduced in npm v11 that delays the installation of newly released dependencies. Run the following command in your terminal:
+
+   ```bash
+   npm config set min-release-age=3
+   ```
+
+   This setting will prevent npm from installing dependencies that were released less than three days ago, which can help avoid issues with newly released packages that may have been compromised, and help protect us from supply chain attacks.
+
 #### Using the Node REPL
 
 For convenience, Node provides a REPL which is an interactive console that lets you run and edit your JavaScript code right in your terminal, similar to the console in the browser you used in the previous lesson. This can be quite helpful to debug or test small snippets of non-browser-related code quickly without opening the browser every time.
