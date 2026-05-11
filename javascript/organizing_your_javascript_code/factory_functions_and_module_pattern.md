@@ -240,7 +240,7 @@ function createPlayer(name, level) {
 }
 ```
 
-And there you go! You can create your User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! In case you want to extend it, you can also use the [`Object.assign` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) to add on the properties you want!
+And there you go! Notice that we are using **object destructuring** here. Unlike arrays, which rely on the order of items, object destructuring extracts values based on their exact property names (you can review this in the [Destructuring](#destructuring) section above). You can create your User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! In case you want to extend it, you can also use the [`Object.assign` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) to add on the properties you want!
 
 ```javascript
 function createPlayer(name, level) {
