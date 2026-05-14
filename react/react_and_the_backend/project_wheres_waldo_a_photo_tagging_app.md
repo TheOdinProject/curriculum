@@ -27,8 +27,8 @@ Keep track of how long it takes from when the photo is first loaded to when the 
 1. Play with it!
 1. Push your solution to GitHub and deploy it to any of the hosting options. Additionally, submit your solutions below. This is a serious project, congratulations!
 
+#### Extra credit
+
+- Load many images into your database and allow the user to select from among them before starting the game.
+
 </div>
-
-### Extra credit
-
-1. Load many images into your database and allow the user to select from among them before starting the game.
