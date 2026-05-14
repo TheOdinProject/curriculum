@@ -143,3 +143,5 @@ The following questions are an opportunity to reflect on key topics in this less
 - [When can we use an array index as the key value?](#index-as-key)
 - [What is an anti-pattern when using keys?](#anti-pattern)
 - [How are keys related to state?](#keys-and-state)
+
+### Keep Learning!!!
