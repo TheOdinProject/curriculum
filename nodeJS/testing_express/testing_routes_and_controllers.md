@@ -146,7 +146,23 @@ test("testing route works", done => {
 });
 ```
 
-If we were using a real database here, then we would want to do something similar using either a test or a mock database. We'll talk about setting something like that up in a separate lesson. Suffice it to say for now that you do not want to run test code on your production database!
+### A note about testing routes
+
+In the above example, we have only tested one `POST` request. If we had another `POST` request sending `{ item : "bye"}` before sending the `POST` request `{item : "hey"}`, the above test will fail since the array would be `["bye", "hey"]` instead of `["hey"]`. This makes our tests fragile as the results change without changing our tests!
+
+If we were using a database, the issue will be more pronounced because data is persistent. This means that we would save the same record to our database for as many times as we run the test file. Of course, duplicating records is fine until you get an error for duplicating unique fields (like an email or username).
+
+Thus, it is important that you reset your data storage after each test by deleting any created record using `beforeEach` and `afterEach` methods at the start of your test file. The goal is to isolate each test so that it doesn’t impact others. For example, if we were testing routes of users:
+
+```javascript
+beforeEach(async() => await prisma.user.deleteMany())
+
+afterEach(async() => await prisma.user.deleteMany())
+```
+
+Here, we also use `afterEach` to ensure that if you are running multiple test files, data is not leaking between them.
+
+Given the importance of the production database (the source of truth of our application), it is not advisable to modify or query it directly. Instead, we always create a smaller copy, that we call a test database, over which we run our tests without the risk of damaging real production data. We will be talking about this in detail over the next lesson.
 
 ### Assignment
 
