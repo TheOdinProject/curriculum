@@ -227,9 +227,9 @@ Note that you could technically also use closure in constructors, by defining th
 
 </div>
 
-### Prototypal inheritance with factories
+### Inheritance with factories
 
-In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions too, there are easy ways to do that. Take another hypothetical scenario into consideration. We need to extend the `User` factory into a `Player` factory that needs to control some more metrics - there are some ways to do that:
+In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions, we can mimic similar inheritance-like behavior, though not via the same prototype mechanism. Take another hypothetical scenario into consideration. We need to extend the `User` factory into a `Player` factory that needs to control some more metrics - there are some ways to do that:
 
 ```javascript
 function createPlayer(name, level) {
@@ -250,6 +250,8 @@ function createPlayer(name, level) {
   return Object.assign({}, user, { increaseLevel });
 }
 ```
+
+This still creates brand new instances of the inherited methods for every object we create with `createPlayer` (unlike sharing the same method in memory when using prototypal inheritance), but as said earlier, unless you're creating an absolute bucketload of objects, this is unlikely to be a significant issue in practice.
 
 ### The module pattern
 
@@ -339,7 +341,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are closures?](#closures-arent-scary)
 - [What common issues can you face when working with constructors?](#so-whats-wrong-with-constructors)
 - [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
-- [How can we implement prototypal inheritance with factory functions?](#prototypal-inheritance-with-factories)
+- [How can we mimic inheritance with factory functions?](#inheritance-with-factories)
 - [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
 - [What does IIFE stand for and what are they?](#iifes)
 - [How do factory functions help with encapsulation?](#using-iifes-to-implement-the-module-pattern)
