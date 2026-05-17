@@ -55,7 +55,7 @@ You should care that ActiveRecord queries usually return Relations because you'l
 
 If you end up working with a Relation when you really want it to act like an Array, you can sometimes run `#to_a` on it to force it to evaluate the query.
 
-Methods implemented in `ActiveRecord::FinderMethods` do NOT return `ActiveRecord::Relation` objects. The `#find`, `#find_by`, `#first` and `#last` methods return a single record (a model instance). `#take` returns an array of model instances. Unlike the methods that return `Relation` objects, when called, these will run SQL queries immediately.
+Methods implemented in `ActiveRecord::FinderMethods` do NOT return `ActiveRecord::Relation` objects. The `#find`, `#find_by`, `#first` and `#last` methods return a single record (a model instance). `#take` returns either a single model instance, or an array of them if a parameter is provided. Unlike the methods that return `Relation` objects, when called, these will run SQL queries immediately.
 
 ### Beyond basic querying
 
