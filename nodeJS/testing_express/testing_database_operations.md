@@ -55,6 +55,30 @@ const adapter = new PrismaPg({ connectionString });
 const prisma = new PrismaClient({ adapter });
 ```
 
+### Resetting the database between tests
+
+When testing database operations, we must always isolate our tests. This means, we access the database, interact with it(read, create, update, or delete records) and finally clean it up by resetting it to its initial state.
+
+In other words, in:
+
+- `POST` requests, we create new records inside our test, and we delete them at the end.
+- `PUT` requests, we create new records inside our test, update them, check them and then delete them.
+- `DELETE` requests, we create new records inside our test, then delete them.
+
+To avoid repetition and forgetfulness, we recommend using `beforeEach` function, provided by your test runner (Jest or Vitest), to reset your database tables. For example, if we have a database with users and projects:
+
+```javascript
+beforeEach(
+  async() => await prisma.$transaction([
+   prisma.user.deleteMany(),
+   prisma.project.deleteMany()
+  ])
+```
+
+This ensures that the users and projects tables are reset before running any other test.
+
+In addition, if you're splitting your tests into separate files, you need to make sure that test files are run sequentially instead of in parallel to prevent different test database operations from getting mixed up. For Jest, you can add the `--runInBand` flag into your `test` script in `package.json`. If you're using Vitest, you will need to add `fileParallelism : false` to your vitest.config file.
+
 Voila, the setup is complete. Now shoo... go get testin'.
 
 ### Assignment
