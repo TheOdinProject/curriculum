@@ -10,8 +10,8 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Install nvm (Node Version Manager), Node and npm.
-- Running the Node REPL.
+- Install and configure nvm (Node Version Manager), Node, and npm.
+- Run the Node REPL.
 
 ### Assignment
 
@@ -54,6 +54,14 @@ Now that we have nvm installed, we can use it to install Node.
    Installing Node also installs npm alongside it. Run `npm -v` and like above you should see `XX.xx.x` or something similar.
 
    If you see those messages, you have successfully installed Node and npm!
+
+1. Finally, we'll implement a setting introduced in npm v11 that delays the installation of newly released dependencies. Run the following command in your terminal:
+
+   ```bash
+   npm config set min-release-age=3
+   ```
+
+   This setting will prevent npm from installing dependencies that were released less than three days ago, which can help avoid issues with newly released packages that may have been compromised, and help protect us from supply chain attacks.
 
 #### Using the Node REPL
 
