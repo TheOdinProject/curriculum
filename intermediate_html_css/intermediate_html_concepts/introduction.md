@@ -2,6 +2,8 @@
 
 This is the first of the two part course where we dig deeper into HTML and CSS.
 
+<br>
+
 Our foundations lessons by design only scratched the surface of what's possible. We wanted to give you all of the bare necessities for getting started so you could move on and be somewhat productive as quickly as possible, but now it's time to slow down and dig in!
 
 You have probably realized by now that there are many more HTML elements than we mentioned in our foundations content. Throughout this course, we'll be hitting the rest of the important elements such as forms and tables.
