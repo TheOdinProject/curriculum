@@ -57,27 +57,22 @@ const prisma = new PrismaClient({ adapter });
 
 ### Resetting the database between tests
 
-When testing database operations, we must always isolate our tests. This means, we access the database, interact with it(read, create, update, or delete records) and finally clean it up by resetting it to its initial state.
+When testing database operations, we must always isolate our tests from each other so that no test depends on any other test. For example, we would not want a test to fail if we didn't add or delete a table row in a different test, even if the main behavior being tested actually does work. This means that when we interact with our database in a test (read, create, update, or delete records), we should ideally clean up by resetting the database to its initial state before the next test.
 
-In other words, in:
-
-- `POST` requests, we create new records inside our test, and we delete them at the end.
-- `PUT` requests, we create new records inside our test, update them, check them and then delete them.
-- `DELETE` requests, we create new records inside our test, then delete them.
-
-To avoid repetition and forgetfulness, we recommend using `beforeEach` function, provided by your test runner (Jest or Vitest), to reset your database tables. For example, if we have a database with users and projects:
+This can be conveniently handled in something like a `beforeEach`. For example, if we have a database with users and projects, we could have something like:
 
 ```javascript
-beforeEach(
-  async() => await prisma.$transaction([
-   prisma.user.deleteMany(),
-   prisma.project.deleteMany()
-  ])
+beforeEach(async () => {
+  await prisma.$transaction([
+    prisma.user.deleteMany(),
+    prisma.project.deleteMany(),
+  ]);
+});
 ```
 
 This ensures that the users and projects tables are reset before running any other test.
 
-In addition, if you're splitting your tests into separate files, you need to make sure that test files are run sequentially instead of in parallel to prevent different test database operations from getting mixed up. For Jest, you can add the `--runInBand` flag into your `test` script in `package.json`. If you're using Vitest, you will need to add `fileParallelism : false` to your vitest.config file.
+In addition, if you're splitting your tests into separate files, you need to set up your test runner to run them sequentially (one file after another) instead of in parallel. This prevents different test database operations from getting mixed up. Because Jest defaults to parallel file execution, you can add the [`--runInBand` flag](https://jestjs.io/docs/cli#--runinband) to your `test` script in `package.json` to ensure sequential execution.
 
 Voila, the setup is complete. Now shoo... go get testin'.
 
