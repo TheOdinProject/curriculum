@@ -159,7 +159,7 @@ console.log({ name, age, color });
 
 Now it'll log as `{ name: "Bob", age: 28, color: "red" }` which is much clearer, and we didn't need to manually add labels!
 
-### Destructuring
+#### Destructuring
 
 Yet another expression allows you to "unpack" or "extract" values from an object (or array). This is known as **destructuring**. When you have an object, you can extract a property of an object into a variable of the same name, or any named variable for an array. Take a look at the example below:
 
@@ -214,6 +214,40 @@ console.log({
 ```
 
 We’ve introduced a new metric for a new user - a reputation. Notice that the object we return in the factory function does not contain the `reputation` variable itself, nor any copy of its value. Instead, the returned object contains two functions - one that reads the value of the `reputation` variable, and another that increases its value by one. The `reputation` variable is what we call a "private" variable, since we cannot access the variable directly in the object instance - it can only be accessed via the closures we defined.
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Pitfall: "Returning the variable in the object"
+
+The following won't behave as many initially expect:
+
+```javascript
+return { name, discordName, reputation };
+```
+
+This does not "return the `reputation` variable". In long form syntax, this is the same as:
+
+```javascript
+return { name: name, discordName: discordName, reputation: reputation };
+```
+
+We are just creating a separate object property (that happens to be called `reputation` automatically because of object shorthand notation) and assigning it the value of the `reputation` variable. This is just the same as plain ol' assigning another variable with a variable's value. The other variable doesn't "track" the original. This is the same behavior as:
+
+```javascript
+let a = 1;
+let b = a;
+console.log(a, b); // 1 1
+
+a = 5; // only reassigns a
+console.log(a, b); // 5 1
+
+b = 23; // only reassigns b
+console.log(a, b); // 5 23
+```
+
+The *only* way to access private variables is via closure.
+
+</div>
 
 Concerning factory functions, a private variable or function uses closures to create smaller, dedicated variables and functions within a factory function itself - things that we do not *need* to return in the object itself. This way we can create neater code, without polluting the returned object with unnecessary variables that we create while creating the object itself. Often, you do not need every single function within a factory to be returned with the object, or expose an internal variable. You can use them privately since the property of closures allows you to do so.
 
@@ -326,7 +360,6 @@ But then why not just write the factory function then call it once? Why bother w
 1. WesBos has a beautiful and in-depth section on scopes and closures. Please check out these sections under "Module 3 - The Tricky Bits":
    - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
    - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
-1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
 1. Read [MDN's guide on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures).
 
 </div>
