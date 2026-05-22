@@ -109,7 +109,7 @@ try {
     Prevents errors from stopping the app during deployment, 
     as `.env` files aren't used in production directly. 
   */
-  console.error(error)
+  if (error.code !== 'ENOENT') throw error;
 }
 
 // Now, Node.js wont read them as `undefined`!
