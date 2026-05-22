@@ -104,8 +104,8 @@ try {
   process.loadEnvFile()
 } catch (error) {
   /*
-	Ignores the missing `.env` file error in deployment environments,
-	while also allowing to throw critical errors (such as permission issues).
+	  Ignores the missing `.env` file error in deployment environments,
+	  while also allowing to throw critical errors (such as permission issues).
   */
   if (error.code !== 'ENOENT') throw error;
 }
