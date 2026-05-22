@@ -96,7 +96,7 @@ redirectUserToSuperSecretVideo(process.env.VIDEO_URL);
 
 No hardcoding of those values into the source code! If you want to change the value of an environment variable, you can just change it in your `.env` file then rerun the program. Do also note that environment variables will always be strings, so you must convert if you want to use any as a number or boolean, for example.
 
-By the way, don't forget to run the server with the `--env-file` CLI option, as these variables would become `undefined` to Node otherwise. Alternatively, use the [`loadEnvFile`](https://nodejs.org/learn/command-line/how-to-read-environment-variables-from-nodejs#loading-env-files-programmatically-with-processloadenvfilepath) function to load them directly in your JavaScript code.
+By the way, don't forget to run the server with the `--env-file` CLI option, as these variables would become `undefined` to Node otherwise. Alternatively, use [`process.loadEnvFile`](https://nodejs.org/learn/command-line/how-to-read-environment-variables-from-nodejs#loading-env-files-programmatically-with-processloadenvfilepath) to load them directly in your JavaScript code.
 
 ```js
 try {
