@@ -105,9 +105,9 @@ try {
   // Loads the `.env` file automatically.
   loadEnvFile()
 } catch (error) {
-  /* 
-    Prevents errors from stopping the app during deployment, 
-    as `.env` files aren't used in production directly. 
+  /*
+    Ignores missing `.env` files during deployment,
+    while also allowing to throw critical errors (such as permission issues).
   */
   if (error.code !== 'ENOENT') throw error;
 }
