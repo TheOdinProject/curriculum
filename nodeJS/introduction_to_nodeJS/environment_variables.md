@@ -99,11 +99,9 @@ No hardcoding of those values into the source code! If you want to change the va
 By the way, don't forget to run the server with the `--env-file` CLI option, as these variables would become `undefined` to Node otherwise. Alternatively, use the [`loadEnvFile`](https://nodejs.org/learn/command-line/how-to-read-environment-variables-from-nodejs#loading-env-files-programmatically-with-processloadenvfilepath) function to load them directly in your JavaScript code.
 
 ```js
-const { loadEnvFile } = require("node:process")
-
 try {
   // Loads the `.env` file automatically.
-  loadEnvFile()
+  process.loadEnvFile()
 } catch (error) {
   /*
     Ignores missing `.env` files during deployment,
