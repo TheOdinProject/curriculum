@@ -55,7 +55,7 @@ Now that we have nvm installed, we can use it to install Node.
 
    If you see those messages, you have successfully installed Node and npm!
 
-1. Finally, we'll implement a setting introduced in npm v11 that delays the installation of newly released dependencies. Run the following command in your terminal:
+1. Finally, we'll implement a setting introduced in npm v11.10.0 that delays the installation of newly released dependencies. Run the following command in your terminal:
 
    ```bash
    npm config set min-release-age=3
