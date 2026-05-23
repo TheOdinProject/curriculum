@@ -109,6 +109,14 @@ The Pomodoro technique is great for avoiding procrastination as it forces you to
 
 If you want to try it out, [Pomofocus](https://pomofocus.io/) is a customizable pomodoro timer that works on desktop & mobile browser.
 
+#### Focusing on the end result
+
+Are you spending the majority of your time thinking about all of the things you want to do after getting through The Odin Project? Are you worried about how long it's going to take you? Is it filling you with so much dread to the point where it's painful and causing you to not make any progress at all? Surprise! This is another form of procrastination!
+
+**Solution:** Knowing that you can utilize the Pomodoro Technique for getting through your studies, the next step is to give yourself a goal of how many Pomodoros to do in a week, and focus on hitting that goal. Start small, work your way up to a manageable amount. If life changes, bring that number down, but never to zero if you can help it. One a week is better than none a week. As you go on you'll gain confidence and a cadence with studying, and then you can increase your weekly Pomodoro goal.
+
+Focusing on the process instead of the product of your studies provides a healthy, productive distraction that also doubles as making progress, because it is real progress!!!
+
 #### Not taking breaks
 
 As you get into the material, you may feel compelled to continuously study for long periods of time. It might seem like you are getting more work done at first, but this often leads to burnout, which consequently results in lower productivity.
