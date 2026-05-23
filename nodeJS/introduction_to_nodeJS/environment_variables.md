@@ -101,7 +101,7 @@ By the way, don't forget to run the server with the `--env-file` CLI option, as 
 ```js
 try {
   // Loads the `.env` file automatically.
-  process.loadEnvFile()
+  process.loadEnvFile();
 } catch (error) {
   /*
 	  Ignores the missing `.env` file error in deployment environments,
@@ -111,9 +111,9 @@ try {
 }
 
 // Now, Node.js wont read them as `undefined`!
-const { PORT, VIDEO_URL } = process.env
+const { PORT, VIDEO_URL } = process.env;
 
-module.exports = { PORT, VIDEO_URL }
+module.exports = { PORT, VIDEO_URL };
 ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
