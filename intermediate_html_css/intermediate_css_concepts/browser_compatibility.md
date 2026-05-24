@@ -52,7 +52,7 @@ It is generally good advice to implement new features when they are supported by
 
 Traditionally, the Web was desktop computer first. The application was successful if it worked well on desktop browsers. But as smartphones have become more popular, each year more and more users are using mobile devices as their main Web-facing device. In some areas of the world, mobile users are a vast majority.
 
-Mobile devices mostly consist of smartphones and tablets. The most popular mobile operating systems are [Android](<https://en.wikipedia.org/wiki/Android_(operating_system)>) and Apple's [iOS](https://en.wikipedia.org/wiki/IOS).
+Mobile devices mostly consist of smartphones and tablets. The most popular mobile operating systems are Android and Apple's iOS.
 
 As you're developing your applications, you must also consider whether your application should be fully mobile compatible. There are a couple of specifics about mobile browsers that you need to keep in mind.
 
