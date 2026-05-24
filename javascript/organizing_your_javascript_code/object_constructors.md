@@ -90,7 +90,7 @@ We use examples of functions that call `console.log()` for demonstration, but in
 
 ### The prototype
 
-Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a **prototype**, otherwise referred to as its `[[Prototype]]`. The `[[Prototype]]` is another object that the original object *inherits* from, which is to say, the original object has access to all of its `[[Prototype]]`'s methods and properties.
+In JavaScript, all objects can be linked to another object, which is called their **prototype** (also known as its `[[Prototype]]`). If a property or method is not found on the object itself, JavaScript looks for it in the `[[Prototype]]`.
 
 Let's break it down.
 

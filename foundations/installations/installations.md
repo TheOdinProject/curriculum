@@ -25,7 +25,7 @@ If you're using a Mac, you're in great shape. The Odin Project instructions assu
 
 [Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux.
 
-In order to improve the availability of help in our community, we limit our supported Linux distros to Ubuntu and official flavours of Ubuntu only. This means we do not provide support any other distros, including ones "based on Ubuntu or Debian" (like Mint, Pop!_OS etc.).
+In order to improve the availability of help in our community, we limit our supported Linux distros to Ubuntu and official flavours of Ubuntu only. This means we do not provide support for any other distros, including ones "based on Ubuntu or Debian" (like Mint, Pop!_OS etc.).
 
 We support the following methods of running Linux (instructions for these are in the assignment section below):
 
