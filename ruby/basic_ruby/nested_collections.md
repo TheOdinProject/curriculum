@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - Describe a nested array and hash.
 - Explain what data is useful to store in a nested array and hash.
-- Explain how to access data in a nested array and hash.
+- Explain how to access data in a nested array and hash.https://github.com/TheOdinProject/curriculum/edit/main/ruby/basic_ruby/nested_collections.md
 - Explain why the `#dig` method is useful.
 - Explain how to add data to a nested array and hash.
 - Explain how to delete data in a nested array and hash.
@@ -86,7 +86,7 @@ Now that you have seen how to access values inside a nested array, we need to ta
 
 To create an immutable array of mutable objects (string, array, hash, etc), you will need to pass the default value for `Array.new` via a block, using curly braces, instead of the second optional argument. The code in the block gets evaluated for every slot in the array, creating multiple objects to initialize the array with, rather than references to the same object.
 
-To see this for yourself, let's look at two examples. This first example uses the second optional argument for the default value.
+<span id='create-nested-arrays'>To see this for yourself, let's look at two examples. This first example uses the second optional argument for the default value.</span>
 
 ```ruby
 mutable = Array.new(3, Array.new(2))
@@ -99,7 +99,7 @@ mutable
 
 Changing the value of the first element in the first nested array, causes the first element to change in all three nested arrays! This same behavior will happen with strings, hashes, or any other mutable objects.
 
-<span id='create-nested-arrays'>Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.</span>
+Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.
 
 ```ruby
 nested_arrays = Array.new(3) { Array.new(2) }
