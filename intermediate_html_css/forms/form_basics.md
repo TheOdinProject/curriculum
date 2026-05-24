@@ -503,11 +503,6 @@ Certain aspects of other elements are downright impossible to style, for example
 1. Read and follow along with [MDN's "Introductory Tutorials" on forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_tutorials).
 1. Read and follow along with [MDN's "The Different Form Controls" guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls).
 
-#### Styling forms
-
-1. Read and follow along with [MDN's Form Styling Tutorials](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_tutorials)
-1. Read and follow along with [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
-
 </div>
 
 ### Knowledge check
