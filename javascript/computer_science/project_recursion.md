@@ -43,7 +43,7 @@ First up create a file and tackle the fibonacci sequence:
 1. Now write another function `fibsRec` which solves the same problem recursively.
 1. Test both versions of your functions by passing in various lengths as arguments.
 
-Hopefully you were able to solve the problem with recursion! If you need some help understanding what's going on with this function, the "Test it out" section below will help. If you're still a bit confused, there are some additional resources linked at the end of this page.
+Hopefully you were able to solve the problem with recursion! If you need some help understanding what's going on with this function, the "Test it out" section below will help.
 
 Once you have a firm grasp on solving Fibonacci with recursion, create a new file and work on a merge sort:
 
