@@ -31,7 +31,7 @@ As a reminder, if you're using a **virtual machine**, you should install VSCode 
 1. Depending on the OS you are running, follow the appropriate VSCode installation guide below:
 
    - [Linux](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/text_editors/linux.md "VSCode installation for Linux")
-   - [MacOS](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/text_editors/macos.md "VSCode installation for MacOS")
+   - [macOS](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/text_editors/macos.md "VSCode installation for macOS")
    - [WSL2](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/text_editors/wsl2.md "VSCode installation for WSL2")
 
    Going forward, if you have any issues with VSCode or want to know more about certain features, check the [VSCode docs](https://code.visualstudio.com/docs). There will also be many keyboard shortcuts you can use within VSCode, some of which may be specific to your OS and you can look up when you need.
