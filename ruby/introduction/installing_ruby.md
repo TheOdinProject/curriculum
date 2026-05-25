@@ -25,7 +25,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Depending on the OS you are running, follow the appropriate Ruby installation guide below:
    - [Linux](https://github.com/TheOdinProject/curriculum/tree/main/ruby/introduction/installation_guides/ruby/linux.md "Ruby installation for Linux")
-   - [MacOS](https://github.com/TheOdinProject/curriculum/tree/main/ruby/introduction/installation_guides/ruby/macos.md "Ruby installation for MacOS")
+   - [macOS](https://github.com/TheOdinProject/curriculum/tree/main/ruby/introduction/installation_guides/ruby/macos.md "Ruby installation for macOS")
 
 #### Updating Ruby
 
