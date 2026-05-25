@@ -6,7 +6,7 @@ Many online development courses use in-browser code editors or "sandboxes," whic
 
 We won't lie to you: installing packages, editors, and even entire operating systems (OS) can be very frustrating. However, having the experience of setting up a development environment to run the code you'll write is an invaluable, real-world skill you'll carry with you for the rest of your career.
 
-**If you are already using MacOS, Ubuntu, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system and have Google Chrome as an installed browser, you can skip this lesson. Otherwise, follow the installation instructions below to set up your development environment.**
+**If you are already using macOS, Ubuntu, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system and have Google Chrome as an installed browser, you can skip this lesson. Otherwise, follow the installation instructions below to set up your development environment.**
 
 ### Lesson overview
 
@@ -69,7 +69,7 @@ With that out of the way, we need to set up an appropriate development environme
 
 ### Choosing your setup
 
-If you're not already using MacOS, Ubuntu, or an official Ubuntu flavor, you'll need to set up a development environment. Here's what each option offers:
+If you're not already using macOS, Ubuntu, or an official Ubuntu flavor, you'll need to set up a development environment. Here's what each option offers:
 
 #### VirtualBox virtual machine (recommended)
 
@@ -111,7 +111,7 @@ Google Chrome includes powerful developer tools that you'll use throughout this 
 
    #### Unsupported hardware and software
 
-   This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions if you are **not** already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system.
+   This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions if you are **not** already using **macOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system.
 
    If you are already using supported hardware and software, you can skip straight to step 2 below.
 
@@ -121,7 +121,7 @@ Google Chrome includes powerful developer tools that you'll use throughout this 
 
    <span id="google-chrome-installation">Install Google Chrome</span> for your operating system:
    - [Linux](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/linux.md "Google Chrome installation for Linux") - For VM or dual-booting users, **not** WSL2 users.
-   - [MacOS](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/macos.md "Google Chrome installation for MacOS")
+   - [macOS](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/macos.md "Google Chrome installation for macOS")
    - [WSL2](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/wsl2.md "Google Chrome installation for WSL2")
 
    <div class="lesson-note lesson-note--tip" markdown="1">
