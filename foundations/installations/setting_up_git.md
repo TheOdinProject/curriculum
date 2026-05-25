@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Depending on the OS you are running, following the appropriate Git installation guide below:
    - [Linux](https://github.com/TheOdinProject/curriculum/tree/main/foundations/installations/installation_guides/git/linux.md "Linux Git installation")
-   - [MacOS](https://github.com/TheOdinProject/curriculum/tree/main/foundations/installations/installation_guides/git/macos.md "MacOS Git installation")
+   - [macOS](https://github.com/TheOdinProject/curriculum/tree/main/foundations/installations/installation_guides/git/macos.md "macOS Git installation")
    - [ChromeOS](https://github.com/TheOdinProject/curriculum/tree/main/foundations/installations/installation_guides/git/chromeos.md "ChromeOS Git installation")
 
 #### Configure Git and GitHub

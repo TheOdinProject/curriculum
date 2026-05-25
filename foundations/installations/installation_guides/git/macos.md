@@ -1,8 +1,8 @@
-### Guide: Setting up Git in MacOS
+### Guide: Setting up Git in macOS
 
 #### Step 1: Install Homebrew
 
-First, you'll need to install Homebrew. To install it, you’ll first need to make sure you meet the [Homebrew MacOS requirements](https://docs.brew.sh/Installation#macos-requirements). Once you meet the requirements, copy and paste the following into your terminal:
+First, you'll need to install Homebrew. To install it, you’ll first need to make sure you meet the [Homebrew macOS requirements](https://docs.brew.sh/Installation#macos-requirements). Once you meet the requirements, copy and paste the following into your terminal:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -21,7 +21,7 @@ Reading the terminal may seem a bit intimidating, but this is a great chance to 
 
 #### Step 2: Update Git
 
-MacOS already comes with a version of Git, but you should update to the latest version. In the terminal, type
+macOS already comes with a version of Git, but you should update to the latest version. In the terminal, type
 
 ```bash
 brew install git
@@ -42,7 +42,7 @@ git --version
 If the version number is less than 2.28, follow the instructions again. If you are encountering a `no formulae found in taps` error:
 
 1. Run `brew doctor`.
-1. You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
+1. You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of macOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
 ![Brew Doctor Sample Output](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
 1. Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
 
