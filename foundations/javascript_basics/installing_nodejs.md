@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. We first need to install nvm so that we can install and manage our Node installations easily. Follow the appropriate guide for the OS that you are using:
    - [Linux](https://github.com/TheOdinProject/curriculum/tree/main/foundations/javascript_basics/installation_guides/linux.md "Linux nvm installation")
-   - [MacOS](https://github.com/TheOdinProject/curriculum/tree/main/foundations/javascript_basics/installation_guides/macos.md "MacOS nvm installation")
+   - [macOS](https://github.com/TheOdinProject/curriculum/tree/main/foundations/javascript_basics/installation_guides/macos.md "macOS nvm installation")
 
 #### Installing Node
 
