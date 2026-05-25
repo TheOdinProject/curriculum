@@ -1,4 +1,4 @@
-### Guide: Install PostgreSQL on MacOS
+### Guide: Install PostgreSQL on macOS
 
 #### Step 1: Make sure the system is up to date
 

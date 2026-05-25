@@ -39,7 +39,7 @@ The database using the psql terminal is located inside the file system or local 
 
 1. Depending on the OS you are running, follow the appropriate PostgreSQL installation guide below:
    - [Linux](https://github.com/TheOdinProject/curriculum/tree/main/nodeJS/express/installation_guides/postgresql/linux.md "PostgreSQL installation for Linux")
-   - [MacOS](https://github.com/TheOdinProject/curriculum/tree/main/nodeJS/express/installation_guides/postgresql/macos.md "PostgreSQL installation for MacOS")
+   - [macOS](https://github.com/TheOdinProject/curriculum/tree/main/nodeJS/express/installation_guides/postgresql/macos.md "PostgreSQL installation for macOS")
 
 </div>
 
