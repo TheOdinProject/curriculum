@@ -1,6 +1,6 @@
-### Guide: Install nvm on MacOS
+### Guide: Install nvm on macOS
 
-On MacOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it by running the following command in your terminal:
+On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it by running the following command in your terminal:
 
 ```bash
 touch ~/.zshrc

@@ -572,13 +572,13 @@ On the rare occasion, it may be awkward and undesirable to have the link text st
 <!-- Acceptable but can be visually noisy and trickier to read -->
 1. Depending on the OS you are running, follow the appropriate VSCode installation guide below:
    - [Linux VSCode installation instructions](https://link.com/0)
-   - [MacOS VSCode installation instructions](https://link.com/1)
+   - [macOS VSCode installation instructions](https://link.com/1)
    - [WSL2 VSCode installation instructions](https://link.com/2)
 
 <!-- Also accessible while visually cleaner -->
 1. Depending on the OS you are running, follow the appropriate VSCode installation guide below:
    - [Linux](https://link.com/0 "Linux VSCode installation instructions")
-   - [MacOS](https://link.com/1 "MacOS VSCode installation instructions")
+   - [macOS](https://link.com/1 "macOS VSCode installation instructions")
    - [WSL2](https://link.com/2 "WSL2 VSCode installation instructions")
 ```
 

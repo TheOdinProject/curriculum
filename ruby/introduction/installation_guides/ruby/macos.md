@@ -1,4 +1,4 @@
-### Guide: Install Ruby on MacOS
+### Guide: Install Ruby on macOS
 
 #### Step 1: Install packages and libraries
 
@@ -30,7 +30,7 @@ Before we can install Ruby, we need to install some base packages. We will use t
    which brew
    ```
 
-   If it outputs a certain path, you're good to go ahead! But if the terminal reads ```brew not found```, please go through the [MacOS instructions in the setting up git lesson](https://www.theodinproject.com/lessons/foundations-setting-up-git) to get homebrew installed.
+   If it outputs a certain path, you're good to go ahead! But if the terminal reads ```brew not found```, please go through the [macOS instructions in the setting up git lesson](https://www.theodinproject.com/lessons/foundations-setting-up-git) to get homebrew installed.
 
 Congratulations! You've installed the prerequisites!
 

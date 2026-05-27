@@ -52,7 +52,7 @@ We will use an environment variable to set up PostgreSQL credentials for our Rai
 
 1. Depending on the OS you are running, follow the appropriate PostgreSQL installation guide below:
    - [Linux](https://github.com/TheOdinProject/curriculum/tree/main/ruby_on_rails/introduction/installation_guides/postgresql/linux.md "PostgreSQL installation for Linux")
-   - [MacOS](https://github.com/TheOdinProject/curriculum/tree/main/ruby_on_rails/introduction/installation_guides/postgresql/macos.md "PostgreSQL installation for MacOS")
+   - [macOS](https://github.com/TheOdinProject/curriculum/tree/main/ruby_on_rails/introduction/installation_guides/postgresql/macos.md "PostgreSQL installation for macOS")
 
 #### Creating a Rails application backed by PostgreSQL
 

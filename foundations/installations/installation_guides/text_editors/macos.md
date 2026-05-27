@@ -1,4 +1,4 @@
-### Guide: Install VSCode on MacOS
+### Guide: Install VSCode on macOS
 
 #### Step 1: Download VSCode
 
