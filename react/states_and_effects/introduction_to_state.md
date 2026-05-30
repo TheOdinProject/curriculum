@@ -20,6 +20,8 @@ Let's take a look at how we can use state in our code.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://codesandbox.io/p/sandbox/unruffled-pasteur-6h36wf?file=%2Fsrc%2FApp.jsx%3A10%2C27&embed=1" allowfullscreen></iframe>
 
+*If the Codesandbox embed above does not load, you can [open the Codesandbox directly](https://codesandbox.io/p/sandbox/unruffled-pasteur-6h36wf?file=%2Fsrc%2FApp.jsx%3A10%2C27&embed=1 "React state codesandbox").*
+
 An app that changes its background color based on the clicked button. Take your time reading the code as we'll jump right in.
 
 #### The useState hook
@@ -81,7 +83,7 @@ Hooks are functions that let you use React features. All hooks are recognizable 
 1. Read the following articles from the React docs:
     1. [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
     1. [Render and Commit](https://react.dev/learn/render-and-commit)
-1. Read this [article on React Reconciliation Algorithm](https://medium.com/javarevisited/react-reconciliation-algorithm-86e3e22c1b40) for a great explanation.
+1. Read this [article on React Reconciliation Algorithm](https://www.geeksforgeeks.org/reactjs-reconciliation/) for a great explanation.
 1. Head back to the color changing background example from earlier in the lesson, and add a new state variable to keep track of the number of times the background color has been changed. Display the number of times the background color has been changed on the page. You will need to fork the codesandbox to do this, which requires a codesandbox account. Click "Open Editor" in the top right of the codesandbox embed, then "Fork" in the top right of the editor.
 
 </div>
@@ -94,9 +96,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the `useState` hook and how would you use it?](#useState-hook)
 - [What happens to a component when one of its states is changed?](#how-does-state-work-in-react)
 - [What are some of the rules of hooks?](#hooks)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- You can go through the [GeeksforGeeks article on reconciliation](https://www.geeksforgeeks.org/reactjs-reconciliation/) for an in-depth look into the algorithm.

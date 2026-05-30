@@ -41,7 +41,7 @@ For example, here is the `package.json` file for The Odin Project's curriculum r
 }
 ```
 
-There's a lot of stuff here and we don't need to understand it all yet. The point is that if you were to clone the curriculum repo, if you ran `npm install`, npm would read this `package.json` file and see that it needs to install the `markdownlint-cli2` package. Once this package is installed, you'll be able to run either of the scripts that use that package. The curriculum repo itself does not actually contain the code for the `markdownlint-cli2` package, as anyone cloning the repo can just run `npm install` to let npm grab the code for them.
+There's a lot of stuff here and we don't need to understand it all yet. The point is that if you were to clone the curriculum repo and run `npm install`, npm would read this `package.json` file and see that it needs to install the `markdownlint-cli2` package. Once this package is installed, you'll be able to run either of the scripts that use that package. The curriculum repo itself does not actually contain the code for the `markdownlint-cli2` package, as anyone cloning the repo can just run `npm install` to let npm grab the code for them.
 
 In our own projects, as we use npm to install new packages (or uninstall any!), it will automatically update our `package.json` with any new details. We will see this in action in the next lesson when we introduce module bundling using a package called Webpack.
 

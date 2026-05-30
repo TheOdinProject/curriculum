@@ -244,6 +244,8 @@ In a full-scale web app, you're often going to be making more than one request, 
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/fetching-data-example?file=%2Fsrc%2FProfile.jsx%3A1%2C1&embed=1" allowfullscreen></iframe>
 
+*If the Codesandbox embed above does not load, you can [open the Codesandbox directly](https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/fetching-data-example?file=%2Fsrc%2FProfile.jsx%3A1%2C1&embed=1 "Multiple fetch requests codesandbox").*
+
 We have two components making fetch requests: `Profile` and its child component `Bio`. The requests in `Profile` and `Bio` are both firing inside of their respective components. On the surface this looks like a well-organized separation of concerns, but in this case, it comes at a cost in performance.
 
 Notice how `Bio` is taking an extra second to display? Their fetch requests should both take 1000ms to resolve so what's going on? In React, the component is not rendered until it is actually called. If JSX has conditional logic, the false branches will never render until they become true. `Bio` has to wait for the request inside of `Profile` to resolve before it starts rendering, which means the request inside `Bio` isn't sent.
@@ -284,9 +286,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How can you fetch data from an API in React?](#using-fetch-in-react-components)
 - [Why should you manually throw errors in fetch requests?](#handling-errors)
 - [How can you avoid waterfalling requests?](#managing-multiple-fetch-requests)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This article by Nadia Makarevich provides additional information and examples on [how to deal with race conditions](https://www.developerway.com/posts/fetching-in-react-lost-promises). Do not worry about the `useRef` hook, as it will be covered later on in the course.

@@ -202,7 +202,6 @@ The growth of our hash map has the complexity of `O(n)` at all times.
 
 <div class="lesson-content__panel" markdown="1">
 
-- Read [What are Hash Functions and How to choose a good Hash Function](https://www.geeksforgeeks.org/what-are-hash-functions-and-how-to-choose-a-good-hash-function) for a more technical overview of a hash function.
 - Watch this video from CS50 that explains the concept of [hash maps using buckets](https://www.youtube.com/watch?v=btT4bCOvqjs).
 
 </div>

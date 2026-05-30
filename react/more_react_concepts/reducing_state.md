@@ -91,9 +91,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How would you declare a reducer?](https://react.dev/reference/react/useReducer#writing-the-reducer-function)
 - [What does the dispatch function do?](#the-usereducer-hook)
 - [What steps can you follow to migrate from useState to useReducer?](https://react.dev/learn/extracting-state-logic-into-a-reducer#consolidate-state-logic-with-a-reducer)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Web Dev Simplified's [Learn useReducer In 20 Minutes](https://www.youtube.com/watch?v=kK_Wqx3RnHk) video explains the `useReducer` hook with an excellent example.

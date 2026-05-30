@@ -39,9 +39,3 @@ The smallest phones in common circulation rarely get smaller than `320px`, so th
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is Responsive Design?](#what-is-responsive-design)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- As usual, MDN has a great article on [Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design), but it goes quite a bit deeper than we need right now.

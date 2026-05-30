@@ -1,0 +1,15 @@
+name: MarkdownLint
+on:
+  pull_request:
+    paths:
+      - 'markdownlint/**'
+      - '!markdownlint/docs/**'
+
+jobs:
+  test_custom_rules:
+    name: Test custom rules
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: npm install
+      - run: npm run test

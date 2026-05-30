@@ -82,7 +82,10 @@
     },
     // link-fragments
     // Disabled as it uses a different heading conversion algo to the TOP website
-    "MD051": false
+    "MD051": false,
+    // descriptive-link-text
+    // Disabled and overridden by TOP001 custom rule
+    "MD059": false
   },
   // Custom rules specific to the project
   // Docs for each rule can be found in `./markdownlint/docs`
@@ -98,7 +101,7 @@
     "./markdownlint/TOP009_lessonOverviewItemsSentenceStructure/TOP009_lessonOverviewItemsSentenceStructure.js",
     "./markdownlint/TOP010_useLazyNumbering/TOP010_useLazyNumbering.js",
     "./markdownlint/TOP011_headingIndentation/TOP011_headingIndentation.js",
-    "./markdownlint/TOP012_noteBoxHeadings/TOP012_noteBoxHeadings.js",
+    "./markdownlint/TOP012_headingLevels/TOP012_headingLevels.js",
     "./markdownlint/TOP013_descriptiveHeadings/TOP013_descriptiveHeadings.js"
   ]
 }

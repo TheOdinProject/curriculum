@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### APIs
 
-Servers that are created for serving data for external use (in websites or apps) are often referred to as APIs or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
+Servers created to provide functionality and serve data for external use (in websites or apps) often do so using APIs, or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
 
 There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, [Visual Crossing](https://www.visualcrossing.com/weather-api) has a weather API that has several types of data you can request. To get the current weather in a specific location, you can pass in the name of a city into the path of the URL, like so:
 
@@ -218,7 +218,6 @@ While we are pushing this API key to the frontend, this isn't something you shou
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Fetch documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
 1. Check out this [list of Public APIs](https://github.com/n0shake/Public-APIs) and let your imagination go wild.
 1. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
 1. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to manage some errors (e.g. invalid URL). Keep in mind that if the API responds, even with something like a `404 Not Found` or some other non-2XX status response, that is still a valid response and `fetch` will therefore not throw an error, meaning the `.catch()` will not run. It may still end up running if your following JavaScript code throws an error, such as trying to access a property of `undefined`, or even if you manually throw an error yourself.

@@ -4,7 +4,7 @@ Now you're a pro with DFS and BFS.  Let's try using our search algorithms on a r
 
 For this project, you'll need to use a data structure that's similar (but not identical) to a binary tree - graphs. For a good introduction on what graphs are, reference [Khan Academy's "Describing Graphs"](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs).
 
-Given enough turns, [a knight on a standard 8x8 chess board can move from any square to any other square](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/computer_science/project_knights_travails/imgs/00.png). Its basic move is two steps forward and one step to the side or one step forward and two steps to the side.  It can face any direction.
+Given enough turns, a knight on a standard 8x8 chess board can move from any square to any other square. Its basic move is two steps forward and one step to the side or one step forward and two steps to the side.  It can face any direction.
 
 All the possible places you can end up after one move look like this:
 
@@ -55,7 +55,7 @@ Sometimes *there is more than one fastest path*. Examples of this are shown belo
 
 - `knight_moves([0,0],[3,3])` may return `[[0,0],[2,1],[3,3]]` or `[[0,0],[1,2],[3,3]]`.
 - `knight_moves([3,3],[0,0])` may return `[[3,3],[2,1],[0,0]]` or `[[3,3],[1,2],[0,0]]`.
-- `knight_moves([0,0],[7,7])` may return `[[0,0],[2,1],[4,2],[6,3],[4,4],[6,5],[7,7]]` or `[[0,0],[2,1],[4,2],[6,3],[7,5],[5,6],[7,7]]`.
+- `knight_moves([0,0],[7,7])` may return `[[0,0],[2,1],[4,2],[6,3],[4,4],[6,5],[7,7]]` or `[[0,0],[2,1],[4,2],[6,3],[7,5],[5,6],[7,7]]` or other possible shortest paths.
 
 </div>
 

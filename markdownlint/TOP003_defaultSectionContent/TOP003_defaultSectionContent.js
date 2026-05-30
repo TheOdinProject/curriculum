@@ -85,7 +85,7 @@ function getListSectionErrors(sectionTokens, section) {
     const sectionStartsWithList = tokensAfterHeading[0].line.startsWith("- ");
     const errorDetail = sectionStartsWithList
       ? `Expect default content to precede unordered list of ${listItemsName}: "${listSectionsDefaultContent[section]}"`
-      : `Expected: "${listSectionsDefaultContent[section]}"; Actual: "${tokensAfterHeading[0].line}",`;
+      : `Expected: "${listSectionsDefaultContent[section]}"; Actual: "${tokensAfterHeading[0].line}"`;
     let replacementText = listSectionsDefaultContent[section];
 
     if (sectionStartsWithList) {

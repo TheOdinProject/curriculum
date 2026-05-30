@@ -119,13 +119,10 @@ const div = document.createElement("div");
 #### Adding inline style
 
 ```javascript
-// adds the indicated style rule to the element in the div variable
+// sets the indicated style rule to the element in the div variable
 div.style.color = "blue";
 
-// adds several style rules
-div.style.cssText = "color: blue; background: white;";
-
-// adds several style rules
+// set the entire inline style
 div.setAttribute("style", "color: blue; background: white;");
 ```
 
@@ -482,4 +479,4 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you attach listeners to groups of nodes?](#attaching-listeners-to-groups-of-nodes)
 - [What is the difference between the return values of `querySelector` and `querySelectorAll`?](#query-selectors)
 - [What does a "NodeList" contain?](#query-selectors)
-- [Explain the difference between "capture" and "bubbling".](https://www.youtube.com/watch?v=F1anRyL37lE)
+- [What is the difference between the "capturing phase" and "bubbling phase"?](https://www.javascripttutorial.net/javascript-dom/javascript-events/#:~:text=DOM%20Level%202%20Event%20flow)

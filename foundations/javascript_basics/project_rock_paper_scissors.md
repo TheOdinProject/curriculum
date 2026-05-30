@@ -105,8 +105,6 @@ Your game will play 5 rounds. You will write a function named `playGame` that ca
 
 When making interactive projects, like this one, you might be tempted to add more features, improve interactivity, user experience, design and styling of your website, and so on.
 
-We recommend not doing that, and saving this effort for your portfolio projects.
-
-For more information on learning mindset and portfolio pieces read [Part 5](https://dev.to/theodinproject/learning-code-f56) and [Part 7](https://dev.to/theodinproject/strategically-building-your-portfolio-1km4) of [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
+We recommend not doing that, and saving this effort for your portfolio projects. For more information, read ["Strategically building your portfolio" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/strategically-building-your-portfolio-1km4).
 
 </div>

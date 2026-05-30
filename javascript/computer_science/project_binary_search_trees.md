@@ -14,7 +14,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 1. Build a `Tree` class/factory which accepts an array when initialized. The `Tree` class should have a `root` attribute, which uses the return value of `buildTree()` which you'll write next.
 
-1. Write a `buildTree(array)` function that takes an array of data (e.g., `[1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]`) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `buildTree()` function should return the level-0 root node. You can make this function private (either through using class syntax privacy features or by not including it in your factory's return object), and just call it for initializing the value of the `root` node.
+1. Write a `buildTree(array)` function that takes an array of numbers (e.g., `[1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]`) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `buildTree()` function should return the level-0 root node. You can make this function private (either through using class syntax privacy features or by not including it in your factory's return object), and just call it for initializing the value of the `root` node.
 
    <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -22,7 +22,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
    If you would like to visualize your binary search tree, here is a `prettyPrint()` function that will `console.log` your tree in a structured format. This function will expect to receive the root of your tree as the value for the node parameter:
 
-  ```javascript
+   ```javascript
    const prettyPrint = (node, prefix = '', isLeft = true) => {
      if (node === null || node === undefined) {
        return;
@@ -32,7 +32,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
      console.log(`${prefix}${isLeft ? '└── ' : '┌── '}${node.data}`);
      prettyPrint(node.left, `${prefix}${isLeft ? '    ' : '│   '}`, true);
    }
-  ```
+   ```
 
    </div>
 
@@ -92,9 +92,3 @@ Write a driver script that does the following:
 1. Print out all elements in level, pre, post, and in order.
 
 </div>
-
-#### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Yicheng Gong has some excellent videos that help visualize the call stack when traversing binary search trees: [In-order](https://www.youtube.com/watch?v=4_UDUj1j1KQ&t=1s), [Post-order](https://www.youtube.com/watch?v=4Xo-GtBiQN0), and [Pre-order](https://www.youtube.com/watch?v=8xue-ZBlTKQ&ab_channel=ygongcode) Traversal Algorithms.

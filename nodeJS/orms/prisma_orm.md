@@ -148,17 +148,17 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
    Recently, Prisma has decided to only continue supporting Typescript. This means we will need to modify their Quickstart guide to have it work with JavaScript.
 
-   As you follow along the Prisma Quickstart guide, modify the following steps as described below.
+   As you follow along the Prisma Quickstart guide, modify the Quickstart's steps as described below.
 
-   **Step 1:** Skip the second set of commands:
+   **Step 1:** Skip these commands:
 
    ```bash
-   npm init -y
+   npm init
    npm install typescript tsx @types/node --save-dev
    npx tsc --init
    ```
 
-   **Step 2:** You do not need to install `@types/node` nor `@types/pg`.
+   **Step 2:** You do not need to install `@types/pg`.
 
    **Step 3:** We're not using Typescript, so we will completely skip this step.
 

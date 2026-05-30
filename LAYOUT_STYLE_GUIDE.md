@@ -98,7 +98,7 @@ This section contains helpful links to related content. It isn't required, so co
 
    Each assignment item should include some brief text that further informs the user on why it is included in the assignment or what purpose it serves. When necessary, an assignment item should also explicitly state any instructions that should be followed. Examples of instructions can include (but aren't limited to) a specific section the user should read, whether the user should complete any specific exercises, and whether the user should redirect themselves to additional links within the resource.
 
-   Replace the `A RESOURCE OR EXERCISE ITEM.` text with your own text and a link to the resource or exercise (or any applicable instructions if an exercise isn't external), then add any additional numbered assignment items. The lesson should ideally have no more than 3-5 assignment items (reading several sections on a web page or completing a folder of 5 exercises would be considered a single assignment item). **If the lesson does not have an assignment, remove this entire section from the lesson.**
+   Replace the `A RESOURCE OR EXERCISE ITEM.` text with your own text and a link to the resource or exercise (or any applicable instructions if an exercise isn't external), then add any additional numbered assignment items. The lesson should ideally have no more than 3-5 assignment items (reading several sections on a web page or completing a folder of 5 exercises would be considered a single assignment item).
 
    If an assignment item includes any instructions, replace the `AN INSTRUCTION ITEM` text with a single instruction, then add any additional bulleted instruction items.
 
@@ -538,13 +538,13 @@ See the <a href="./templates/lesson-template.md" target="_blank" rel="noreferrer
 See the [lesson template](./templates/lesson-template.md) for a more easily copyable lesson file.
 ```
 
-### Use informative titles
+### Use informative text labels
 
 Markdownlint: [`descriptive-link-text-labels`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP001.md), [`no-empty-links`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md042.md)
 
-Markdown link syntax allows you to set a link title, just as HTML does. Use it wisely.
+Markdown link syntax allows you to set text for a link, just as HTML does. Use it wisely.
 
-Titling your links as "link" or "here" tells the reader precisely nothing when quickly scanning your doc and is a waste of space. Instead, write the sentence naturally, then go back and wrap the most appropriate phrase with the link:
+Links saying "link" or "here" tell the reader precisely nothing when quickly scanning your doc and is a waste of space. Users of screen readers will also not get any surrounding context when listing or reading out links, which will only list or read out the link's text/accessible name. Instead, write the sentence naturally, then go back and wrap the most appropriate phrase with the link:
 
 ```markdown
 See the [lesson template](./templates/lesson-template.md) for a more easily copyable lesson file.
@@ -562,6 +562,27 @@ Go look at our [installations guide here](...url)
 Check out this [video on flex-grow from CoolYoutuber](...url)
 Go look at our [installations guide](...url)
 ```
+
+On the rare occasion, it may be awkward and undesirable to have the link text stand by itself. An example is a list of links to OS-specific instructions for the same specific installation step, where it may look visually awkward with repeated long links. In such cases, you can explicitly provide an accessible name for the link within the URL parentheses, after the URL and in double quotes. Our markdown converter will add this text as both a [`title` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/title) and [`aria-label` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label). The link text should still provide context for sighted users, so would still be subject to rules about "this" or "here".
+
+> [!CAUTION]
+> This feature should ideally be avoided unless there is strong justification against the link text being sufficiently informative by itself. In most cases, it would be more desirable for the link text to be the accessible name and thus sufficiently descriptive.
+
+```markdown
+<!-- Acceptable but can be visually noisy and trickier to read -->
+1. Depending on the OS you are running, follow the appropriate VSCode installation guide below:
+   - [Linux VSCode installation instructions](https://link.com/0)
+   - [macOS VSCode installation instructions](https://link.com/1)
+   - [WSL2 VSCode installation instructions](https://link.com/2)
+
+<!-- Also accessible while visually cleaner -->
+1. Depending on the OS you are running, follow the appropriate VSCode installation guide below:
+   - [Linux](https://link.com/0 "Linux VSCode installation instructions")
+   - [macOS](https://link.com/1 "macOS VSCode installation instructions")
+   - [WSL2](https://link.com/2 "WSL2 VSCode installation instructions")
+```
+
+### Use the same label for the same href
 
 Additionally, if there are multiple links in a lesson that redirect to the same `href`, the link text for each link must be the same. For example:
 

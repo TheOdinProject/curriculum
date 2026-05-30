@@ -202,9 +202,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How would you test for a click event with `userEvent`?](#simulating-user-events)
 - [What is the advantage of snapshot tests?](#advantage-snapshot-tests)
 - [What are the disadvantages of snapshot tests?](#disadvantage-snapshot-tests)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This [Intro to React Testing Library video](https://www.youtube.com/watch?v=YQLn7ycfzEo) for a hands-on tutorial.

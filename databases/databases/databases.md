@@ -27,6 +27,7 @@ This section contains a general overview of topics that you will learn in this l
 
   1. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
   1. Go through this [Khan Academy SQL tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql) to get a feel for actually creating and manipulating databases.
+  1. Relational databases aren't the only way to store data. Non-relational (a.k.a. NoSQL) databases have emerged over the last couple decades. While we'll be using SQL in this curriculum, check out this article to learn the [difference between SQL and NoSQL](https://circleci.com/blog/SQL-vs-NoSQL-databases/).
 
 </div>
 
@@ -40,12 +41,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is SQL?](https://launchschool.com/books/sql/read/introduction#sql)
 - [How do you get all the records from a table in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/querying-the-table)
 - [How do you insert a record in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/creating-a-table-and-inserting-data)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
-- A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
-- [David J. Malan’s excellent SQL lecture](https://cs50.harvard.edu/x/weeks/7/) and resources in Harvard’s CS50x.
-- Relational databases aren't the only way to store data. Non-relational (aka NoSQL) databases have emerged over the last couple decades. Check out this article to learn the [difference between SQL and NoSQL](https://circleci.com/blog/SQL-vs-NoSQL-databases/).

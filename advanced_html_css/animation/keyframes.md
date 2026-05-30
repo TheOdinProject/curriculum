@@ -140,9 +140,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the long and short-hand notations for CSS animations?](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 - [How do you add keyframes to an animation?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframes)
 - [When would you use an animation over a transition (and vice versa)?](#animations-vs-transitions)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Video from DevTips on CSS Animations and Keyframes](https://www.youtube.com/watch?v=f1WMjDx4snI&list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid&index=2&ab_channel=DevTips).

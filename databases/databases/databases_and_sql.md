@@ -1,6 +1,6 @@
 ### Introduction
 
-Data is the core of any good web app and a good working knowledge of SQL will take you a long way.  That knowledge lets you not just understand what's going on behind the scenes with your ORM tool (e.g., Active Record in Rails, or Prisma in NodeJS) but also to feel comfortable asking more complicated questions of your data.  And that's really what SQL is all about -- asking questions of your database and occasionally also adding or changing things in it.  Querying can be incredibly useful for you.
+Data is the core of any good web app and a good working knowledge of SQL will take you a long way.  That knowledge lets you not just understand what’s going on behind the scenes when you use an Object-Relational Mapper (ORM; e.g. Active Record in Rails, or Prisma in Node.js), but also to feel comfortable asking more complicated questions of your data.  And that's really what SQL is all about -- asking questions of your database and occasionally also adding or changing things in it.  Querying can be incredibly useful for you.
 
 In more straightforward cases, you might want to display all users who signed up in December via the promotion code "FREESTUFF."  You might want to display all comments created by the current user and sorted by topic and creation date.  In more complex cases, you may want to show a list of all the orders shipped to states with more than 1,000 users by quantity and total order value.  Or, for internal reasons, you might ask marketing analysis questions like which promotion channels produce users who meet your specified engagement criteria of reading five articles per work week.
 
@@ -166,14 +166,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you use an aggregate function?](#aggregate-function)
 - [In which situation would you use the `HAVING` clause?](#having-clause)
 - [Why can't I just use code to process my database data?](#sql-is-faster-than-your-code)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- SQLCourse's [beginner course](https://www.sqlcourse.com/beginner-course/) and [advanced course](https://www.sqlcourse.com/advanced-course/) are great resources if you need more practice.
-- Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
-- [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
-- [A Beginners Guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
-- [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.
-- If you feel like doing more SQL exercises, make sure to check out [SQL Exercises](http://www.sql-ex.com/).

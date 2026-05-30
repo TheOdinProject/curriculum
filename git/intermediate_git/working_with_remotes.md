@@ -38,7 +38,7 @@ git push origin main
 git log
 ```
 
-We look at our commit message and realize *oops*, we made a mistake. We want to undo this commit and are once again tempted to just force the push. But wait, remember, this is a **very dangerous command**. If we're ever considering using it, always check if it's appropriate and if we can use a safer command instead. If we're collaborating with others and want to *undo* a commit we just made, we can instead use `git revert`!
+We look at our commit message and realize *oops*, we made a mistake. We would be tempted to undo this commit with `git reset` and just force the push. But wait! Remember, force pushing is a **very dangerous command**. If we're ever considering using it, always check if it's appropriate and if we can use a safer command instead. If we're collaborating with others and want to *undo* a commit we just made, we can instead use `git revert` which would not require forcing a push! For more information, especially about a collaborative context, watch ["Git Revert vs Git Reset"](https://www.youtube.com/watch?v=iIaM7j3tMuk).
 
 ```bash
 git revert HEAD
@@ -86,9 +86,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is a safe way to forcefully push history changes to a remote repository?](#force-with-lease)
 - [What are the dangers of history-changing operations?](#dangers)
 - [What are best practices of history-changing operations?](#best-practices)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- To understand how `revert` fits into a collaborative workflow and why it’s preferred over `reset` for shared repositories, watch this - [Git Revert and why](https://www.youtube.com/watch?v=iIaM7j3tMuk).

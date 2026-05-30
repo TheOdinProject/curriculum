@@ -4,7 +4,7 @@ Git basics are very straightforward, but it sometimes feels like a bottomless pi
 
 The thing about Git is that, unless you've got a seriously impressive memory, you can't just master it by reading about it; you need hands-on practice! For example, find a problem you want to fix, run into a merge error, and then dive into Google to learn a new Git technique along the way to help you fix that problem.
 
-To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a GitHub workflow used on this very project. The Additional Resources section below should also help you find high quality resources for when you need them later on.
+To help you out, come back and refer to this lesson again when you're in trouble. We'll first have a reminder about commit messages, then cover a real-world example of a GitHub workflow used on this very project.
 
 ### Lesson overview
 
@@ -98,12 +98,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What name is typically given for a Git remote that points to a repo that's been forked?](#initial-setup)
 - [Can you directly send your changes to a repository that you don't own/have write access to?](#sending-your-pull-request)
 - [What should you do immediately before merging main into your feature branch?](#ongoing-workflow)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
-- Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
-- [Dangit, Git!?!](https://dangitgit.com/) is a quick reference to get you out of common Git problems.
-- This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of the many options Git provides for undoing various mistakes.

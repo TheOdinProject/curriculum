@@ -13,5 +13,5 @@ jobs:
           with:
             check_filenames: true
             check_hidden: true
-            skip: ./.git,*.png,*.csv,./archive,./legacy_submissions
+            skip: ./.git,./package.json,./package-lock.json,*.png,*.csv,./archive,./legacy_submissions
             ignore_words_file: './.codespellignore'

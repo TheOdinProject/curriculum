@@ -2,7 +2,7 @@
 
 It's time to really flex your muscles. Test Driven Development (TDD) can certainly feel uncomfortable at first, but becomes more natural with practice. We're going to implement the classic game 'Battleship'. If you've never played it, or need a refresher, you can read about [Battleship's rules](https://en.wikipedia.org/wiki/Battleship_(game)) and you can [play an online version of Battleship](http://en.battleship-game.org/).
 
-Since we're doing TDD, it's important that you don't get overwhelmed. Take it one step at a time. Write a test, then make it pass.
+Since we're doing TDD, it's important that you don't get overwhelmed. Take it one step at a time. Write a test, then make it pass. Since this project has more moving parts across different modules compared to previous projects that utilized testing, if you are unsure what to test or how to approach the testing, consider revisiting the ideas and assignments from the [More Testing lesson](https://www.theodinproject.com/lessons/node-path-javascript-more-testing).
 
 We have not yet discussed testing the appearance of a webpage, which requires a separate set of tools and is outside the scope of this unit, but this is something we will cover later in the curriculum. Therefore, you should not test the DOM for this assignment. Instead, do your best to isolate every bit of application functionality from the actual DOM manipulation bits.
 

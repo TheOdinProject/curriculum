@@ -263,6 +263,8 @@ For the purposes of this assignment, we take the class-based component that we b
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
+*If the Codesandbox embed above does not load, you can [open the Codesandbox directly](https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/class-component-example?embed=1 "Class components codesandbox").*
+
 </div>
 
 ### Knowledge check

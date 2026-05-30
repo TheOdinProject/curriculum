@@ -47,6 +47,7 @@ module.exports = {
         onError({
           lineNumber: heading.lineNumber,
           detail: `Note box heading indented ${headingIndentation} spaces but should be indented ${noteBoxIndentation} spaces instead to match the containing note box.`,
+          context: heading.line,
           fixInfo: {
             lineNumber: heading.lineNumber,
             deleteCount: headingIndentation,
@@ -62,6 +63,7 @@ module.exports = {
         onError({
           lineNumber: heading.lineNumber,
           detail: `Normal headings must not be indented.`,
+          context: heading.line,
           fixInfo: {
             lineNumber: heading.lineNumber,
             deleteCount: headingIndentation,

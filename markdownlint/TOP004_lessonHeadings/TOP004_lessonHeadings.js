@@ -7,6 +7,7 @@ const exceptedLessons = [
   "conclusion.md",
   "conclusion_full_stack_javascript.md",
   "conclusion_ruby_on_rails.md",
+  "actioncable_lesson.md",
 ];
 
 const HEADINGS = {
@@ -15,11 +16,11 @@ const HEADINGS = {
     "### Lesson overview",
     "*",
     "### Assignment",
-    "#### *",
+    "*",
     "### Knowledge check",
     "?",
   ],
-  project: ["### Introduction", "*", "### Assignment", "#### *"],
+  project: ["### Introduction", "*", "### Assignment", "*"],
   guide: ["### Guide: *", "*"],
 };
 
@@ -112,28 +113,11 @@ module.exports = {
       }
 
       if (wildcardRegex.test(expected)) {
-        const nextExpected = getExpected();
-        if (nextExpected === actual) {
+        if (getExpected() === actual) {
           return;
         }
 
-        // For level-specific wildcards
-        if (expected.startsWith("#")) {
-          headingToMatch = `h${
-            expected.slice(0, expected.indexOf(" ")).length
-          }`;
-
-          if (headingToMatch !== heading.tag) {
-            onError({
-              lineNumber: heading.lineNumber,
-              detail: `Expected: ${headingToMatch} heading; Actual: ${heading.tag} heading`,
-              context: actual,
-            });
-            hasError = headingToMatch !== heading.tag;
-          }
-        } else {
-          matchAny = true;
-        }
+        matchAny = true;
         i--;
       } else if (expected === actual) {
         matchAny = false;
