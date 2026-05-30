@@ -97,7 +97,7 @@ While you can structure your API in multiple ways, a popular and conventional me
 
 Earlier, we mentioned separating the client and the server, which fulfills the first constraint of REST: the frontend and backend are well-defined. Further constraints like statelessness and caching are covered by and ensured later with Express. Our key concern at this point is the organization of endpoint URLs with respect to our resources.
 
-As mentioned, usually your backend application will need to send data to your frontend. The most popular way to do so by far is with JSON, primarily due to the ease of parsing it with JavaScript. So all we need to do is to replace our HTML and serve JSON instead. All that you have to do, thus, is to pass your information to [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render).
+As mentioned, usually your backend application will need to send data to your frontend. The most popular way to do so by far is with JSON, primarily due to the ease of parsing it with JavaScript. So all we need to do is to replace our HTML and serve JSON instead. All that you have to do, thus, is to pass your information to [`res.json()`](https://expressjs.com/en/5x/api/response/#resjsonbody) instead of [`res.send()`](https://expressjs.com/en/5x/api/response/#ressendbody) or [`res.render()`](https://expressjs.com/en/5x/api/response/#resrenderview--locals--callback).
 
 ### Assignment
 
