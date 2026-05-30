@@ -117,7 +117,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is CRUD?](https://www.codecademy.com/article/what-is-crud)
 - [What are the four main HTTP methods, and how are they used?](#crud-and-http-methods)
-- [Which HTTP method corresponds to each action in CRUD (Create, Read, Update, Delete)?](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths)
+- [Which HTTP method corresponds to each action in CRUD (Create, Read, Update, Delete)?](#crud-and-http-methods)
 - [Which part of a URL is referred to as query parameters?](#urls)
 - [Which HTTP response status code indicates the permanent relocation of a resource?](#status-codes-300-399-redirection-messages)
 - [What is an API and how do you make it RESTful?](#restful-apis)
