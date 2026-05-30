@@ -251,7 +251,7 @@ function createPlayer(name, level) {
 }
 ```
 
-This still creates brand new instances of the inherited methods for every object we create with `createPlayer` (unlike sharing the same method in memory when using prototypal inheritance), but as said earlier, unless you're creating an absolute bucketload of objects, this is unlikely to be a significant issue in practice.
+This still creates brand new instances of the "inherited" methods for every object we create with `createPlayer` (unlike sharing the same method in memory when using prototypal inheritance), but as said earlier, unless you're creating an absolute bucketload of objects, this is unlikely to be a significant issue in practice.
 
 ### The module pattern
 
