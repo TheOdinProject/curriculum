@@ -238,13 +238,9 @@ const ButtonComponent = memo(({ children, onClick }) => {
 
 Wrapping the component with a `memo` prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` change or if its own `state` changes.
 
-With all that said and done, test and break things in our interactive example:
+With all that said and done, go to our [react-examples repo](https://github.com/TheOdinProject/react-examples) (fork and clone it if you haven't already), `cd` into the `memoization/` directory and run `npm install` then `npm run dev`. Take some time to play around with the code. Experiment! Test things out and break stuff!
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/memoization-lesson-example?embed=1" allowfullscreen></iframe>
-
-*If the Codesandbox embed above does not load, you can [open the Codesandbox directly](https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/memoization-lesson-example?embed=1 "Memoized component codesandbox").*
-
-These are the scenarios that could happen:
+These are some scenarios that could happen:
 
 1. If you've passed `handleClick` and the `ButtonComponent` has a `memo`. It will still re-render. Referential equality check fails (previous prop is *not equal* to the current prop).
 1. If you've passed `memoizedHandleClick` and the `ButtonComponent` has a `memo`. It will not re-render. Referential equality check passes (previous prop is *equal* to the current prop).
