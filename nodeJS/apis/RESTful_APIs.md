@@ -121,9 +121,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which part of a URL is referred to as query parameters?](#urls)
 - [Which HTTP response status code indicates the permanent relocation of a resource?](#status-codes-300-399-redirection-messages)
 - [What is an API and how do you make it RESTful?](#restful-apis)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy goes into further detail about their lifecycle and anatomy with best practices.
