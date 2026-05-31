@@ -321,7 +321,7 @@ Phew, this was a long lesson. Refs and memoization are difficult concepts to gra
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Why should you prefer useRef hook over other DOM manipulation methods like querySelector?](https://meje.dev/blog/useref-not-queryselector)
+- [Why should you prefer useRef hook over other DOM manipulation methods like querySelector?](https://react.dev/learn/manipulating-the-dom-with-refs)
 - [What is the difference between useMemo and useCallback?](#usememo-or-usecallback)
 - [How do useMemo and useCallback help optimize the performance of React components?](#optimization-description)
 - [When should you memoize a value?](https://kentcdodds.com/blog/usememo-and-usecallback)
