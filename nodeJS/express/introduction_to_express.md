@@ -73,7 +73,7 @@ Whenever you navigate to any web URL this way, this is essentially what you are 
 
 Once you navigate to `http://localhost:3000/`, you should see `Hello, world!` appear in the window. Magic, right?
 
-When our server receives our `GET` request, Express stores the request in a [request object](https://expressjs.com/en/api.html#req). This request gets passed through a chain of functions we call `middleware functions` until eventually, a middleware function tells Express to respond to the request.
+When our server receives our `GET` request, Express stores the request in a [request object](https://expressjs.com/en/5x/api/request). This request gets passed through a chain of functions we call `middleware functions` until eventually, a middleware function tells Express to respond to the request.
 
 In our example, the request comes through as a `GET` request to the `/` path. This matches the route we have in our `app.js` file.
 
@@ -85,9 +85,9 @@ We will discuss routes in more detail in a later lesson, but to summarize the ab
 
 If we had defined multiple routes, Express would pass the request through the first route that matched the requested HTTP verb (e.g. `GET`) and path (`/`). The order of the routes matters!
 
-Express takes the callback function we gave it and passes the request object into the first parameter (conventionally named `req`), and a [response object](https://expressjs.com/en/api.html#res) into the second parameter (`res`). Our callback tells the response object to respond to the request by sending (via `res.send`) the string `"Hello, world!"`.
+Express takes the callback function we gave it and passes the request object into the first parameter (conventionally named `req`), and a [response object](https://expressjs.com/en/5x/api/response) into the second parameter (`res`). Our callback tells the response object to respond to the request by sending (via `res.send`) the string `"Hello, world!"`.
 
-There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request-response cycle. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in our response. We could even [tell Express to send a file](https://expressjs.com/en/api.html#res.sendFile).
+There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request-response cycle. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in our response. We could even [tell Express to send a file](https://expressjs.com/en/5x/api/response/#ressendfilepath--options--fn).
 
 ### Auto-restarting your server upon file changes
 
@@ -110,5 +110,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is Express?](https://expressjs.com/)
 - [What happens when a server receives a request?](#a-requests-journey)
-- [What can we use to tell Express to send a file in response to a request?](https://expressjs.com/en/api.html#res.sendFile)
+- [What can we use to tell Express to send a file in response to a request?](https://expressjs.com/en/5x/api/response/#ressendfilepath--options--fn)
 - [What can you use to automatically restart your server when you make changes to a file?](#auto-restarting-your-server-upon-file-changes)
