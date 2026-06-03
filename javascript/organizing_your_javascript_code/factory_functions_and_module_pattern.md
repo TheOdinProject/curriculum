@@ -10,6 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - Closures.
 - Factory functions.
 - Private variables.
+- Composition.
 - IIFEs and the module pattern.
 - Encapsulation.
 
@@ -261,31 +262,41 @@ Note that you could technically also use closure in constructors, by defining th
 
 </div>
 
-### Inheritance with factories
+### Composition with factories
 
-In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions, we can mimic similar inheritance-like behavior, though not via the same prototype mechanism. Take another hypothetical scenario into consideration. We need to extend the `User` factory into a `Player` factory that needs to control some more metrics - there are some ways to do that:
+In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions, we can mimic similar inheritance-like behavior, though not via the same prototype mechanism. Take another hypothetical scenario into consideration. We need a `Player` factory that, on top of its own properties, has access to some (or all) of the properties from a `User` - there are some ways to do that:
 
 ```javascript
 function createPlayer(name, level) {
   const { getReputation, giveReputation } = createUser(name);
 
+  const getLevel = () => level;
   const increaseLevel = () => { level++; };
-  return { name, getReputation, giveReputation, increaseLevel };
+  return {
+    name,
+    getReputation,
+    giveReputation,
+    getLevel,
+    increaseLevel,
+  };
 }
 ```
 
-And there you go! You can create your User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! In case you want to extend it, you can also use the [`Object.assign` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) to add on the properties you want!
+And there you go! You can create your User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! You can also use the [`Object.assign` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) if you have multiple objects you want to take things from:
 
 ```javascript
 function createPlayer(name, level) {
   const user = createUser(name);
 
+  const getLevel = () => level;
   const increaseLevel = () => { level++; };
-  return Object.assign({}, user, { increaseLevel });
+  return Object.assign({}, user, { getLevel, increaseLevel });
 }
 ```
 
 This still creates brand new instances of the "inherited" methods for every object we create with `createPlayer` (unlike sharing the same method in memory when using prototypal inheritance), but as said earlier, unless you're creating an absolute bucketload of objects, this is unlikely to be a significant issue in practice.
+
+This is called **composition**. While it allows us to do similar things to inheritance, it gives us a bit more flexibility, as we may not necessarily want everything from another object (though we can take everything if we did want that). We "compose" a new object from multiple sources. Sometimes a given problem lends itself well to inheritance but sometimes that can be brittle, and the flexibility of composition is highly suitable. While you can technically compose with constructors, they lend themselves much better to inheritance approaches; composition often comes much more naturally with the factory functions.
 
 ### The module pattern
 
@@ -374,7 +385,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are closures?](#closures-arent-scary)
 - [What common issues can you face when working with constructors?](#so-whats-wrong-with-constructors)
 - [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
-- [How can we mimic inheritance with factory functions?](#inheritance-with-factories)
+- [How can we compose with factory functions?](#composition-with-factories)
 - [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
 - [What does IIFE stand for and what are they?](#iifes)
 - [How do factory functions help with encapsulation?](#using-iifes-to-implement-the-module-pattern)
