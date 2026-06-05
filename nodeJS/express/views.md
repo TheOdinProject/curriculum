@@ -156,7 +156,7 @@ Note that the navbar expects a `links` variable. To pass this data into the navb
 // app.js
 const links = [
   { href: "/", text: "Home" },
-  { href: "about", text: "About" },
+  { href: "/about", text: "About" },
 ];
 
 app.get("/", (req, res) => {
@@ -189,7 +189,7 @@ Let's use `include` to dynamically render a list of variables a different way. I
 
 const links = [
   { href: "/", text: "Home" },
-  { href: "about", text: "About" },
+  { href: "/about", text: "About" },
 ];
 
 const users = ["Rose", "Cake", "Biff"];
