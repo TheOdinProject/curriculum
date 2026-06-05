@@ -62,7 +62,7 @@ VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
 
 **This file must be added to your `.gitignore` file** to keep secrets safe from being published!
 
-You can now run your app in Node and just tell it where your environment variable file is: `node --env-file=.env index.js`, allowing Node to load the values before running your app (and throw an error if it can't find the environment variable file).
+Node provides several ways to load it, such as using the [`--env-file` CLI option](https://nodejs.org/docs/latest-v24.x/api/cli.html#--env-filefile), that allows you to run `node --env-file=.env index.js` for example, or directly inside JavaScript with the [`process.loadEnvFile()` method](https://nodejs.org/docs/latest-v24.x/api/process.html#processloadenvfilepath). Both of these will throw an error if the `.env` file is missing.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -70,7 +70,7 @@ You can now run your app in Node and just tell it where your environment variabl
 
 When you deploy an app that uses environment variables, your repo will not contain your `.env` file, so you will have to research how your chosen deployment service handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
 
-Because of this, you may want to add a separate npm script that doesn't use the `--env-file` CLI option (i.e. just running something like `node index.js`). `--env-file` is useful during development but since the deployment service won't be using a `.env` file, we don't want it to look for it and throw an error when it can't find it! Alternatively, there is also the `--env-file-if-exists` option.
+Because of this, you won't want to load your variables in production like you do in development, as it would likely throw an error for when it can't find a `.env` file. Instead, you can prevent that in many ways, like adding an npm script for production that doesn't use `--env-file`, use the `--env-file-if-exists` CLI option, or implement error handling with `process.loadEnvFile()`.
 
 </div>
 
@@ -95,26 +95,6 @@ redirectUserToSuperSecretVideo(process.env.VIDEO_URL);
 ```
 
 No hardcoding of those values into the source code! If you want to change the value of an environment variable, you can just change it in your `.env` file then rerun the program. Do also note that environment variables will always be strings, so you must convert if you want to use any as a number or boolean, for example.
-
-By the way, don't forget to run the server with the `--env-file` CLI option, as these variables would become `undefined` to Node otherwise. Alternatively, use [`process.loadEnvFile`](https://nodejs.org/learn/command-line/how-to-read-environment-variables-from-nodejs#loading-env-files-programmatically-with-processloadenvfilepath) to load them directly in your JavaScript code.
-
-```js
-try {
-  // Loads the `.env` file automatically.
-  process.loadEnvFile();
-} catch (error) {
-  /*
-	  Ignores the missing `.env` file error in deployment environments,
-	  while also allowing to throw critical errors (such as permission issues).
-  */
-  if (error.code !== 'ENOENT') throw error;
-}
-
-// Now, Node.js wont read them as `undefined`!
-const { PORT, VIDEO_URL } = process.env;
-
-module.exports = { PORT, VIDEO_URL };
-```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
