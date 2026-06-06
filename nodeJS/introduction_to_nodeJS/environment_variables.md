@@ -62,7 +62,7 @@ VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
 
 **This file must be added to your `.gitignore` file** to keep secrets safe from being published!
 
-Node provides several ways to load it, such as using the [`--env-file` CLI option](https://nodejs.org/docs/latest-v24.x/api/cli.html#--env-filefile), that allows you to run `node --env-file=.env index.js` for example, or directly inside JavaScript with the [`process.loadEnvFile()` method](https://nodejs.org/docs/latest-v24.x/api/process.html#processloadenvfilepath). Both of these will throw an error if the `.env` file is missing.
+Node provides several ways to load it, such as using the [`--env-file` CLI option](https://nodejs.org/docs/latest-v24.x/api/cli.html#--env-filefile) (that allows you to run `node --env-file=.env index.js` for example) or directly inside JavaScript with the [`process.loadEnvFile()` method](https://nodejs.org/docs/latest-v24.x/api/process.html#processloadenvfilepath). Both of these will throw an error if the `.env` file is missing.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
