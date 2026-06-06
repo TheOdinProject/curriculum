@@ -70,7 +70,7 @@ Node provides several ways to load it, such as using the [`--env-file` CLI optio
 
 When you deploy an app that uses environment variables, your repo will not contain your `.env` file, so you will have to research how your chosen deployment service handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
 
-Because of this, you won't want to load your variables in production like you do in development, as it would likely throw an error for when it can't find a `.env` file. Instead, you can prevent that in many ways, like adding an npm script for production that doesn't use `--env-file`, use the `--env-file-if-exists` CLI option, or implement error handling with `process.loadEnvFile()`.
+Because of this, you won't want to load your variables in production like you do in development, as it would likely throw an error for when it can't find a `.env` file. Instead, you can prevent that in many ways, like adding an npm script for production that doesn't use `--env-file`, using the `--env-file-if-exists` CLI option, or implementing error handling with `process.loadEnvFile()`.
 
 </div>
 
