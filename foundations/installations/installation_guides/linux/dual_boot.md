@@ -40,7 +40,7 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 
 If you have Windows Pro then you may have [BitLocker](https://support.microsoft.com/en-us/windows/bitlocker-drive-encryption-76b92ac9-1040-48d6-9f5f-d14b3c5fa178) enabled on your main drive. BitLocker is Microsoft's drive encryption software. If the drive you want to install Ubuntu on has BitLocker enabled then you will not be able to at first.
 
-There are a few ways to resolve this dilema but we're going to go with the most simple one: temporarily disabling BitLocker.
+There are a few ways to resolve this dilemma but we're going to go with the most simple one: temporarily disabling BitLocker.
 
 This [Dual Booting Ubuntu With Windows 10 Pro With BitLocker Encryption guide from It's FOSS](https://itsfoss.com/dual-boot-ubuntu-windows-bitlocker/) will get you moving in the right direction, particularly steps 2, 3, and 8. Step 1 is regarding making backups, which everyone should do on the regular. The remaining steps are regarding installing Ubuntu, which are already provided in this lesson above. These instructions are relevant for Windows 10 and 11.
 
