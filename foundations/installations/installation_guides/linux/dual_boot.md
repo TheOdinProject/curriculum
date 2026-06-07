@@ -36,4 +36,14 @@ For step-by-step instructions, please follow [how to install Ubuntu and dual boo
 
 If you encounter an error requesting you to disable **Intel RST** while attempting to install Ubuntu, follow this [workaround to install Ubuntu with Intel RST systems](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically **Choice #2**. The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again.
 
+### BitLocker
+
+If you have Windows Pro then you may have [BitLocker](https://support.microsoft.com/en-us/windows/bitlocker-drive-encryption-76b92ac9-1040-48d6-9f5f-d14b3c5fa178) enabled on your main drive. BitLocker is Microsoft's drive encryption software. If the drive you want to install Ubuntu on has BitLocker enabled then you will not be able to at first.
+
+There are a few ways to resolve this dilema but we're going to go with the most simple one: temporarily disabling BitLocker.
+
+This [Dual Booting Ubuntu With Windows 10 Pro With BitLocker Encryption guide from It's FOSS](https://itsfoss.com/dual-boot-ubuntu-windows-bitlocker/) will get you moving in the right direction, particularly steps 2, 3, and 8. Step 1 is regarding making backups, which everyone should do on the regular. The remaining steps are regarding installing Ubuntu, which are already provided in this lesson above. These instructions are relevant for Windows 10 and 11.
+
+If you're going to install Ubuntu on a separate drive/partition that does not have BitLocker enabled then you should have no issues dual booting and will not need to disabled BitLocker.
+
 [Return to Installations lesson](https://www.theodinproject.com/lessons/foundations-installations#os-installation)
