@@ -30,7 +30,7 @@ Rollup is another bundler that allows you to utilize a JavaScript syntax for imp
 
 The final bundler provided through jsbundling-rails is webpack which is a static module bundler that uses an entry point within your application to create a dependency graph that then combines every module your project needs into one or more bundles to be used by your application.
 
-Now that you have been introduced into the bundlers provided through jsbundling-rails let's go into setting it up.
+Now that you have been introduced into the bundlers provided through jsbundling-rails let's go into setting it up. But before that, go install [Yarn using Corepack](https://yarnpkg.com/getting-started/install) first to get things up and running.
 
 ### Using yarn build watch
 
