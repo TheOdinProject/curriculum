@@ -506,7 +506,8 @@ Certain aspects of other elements are downright impossible to style, for example
 #### Styling forms
 
  1. Read and follow along with [MDN's Form Styling Tutorials](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_tutorials). You can skip the "Customizable select elements" and "Customizable select listbox" tutorials, as they rely on very new CSS features that are not yet supported across many browsers.
- 1. Read and follow along with [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html).
+1. Read and follow along with [MDN's Form Styling Tutorials](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_tutorials). You can skip the "Customizable select elements" and "Customizable select listbox" tutorials, as they rely on very new CSS features that are not yet supported across many browsers.
+1. Read and follow along with [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html).
 
 </div>
 
