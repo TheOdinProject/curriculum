@@ -17,7 +17,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Import maps
 
-Import maps let you import JavaScript modules using logical names that map to versioned/digested files – directly from the browser. So you can build modern JavaScript applications using JavaScript libraries made for ES modules (ESM) without the need for [transpiling](https://en.wikipedia.org/wiki/Source-to-source_compiler) or [bundling](https://www.dottedsquirrel.com/bundling-javascript/). This frees you from needing Webpack, Yarn, npm, or any other part of the JavaScript toolchain. All you need is the asset pipeline that's already included in Rails.
+Import maps let you import JavaScript modules using logical names that map to versioned/digested files – directly from the browser. So you can build modern JavaScript applications using JavaScript libraries made for ES modules (ESM) without the need for [transpiling](https://en.wikipedia.org/wiki/Source-to-source_compiler) or [bundling](https://www.crft.studio/glossary/bundling). This frees you from needing Webpack, Yarn, npm, or any other part of the JavaScript toolchain. All you need is the asset pipeline that's already included in Rails.
 
 With this approach, you'll ship many small JavaScript files instead of one big JavaScript file. Thanks to HTTP/2 that no longer carries a material performance penalty during the initial transport, and in fact offers substantial benefits over the long run due to better caching dynamics. Whereas before any change to any JavaScript file included in your big bundle would invalidate the cache for the whole bundle, now only the cache for that single file is invalidated.
 
