@@ -23,7 +23,6 @@ A list of portfolios of professional developers. Students should analyze these s
 - [Dejan Markovic](https://www.dejan.works/)
 - [Ian Lunn](https://ianlunn.co.uk/)
 - [Ben Adam](https://benadam.me/)
-- [Seb Kay](https://sebkay.com/)
 - [Andriy Chemerynskiy](https://andrewchmr.com/)
 - [Chris Ota's Portfolio](https://www.otadesigns.com/)
 - [Pierre Nel](https://pierre.io/)
