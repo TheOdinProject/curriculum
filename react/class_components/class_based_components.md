@@ -6,9 +6,9 @@ All the components so far have been functional in style and syntax. This is comm
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Learn the structure of a class component and how they are written.
+- How class components are written.
 - How to use props and state in class components.
-- Highlight the uses of `this` in class components.
+- Uses of the `this` keyword in class components.
 
 ### Historical React component patterns
 
@@ -20,57 +20,13 @@ In your career, chances are, you will be dealing with legacy code, so there will
 
 ### Building a class component
 
-As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, reusable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
+As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, reusable components, but for the purposes of this exercise, we will stick to everything in one component.
 
-```jsx
-import { useState } from "react";
-
-const FunctionalInput = ({ name }) => {
-  const [todos, setTodos] = useState(["Just some demo tasks", "As an example"]);
-  const [inputVal, setInputVal] = useState("");
-
-  const handleInputChange = (e) => {
-    setInputVal(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setTodos((prevTodos) => [...prevTodos, inputVal]);
-    setInputVal("");
-  };
-
-  return (
-    <section>
-      <h3>{name}</h3>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="task-entry">Enter a task: </label>
-        <input
-          type="text"
-          id="task-entry"
-          name="task-entry"
-          value={inputVal}
-          onChange={handleInputChange}
-        />
-        <button type="submit">Submit</button>
-      </form>
-      <h4>All the tasks!</h4>
-      <ul>
-        {todos.map((todo) => (
-          <li key={todo}>{todo}</li>
-        ))}
-      </ul>
-    </section>
-  );
-};
-
-export default FunctionalInput;
-```
-
-That was a solid chunk of code. Take a while, sip some water and read it a couple of times.
+Firstly, go and fork then clone our [react-examples repo](https://github.com/TheOdinProject/react-examples) if you have not already done so. `cd` into the `class-components/` directory, install dependencies with `npm install` then open the dev server with `npm run dev`. You'll see we have two versions of the same feature - one made with a functional component, the other with a class component. Let's start by looking at the functional component inside `src/components/FunctionalInput.jsx`. It's a solid chunk of code so take a while, sip some water, and read it a couple of times.
 
 #### The start of a class-based component
 
-Now, let's try to recreate it as a class-based component. The first thing it should have is, *drumroll*, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by extending the given class, as shown below:
+You'll see in `src/components/ClassInput.jsx` that we have a completed class-based version of it. Let's take a few steps back and walk through step by step how it was recreated from the functional version. The first thing it should have is, *drumroll*, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by extending the given class, as shown below:
 
 ```jsx
 import { Component } from "react";
@@ -242,28 +198,17 @@ class ClassInput extends Component {
 export default ClassInput;
 ```
 
-And there we go, we have successfully made our first class-based component, as easy as that!
+And there we go, we have successfully made a class-based component as easy as that!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-For the purposes of this assignment, we take the class-based component that we built and add additional functionality. There is an interactive example provided at the end to build upon.
+Since we have a completed class-based component, let's add additional functionality to it.
 
 1. Implement a delete button for each task. The delete button should remove that specific task from the state array, thus deleting the task itself! Styling isn't a priority at this moment, but the button tag should be styled by default.
-
-1. Implement a new class component, `Count` that displays the number of todos, at any given time.
-
+1. Implement a new class component, `Count`, that displays the number of todos at any given time. Render it somewhere within the `ClassInput` component.
 1. Implement an edit button for each task. It should replace the todo with an input field, and change the button itself to 'Resubmit', so the edits can be saved. This is a comparatively harder task, kudos for when you finish it!
-
-<iframe src="https://codesandbox.io/embed/github/TheOdinProject/react-examples/tree/main/class-component-example?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="react-example"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
-
-*If the Codesandbox embed above does not load, you can [open the Codesandbox directly](https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/class-component-example?embed=1 "Class components codesandbox").*
 
 </div>
 

@@ -102,7 +102,7 @@ That looks a whole lot like what you normally see when Rails does it, right?
 
 #### Railsy forms with #form_with
 
-Now we'll start morphing our form into a full Rails form using `#form-with`, which will make use of our model objects to build the form.
+Now we'll start morphing our form into a full Rails form using `#form_with`, which will make use of our model objects to build the form.
 
 1. Modify your `#new` action in the controller to instantiate a blank `User` object and store it in an instance variable called `@user`.
 1. Comment out your entire HTML form.  It may be helpful to save it for later on if you get stuck.
