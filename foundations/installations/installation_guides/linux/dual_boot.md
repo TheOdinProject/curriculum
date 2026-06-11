@@ -2,6 +2,16 @@
 
 Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
 
+### Step 0: BitLocker
+
+If you have Windows Pro (or any of the editions listed [here](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/#windows-edition-and-licensing-requirements)) then you may have [BitLocker](https://support.microsoft.com/en-us/windows/bitlocker-drive-encryption-76b92ac9-1040-48d6-9f5f-d14b3c5fa178) enabled on your main drive. BitLocker is Microsoft's drive encryption software. If the drive you want to install Ubuntu on has BitLocker enabled then you will not be able to at first.
+
+There are a few ways to resolve this dilemma but we're going to go with the most simple one: temporarily disabling BitLocker.
+
+This [Dual Booting Ubuntu With Windows 10 Pro With BitLocker Encryption guide from It's FOSS](https://itsfoss.com/dual-boot-ubuntu-windows-bitlocker/) will get you moving in the right direction, particularly steps 2, 3, and 8. Step 1 is regarding making backups, which everyone should do on the regular. The remaining steps are regarding installing Ubuntu, which are already provided in this lesson above. These instructions are relevant for Windows 10 and 11.
+
+If you're going to install Ubuntu on a separate drive/partition that does not have BitLocker enabled then you should have no issues dual booting and will not need to disabled BitLocker.
+
 ### Step 1: Download Ubuntu
 
 First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/24.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/24.04/). Be sure to download the 64-bit version of Ubuntu or Xubuntu. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the Long-Term Support (LTS) version 24.04 (Noble Numbat). You may be tempted to choose a more recent release if one exists, but this version is tried and tested by the Odin Project community and therefore the most reliable option for the purposes of this curriculum.
@@ -35,15 +45,5 @@ For step-by-step instructions, please follow [how to install Ubuntu and dual boo
 ### Intel RST (Rapid Storage Technology)
 
 If you encounter an error requesting you to disable **Intel RST** while attempting to install Ubuntu, follow this [workaround to install Ubuntu with Intel RST systems](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically **Choice #2**. The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again.
-
-### BitLocker
-
-If you have Windows Pro then you may have [BitLocker](https://support.microsoft.com/en-us/windows/bitlocker-drive-encryption-76b92ac9-1040-48d6-9f5f-d14b3c5fa178) enabled on your main drive. BitLocker is Microsoft's drive encryption software. If the drive you want to install Ubuntu on has BitLocker enabled then you will not be able to at first.
-
-There are a few ways to resolve this dilemma but we're going to go with the most simple one: temporarily disabling BitLocker.
-
-This [Dual Booting Ubuntu With Windows 10 Pro With BitLocker Encryption guide from It's FOSS](https://itsfoss.com/dual-boot-ubuntu-windows-bitlocker/) will get you moving in the right direction, particularly steps 2, 3, and 8. Step 1 is regarding making backups, which everyone should do on the regular. The remaining steps are regarding installing Ubuntu, which are already provided in this lesson above. These instructions are relevant for Windows 10 and 11.
-
-If you're going to install Ubuntu on a separate drive/partition that does not have BitLocker enabled then you should have no issues dual booting and will not need to disabled BitLocker.
 
 [Return to Installations lesson](https://www.theodinproject.com/lessons/foundations-installations#os-installation)
