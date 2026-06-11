@@ -4,7 +4,7 @@ Dual-booting provides two operating systems on your computer that you can switch
 
 ### Step 0: BitLocker
 
-If you have Windows Pro (or any of the editions listed [here](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/#windows-edition-and-licensing-requirements)) then you may have [BitLocker](https://support.microsoft.com/en-us/windows/bitlocker-drive-encryption-76b92ac9-1040-48d6-9f5f-d14b3c5fa178) enabled on your main drive. BitLocker is Microsoft's drive encryption software. If the drive you want to install Ubuntu on has BitLocker enabled then you will not be able to at first.
+If you have Windows Pro (or any of the editions listed on [the official Microsoft BitLocker Overview](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/#windows-edition-and-licensing-requirements)) then you may have [BitLocker](https://support.microsoft.com/en-us/windows/bitlocker-drive-encryption-76b92ac9-1040-48d6-9f5f-d14b3c5fa178) enabled on your main drive. BitLocker is Microsoft's drive encryption software. If the drive you want to install Ubuntu on has BitLocker enabled then you will not be able to at first.
 
 There are a few ways to resolve this dilemma but we're going to go with the most simple one: temporarily disabling BitLocker.
 
