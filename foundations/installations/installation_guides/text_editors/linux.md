@@ -2,7 +2,7 @@
 
 #### Step 1: Download VSCode
 
-Open your **terminal** then run the following command to download the latest **VSCode** `.deb` package:
+Open your **terminal** then run the following command to download the latest **VSCode** `.deb` package (`-O` is a capital "o", not a zero):
 
 ```bash
 wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
