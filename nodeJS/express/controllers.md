@@ -16,14 +16,14 @@ This section contains a general overview of topics that you will learn in this l
 
 When it comes to sending responses from our controllers, we have several methods at our disposal. Let's explore some of the commonly used methods and their use cases.
 
-- [res.send](https://expressjs.com/en/api.html#res.send) - A general-purpose method for sending a response, it is flexible with what data we can send since it will automatically set the `Content-Type` header based on what data you pass it. For example, if we pass in an object, it will stringify it as JSON and set the `Content-Type` header to `application/json`.
-- [res.json](https://expressjs.com/en/api.html#res.json) - This is a more explicit way to respond to a request with JSON. This always sets the `Content-Type` header to `application/json` and sends the data as JSON.
-- [res.redirect](https://expressjs.com/en/api.html#res.redirect) - When we want to redirect the client to a different URL, this method allows for that capability.
-- [res.render](https://expressjs.com/en/api.html#res.render) - `res.render` lets you render a view template and send the resulting HTML as the response. We'll cover this in a later lesson.
+- [res.send](https://expressjs.com/en/5x/api/response/#ressendbody) - A general-purpose method for sending a response, it is flexible with what data we can send since it will automatically set the `Content-Type` header based on what data you pass it. For example, if we pass in an object, it will stringify it as JSON and set the `Content-Type` header to `application/json`.
+- [res.json](https://expressjs.com/en/5x/api/response/#resjsonbody) - This is a more explicit way to respond to a request with JSON. This always sets the `Content-Type` header to `application/json` and sends the data as JSON.
+- [res.redirect](https://expressjs.com/en/5x/api/response/#resredirectstatus-path) - When we want to redirect the client to a different URL, this method allows for that capability.
+- [res.render](https://expressjs.com/en/5x/api/response/#resrenderview--locals--callback) - `res.render` lets you render a view template and send the resulting HTML as the response. We'll cover this in a later lesson.
 
 There is also a useful method that we can use to set the status code manually.
 
-- [res.status](https://expressjs.com/en/api.html#res.status) - This sets the response's status code **but does not end the request-response cycle by itself**. We can chain other methods through this (e.g. `res.status(404).send(...)` but note that we can't do `res.send(...).status(404)`). We can omit this if we wish to use the default status code of `200`.
+- [res.status](https://expressjs.com/en/5x/api/response/#resstatuscode) - This sets the response's status code **but does not end the request-response cycle by itself**. We can chain other methods through this (e.g. `res.status(404).send(...)` but note that we can't do `res.send(...).status(404)`). We can omit this if we wish to use the default status code of `200`.
 
 <div class="lesson-note" markdown="1">
 

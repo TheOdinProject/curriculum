@@ -26,7 +26,7 @@ app.get("/", (req, res) => res.send("Hello, world!"));
 app.post("/messages", (req, res) => res.send("This is where you can see any messages."));
 ```
 
-That would tell us the route matches any POST requests to the `/messages` path of our `app`. If you sent a GET request to the `/messages` path, it would not match this route. Each HTTP verb has its own Express route method, and you can also use [app.all()](https://expressjs.com/en/api.html#app.all) to make a route match all verbs.
+That would tell us the route matches any POST requests to the `/messages` path of our `app`. If you sent a GET request to the `/messages` path, it would not match this route. Each HTTP verb has its own Express route method, and you can also use [app.all()](https://expressjs.com/en/5x/api/application/#appallpath-callback--callback-) to make a route match all verbs.
 
 <div class="lesson-note" markdown="1">
 
@@ -225,7 +225,7 @@ To test these routes, use [Postman](https://www.postman.com/downloads/) which wi
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How can you define a route that will only match a specific HTTP verb?](#the-anatomy-of-a-route)
-- [How can you define a route that will match all HTTP verbs?](https://expressjs.com/en/api.html#app.all)
+- [How can you define a route that will match all HTTP verbs?](https://expressjs.com/en/5x/api/application/#appallpath-callback--callback-)
 - [How can you define path patterns for your routes to match?](#paths)
 - [How does the order of your routes affect which routes get matched?](#order-matters)
 - [What object gets populated with route parameters?](#route-parameters)
