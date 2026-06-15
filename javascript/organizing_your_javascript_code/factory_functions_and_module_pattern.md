@@ -385,5 +385,6 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What common issues can you face when working with constructors?](#so-whats-wrong-with-constructors)
 - [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
 - [How can we compose with factory functions?](#composition-with-factories)
+- [How does the module pattern work?](#the-module-pattern)
 - [What does IIFE stand for and what are they?](#iifes)
 - [How do factory functions help with encapsulation?](#using-iifes-to-implement-the-module-pattern)
