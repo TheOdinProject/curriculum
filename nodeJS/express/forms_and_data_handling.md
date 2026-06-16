@@ -267,7 +267,7 @@ Next we'll create two views:
 <body>
   <h1><%= title %></h1>
   <ul>
-    <% if (locals.users) {%>
+    <% if (locals.users) { %>
       <% users.forEach(user => { %>
         <li>
           ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %>
@@ -503,14 +503,16 @@ Finally, let's add a way to delete users as well by starting with another form i
 ```ejs
 <!-- In views/index.ejs -->
 <ul>
-  <% if (locals.users) {%>
+  <% if (locals.users) { %>
     <% users.forEach(function(user) { %>
-      <li>ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %></li>
-      <a href="/<%= user.id %>/update">Update</a>
-      <!-- This time we're sending a POST request to our route, so we need a form. -->
-      <form action="/<%= user.id %>/delete" method="POST" style="display:inline;">
-        <button type="submit" onclick="return confirm('Are you sure you want to delete this user?');">Delete</button>
-      </form>
+      <li>
+        ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %>
+        <a href="/<%= user.id %>/update">Update</a>
+        <!-- This time we're sending a POST request to our route, so we need a form. -->
+        <form action="/<%= user.id %>/delete" method="POST" style="display:inline;">
+          <button type="submit" onclick="return confirm('Are you sure you want to delete this user?');">Delete</button>
+        </form>
+      </li>
     <% }); %>
   <% } %>
 </ul>
