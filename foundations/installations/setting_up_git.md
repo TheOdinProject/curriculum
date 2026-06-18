@@ -116,7 +116,7 @@ This section contains a general overview of topics that you will learn in this l
 
    When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
 
-   Next, it will ask you for a passphrase. This passphrase is used to encrypt the private SSH key that is stored on your computer and you will be required to enter this passphrase every time you use SSH with these keys. If you don't use a passphrase, the private key will be readable by anyone who has access to your computer and will be able to modify all your GitHub repositories. Enter one if you wish, but it’s not required. If you choose not to use a passphrase, just hit <kbd>Enter</kbd> without typing anything.
+   Next, it will ask you for a passphrase. This passphrase is used to encrypt the private SSH key that is stored on your computer and you will be required to enter this passphrase every time you use SSH with these keys. If you don't use a passphrase, the private key will be readable by anyone who has access to your computer and will be able to modify all your GitHub repositories. Enter one if you wish, but it's not required. If you choose not to use a passphrase, just hit <kbd>Enter</kbd> without typing anything.
 
 1. Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
 
@@ -138,13 +138,90 @@ This section contains a general overview of topics that you will learn in this l
 
    You should see this response in your terminal: `Hi username! You've successfully authenticated, but GitHub does not provide shell access.` Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [our Discord server](https://discord.gg/fbFCkYabZB) to ask for help.
 
-#### All done!
+</div>
+
+### Setting up Git and GitHub using GitHub CLI (Alternative method)
+
+If you'd prefer a more guided experience, [GitHub CLI](https://cli.github.com/) (`gh`) is an official command-line tool made by GitHub. Instead of manually generating SSH keys and pasting them into your browser, `gh` walks you through the whole process interactively. Both methods get you to the same place, so use whichever feels more comfortable.
+
+<div class="lesson-content__panel" markdown="1">
+
+#### Install GitHub CLI
+
+1. Depending on the OS you are running, follow the appropriate installation guide below:
+   - **Linux**: Follow the [Linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md) for your distribution.
+   - **macOS**: If you already have Homebrew installed, run `brew install gh`. Otherwise, see the [installation instructions](https://github.com/cli/cli#installation).
+   - **ChromeOS**: See the [installation instructions](https://github.com/cli/cli#installation) and follow the Linux steps inside your Linux environment.
+
+   Once installation is complete, you can verify it worked by running:
+
+   ```bash
+   gh --version
+   ```
+
+   You should see a version number printed in the terminal. If you see an error instead, go back through the installation steps for your OS.
+
+#### Configure Git
+
+1. Just like in the main method, Git needs to know who you are so that your commits are correctly attributed when working with others. Run the commands below, replacing the example values with your own name and email address (keep the quotation marks):
+
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email yourname@example.com
+   ```
+
+   If you chose to keep your email private on GitHub (as described above), use your private GitHub email address here instead:
+
+   ```bash
+   git config --global user.email 123456789+odin@users.noreply.github.com # Remember to use your own private GitHub email here.
+   ```
+
+   Then set the default branch name to `main` to match GitHub's current default:
+
+   ```bash
+   git config --global init.defaultBranch main
+   ```
+
+   You can verify everything looks right with:
+
+   ```bash
+   git config --get user.name
+   git config --get user.email
+   ```
+
+#### Authenticate with GitHub
+
+1. Now it's time to connect your machine to GitHub. Run the following command:
+
+   ```bash
+   gh auth login
+   ```
+
+   This launches an interactive prompt. Here's what to choose at each step:
+
+   - **What account do you want to log into?** `GitHub.com`.
+   - **What is your preferred protocol for Git operations?** `SSH`.
+   - **Generate a new SSH key to add to your GitHub account?** `Yes`.
+   - **Enter a passphrase** You can press <kbd>Enter</kbd> to skip, but adding a passphrase makes your key more secure. See the passphrase note in the main method above for more detail.
+   - **How would you like to authenticate GitHub CLI?** `Login with a web browser`.
+
+   Follow the on-screen instructions to complete the login in your browser. Once that's done, `gh` will automatically generate your SSH key and register it with your GitHub account, with no copying and pasting required.
+
+1. To confirm everything is connected, run:
+
+   ```bash
+   gh auth status
+   ```
+
+   You should see output confirming you are logged in to `github.com` and that your SSH key is set up. If you see any errors, try running `gh auth login` again from the beginning.
+
+</div>
+
+### All done!
 
 Let us know how it went! You've completed the basic installations section, good job! As you progress through the curriculum, there will be other tools to install, so keep an eye out!
 
 You probably felt like you were way in over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.
-
-</div>
 
 ### Knowledge check
 
@@ -153,3 +230,9 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is Git?](#introduction)
 - [What is GitHub?](#introduction)
 - [What authentication method are we setting up with Git: SSH or HTTPS?](#ssh-key)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- The [GitHub CLI manual](https://cli.github.com/manual/) covers everything `gh` can do beyond authentication, including creating repositories, opening pull requests, and managing issues from the terminal.
