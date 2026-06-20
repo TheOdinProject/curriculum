@@ -10,7 +10,7 @@ There are a few ways to resolve this dilemma but we're going to go with the most
 
 This [Dual Booting Ubuntu With Windows 10 Pro With BitLocker Encryption guide from It's FOSS](https://itsfoss.com/dual-boot-ubuntu-windows-bitlocker/) will get you moving in the right direction, particularly steps 2, 3, and 8. Step 1 is regarding making backups, which everyone should do on the regular. The remaining steps are regarding installing Ubuntu, which are already provided in this lesson above. These instructions are relevant for Windows 10 and 11.
 
-If you're going to install Ubuntu on a separate drive/partition that does not have BitLocker enabled then you should have no issues dual booting and will not need to disabled BitLocker.
+If you're going to install Ubuntu on a separate drive/partition that does not have BitLocker enabled then you should have no issues dual booting and will not need to disable BitLocker.
 
 ### Step 1: Download Ubuntu
 
@@ -40,7 +40,7 @@ If you would like to test out the version of Ubuntu on the flash drive, click 'T
 
 Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can).
 
-For step-by-step instructions, please follow [how to install Ubuntu and dual boot alongside Windows](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73). These instructions are are 22.04 and for Windows 10, but they will get you through the process until we get dedicated dual booting instructions in place.
+For step-by-step instructions, please follow [how to install Ubuntu and dual boot alongside Windows](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73). These instructions are for 22.04 and Windows 10, but they will get you through the process until we get dedicated dual booting instructions in place.
 
 ### Intel RST (Rapid Storage Technology)
 
