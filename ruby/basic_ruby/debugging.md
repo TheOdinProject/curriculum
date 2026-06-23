@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - What a stack trace is.
 - Using a stack trace to debug your code.
-- Using `puts`, `p`, Pry and debug gem's VSCode integration to debug your code.
+- Using `puts`, `p`, `pry-byebug` to debug your code.
 - How you should decide to start with debugging.
 
 ### Reading the stack trace
@@ -207,11 +207,7 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 
 1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers the same topics we went over, but in more depth.
 1. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
-1. Check your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and make sure the [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) and the [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extensions are installed.
-1. Now that you're familiar with the basics, we're going to have some fun with VSCode! Check the [VSCode rdbg Ruby Debugger documentation](https://github.com/ruby/vscode-rdbg) and generate the configuration inside your VSCode by going to `Run and Debug` and clicking on `create a launch.json file` then picking `Ruby (rdbg)`. Now, the configuration you want to use is `Debug current file with rdbg` that you can see at the top of the Debug sidebar. You can also invoke the last used debugging configuration with `F5`. `launch.json` files need to be created on a per project basis. If you're having a hard time figuring out how to navigate to your `launch.json` file in order to change the configuration, peek into [Debugging with VScode launch configurations portion](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations). We encourage you to go through the entire article, though!
-1. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. Get rid of the `require pry-byebug` line and change `binding.pry` to `debugger`. Save the file.
-1. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the [JavaScript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `debugger` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode documentation](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
-1. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`,`debug`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics#readme) that you previously cloned.
+1. Although VSCode's debugger (introduced in next lesson) is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics#readme) that you previously cloned.
 
 </div>
 
