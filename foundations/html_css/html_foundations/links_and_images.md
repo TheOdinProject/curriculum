@@ -314,8 +314,7 @@ Go ahead and update the `odin-links-and-images` project with width and height at
    - [HTML Links](https://www.youtube.com/watch?v=tsEQgGjSmkM).
    - [HTML Images](https://www.youtube.com/watch?v=0xoztJCHpbQ).
    - [File Structure](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
-1. Read and code along with Interneting is Hard's article on [Links and Images](https://internetingishard.netlify.app/html-and-css/links-and-images). Pay close attention to the section that covers the four main image formats.
-  - Note: This article suggests that it is better to set image dimensions with CSS. We would still recommend setting width and height attributes on all images.
+1. Read and code along with Interneting is Hard's article on [Links and Images](https://internetingishard.netlify.app/html-and-css/links-and-images). Pay close attention to the section that covers the four main image formats. This article suggests that it is better to set image dimensions with CSS. We still recommend setting width and height attributes on all images as mentioned earlier in this lesson.
 
 </div>
 
