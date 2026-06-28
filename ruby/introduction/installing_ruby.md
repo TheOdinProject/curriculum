@@ -113,7 +113,7 @@ rbenv global
 
 If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" extension, which will provide you with semantic highlighting and formatting support.
 
-Using the extension is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed.
+Using the extension is optional, but it is a quick install; go to the "Extensions" tab in VS Code (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed.
 
 The most important features Ruby LSP provides will work out of the box. But it may bug you about using a monorepo setup, missing lockfiles or rubocop - you can choose "Don't show again" for now. We will introduce these later.
 
