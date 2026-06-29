@@ -43,6 +43,6 @@ This course will frequently link resources from LaunchSchool and they recently i
 1. Skip the installation instructions and read through the ["Preparations" chapter of Launch School's *Introduction to Programming with Ruby* book](https://launchschool.com/books/ruby/read/preparations#usingacodeeditor) for some helpful advice about using and learning Ruby effectively. Also, you won't be able to install Pry until you have installed Ruby in the next lesson.
 1. Now that you've learned a few ways to interact with your Ruby code, read about [how to use code files inside IRB](https://stackoverflow.com/questions/13112245/ruby-how-to-load-a-file-into-interactive-ruby-console-irb/38533339), which will be helpful for quick troubleshooting and experimenting.
 
-</div>
+**Okay, enough talk. Let's learn Ruby!**
 
-### Okay, enough talk. Let's learn Ruby!
+</div>

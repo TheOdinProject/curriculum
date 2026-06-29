@@ -157,9 +157,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-If you guessed correctly, congratulations! But this is a tricky concept. MDN's transform docs state that "[composite transforms are effectively applied in order from right to left](https://developer.mozilla.org/en-US/docs/Web/CSS/transform#values)".
-
-The blue box rotates 45 degrees on the spot, then translates on the X axis by 200%, moving it directly to the right. The red box translates by 200% first, so moves to the right, but the transform origin is still where it used to be. Therefore, it rotates 45 degrees around that original point, making the red box "swing down" to end up diagonally from where it started.
+If you guessed correctly, congratulations! The blue box translates on the X axis by 200%, moving it directly to the right, then rotates in place by 45 degrees. The red box rotates by 45 degrees first, then translates on the now-rotated X axis by 200%, moving it to the bottom-right.
 
 While you can generally chain multiple transforms in any order for various results, there is one exception: `perspective`. This brings us nicely to the next section where `perspective` is involved.
 

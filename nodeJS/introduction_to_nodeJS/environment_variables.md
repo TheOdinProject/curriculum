@@ -62,7 +62,7 @@ VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
 
 **This file must be added to your `.gitignore` file** to keep secrets safe from being published!
 
-You can now run your app in Node and just tell it where your environment variable file is: `node --env-file=.env index.js`, allowing Node to load the values before running your app (and throw an error if it can't find the environment variable file).
+Node provides several ways to load it, such as using the [`--env-file` CLI option](https://nodejs.org/docs/latest-v24.x/api/cli.html#--env-filefile) (that allows you to run `node --env-file=.env index.js` for example) or directly inside JavaScript with the [`process.loadEnvFile()` method](https://nodejs.org/docs/latest-v24.x/api/process.html#processloadenvfilepath). Both of these will throw an error if the `.env` file is missing.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -70,7 +70,7 @@ You can now run your app in Node and just tell it where your environment variabl
 
 When you deploy an app that uses environment variables, your repo will not contain your `.env` file, so you will have to research how your chosen deployment service handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
 
-Because of this, you may want to add a separate npm script that doesn't use the `--env-file` CLI option (i.e. just running something like `node index.js`). `--env-file` is useful during development but since the deployment service won't be using a `.env` file, we don't want it to look for it and throw an error when it can't find it! Alternatively, there is also the `--env-file-if-exists` option.
+Because of this, you won't want to load your variables in production like you do in development, as it would likely throw an error for when it can't find a `.env` file. Instead, you can prevent that in many ways, like adding an npm script for production that doesn't use `--env-file`, using the `--env-file-if-exists` CLI option, or implementing error handling with `process.loadEnvFile()`.
 
 </div>
 

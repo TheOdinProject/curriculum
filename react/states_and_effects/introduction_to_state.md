@@ -16,11 +16,9 @@ This section contains a general overview of topics that you will learn in this l
 
 We write components in React, A LOT of components, and many times we want them to undergo visual changes as a result of user or computer interactions. For this purpose, a component needs to "remember" things about itself. This is where state comes in. **State is a component's memory.**
 
-Let's take a look at how we can use state in our code.
+Let's take a look at how we can use state in our code. Go to our [react-examples repo](https://github.com/TheOdinProject/react-examples) then fork and clone it. Once you've cloned it, `cd` into the `state/` directory, where you can then run `npm install` to get everything set up, then `npm run dev` to start the dev server.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://codesandbox.io/p/sandbox/unruffled-pasteur-6h36wf?file=%2Fsrc%2FApp.jsx%3A10%2C27&embed=1" allowfullscreen></iframe>
-
-An app that changes its background color based on the clicked button. Take your time reading the code as we'll jump right in.
+Once opened, you'll see we have an app that changes its background color based on the clicked button. Take your time reading the code as we'll jump right in and look at the code within `src/App.jsx`.
 
 #### The useState hook
 
@@ -35,7 +33,7 @@ State definition with `useState` commonly follows this pattern:
 const [stateValue, setStateValue] = useState(initialValue);
 
 // adapted for our use case:
-const [backgroundColor, setBackgroundColor] = useState(initialColor);
+const [backgroundColor, setBackgroundColor] = useState(COLORS[0]);
 ```
 
 Even without much knowledge of React, you can, to some extent, understand what's going on. The `backgroundColor` state is defined with the hook. Then on every button, we set up a *click* event handler that calls the `setBackgroundColor` function with the corresponding value. Then, magically the new color is applied to the background.
@@ -82,7 +80,7 @@ Hooks are functions that let you use React features. All hooks are recognizable 
     1. [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
     1. [Render and Commit](https://react.dev/learn/render-and-commit)
 1. Read this [article on React Reconciliation Algorithm](https://www.geeksforgeeks.org/reactjs-reconciliation/) for a great explanation.
-1. Head back to the color changing background example from earlier in the lesson, and add a new state variable to keep track of the number of times the background color has been changed. Display the number of times the background color has been changed on the page. You will need to fork the codesandbox to do this, which requires a codesandbox account. Click "Open Editor" in the top right of the codesandbox embed, then "Fork" in the top right of the editor.
+1. Head back to the state example app from our `react-examples` repo earlier in the lesson. Add a new state variable to keep track of the number of times the background color has been changed. Display the number of times the background color has been changed on the page.
 
 </div>
 

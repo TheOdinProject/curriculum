@@ -289,7 +289,7 @@ node db/populatedb.js <production-db-url>
 
 1. Skim through [pg's documentation](https://node-postgres.com/). The library itself is light, and so is their documentation. You don't need to read everything, use it mainly as a reference.
 1. Update the above project we've been working on.
-    1. Install `dotenv` package and implement environment variables for db connection information.
+    1. Implement environment variables for db connection information.
     1. Add search functionality via query parameters on the index route. For example, `GET /?search=sup` should return all usernames containing `sup`. DON'T implement this in JavaScript, search should be done in SQL.
     1. Add a new route `GET /delete` to delete all usernames from the db.
 1. In our previous Mini Message Board project, we implemented ephemeral messages using an array i.e. the messages would reset when server restarted. We want data persistence. Go back to this project and implement it with a PostgreSQL db and `pg`.

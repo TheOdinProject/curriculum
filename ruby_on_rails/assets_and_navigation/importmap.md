@@ -17,7 +17,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Import maps
 
-Import maps let you import JavaScript modules using logical names that map to versioned/digested files – directly from the browser. So you can build modern JavaScript applications using JavaScript libraries made for ES modules (ESM) without the need for [transpiling](https://en.wikipedia.org/wiki/Source-to-source_compiler) or [bundling](https://www.dottedsquirrel.com/bundling-javascript/). This frees you from needing Webpack, Yarn, npm, or any other part of the JavaScript toolchain. All you need is the asset pipeline that's already included in Rails.
+Import maps let you import JavaScript modules using logical names that map to versioned/digested files – directly from the browser. So you can build modern JavaScript applications using JavaScript libraries made for ES modules (ESM) without the need for [transpiling](https://en.wikipedia.org/wiki/Source-to-source_compiler) or [bundling](https://www.crft.studio/glossary/bundling). This frees you from needing Webpack, Yarn, npm, or any other part of the JavaScript toolchain. All you need is the asset pipeline that's already included in Rails.
 
 With this approach, you'll ship many small JavaScript files instead of one big JavaScript file. Thanks to HTTP/2 that no longer carries a material performance penalty during the initial transport, and in fact offers substantial benefits over the long run due to better caching dynamics. Whereas before any change to any JavaScript file included in your big bundle would invalidate the cache for the whole bundle, now only the cache for that single file is invalidated.
 
@@ -124,8 +124,6 @@ All of the above may have you wondering why you'd use importmaps all things cons
 
 <div class="lesson-content__panel" markdown="1">
 
-Since Rails 7 is relatively new there aren't a ton of resources available yet. That being said here are some that are worth taking a look at:
-
 1. First things first. [Briefly look over the `importmap-rails` gem README on GitHub](https://github.com/rails/importmap-rails). This has A LOT of the information here plus more. Straight from the horse's mouth.
 1. Read [David Heinemeier Hansson's article](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755) on Modern web apps without JavaScript bundling or transpiling. He describes the why and how of the `importmap` addition to Rails 7.
 1. Appsignal produce a good [Importmaps under the hood](https://blog.appsignal.com/2022/03/02/import-maps-under-the-hood-in-rails-7.html) article that is well worth a read to get a bit more information on what we covered above.
@@ -144,6 +142,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Additional reading on Rails 7 `importmap`](https://noelrappin.com/blog/2021/09/rails-7-and-javascript/)
 - [Blog post on using `importmap`](https://blog.kiprosh.com/rails-7-brings-import-maps-into-the-limelight/)
 - [The import map specification](https://github.com/WICG/import-maps) should cover any other questions you may have on the subject.

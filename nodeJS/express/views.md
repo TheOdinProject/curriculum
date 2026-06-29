@@ -106,7 +106,7 @@ When you hit the `/` route, `res.render("index", { message: "EJS rocks!" });` is
 
 ### The locals variable in EJS
 
-In the example above, how did the template file know about the `message` variable? When we render the view, EJS has access to any properties from the object we pass into `res.render`, as well as any properties on [Express's res.locals object](https://expressjs.com/en/api.html#res.locals) (`res.locals` can be useful if you need to pass values to the view in one middleware function, but won't call `res.render` until later in the middleware chain).
+In the example above, how did the template file know about the `message` variable? When we render the view, EJS has access to any properties from the object we pass into `res.render`, as well as any properties on [Express's res.locals object](https://expressjs.com/en/5x/api/response/#reslocals) (`res.locals` can be useful if you need to pass values to the view in one middleware function, but won't call `res.render` until later in the middleware chain).
 
 EJS will store these properties in an object called `locals`, which you can access in the view. Similarly to the global `window` object in browsers, this allows you to access the `message` variable in the view via `locals.message`, or simply just `message`.
 
@@ -156,7 +156,7 @@ Note that the navbar expects a `links` variable. To pass this data into the navb
 // app.js
 const links = [
   { href: "/", text: "Home" },
-  { href: "about", text: "About" },
+  { href: "/about", text: "About" },
 ];
 
 app.get("/", (req, res) => {
@@ -189,7 +189,7 @@ Let's use `include` to dynamically render a list of variables a different way. I
 
 const links = [
   { href: "/", text: "Home" },
-  { href: "about", text: "About" },
+  { href: "/about", text: "About" },
 ];
 
 const users = ["Rose", "Cake", "Biff"];

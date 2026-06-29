@@ -1,4 +1,4 @@
-### Guide: Install Chrome on MacOS
+### Guide: Install Chrome on macOS
 
 #### Step 1: Download Google Chrome
 

@@ -26,7 +26,7 @@ app.get("/", (req, res) => res.send("Hello, world!"));
 app.post("/messages", (req, res) => res.send("This is where you can see any messages."));
 ```
 
-That would tell us the route matches any POST requests to the `/messages` path of our `app`. If you sent a GET request to the `/messages` path, it would not match this route. Each HTTP verb has its own Express route method, and you can also use [app.all()](https://expressjs.com/en/api.html#app.all) to make a route match all verbs.
+That would tell us the route matches any POST requests to the `/messages` path of our `app`. If you sent a GET request to the `/messages` path, it would not match this route. Each HTTP verb has its own Express route method, and you can also use [app.all()](https://expressjs.com/en/5x/api/application/#appallpath-callback--callback-) to make a route match all verbs.
 
 <div class="lesson-note" markdown="1">
 
@@ -53,7 +53,7 @@ With string paths, we can also use `{}` to make characters optional. For example
 "/foo{/bar}/baz"
 ```
 
-With `*` (a "splat" or "wildcard"), we can match any number of any characters. [Splats in Express paths must always be followed by a name](https://expressjs.com/en/guide/migrating-5.html#path-syntax).
+With `*` (a "splat" or "wildcard"), we can match any number of any characters. [Splats in Express paths must always be followed by a name](https://expressjs.com/en/5x/guide/routing/#wildcards).
 
 A common use case for a splat would be as a catch-all for all otherwise unmatched paths, e.g. for custom 404 error handling.
 
@@ -216,16 +216,6 @@ To test these routes, use [Postman](https://www.postman.com/downloads/) which wi
 
 <div class="lesson-content__panel" markdown="1">
 
-<div class="lesson-note" markdown="1">
-
-#### Express v5 changes
-
-We are currently using Express v5 and as of writing this, some of the sections in the article below will not work in v5, though they are clearly marked and links provided to more relevant documentation.
-
-This resource will be updated once a v5-only routing primer exists.
-
-</div>
-
 1. Read through the Express' [primer on Routing](https://expressjs.com/en/guide/routing.html) for an overview of this lesson's topics. Remember to reference the [Express documentation](https://expressjs.com/en/api.html) for more information on specific methods.
 
 </div>
@@ -235,7 +225,7 @@ This resource will be updated once a v5-only routing primer exists.
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How can you define a route that will only match a specific HTTP verb?](#the-anatomy-of-a-route)
-- [How can you define a route that will match all HTTP verbs?](https://expressjs.com/en/api.html#app.all)
+- [How can you define a route that will match all HTTP verbs?](https://expressjs.com/en/5x/api/application/#appallpath-callback--callback-)
 - [How can you define path patterns for your routes to match?](#paths)
 - [How does the order of your routes affect which routes get matched?](#order-matters)
 - [What object gets populated with route parameters?](#route-parameters)

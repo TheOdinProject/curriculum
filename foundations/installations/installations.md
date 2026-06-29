@@ -6,7 +6,7 @@ Many online development courses use in-browser code editors or "sandboxes," whic
 
 We won't lie to you: installing packages, editors, and even entire operating systems (OS) can be very frustrating. However, having the experience of setting up a development environment to run the code you'll write is an invaluable, real-world skill you'll carry with you for the rest of your career.
 
-**If you are already using MacOS, Ubuntu, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system and have Google Chrome as an installed browser, you can skip this lesson. Otherwise, follow the installation instructions below to set up your development environment.**
+**If you are already using macOS, Ubuntu, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system and have Google Chrome as an installed browser, you can skip this lesson. Otherwise, follow the installation instructions below to set up your development environment.**
 
 ### Lesson overview
 
@@ -25,7 +25,7 @@ If you're using a Mac, you're in great shape. The Odin Project instructions assu
 
 [Linux](https://en.wikipedia.org/wiki/Linux) is a free and open-source operating system that works well with all programming languages. Most development tools are written to work natively with Linux. Your tools will likely be updated more often, have more information available for troubleshooting, and just plain run better on Linux.
 
-In order to improve the availability of help in our community, we limit our supported Linux distros to Ubuntu and official flavours of Ubuntu only. This means we do not provide support any other distros, including ones "based on Ubuntu or Debian" (like Mint, Pop!_OS etc.).
+In order to improve the availability of help in our community, we limit our supported Linux distros to Ubuntu and official flavours of Ubuntu only. This means we do not provide support for any other distros, including ones "based on Ubuntu or Debian" (like Mint, Pop!_OS etc.).
 
 We support the following methods of running Linux (instructions for these are in the assignment section below):
 
@@ -69,7 +69,7 @@ With that out of the way, we need to set up an appropriate development environme
 
 ### Choosing your setup
 
-If you're not already using MacOS, Ubuntu, or an official Ubuntu flavor, you'll need to set up a development environment. Here's what each option offers:
+If you're not already using macOS, Ubuntu, or an official Ubuntu flavor, you'll need to set up a development environment. Here's what each option offers:
 
 #### VirtualBox virtual machine (recommended)
 
@@ -102,16 +102,16 @@ Google Chrome includes powerful developer tools that you'll use throughout this 
 <div class="lesson-content__panel" markdown="1">
 
 1. If you're not already running a supported environment, follow one of the <span id="os-installation">installation guides</span> below:
-   - [Virtual Machine (Recommended)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/virtual_machine.md) - The easiest and most reliable way to get started. A VM runs inside your current OS like Windows.
-   - [Ubuntu/Windows Dual-Boot](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/dual_boot.md) - Install Ubuntu alongside Windows on your computer.
-   - [ChromeOS/ChromeOS Flex](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/chromeos.md) - Instructions for Chromebook users.
-   - [WSL2 (Advanced)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/wsl2.md) - Run Linux from within Windows. Can cause confusion for new learners due to less clear separation between operating systems.
+   - [Virtual machine (recommended)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/virtual_machine.md "Linux virtual machine installation instructions (recommended option)") - The easiest and most reliable way to get started. A VM runs inside your current OS like Windows.
+   - [Ubuntu/Windows dual-boot](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/dual_boot.md "Ubuntu dual-boot instructions") - Install Ubuntu as a separate OS alongside Windows on your computer. Great for lower-end systems since no virtualization is required.
+   - [ChromeOS/ChromeOS Flex](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/chromeos.md "Linux installation instructions for ChromeOS") - Instructions for Chromebook users.
+   - [WSL2 (advanced)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/wsl2.md "WSL2 installation instructions (advanced option)") - Run Linux from within Windows. Can cause confusion for new learners due to less clear separation between operating systems.
 
    <div class="lesson-note lesson-note--warning" markdown="1">
 
    #### Unsupported hardware and software
 
-   This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions if you are **not** already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system.
+   This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions if you are **not** already using **macOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system.
 
    If you are already using supported hardware and software, you can skip straight to step 2 below.
 
@@ -120,9 +120,9 @@ Google Chrome includes powerful developer tools that you'll use throughout this 
 1. Because our lessons use Google Chrome, and Chrome/Chromium are overwhelmingly used by developers and consumers, the recommendations we make are very intentional. Look at this [usage share of web browsers](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables) and see what other folks are using the most.
 
    <span id="google-chrome-installation">Install Google Chrome</span> for your operating system:
-   - [Linux](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/linux.md) - For Ubuntu, Xubuntu, and other Linux distributions.
-   - [MacOS](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/macos.md) - For Mac users.
-   - [WSL2](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/wsl2.md) - For WSL2 users on Windows.
+   - [Linux](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/linux.md "Google Chrome installation for Linux") - For VM or dual-booting users, **not** WSL2 users.
+   - [macOS](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/macos.md "Google Chrome installation for macOS")
+   - [WSL2](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/chrome/wsl2.md "Google Chrome installation for WSL2")
 
    <div class="lesson-note lesson-note--tip" markdown="1">
 

@@ -174,7 +174,7 @@ The latter means that while your code and the proposed code arrive at the same o
 
 Due to Ruby's ecosystem, <span id="configure-rubocop">RuboCop was built with extensive configurability in mind - both in terms of not using some parts of and in terms of adding onto it.</span> Every single Cop can be disabled, sometimes Cops offer alternative rules like preferring single- or double-quotes for Strings, you can disable Cops on a per-file basis and much more.
 
-Since [RuboCop is extensible](https://docs.rubocop.org/rubocop/extensions.html), there exist other departments that you can use - like Performance or RSpec. You could even write your own Cop! The process of adding an extension is easy. Suppose you wanted to add the `rubocop-performance` Gem to your project. You first install the Gem locally from the command line:
+Since [RuboCop is extensible](https://docs.rubocop.org/rubocop/latest/plugins.html), there exist other departments that you can use - like Performance or RSpec. You could even write your own Cop! The process of adding an extension is easy. Suppose you wanted to add the `rubocop-performance` Gem to your project. You first install the Gem locally from the command line:
 
 ```bash
 gem install rubocop-performance

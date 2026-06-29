@@ -37,7 +37,7 @@ The form doesn't need to actually submit, but you should give an error message i
 1. Write the form elements.
 1. Add the JavaScript code that checks validation as the user progresses through the form.  When a user leaves a form field, it should automatically validate that field.
 1. Test out all possible cases.
-1. Don't forget to style validations with CSS by using the `:valid` and `:invalid` pseudo-classes!
+1. Don't forget to style validations with CSS by using the `:user-valid` and `:user-invalid` pseudo-classes!
 
 </div>
 

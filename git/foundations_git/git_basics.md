@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Before you start!
 
-- Github recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
+- GitHub recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
   `git --version`
 - If you haven't already, set your <span id="main-push"></span>local default Git branch to `main`. You can do so by running:
   `git config --global init.defaultBranch main`
@@ -72,7 +72,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Open README.md in your text editor of choice. In this example, we will open the directory in Visual Studio Code by using the command `code .` inside your repository.
 
-   MacOS users: If your terminal reads *"command not found: code"*, you must head back to [Command Line Basics](https://www.theodinproject.com/lessons/foundations-command-line-basics#opening-files-in-vscode-from-the-command-line) and follow the instructions provided to allow this command to work.
+   macOS users: If your terminal reads *"command not found: code"*, you must head back to [Command Line Basics](https://www.theodinproject.com/lessons/foundations-command-line-basics#opening-files-in-vscode-from-the-command-line) and follow the instructions provided to allow this command to work.
 
 1. Add "Hello Odin!" to a new line in `README.md` and save the file with <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>) if your VS Code is not auto saving changes.
 
@@ -104,7 +104,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 
 #### Avoid editing directly on GitHub
 
-When trying to make quick changes to the files in your repo, such as attempting to fix a typo in your README.md, you might be tempted to make this change directly via Github. However, it is best to avoid this, as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson). For now, it is advised to make any changes via your local files, then commit and push them using Git commands in your terminal once ready.
+When trying to make quick changes to the files in your repo, such as attempting to fix a typo in your README.md, you might be tempted to make this change directly via GitHub. However, it is best to avoid this, as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson). For now, it is advised to make any changes via your local files, then commit and push them using Git commands in your terminal once ready.
 
 </div>
 

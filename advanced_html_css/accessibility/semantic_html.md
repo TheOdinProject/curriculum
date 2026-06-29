@@ -93,7 +93,7 @@ If you were to use only `<div>` elements to act as these landmarks and headings,
    There are many screen readers around, some free and some paid, but what screen reader(s) you'll have access to will depend on your OS (there will be slight differences in features/controls between them, but they're by and large the same):
 
    - Windows users (applies if you're using WSL2) can install [NVDA](https://www.nvaccess.org/download/) for free.
-   - MacOS has [VoiceOver](https://support.apple.com/en-gb/guide/voiceover/welcome/mac) built in.
+   - macOS has [VoiceOver](https://support.apple.com/en-gb/guide/voiceover/welcome/mac) built in.
    - Linux has [Orca](https://gnome.pages.gitlab.gnome.org/orca/help/) built in.
    - ChromeOS has [ChromeVox](https://support.google.com/chromebook/answer/7031755) built in.
 

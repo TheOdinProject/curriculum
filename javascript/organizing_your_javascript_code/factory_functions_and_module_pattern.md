@@ -10,6 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - Closures.
 - Factory functions.
 - Private variables.
+- Composition.
 - IIFEs and the module pattern.
 - Encapsulation.
 
@@ -94,7 +95,7 @@ This is a **crucial** behavior of functions; it allows us to associate data with
 
 ### So, what's wrong with constructors?
 
-The biggest problem with constructors is that they don't provide automatic safeguards that prevent from using them wrong.
+The biggest problem with constructors is that they don't provide automatic safeguards that prevent us from using them wrong.
 
 One of the key arguments is how they *look* like regular JavaScript functions, even though they do not *behave* like regular functions. As we warned in the object constructors lesson, if you try to use a constructor function without the `new` keyword, and you didn't include additional safeguards in the constructor not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
 
@@ -159,7 +160,7 @@ console.log({ name, age, color });
 
 Now it'll log as `{ name: "Bob", age: 28, color: "red" }` which is much clearer, and we didn't need to manually add labels!
 
-### Destructuring
+#### Destructuring
 
 Yet another expression allows you to "unpack" or "extract" values from an object (or array). This is known as **destructuring**. When you have an object, you can extract a property of an object into a variable of the same name, or any named variable for an array. Take a look at the example below:
 
@@ -215,7 +216,41 @@ console.log({
 
 We’ve introduced a new metric for a new user - a reputation. Notice that the object we return in the factory function does not contain the `reputation` variable itself, nor any copy of its value. Instead, the returned object contains two functions - one that reads the value of the `reputation` variable, and another that increases its value by one. The `reputation` variable is what we call a "private" variable, since we cannot access the variable directly in the object instance - it can only be accessed via the closures we defined.
 
-Concerning factory functions, a private variable or function uses closures to create smaller, dedicated variables and functions within a factory function itself - things that we do not *need* to return in the object itself. This way we can create neater code, without polluting the returned object with unnecessary variables that we create while creating the object itself. Often, you do not need every single function within a factory to be returned with the object, or expose an internal variable. You can use them privately since the property of closures allows you to do so.
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Pitfall: "Returning the variable in the object"
+
+The following won't behave as many initially expect:
+
+```javascript
+return { name, discordName, reputation };
+```
+
+This does not "return the `reputation` variable". In long form syntax, this is the same as:
+
+```javascript
+return { name: name, discordName: discordName, reputation: reputation };
+```
+
+We are just creating a separate object property (that happens to be called `reputation` automatically because of object shorthand notation) and assigning it the value of the `reputation` variable. This is just the same as plain ol' assigning another variable with a variable's value. The other variable doesn't "track" the original. This is the same behavior as:
+
+```javascript
+let a = 1;
+let b = a;
+console.log(a, b); // 1 1
+
+a = 5; // only reassigns a
+console.log(a, b); // 5 1
+
+b = 23; // only reassigns b
+console.log(a, b); // 5 23
+```
+
+The *only* way to access private variables is via closure.
+
+</div>
+
+Concerning factory functions, a private variable or function uses closures to create smaller, dedicated variables and functions within a factory function itself - things that we do not *need* to return in the object itself. This way we can create neater code without polluting the returned object with unnecessary variables. Often, you do not need every single function within a factory to be returned with the object, or expose an internal variable. You can use them privately since the property of closures allows you to do so.
 
 In this case, we did not need control of the `reputation` variable itself. To avoid foot guns, like accidentally setting the reputation to `-18000`, we expose the necessary details in the form of `getReputation` and `giveReputation`.
 
@@ -227,29 +262,41 @@ Note that you could technically also use closure in constructors, by defining th
 
 </div>
 
-### Prototypal inheritance with factories
+### Composition with factories
 
-In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions too, there are easy ways to do that. Take another hypothetical scenario into consideration. We need to extend the `User` factory into a `Player` factory that needs to control some more metrics - there are some ways to do that:
+In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions, we can mimic similar inheritance-like behavior, though not via the same prototype mechanism. Take another hypothetical scenario into consideration. We need a `Player` factory that, on top of its own properties, has access to some (or all) of the properties from a `User` - there are some ways to do that:
 
 ```javascript
 function createPlayer(name, level) {
   const { getReputation, giveReputation } = createUser(name);
 
+  const getLevel = () => level;
   const increaseLevel = () => { level++; };
-  return { name, getReputation, giveReputation, increaseLevel };
+  return {
+    name,
+    getReputation,
+    giveReputation,
+    getLevel,
+    increaseLevel,
+  };
 }
 ```
 
-And there you go! You can create your User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! In case you want to extend it, you can also use the [`Object.assign` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) to add on the properties you want!
+And there you go! You can create your User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! You can also use the [`Object.assign` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) if you have multiple objects you want to take things from:
 
 ```javascript
 function createPlayer(name, level) {
   const user = createUser(name);
 
+  const getLevel = () => level;
   const increaseLevel = () => { level++; };
-  return Object.assign({}, user, { increaseLevel });
+  return Object.assign({}, user, { getLevel, increaseLevel });
 }
 ```
+
+This still creates brand new instances of the "inherited" methods for every object we create with `createPlayer` (unlike sharing the same method in memory when using prototypal inheritance), but as said earlier, unless you're creating an absolute bucketload of objects, this is unlikely to be a significant issue in practice.
+
+This is called **composition**. While it allows us to do similar things to inheritance, it gives us a bit more flexibility, as we may not necessarily want everything from another object (though we can take everything if we did want that). We "compose" a new object from multiple sources. Sometimes a given problem lends itself well to inheritance but sometimes that can be brittle, and the flexibility of composition is highly suitable. While you can technically compose with constructors, they lend themselves much better to inheritance approaches; composition often comes much more naturally with the factory functions.
 
 ### The module pattern
 
@@ -323,10 +370,8 @@ But then why not just write the factory function then call it once? Why bother w
 
 <div class="lesson-content__panel" markdown="1">
 
-1. WesBos has a beautiful and in-depth section on scopes and closures. Please check out these sections under "Module 3 - The Tricky Bits":
-   - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
-   - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
-1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
+1. Read [Wes Bos' article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope).
+1. Read [Wes Bos' article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures).
 1. Read [MDN's guide on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures).
 
 </div>
@@ -339,7 +384,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are closures?](#closures-arent-scary)
 - [What common issues can you face when working with constructors?](#so-whats-wrong-with-constructors)
 - [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
-- [How can we implement prototypal inheritance with factory functions?](#prototypal-inheritance-with-factories)
-- [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
+- [How can we compose with factory functions?](#composition-with-factories)
+- [How does the module pattern work?](#the-module-pattern)
 - [What does IIFE stand for and what are they?](#iifes)
 - [How do factory functions help with encapsulation?](#using-iifes-to-implement-the-module-pattern)
