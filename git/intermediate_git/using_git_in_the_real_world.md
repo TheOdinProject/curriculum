@@ -91,6 +91,22 @@ Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` 
 
 </div>
 
+#### Open source beginner's guide (optional)
+
+<div class="lesson-content__panel" markdown="1">
+
+Before contributing to a real project, it can help to rehearse the fork-and-pull-request flow somewhere low-stakes. Create a fork of the [First Contributions repo](https://github.com/firstcontributions/first-contributions) and follow the steps in its `README.md`. It's a sandbox built specifically for first-time contributors, so you can run through the entire workflow without worrying about opening an unwanted PR on a live project.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Creating a branch
+
+In this guide, the author uses `git switch -c <branch_name>` to create a branch, which differs from the method you learned in The Odin Project (`git checkout -b <branch_name>`). Both are valid in Git, so go with whichever you're more comfortable with.
+
+</div>
+
+</div>
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
