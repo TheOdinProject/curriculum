@@ -10,9 +10,9 @@ This section contains a general overview of topics that you will learn in this l
 - Understanding the role of Rails' `master.key`.
 - How to add and edit credentials in Rails.
 
-### Understanding Rails crendentials
+### Understanding Rails credentials
 
-In the usual spirit of Rails' conventions over configurations, Rails has a specific way of working with custom crendentials, such as our API keys. All of your Rails app's secrets are stored inside `config/credentials.yml.enc`. If you have ever inspected this file, you might see a jumble of text like this:
+In the usual spirit of Rails' conventions over configurations, Rails has a specific way of working with custom credentials, such as our API keys. All of your Rails app's secrets are stored inside `config/credentials.yml.enc`. If you have ever inspected this file, you might see a jumble of text like this:
 
 ```text
 fx1v9po/VKkSzpFukeB1cSMQCGz31PWaVb8yChd4d2g0WyEBz2Q5KnUEmc+sDoYX26bPLVvPWoRvpVd+rbIg3S00O+wzjnAM2o0ZgONtqwRR/K10DiZaW33ootkBixKnL2U8HCPWPRyQ94pXlMMsBF2t/JKBydnp1fdL25uvDnkbLfyLMXdLXEout2McpPtGEwmHmTejXHk5iskpPPXFDcfTy/ldkqCCcG7IE/CF2IPaoxqilYe0UxiQvhvM9EU+sdb2E5qrj02Xjt2rXOoCKyXOVa+78kcx3Z4Q68oXvPrTAjZuf1nyr+ueJlD1++Ar+DOT9nteJi8HpXvjKIr4TrTUVZ6NZ+zJ9eebCrMNDNw7Ra+PnUWwCzne7ejFdfPptOMfU8YOsoHjqr2sICOQMjz8E/LITRac7oXGHZuuaiy71a9fg4YfYbem5D4jgHsq0HqCnbYJ9BB6OJP5EN1XwS8dqZLI9gsjSktnZ+7BdNr0NQtXJ9X8C867--ZCouXjk9OmBUGyuq--kTfKiGSSyfeT6uPNwVboKA==
