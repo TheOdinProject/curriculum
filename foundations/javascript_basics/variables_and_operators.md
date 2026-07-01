@@ -65,7 +65,7 @@ Another way to include JavaScript in a webpage is through an external script. Th
 
 JavaScript files have the extension `.js` similar to `.css` for stylesheets. External JavaScript files are used for more complex scripts.
 
-We named our file `javascript.js` but we could have chosen any name like `my-script.js` or even no name `.js`. What is really important is the `.js` extension.
+We named our file `javascript.js` but we could have chosen any name like `my-script.js` or even no name `.js`, though this is considered bad practice because it can make the file invisible on some operating systems.
 
 ### Variables
 
@@ -92,7 +92,7 @@ let age = 11;
 console.log(age); // outputs 11 to the console
 
 age = 54;
- 
+
 console.log(age); // what will be output now?
 ```
 
@@ -125,6 +125,7 @@ Numbers are the building blocks of programming logic! In fact, it's hard to thin
 For instance, JavaScript follows the standard mathematical **Order of Operations** (often remembered by acronyms like **PEMDAS** or **BODMAS**). This means:
 
 1. **Parentheses** (or Brackets) are evaluated first.
+1. **Exponentiation** is done next, from right to left.
 1. **Multiplication** and **Division** are done next, from left to right.
 1. **Addition** and **Subtraction** are done last, from left to right.
 
