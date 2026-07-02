@@ -36,7 +36,7 @@ As a reminder, if you're using a **virtual machine**, you should install VSCode 
 
    Going forward, if you have any issues with VSCode or want to know more about certain features, check the [VSCode docs](https://code.visualstudio.com/docs). There will also be many keyboard shortcuts you can use within VSCode, some of which may be specific to your OS and you can look up when you need.
 1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners video](https://youtu.be/ORrELERGIHs?t=103), you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
-1. Disable the Copilot AI code completion feature which is enabled by default in Visual Studio Code. Open VSCode and go to File > Preferences > Settings, search for "Disable AI Features" and check the box under the same title. To understand why The Odin Project thinks you should disable this feature please revisit the Motivation and Mindset lesson section [A note on AI code generation](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation).
+1. Disable the Copilot AI code completion feature which is enabled by default in Visual Studio Code. In VSCode, open the settings (`File > Preferences > Settings`), search for "Disable AI Features" then check the box under the same title. To understand why The Odin Project thinks you should disable this feature please revisit the Motivation and Mindset lesson section [A note on AI code generation](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation).
 
 </div>
 
