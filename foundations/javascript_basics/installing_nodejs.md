@@ -47,7 +47,7 @@ Now that we have nvm installed, we can use it to install Node.
    nvm use --lts
    ```
 
-   <span id="lts-version"></span>We have told nvm to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons. The LTS version of Node is a version that is guaranteed support for thirty months after its initial release. It is more stable and compatible with a variety of packages than a non-LTS version of Node.
+   <span id="lts-version"></span>We have told nvm to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons. The LTS version of Node is a version that is guaranteed support for thirty-six months after its initial release. It is more stable and compatible with a variety of packages than a non-LTS version of Node.
 
    Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with the Xs replaced with actual numbers).
 
