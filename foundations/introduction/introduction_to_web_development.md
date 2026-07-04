@@ -6,7 +6,7 @@ Web developers often work for clients who are trying to get their product or ser
 The work is typically project-focused and involves collaborating with a team to coordinate the client's needs into the end product. The client could be a tech company, an organization, or a government. The work could involve front-end, back-end, or full-stack web development.
 
 Web development could be a good profession for you if you like solving logical problems, building useful things, and experimenting with new technologies.
-Web developers are in high demand, generally have a good work-life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
+Web developers are in high demand, generally have a good work-life balance, and command comfortable salaries. Look up your specific location to get a better sense of your local web development job opportunities.
 
 ### Lesson overview
 
@@ -47,7 +47,7 @@ Finally, large, older companies still need web developers. These companies offer
 These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward.
 
 - **Computer**
-- **[Google](https://www.google.com/)**
+- A **search engine**, such as [Google](https://www.google.com/)
 - **[Text Editor](https://en.wikipedia.org/wiki/Text_editor)**
 - **[Command Line Interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface)**
 - **[Stack Overflow](http://stackoverflow.com/)**
