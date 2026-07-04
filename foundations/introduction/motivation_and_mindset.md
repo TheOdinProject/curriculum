@@ -40,7 +40,7 @@ You can practice this method of learning by helping others in our community.
 
 You will inevitably get stuck at some point in the curriculum, perhaps due to a concept that you are having difficulty understanding or perhaps due to something not working correctly in a project. Whatever it is, use the following tools to get unstuck:
 
-- Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
+- Research it: You can be certain someone else out there has encountered the same problem as you at some point. A quick search with a search engine can often lead to a solution.
 - Take a break: Allow your diffuse learning state to work on the problem.
 - Ask for help in the [TOP Discord server](https://discord.gg/fbFCkYabZB); come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
