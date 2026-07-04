@@ -6,9 +6,9 @@ Working and collaborating with other people is an important part of working as a
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Learn about The Odin Project's community and how to join it.
-- Explain how to ask good and detailed questions.
-- Explain good practices for helping others with their questions.
+- The Odin Project's community and how to join it.
+- How to ask good and detailed questions.
+- Good practices for helping others with their questions.
 
 ### Why a community is awesome for you
 
