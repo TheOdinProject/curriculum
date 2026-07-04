@@ -52,9 +52,9 @@ Additionally, feel free to follow the diagram below to help you navigate problem
 
 As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMs) and generative AIs for code completion (like GitHub Copilot) and code generation (like ChatGPT).
 
-While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [wrote about ChatGPT and its potentially negative impacts on core learning.](https://blog.humphd.org/cheatgpt/) It is a good read about the pitfalls of using generative AI in an educational context.
+While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [wrote about ChatGPT and its potentially negative impacts on core learning](https://blog.humphd.org/cheatgpt/). It is a good read about the pitfalls of using generative AI in an educational context.
 
-For learners who are new to programming, tools like ChatGPT or GitHub Copilot can result in blindspots and gaps in your knowledge.
+For learners who are new to programming, tools like ChatGPT or GitHub Copilot can result in blindspots and gaps in your knowledge. This includes other AI output like Google's AI overview (which you can search up how to disable).
 
 1. By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way.
 1. Asking good questions is an important skill, and relying on generative AI instead of asking people (like our helpful Discord community) can delay the development of this skill.
