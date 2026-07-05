@@ -66,6 +66,67 @@ For learners who are new to programming, tools like ChatGPT or GitHub Copilot ca
 
 We do not recommend using AI tools for your learning.
 
+### How To Surf The Web – AI Free
+
+It has come to our attention that the AI overview is playing a huge factor and going against the rule of not using AI during the learning of our course.
+
+What we are trying to  achieve with this lesson is removing the AI search result being imposed by Google on users and it should be made known that disabling the AI overview is impossible as it has been made permanent and all effort to remove it is futile and Impossible as at time of writing.
+
+Moreover the AI overview appears first when getting the search result and can be quite difficult to unseen what has been seen and it might be the hint on the result you are looking for and when you see this result what is the need to search further right, and all guidelines on AI use during the use of the curriculum has been thrown out the window.
+
+When taking a lesson from The Odin Projects’s  Curriculum, you can ran into a problem and as it has been made known that The web is your friend (Google) as a developer and from the Tools of the trade section in the earlier lesson titled Introduction To Web Development, as you go through the course and use the community to get help tips to surf the web will be grilled into you, you will use and digest the lesson as you proceed, it is a skill you will gain by folowing the course as you dive deep.
+
+### How to by-pass this Feature
+
+You might be worried about how to go about this since google chrome is the officail browser supported by This curriculum. Do not fret!, you will be shown how to go about it
+What you will be learning are as follows: 
+
+- How to use Google without the AI overview
+- How to change your default search engine to Startpage which will be the search engine we will be using to query our search from google
+- How to modify your chrome to be AI free which is essential the same as mentioned above.
+
+### Now let's dive right in!!!
+
+Before we proceed it has been made known that Google chrome is official supported web browser supported by The Odin Project, since it is, how do we go about it?
+
+Note! - It is the officially supported does not mean using other browser is prohitted, it is so when you run into a problem/ need help it can be easy to answer your question and everyone will be assuming you are following the curriculum and hasn’t deviated in any way.
+And also if you are using other browsers like Firefox, Brave the steps here should be similar if not the same.
+
+![diagram to help learners change their default search engine easily](https://www.image2url.com/r2/default/images/1783238983774-54c1c262-9c54-4237-9ea9-39b051e99727.png)
+Step 1: open your browser(google chrome) on your pc
+
+![diagram to help learners change their default search engine easily](https://www.image2url.com/r2/default/images/1783238980473-7d95852b-a4dd-4812-98fd-e2923dd28be9.png)
+Step 2:  Click on the hambugger menu, the three dots near your profile icon and scroll down to settings then click on it.
+
+![diagram to help learners change their default search engine easily](https://www.image2url.com/r2/default/images/1783238975316-68bd109a-db1a-4a61-a09f-ebb2ca0fe90c.png)
+You should arrive on a menu like this that shows different kinda stuffs you want to set
+
+Step3: Click on the Search engine option on the left-hand side menu
+
+![diagram to help learners change their default search engine easily](https://www.image2url.com/r2/default/images/1783238972138-f76e785d-b1f7-4e56-b33d-94ceb992a246.png)
+Step 4: Then click on Manage Search engines and site Search
+
+![diagram to help learners change their default search engine easily](https://www.image2url.com/r2/default/images/1783238967971-19b22e3f-f35d-44d4-821f-51a7062d8965.png)
+Step 5: Now click on the blue Add Button.
+
+![diagram to help learners change their default search engine easily](https://www.image2url.com/r2/default/images/1783238963830-c1be986b-1b1e-4f39-abe7-200da072b067.png)
+This should Pop up, then fill the following:
+- Name: Startpage
+- Shortcut: www.startpage.com
+- Url with %s in place of query: https://www.startpage.com/sp/search?query=%s
+Then click add and you are ready to move on to the next and final step.
+
+![diagram to help learners change their default search engine easily](https://www.image2url.com/r2/default/images/1783238960337-d6255575-6bae-4e31-961f-71a76dfa9444.png)
+After you finish the step above, startpage should show in table below the site search where you clicked the blue add button to add the startpage search engine.
+Click on the three dot beside the startpage and should see a drop down, click on make default as show in the image below
+
+![diagram to help learners change their default search engine easily](https://www.image2url.com/r2/default/images/1783238956222-f84d47bd-cca0-416d-acd2-b7d77678749c.png)
+This will proceed to make Startpage your default search engine on your browser and congratulation you just complete the necessary steps and bypass the AI overview on google.
+
+You can search for any thing and your search query will be AI free and the searchpage will be actively working to help index google search result.
+Now you can open a new tab on your browser and enjoy!!!
+
+
 ### Managing your study time
 
 You will have more success with Odin by putting **consistent** time into it rather than working on it once a week. Building a habit of studying every day at a specific time and with a specific goal will ensure that you make consistent progress.
