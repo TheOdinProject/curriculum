@@ -44,9 +44,21 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 - Take a break: Allow your diffuse learning state to work on the problem.
 - Ask for help in the [TOP Discord server](https://discord.gg/fbFCkYabZB); come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
-Additionally, feel free to follow the diagram below to help you navigate problems that you may come across:
+![Diagram to help learners go through problems when they are stuck. Process described under the next heading "Problem solving steps"](https://cdn.statically.io/gh/TheOdinProject/curriculum/978ba0e91a6a47452de819246f4c495e6b092f54/foundations/introduction/motivation_and_mindset/imgs/00.png)
 
-![diagram to help learners go through problems when they are stuck](https://cdn.statically.io/gh/TheOdinProject/curriculum/978ba0e91a6a47452de819246f4c495e6b092f54/foundations/introduction/motivation_and_mindset/imgs/00.png)
+#### Problem solving steps
+
+1. Do the lesson.
+1. Practise the concept.
+1. Are you aware of how to solve the problem?
+   1. Yes: Nice!
+   1. No: Have you researched and experimented?
+      1. Yes: Have you asked for guidance?
+         1. Yes: Go back to step 2 (practise the concept).
+         1. No: Ask a question. Does the guidance received make any sense?
+            1. Yes: Go back to step 2 (practise the concept).
+            1. No: Go back to step 1 (do the lesson).
+      1. No: Research and experiment, then go back to step 2 (practise the concept).
 
 ### A note on AI code generation
 
