@@ -14,7 +14,6 @@ By now you've come far from your React-baby days. You have tools like routers an
 1. When there are items in your cart, the cart page link in the navbar should indicate how many items are in your cart. This should update in real time as the user adds or removes items from their cart.
 1. On the cart page, you should display the items and their quantities, and allow users to increase/decrease the quantity of items in their cart (including removal if appropriate). There's no need to implement any checkout/payment system.
 1. Fetch your shop items from [FakeStore API](https://fakestoreapi.com) or something similar.
-1. Clear out any `missing in props validation` errors in your app!
 1. Make sure to test your app thoroughly using the React Testing Library. Be careful not to test `react-router` directly, since it is an external library and the developers working on it must have tested the library already.
 1. As usual, style your application so you can show it off! You have a host of options provided already.
 1. Lastly, it's time to deploy it! Depending on what hosting solution you're using, you may need some additional configuration so that your routing is handled correctly as a single page application (SPA).
