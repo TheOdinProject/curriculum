@@ -168,7 +168,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is space complexity?](#what-do-we-mean-by-space-complexity)
 - [How do we measure space complexity?](#measuring-space-complexity)
-- [What are the main considerations we should consider before optimizing code?](#other-considerations)
 - [What is a situation where auxiliary space analysis is useful?](#auxiliary-space-analysis)
 
 ### Additional resources
