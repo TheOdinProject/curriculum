@@ -124,16 +124,12 @@ def square_nums_in_place(arr)
 end
 
 def square_nums_new_arr(arr)
-  squared_nums = []
-  arr.each do |number|
-    squared_nums << number * number
-  end
-
-  return squared_nums
+  # note that `Array#map` makes a *new* array
+  arr.map { |number| number * number }
 end
 ```
 
-Here we have two methods that take in an array of numbers and return an array where each number has been squared. The first method directly changes the input array, while the second method builds a new array to shovel the squared numbers into. Using traditional space analysis, both methods would take up O(N) space. But for this situation, that doesn't tell us much about the (very clear) differences between how these two algorithms use memory. It'd be better to use auxiliary space analysis and say that the top function uses O(1) extra space while the bottom one uses O(N).
+Here we have two methods that take in an array of numbers and return an array where each number has been squared. The first method directly changes the input array, while the second method builds a new array where each number is squared. Using traditional space analysis, both methods would take up O(N) space. But for this situation, that doesn't tell us much about the (very clear) differences between how these two algorithms use memory. It'd be better to use auxiliary space analysis and say that the top function uses O(1) extra space while the bottom one uses O(N).
 
 #### Other complexities
 
