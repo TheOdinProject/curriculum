@@ -116,7 +116,7 @@ Using this approach, we only regard the *extra* space that an algorithm takes up
 
 ```javascript
 function squareNumsInPlace(arr) {
-  for (let i = 0; i < arr; i++) {
+  for (let i = 0; i < arr.length; i++) {
     arr[i] = arr[i] * arr[i];
   }
 
