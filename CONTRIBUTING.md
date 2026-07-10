@@ -92,7 +92,9 @@ We also archive lessons that we remove from the curriculum, as opposed to deleti
 
 ### Adding Lessons
 
-1. Write the lesson in a `.md` file in the appropriate location, then open a PR in this repo with the new lesson.
+Lessons are written in markdown files (`.md`). Filenames should be in `snake_case`, with project filenames beginning with `project_` (e.g. `project_recipes.md`).
+
+1. Write the lesson file in the appropriate location, then open a PR in this repo with the new lesson.
 1. Go to the website repo and follow our [instructions for adding a lesson to the website](https://github.com/TheOdinProject/theodinproject/wiki/Adding-a-Lesson). Then, in the website repo, open a PR for the lesson additions (to the list of lessons *and* appropriate course lesson lists).
 
 ### Removing Lessons
