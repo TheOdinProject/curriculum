@@ -1,0 +1,59 @@
+name: Auto Comment
+on:
+  pull_request_target:
+    types:
+      - opened
+    paths:
+      - "**/computer_science/**"
+
+jobs:
+  cs-auto-comment:
+    name: Remind about duplicated CS lessons
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Get changed CS files
+        uses: tj-actions/changed-files@v47
+        id: changed-files
+        with:
+          files: |
+            **/computer_science/**
+          separator: " "
+
+      - name: Check for unduplicated changes
+        id: change-duplication
+        env:
+          CHANGED_CS_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          changed_cs_files=($CHANGED_CS_FILES)
+          changed_js_count=0
+          changed_ruby_count=0
+
+          for filepath in "${changed_cs_files[@]}"; do
+            if [[ $filepath == *javascript/* ]]; then
+              (( changed_js_count+=1 ))
+            elif [[ $filepath == *ruby/* ]]; then
+              (( changed_ruby_count+=1 ))
+            fi
+          done
+
+          (( $changed_js_count == $changed_ruby_count )) && all_duplicated=true || all_duplicated=false
+          echo "all_duplicated=${all_duplicated}" >> $GITHUB_OUTPUT
+
+      - name: Comment if unduplicated changes
+        if: steps.change-duplication.outputs.all_duplicated == 'false'
+        run: |
+          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+          REPO=${{ github.repository }}
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          COMMENT="The computer science lessons have their own files for the JavaScript and Ruby pathways. It looks like you've made changes to a lesson for one pathway without also making changes to its twin in the other pathway.\n\nCheck if your changes are only needed for the one pathway, otherwise please make the equivalent changes to the other pathway's lesson file(s) as well."
+
+          curl -s \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2026-03-10" \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+            "https://api.github.com/repos/${REPO}/issues/${PR_NUMBER}/comments" \
+            -d "{\"body\":\"${COMMENT}\"}"
+

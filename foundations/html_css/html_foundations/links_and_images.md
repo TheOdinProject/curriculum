@@ -240,7 +240,7 @@ There are many free images available but make sure to give credit to the creator
 
 An easy way to provide credit is to include the creator's name and contact info in a README file in your repository, or give [attribution](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US).
 
-To find them - Google images and in image results -> Tools -> Usage rights -> "Creative Commons". Choose & click on a image and click license details.
+To find them - Google images and in image results -> Tools -> Usage rights -> "Creative Commons". Choose & click on an image and click license details.
 
 We recommend that you always review the license requirements of any images you want to use.
 
@@ -314,7 +314,7 @@ Go ahead and update the `odin-links-and-images` project with width and height at
    - [HTML Links](https://www.youtube.com/watch?v=tsEQgGjSmkM).
    - [HTML Images](https://www.youtube.com/watch?v=0xoztJCHpbQ).
    - [File Structure](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
-1. Read and code along with Interneting is Hard's article on [Links and Images](https://internetingishard.netlify.app/html-and-css/links-and-images). Pay close attention to the section that covers the four main image formats.
+1. Read and code along with Interneting is Hard's article on [Links and Images](https://internetingishard.netlify.app/html-and-css/links-and-images). Pay close attention to the section that covers the four main image formats. This article suggests that it is better to set image dimensions with CSS. We still recommend setting width and height attributes on all images as mentioned earlier in this lesson.
 
 </div>
 

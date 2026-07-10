@@ -28,10 +28,10 @@ This section contains a general overview of topics that you will learn in this l
 
    By default, the current version of Jest will not recognize ESM, which is why you will see their guides use CJS syntax (e.g. `module.exports`). In order for you to be able to use ESM with Jest, you will need to do following:
 
-   1. Install `@babel/preset-env`:
+   1. Install `@babel/preset-env` (as of writing, Jest requires Babel v7 and is not yet compatible with the latest v8):
 
       ```bash
-      npm install --save-dev @babel/preset-env
+      npm install --save-dev @babel/preset-env@^7
       ```
 
    1. Create a `babel.config.js` in the project root with the following contents:

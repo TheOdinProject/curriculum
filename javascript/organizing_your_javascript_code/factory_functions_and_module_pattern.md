@@ -95,7 +95,7 @@ This is a **crucial** behavior of functions; it allows us to associate data with
 
 ### So, what's wrong with constructors?
 
-The biggest problem with constructors is that they don't provide automatic safeguards that prevent from using them wrong.
+The biggest problem with constructors is that they don't provide automatic safeguards that prevent us from using them wrong.
 
 One of the key arguments is how they *look* like regular JavaScript functions, even though they do not *behave* like regular functions. As we warned in the object constructors lesson, if you try to use a constructor function without the `new` keyword, and you didn't include additional safeguards in the constructor not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
 
@@ -250,7 +250,7 @@ The *only* way to access private variables is via closure.
 
 </div>
 
-Concerning factory functions, a private variable or function uses closures to create smaller, dedicated variables and functions within a factory function itself - things that we do not *need* to return in the object itself. This way we can create neater code, without polluting the returned object with unnecessary variables that we create while creating the object itself. Often, you do not need every single function within a factory to be returned with the object, or expose an internal variable. You can use them privately since the property of closures allows you to do so.
+Concerning factory functions, a private variable or function uses closures to create smaller, dedicated variables and functions within a factory function itself - things that we do not *need* to return in the object itself. This way we can create neater code without polluting the returned object with unnecessary variables. Often, you do not need every single function within a factory to be returned with the object, or expose an internal variable. You can use them privately since the property of closures allows you to do so.
 
 In this case, we did not need control of the `reputation` variable itself. To avoid foot guns, like accidentally setting the reputation to `-18000`, we expose the necessary details in the form of `getReputation` and `giveReputation`.
 
@@ -385,6 +385,6 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What common issues can you face when working with constructors?](#so-whats-wrong-with-constructors)
 - [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
 - [How can we compose with factory functions?](#composition-with-factories)
-- [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
+- [How does the module pattern work?](#the-module-pattern)
 - [What does IIFE stand for and what are they?](#iifes)
 - [How do factory functions help with encapsulation?](#using-iifes-to-implement-the-module-pattern)

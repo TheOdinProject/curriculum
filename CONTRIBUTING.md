@@ -8,6 +8,7 @@ This contributing guide assumes you have followed the instructions in our genera
 
 - [How to Contribute](#how-to-contribute)
 - [Curriculum Linting](#curriculum-linting)
+- [Adding or Removing Lessons from the Curriculum](#adding-or-removing-lessons-from-the-curriculum)
 - [Adding Images to the Curriculum](#adding-images-to-the-curriculum)
 - [Updating Ruby Version](#updating-ruby-version)
 
@@ -17,7 +18,7 @@ Please refer to our [general contributing guide](https://github.com/TheOdinProje
 
 When it comes to opening a pull request (PR) to our curriculum, there are 2 main ways you can do so:
 
-1. Click the "Improve on GitHub" link found at the end of each lesson. This will open the lesson file in its "edit" mode, allowing you to make any edits and submit a PR all through GitHub. This can be useful if you're new to contributions and want to make a simple change.
+1. Click the "Edit on GitHub" link found at the end of each lesson. This will open the lesson file in its "edit" mode, allowing you to make any edits and submit a PR all through GitHub. This can be useful if you're new to contributions and want to make a simple change.
 1. Follow the instructions from the general contributing guide to fork and clone this repo locally, and work from there. This is necessary if you need to edit multiple files as part of a single PR.
 
 Regardless of the way you choose to open a PR, while working on an existing or a new lesson you **must** follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md) to ensure the layout and formatting is consistent across our curriculum.
@@ -82,6 +83,22 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 > - [TOP010](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP010.md) use-lazy-numbering
 > - [TOP011](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md) heading-indentation
 > - [TOP012](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md) heading-levels
+
+## Adding or Removing Lessons from the Curriculum
+
+When adding or removing a lesson or project from the curriculum, two PRs will be needed: one in this repo to add the lesson file and one in the website repo to add the lesson to the database and site.
+
+We also archive lessons that we remove from the curriculum, as opposed to deleting them entirely.
+
+### Adding Lessons
+
+1. Write the lesson in a `.md` file in the appropriate location, then open a PR in this repo with the new lesson.
+1. Go to the website repo and follow our [instructions for adding a lesson to the website](https://github.com/TheOdinProject/theodinproject/wiki/Adding-a-Lesson). Then, in the website repo, open a PR for the lesson additions (to the list of lessons *and* appropriate course lesson lists).
+
+### Removing Lessons
+
+1. Move the relevant lesson file to the `archive/` directory. Preserve the original file path (make any subdirectories as necessary). For example, if archiving `ruby/introduction/installing_ruby.md`, move it to `archive/ruby/introduction/installing_ruby.md`. This also applies to any images used in the archived lesson. Open a PR in this repo for the archiving.
+1. In the website repo, open a PR that removes the lesson from the appropriate lesson list in [`db/fixtures/lessons`](https://github.com/TheOdinProject/theodinproject/tree/main/db/fixtures/lessons) as well as removes the lesson entry from whichever path(s) in [`db/fixtures/path`](https://github.com/TheOdinProject/theodinproject/tree/main/db/fixtures/paths).
 
 ## Adding Images to the Curriculum
 
