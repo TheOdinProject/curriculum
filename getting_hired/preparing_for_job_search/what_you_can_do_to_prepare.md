@@ -67,7 +67,7 @@ Another facet of this is related to your web presence -- don't be afraid to prod
     - [Brand Yourself](http://brandyourself.com) helps you... brand... yourself.  Basic services are free.
     - [Control Your Online Reputation from Monster](https://web.archive.org/web/20201123201302/https://www.monster.com/career-advice/article/control-your-online-reputation) is another good article.
     - Read about [How Important Is It for a Programmer to Have an Online Presence? on Stack Exchange](http://programmers.stackexchange.com/questions/143673/how-important-is-it-for-a-programmer-to-have-an-online-presence).
-    - Learn [How to Build Your Digital Presence as a Software Developer](https://blog.pramp.com/how-to-build-your-digital-presence-as-a-software-developer-cb61c4c1aab).
+    - Learn [How to Build Your Digital Presence as a Software Developer](https://medium.com/pramp/how-to-build-your-digital-presence-as-a-software-developer-cb61c4c1aab).
 
 1. "How to Win Friends and Influence People" is a classic that relates to business and networking but is applicable to all facets of the social world around you. If you're interested, here's a [summary of the book](https://fs.blog/how-to-win-friends-and-influence-people/ "summary of How to Win Friends and Influence People") that covers all the points we think are important.
 
