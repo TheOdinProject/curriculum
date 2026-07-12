@@ -367,7 +367,7 @@ Inline CSS makes it possible to add styles directly to HTML elements, though thi
 </body>
 ```
 
-The first thing to note is that we don't actually use any selectors here, since the styles are being added directly to the opening `<div>` tag itself. Next, we have the `style=` attribute, with its value within the pair of quotation marks being the declarations.
+The first thing to note is that we don't actually use any selectors here, since the styles are being added directly to the opening `<div>` tag itself. Next, we have the `style` attribute, with its value within the pair of quotation marks being the declarations.
 
 If you need to add a *unique* style for a *single* element, this method can work just fine. Generally, though, this isn't exactly a recommended way for adding CSS to HTML for a few reasons:
 
