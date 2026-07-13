@@ -51,7 +51,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
 
-   The commands below will configure Git. Be sure to enter your own information inside the quotes (but include the quotation marks!) - if you chose to keep your email private on GitHub, use your special private GitHub email from step 2.1.
+   The commands below will configure Git. Be sure to enter your own information inside the quotes (but include the quotation marks!) - if you chose to keep your email private on GitHub, use your special private GitHub email from step 1.
 
    ```bash
    git config --global user.name "Your Name"
@@ -106,7 +106,7 @@ This section contains a general overview of topics that you will learn in this l
    ls ~/.ssh/id_ed25519.pub
    ```
 
-   If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.5.
+   If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed straight to the next step.
 
    To create a new SSH key, run the following command inside your terminal.
 
