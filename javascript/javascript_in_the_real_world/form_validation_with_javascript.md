@@ -8,9 +8,9 @@ In this lesson, we'll cover the Constraint Validation API: a way to validate for
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand the importance of validation in HTML forms.
-- Understand Constraint Validation API for more control over form validation.
-- Add validation using only JavaScript.
+- The importance of validation in HTML forms.
+- The Constraint Validation API.
+- JavaScript-only validation.
 
 ### Assignment
 
