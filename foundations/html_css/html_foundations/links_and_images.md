@@ -240,7 +240,7 @@ There are many free images available but make sure to give credit to the creator
 
 An easy way to provide credit is to include the creator's name and contact info in a README file in your repository, or give [attribution](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US).
 
-To find them - Google images and in image results -> Tools -> Usage rights -> "Creative Commons". Choose & click on a image and click license details.
+To find them - Google images and in image results -> Tools -> Usage rights -> "Creative Commons". Choose & click on an image and click license details.
 
 We recommend that you always review the license requirements of any images you want to use.
 

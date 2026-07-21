@@ -8,7 +8,7 @@ So before we get into the meat of the curriculum, we'll cover the following aspe
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand helpful ways to approach learning and struggling.
+- Helpful ways to approach learning and struggling.
 - Things to avoid along your learning journey with TOP.
 
 ### Motivation
@@ -40,7 +40,7 @@ You can practice this method of learning by helping others in our community.
 
 You will inevitably get stuck at some point in the curriculum, perhaps due to a concept that you are having difficulty understanding or perhaps due to something not working correctly in a project. Whatever it is, use the following tools to get unstuck:
 
-- Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
+- Research it: You can be certain someone else out there has encountered the same problem as you at some point. A quick search with a search engine can often lead to a solution.
 - Take a break: Allow your diffuse learning state to work on the problem.
 - Ask for help in the [TOP Discord server](https://discord.gg/fbFCkYabZB); come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
@@ -52,9 +52,9 @@ Additionally, feel free to follow the diagram below to help you navigate problem
 
 As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMs) and generative AIs for code completion (like GitHub Copilot) and code generation (like ChatGPT).
 
-While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [wrote about ChatGPT and its potentially negative impacts on core learning.](https://blog.humphd.org/cheatgpt/) It is a good read about the pitfalls of using generative AI in an educational context.
+While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [wrote about ChatGPT and its potentially negative impacts on core learning](https://blog.humphd.org/cheatgpt/). It is a good read about the pitfalls of using generative AI in an educational context.
 
-For learners who are new to programming, tools like ChatGPT or GitHub Copilot can result in blindspots and gaps in your knowledge.
+For learners who are new to programming, tools like ChatGPT or GitHub Copilot can result in blindspots and gaps in your knowledge. This includes other AI output like Google's AI overview (which you can search up how to disable).
 
 1. By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way.
 1. Asking good questions is an important skill, and relying on generative AI instead of asking people (like our helpful Discord community) can delay the development of this skill.
