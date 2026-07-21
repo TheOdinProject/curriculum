@@ -44,7 +44,7 @@ In the following example the `flex` shorthand has values for `flex-shrink` and `
 
 The default shrink factor is `flex-shrink: 1`, which means all items will shrink evenly. If you do *not* want an item to shrink then you can specify `flex-shrink: 0;`. You can also specify higher numbers to make certain items shrink at a higher rate than normal.
 
-Here's an example. Note that we've also changed the `flex-basis` for reasons that will be explained shortly. If you shrink your browser window you'll notice that `.two` never gets smaller than the given width of 250px, even though the `flex-grow` rule would otherwise specify that each element should be equally sized.
+Here’s an example. Note that we’ve also changed the flex-basis for reasons that will be explained shortly. The .flex-container doesn't have an explicit width, so as a block-level element it automatically stretches to fill the available width of its parent (usually the browser window). As you shrink your browser window, the flex container also becomes narrower. When there is no longer enough space for all three items to keep their original width of 250px, Flexbox tries to shrink them. However, because .two has flex-shrink: 0, it never becomes smaller than 250px, even though the other items continue to shrink to fit the available space.
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjJXZVz" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
