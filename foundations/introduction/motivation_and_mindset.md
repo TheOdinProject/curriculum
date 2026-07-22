@@ -49,16 +49,16 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 #### Problem solving steps
 
 1. Do the lesson.
-1. Practise the concept.
+1. Practice the concept.
 1. Are you aware of how to solve the problem?
    1. Yes: Nice!
    1. No: Have you researched and experimented?
       1. Yes: Have you asked for guidance?
-         1. Yes: Go back to step 2 (practise the concept).
+         1. Yes: Go back to step 2 (practice the concept).
          1. No: Ask a question. Does the guidance received make any sense?
-            1. Yes: Go back to step 2 (practise the concept).
+            1. Yes: Go back to step 2 (practice the concept).
             1. No: Go back to step 1 (do the lesson).
-      1. No: Research and experiment, then go back to step 2 (practise the concept).
+      1. No: Research and experiment, then go back to step 2 (practice the concept).
 
 ### A note on AI code generation
 
