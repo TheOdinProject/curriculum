@@ -10,6 +10,41 @@ This section contains a general overview of topics that you will learn in this l
 - Understand how to use the class and ID attributes.
 - Add styles to specific elements using the correct selectors.
 
+### Adding CSS to HTML
+
+Before learning how to write CSS rules, let's first link a CSS file to our `index.html` so you'll be able to experiment with every example throughout this lesson. 
+
+There are three ways to add CSS to HTML:
+
+- External CSS
+- Internal CSS
+- Inline CSS
+
+#### External CSS
+
+External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a void `<link>` element:
+
+```html
+<!-- index.html -->
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+```
+
+First, we add a void `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
+
+Then, we create an empty `styles.css` file in the same directory as your `index.html` file. We'll start adding CSS rules to this file in the next section. 
+
+A note on file names: `styles.css` is just what we went with as the file name here. You can name the file whatever you want as long as the file type is `.css`, though "style" or "styles" is most commonly used.
+
+A couple of the pros to this method are:
+
+1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and making things look cleaner.
+1. We only need to edit the CSS in *one* place, which is especially handy for websites with many pages that all share similar styles.
+
+We'll focus on external CSS for now because it's the method you'll use most often. The two remaining methods will be covered later in this lesson.
+
 ### Basic syntax
 
 At the most basic level, CSS is made up of various rules. Each rule is made up of a selector (more on this in a bit) and a semicolon-separated list of declarations, with each of those declarations being made up of a property–value pair.
@@ -26,7 +61,9 @@ A `<div>` is one of the basic HTML elements. It is an empty container. In genera
 
 ### Selectors
 
-Selectors refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
+Selectors refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first. 
+
+As you learn each selector, try writing it in your `styles.css` file, save the file, and refresh your browser to see the results.
 
 #### Universal selector
 
@@ -291,45 +328,9 @@ For example, if an image's original size was 500px height and 1000px width, usin
 
 These properties work in conjunction with the height and width attributes in the HTML. It’s best to include both of these properties and the HTML attributes for image elements, even if you don’t plan on adjusting the values from the image file’s original ones. When these values aren’t included, if an image takes longer to load than the rest of the page contents, it won’t take up any space on the page at first but will suddenly cause a drastic shift of the other page contents once it does load in. Explicitly stating a `height` and `width` prevents this from happening, as space will be “reserved” on the page and appear blank until the image loads.
 
-### Adding CSS to HTML
+### Additional Methods for Adding CSS to HTML
 
-Now that we've learned some basic syntax, you might be wondering *how* to add all this CSS to our HTML. There are three methods to do so.
-
-#### External CSS
-
-External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a void `<link>` element:
-
-```html
-<!-- index.html -->
-
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-```
-
-```css
-/* styles.css */
-
-div {
-  color: white;
-  background-color: black;
-}
-
-p {
-  color: red;
-}
-```
-
-First, we add a void `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
-
-Then inside of the newly created `styles.css` file, we have the selector (the `div` and `p`), followed by a pair of opening and closing curly braces, which create a "declaration block". Finally, we place any declarations inside of the declaration block. `color: white;` is one declaration, with `color` being the property and `white` being the value, and `background-color: black;` is another declaration.
-
-A note on file names: `styles.css` is just what we went with as the file name here. You can name the file whatever you want as long as the file type is `.css`, though "style" or "styles" is most commonly used.
-
-A couple of the pros to this method are:
-
-1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and making things look cleaner.
-1. We only need to edit the CSS in *one* place, which is especially handy for websites with many pages that all share similar styles.
+Now that we've learned some basic syntax, there are two additional methods to add CSS to HTML, along with the external method we learned earlier in this lesson.
 
 #### Internal CSS
 
@@ -401,4 +402,4 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?](#chaining-selectors)
 - [What does the descendant combinator do?](#descendant-combinator-description)
 - [What are the names of the three ways to add CSS to HTML?](#adding-css-to-html)
-- [What are the main differences between the three ways of adding CSS to HTML?](#external-css)
+- [What are the main differences between the three ways of adding CSS to HTML?](#additional-methods-for-adding-css-to-html)
