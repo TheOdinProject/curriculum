@@ -14,7 +14,7 @@ Get your project as close as you can to the design, but do not worry about getti
 
 #### A note about images on the web
 
-You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image   you use is actually free for you to use, and make sure to credit the creator of the image in your project. An easy way to give credit is to put the creator's name and contact info in a README file in your repository.
+You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. An easy way to give credit is to put the creator's name and contact info in a README file in your repository.
 
 Some good places to find free-to-use images on the web include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
 
@@ -30,8 +30,30 @@ As we did in the Recipes project, go ahead and set up a git repository before be
 
 Don't forget to commit early & often! You can [reference the Commit Message lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
 
-1. Download the design images and take a look at what you're going to be creating here. [Image One (Full Design)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png), [Image Two (Color and Fonts)](https://cdn.statically.io/gh/TheOdinProject/curriculum/02f3babb44a3d30dccdf6ca30283ac64ec02abbd/foundations/html_css/flexbox/project-landing-page/imgs/02.png)
-    1. Hero text is the statement that appears at the top of a web page.
+1. [Download the full design image](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png) and take a look at what you're going to be creating. Some fonts, colors and sizes are as follows (feel free to use your own if you wish):
+   - Font: `Roboto` (you will need to download and install this font if you don't already have it)
+   - Dark background color (header, hero section and footer): `#1F2937`
+   - Logo text:
+     - Font size: `24px`
+     - Color: `#F9FAF8`
+   - Hero section main text ("This website is awesome"):
+     - Font size: `48px`
+     - Color: `#F9FAF8`
+     - Weight: `900`
+   - Hero secondary text ("This website has some subtext...") and header links:
+     - Font size: `18px`
+     - Color: `#E5E7EB`
+   - Button and "Call to action" background color: `#3882F6`
+   - Information heading:
+     - Font size: `36px`
+     - Color: `#1F2937`
+     - Weight: `900`
+   - Quote:
+     - Background color: `#E5E7EB`
+     - Font size: `36px`
+     - Color: `#1F2937`
+     - Weight: `300`
+     - Font style: `italic`
 1. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it one section at a time. The website you're creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
 1. For the section you're working on, begin by getting all the content onto the page before beginning to style it. In other words, do the HTML and *then* do the CSS. You'll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will take more time and may cause more frustration. (Note: you don't need to use more than one stylesheet. Using only one CSS file is adequate for this project).
 1. Many of the elements on this page are very similar to things you saw in our flexbox exercises... feel free to go back to those if you need a refresher.
