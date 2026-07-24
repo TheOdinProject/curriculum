@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Adding CSS to HTML
 
-Before learning how to write CSS rules, let's first link a CSS file to our `index.html` so you'll be able to experiment with every example throughout this lesson. 
+Before learning how to write CSS rules, let's first link a CSS file to our `index.html` so you'll be able to experiment with every example throughout this lesson.
 
 There are three ways to add CSS to HTML:
 
@@ -34,7 +34,7 @@ External CSS is the most common method you will come across, and it involves cre
 
 First, we add a void `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
 
-Then, we create an empty `styles.css` file in the same directory as your `index.html` file. We'll start adding CSS rules to this file in the next section. 
+Then, we create an empty `styles.css` file in the same directory as your `index.html` file. We'll start adding CSS rules to this file in the next section.
 
 A note on file names: `styles.css` is just what we went with as the file name here. You can name the file whatever you want as long as the file type is `.css`, though "style" or "styles" is most commonly used.
 
@@ -61,7 +61,7 @@ A `<div>` is one of the basic HTML elements. It is an empty container. In genera
 
 ### Selectors
 
-Selectors refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first. 
+Selectors refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
 
 As you learn each selector, try writing it in your `styles.css` file, save the file, and refresh your browser to see the results.
 
