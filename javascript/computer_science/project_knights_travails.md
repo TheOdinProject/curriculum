@@ -17,26 +17,14 @@ Each square on the board is a node (or vertex).
 A knight’s valid moves from any square represent the edges (or connections) between the vertices.
 Thus, the problem of finding the shortest path for the knight’s movement becomes a graph traversal problem. The goal is to traverse the graph (the chessboard) to find the shortest route between two nodes (the start and end positions).
 
-#### Vertices and Edges
+#### Vertices and edges
 
 The vertices in this graph are each of the possible positions on the chessboard, represented by a pair of coordinates like `[x, y]`, where x and y are between 0 and 7.
 The edges are the valid knight moves between vertices. For example, from `[0,0]`, a knight can move to `[2,1]`, `[1,2]`, and so on. Each of these moves represents a connection between the vertex `[0,0]` and the other reachable vertices.
 
-#### Graph Representation
+#### Graph representation
 
 While solving this problem, you don’t need to explicitly create a graph object with vertices and edges. Instead, you can think of the graph as implicit. The knight starts on a specific vertex, and the algorithm will dynamically explore all possible moves (edges) to other vertices (positions on the board) as it traverses the board.
-
-#### Helpful Concepts Before You Begin
-
-You’ve worked with BFS on binary trees in the previous lesson, but applying it on a chessboard (a grid) can feel like a big leap — and that’s totally normal!
-
-Here are some core ideas to keep in mind:
-
-- **Represent positions as coordinates**: Each square can be written as `[x, y]`, where both values range from 0 to 7.
-- **Use a queue**: Like in tree BFS, you’ll use a queue to keep track of the next positions to explore.
-- **Track visited positions**: Unlike trees, graphs can revisit the same position through different paths — so be sure to track visited positions to avoid loops or unnecessary repeats.
-
-Thinking of the board as a grid-based graph instead of a tree will help you apply BFS much more effectively here.
 
 ### Assignment
 
@@ -62,16 +50,16 @@ Sometimes *there is more than one fastest path*. Examples of this are shown belo
 
 1. Think about the rules of the board and knight, and make sure to follow them.
 1. From every square, multiple moves are possible. Choose a data structure that will allow you to work with them. Don't allow any moves to go off the board.
-1. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
+1. Both DFS and BFS are viable here, though think carefully about how each of them work. One of them will require you to handle the possibility of getting stuck in an endless cycle.
 1. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
 
 ```bash
-  > knightMoves([3,3],[4,3])
-  => You made it in 3 moves!  Here's your path:
-    [3,3]
-    [4,5]
-    [2,4]
-    [4,3]
+> knightMoves([3,3],[4,3])
+=> You made it in 3 moves!  Here's your path:
+  [3,3]
+  [4,5]
+  [2,4]
+  [4,3]
 ```
 
 </div>
