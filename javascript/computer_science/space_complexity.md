@@ -25,9 +25,9 @@ Measuring space complexity considers the space used by your algorithm input and 
 
 If you do any of your own research into algorithm efficiency, you'd be forgiven for assuming that space complexity isn't all that important. Most articles you'll read on the subject spend all or the majority of the time covering time complexity and if they do mention space complexity at all, it's pretty much a footnote.
 
-There are some fair arguments for why. Memory these days is pretty cheap compared to processing power, and therefore it's often easier to get around space constraints by increasing primary memory, for example by buying more [RAM](https://en.wikipedia.org/wiki/Random-access_memory). It's also fair to say that most algorithms you write will probably deal with very manageable input sizes, and therefore space doesn't really become a problem. You'll invariably run into an issue with your program being slow before you have any issues with memory being used up.
+It's also fair to say that most algorithms you write will probably deal with very manageable input sizes, and therefore space doesn't really become a problem. You'll invariably run into an issue with your program being slow before you have any issues with memory being used up.
 
-On the flip side, although memory is cheap, your hardware will usually have a fixed amount. You can't expand memory easily on the fly in most scenarios. When the problem is one of time, you can just allow the program to run for longer and it will eventually come back with a result. You can't do this with space.
+On the flip side, your hardware will usually have a fixed amount. You can't expand memory easily on the fly in most scenarios. When the problem is one of time, you can just allow the program to run for longer and it will eventually come back with a result. You can't do this with space.
 
 On balance, you'll probably come across problems in which the time it takes to execute is more important than the space it uses, but knowing about measuring space complexity will mean when you do run into a situation where there are space constraints, you'll be prepared to handle it.
 
