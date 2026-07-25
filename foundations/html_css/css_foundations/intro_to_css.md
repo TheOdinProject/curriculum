@@ -24,7 +24,7 @@ We'll focus on external CSS for now because it's the method you'll use most ofte
 
 #### External CSS
 
-External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a void `<link>` element:
+External CSS is the most common method you will come across, and it involves creating a separate file for CSS and linking it inside the HTML.
 
 ```html
 <!-- index.html -->
