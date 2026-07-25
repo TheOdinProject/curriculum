@@ -65,7 +65,7 @@ A `<div>` is one of the basic HTML elements. It is an empty container. In genera
 
 Selectors refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
 
-As you learn each selector, try writing it in your `styles.css` file, save the file, and refresh your browser to see the results.
+As you go through each example, play around with them to see the results by adding both the HTML and CSS to their respective files.
 
 #### Universal selector
 
