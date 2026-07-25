@@ -332,7 +332,7 @@ These properties work in conjunction with the height and width attributes in the
 
 ### Additional methods for adding CSS to HTML
 
-Now that we've learned some basic syntax, there are two additional methods to add CSS to HTML, along with the external method we learned earlier in this lesson.
+Now that we've learned some basic syntax, there are two additional methods to add CSS to HTML (on top of the external method we learned earlier in this lesson).
 
 #### Internal CSS
 
