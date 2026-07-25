@@ -45,7 +45,7 @@ A couple of the pros to this method are:
 1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and making things look cleaner.
 1. We only need to edit the CSS in *one* place, which is especially handy for websites with many pages that all share similar styles.
 
-We'll focus on external CSS for now because it's the method you'll use most often. The two remaining methods will be covered later in this lesson.
+To help us with learning how to write CSS rules, let's first create an `index.html` file (with the usual boilerplate) as well as a `styles.css` file in the same directory, then link both files together as described above.
 
 ### Basic syntax
 
