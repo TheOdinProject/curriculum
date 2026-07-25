@@ -38,7 +38,13 @@ First, we add a void `<link>` element inside of the opening and closing `<head>`
 
 Then, we create an empty `styles.css` file in the same directory as your `index.html` file. We'll start adding CSS rules to this file in the next section.
 
-A note on file names: `styles.css` is just what we went with as the file name here. You can name the file whatever you want as long as the file type is `.css`, though "style" or "styles" is most commonly used.
+<div class="lesson-note" markdown="1">
+
+#### CSS file names
+
+`styles.css` is just what we went with as the file name here. You could name the file whatever you want, as long as the file type is `.css`; "style" or "styles" is just what's most commonly used.
+
+</div>
 
 A couple of the pros to this method are:
 
