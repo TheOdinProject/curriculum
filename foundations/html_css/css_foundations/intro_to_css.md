@@ -6,9 +6,9 @@ In the previous lesson, you learned how to write the HTML that determines how a 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Add styles to HTML with CSS.
-- Understand how to use the class and ID attributes.
-- Add styles to specific elements using the correct selectors.
+- Adding styles to HTML with CSS.
+- How to use the `class` and `id` attributes.
+- How different CSS selectors work.
 
 ### Adding CSS to HTML
 
