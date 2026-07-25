@@ -34,7 +34,7 @@ External CSS is the most common method you will come across, and it involves cre
 </head>
 ```
 
-First, we add a void `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
+First, we add a void `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, in our case a path to it that's relative to the location of the HTML file (but could also be something like a URL to a stylesheet hosted somewhere else). In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
 
 Then, we create an empty `styles.css` file in the same directory as your `index.html` file. We'll start adding CSS rules to this file in the next section.
 
