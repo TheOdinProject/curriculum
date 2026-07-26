@@ -93,19 +93,25 @@ Instead of writing a new function every time, we just use a function to create a
 
 This is a **crucial** behavior of functions; it allows us to associate data with functions and manipulate that data anywhere outside of the enclosing function. We can make use of this in factory functions, coming up shortly.
 
-### So, what's wrong with constructors?
+### So, what's the matter with constructors?
 
-The biggest problem with constructors is that they don't provide automatic safeguards that prevent us from using them wrong.
+There are a couple of things about constructors that historically some people have not been keen on. Doesn't mean they're bad or should be avoided, just that sometimes when creating objects, some people had gripes about the way constructors worked compared to alternatives.
 
-One of the key arguments is how they *look* like regular JavaScript functions, even though they do not *behave* like regular functions. As we warned in the object constructors lesson, if you try to use a constructor function without the `new` keyword, and you didn't include additional safeguards in the constructor not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
+One such example is that they don't provide automatic safeguards that prevent us from using them wrong, such as calling them without the `new` keyword (you have to apply a safeguard yourself). Since they are syntactically the same as regular functions, they still "work" if you call them without `new`. In some cases, this is intentionally used, such as with the [`Date()` constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date) which returns a different thing depending on whether it was called with `new` or not. However, this is not always desirable. Forgetting to add a safeguard could mean you try to construct an object without `new` and instead of an error at that point, it "works" but with the wrong behavior (which might give you a very confusing error coming from elsewhere in the program).
 
-Yet another issue stems from misusing `instanceof`. In other programming languages, the keyword is a reliable way to know the code with which an object was made; but in JavaScript, it checks the presence of a constructor's prototype in an object's *entire* prototype chain - which does nothing to confirm if an object was made with that constructor since the constructor's prototype can even be reassigned after the creation of an object.
+Another historic gripe came from how `instanceof` *actually* works. In some other programming languages, the keyword is a reliable way to know the code with which an object was made. In JavaScript, it checks the presence of a constructor's prototype in an object's *entire* prototype chain, which does nothing to confirm if an object was actually made with that constructor; prototypes can even be reassigned after the creation of an object.
 
-Because of that, some people (not all) disliked using constructors in favor of a pattern that is similar but addresses a ton of these problems by not relying on those troublesome features: Factory Functions.
+Because of that, some people (not all) disliked using constructors in some situations, instead favoring a similar pattern that addresses some of these problems. Even though we now have even more ways to do object/prototype stuff without as many of the downsides of constructors (you'll learn about class syntax later), this is still something you will see often in the wild and has its own pros/cons.
+
+Enter "factory functions".
 
 ### Factory functions 🏭
 
-These fancy-sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using the `new` keyword to create an object, factory functions set up and return the new object when you call the function. They do not use the prototype, which does incur a performance penalty, but as a general rule, this penalty isn’t significant unless you’re creating thousands of objects. Let's take a basic example to compare them to constructor functions.
+These fancy-sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using the `new` keyword to create an object, factory functions set up and return the new object when you call the function. Really, they are just normal functions that return objects, nothing too fancy going on. They only get a fancy name like "factory function" because they're used in a certain way for a more specific context (like a factory producing objects).
+
+They do not make direct use of the prototype, which does incur a performance penalty, but as a general rule, this penalty isn’t significant unless you’re creating thousands of objects (imagine if every single array you made came with its own copies of every single array and object method every time... given how fundamental they are and how many you'd likely use in a single program, that would be insane).
+
+Let's take a basic example to compare them to constructor functions.
 
 ```javascript
 function User(name) {
@@ -382,7 +388,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [How does scope work in JavaScript?](#scoopfuls-of-scopes)
 - [What are closures?](#closures-arent-scary)
-- [What common issues can you face when working with constructors?](#so-whats-wrong-with-constructors)
+- [What common issues can you face when working with constructors?](#so-whats-the-matter-with-constructors)
 - [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
 - [How can we compose with factory functions?](#composition-with-factories)
 - [How does the module pattern work?](#the-module-pattern)

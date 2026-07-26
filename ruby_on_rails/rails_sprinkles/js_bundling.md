@@ -30,7 +30,9 @@ Rollup is another bundler that allows you to utilize a JavaScript syntax for imp
 
 The final bundler provided through jsbundling-rails is webpack which is a static module bundler that uses an entry point within your application to create a dependency graph that then combines every module your project needs into one or more bundles to be used by your application.
 
-Now that you have been introduced into the bundlers provided through jsbundling-rails let's go into setting it up.
+Now that you have been introduced to the bundlers provided through jsbundling-rails, let's go into setting one up. But before that, go and [install Yarn Classic](https://yarnpkg.com/getting-started/install) first.
+
+Much like Bundler for Ruby gems, Yarn is a JavaScript package manager that manages JavaScript dependencies in your project. You will already have npm (another JavaScript package manager) installed from Foundations, but Yarn Classic's defaults don't require us to do any further configuration with Rails and it's still widely used with Rails in the industry.
 
 ### Using yarn build watch
 

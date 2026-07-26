@@ -521,7 +521,6 @@ Finally, let's add a way to delete users as well by starting with another form i
 Then we add the logic to handle the request into our controller:
 
 ```javascript
-// Tell the server to delete a matching user, if any. Otherwise, respond with an error.
 exports.usersDeletePost = (req, res) => {
   usersStorage.deleteUser(req.params.id);
   res.redirect("/");

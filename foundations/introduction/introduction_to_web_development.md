@@ -2,29 +2,25 @@
 
 What do web developers do? In short, they build and maintain websites.
 
-Web developers often work for clients who are trying to get their product or service onto the web.
-The work is typically project-focused and involves collaborating with a team to coordinate the client's needs into the end product. The client could be a tech company, an organization, or a government. The work could involve front-end, back-end, or full-stack web development.
+Web developers often work for clients who are trying to get their product or service onto the web. The work is typically project-focused and involves collaborating with a team to coordinate the client's needs into the end product. The client could be a tech company, an organization, or a government. The work could involve front-end, back-end, or full-stack web development.
 
-Web development could be a good profession for you if you like solving logical problems, building useful things, and experimenting with new technologies.
-Web developers are in high demand, generally have a good work-life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
+Web development could be a good profession for you if you like solving logical problems, building useful things, and experimenting with new technologies. Web developers are in high demand, generally have a good work-life balance, and command comfortable salaries. Look up your specific location to get a better sense of your local web development job opportunities.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Learn about different types of web developers.
-- Recognize different types of clients and employers.
-- Learn about tools you'll be using regularly.
+- Different types of web developers.
+- Different types of clients and employers.
+- Tools you'll be using regularly.
 
 ### Types of web developers
 
 Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?
 
-The **front end** is the stuff you see on the website in your browser, including the presentation of content and user interface elements like the navigation bar.
-Front-end developers use HTML, CSS, JavaScript, and their relevant frameworks to ensure that content is presented effectively and that users have an excellent experience.
+The **front end** is the stuff you see on the website in your browser, including the presentation of content and user interface elements like the navigation bar. Front-end developers use HTML, CSS, JavaScript, and their relevant frameworks to ensure that content is presented effectively and that users have an excellent experience.
 
-The **back end** refers to the guts of the application, which live on the server. The back end stores and serves program data to ensure that the front end has what it needs. This process can become very complicated when a website has millions of users.
-Back-end developers use programming languages like Java, Python, Ruby, and JavaScript to work with data.
+The **back end** refers to the guts of the application, which live on the server. The back end stores and serves program data to ensure that the front end has what it needs. This process can become very complicated when a website has millions of users. Back-end developers use programming languages like Java, Python, Ruby, and JavaScript to work with data.
 
 **Full-stack developers** are comfortable working with both the front and back ends. At The Odin Project, we focus on teaching you full-stack development, covering all aspects of web development.
 
@@ -47,7 +43,7 @@ Finally, large, older companies still need web developers. These companies offer
 These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward.
 
 - **Computer**
-- **[Google](https://www.google.com/)**
+- A **search engine**, such as [Google](https://www.google.com/)
 - **[Text Editor](https://en.wikipedia.org/wiki/Text_editor)**
 - **[Command Line Interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface)**
 - **[Stack Overflow](http://stackoverflow.com/)**
@@ -56,8 +52,7 @@ These are some of the basic tools you will use regularly. You may not know what 
 
 ### Motivation
 
-Learning to code is incredibly rewarding but can also be difficult and frustrating.
-The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
+Learning to code is incredibly rewarding but can also be difficult and frustrating. The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.
 
 The web development industry has a long history of successful developers with varying backgrounds, so people tend to care more about what you've actually **built** than how you got there.
 

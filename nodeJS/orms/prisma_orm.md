@@ -162,10 +162,10 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
    **Step 3:** We're not using Typescript, so we will completely skip this step.
 
-   **Step 4:** We want to be using the `prisma-client-js` generator instead of the default, so add `--generator-provider prisma-client-js` to the Prisma init command:
+   **Step 4:** We want to be using the `prisma-client-js` generator instead of the default, so add `--generator-provider prisma-client-js` to the Prisma init command. We also don't want any AI features being installed from the Prisma Skills catalog by default, so add `--no-skills` to opt out:
 
    ```bash
-   npx prisma init --datasource-provider postgresql --output ../generated/prisma --generator-provider prisma-client-js
+   npx prisma init --datasource-provider postgresql --output ../generated/prisma --generator-provider prisma-client-js --no-skills
    ```
 
    We will also rename `prisma.config.ts` to `prisma.config.js`.

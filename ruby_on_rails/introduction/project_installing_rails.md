@@ -35,24 +35,6 @@ Don't worry if you don't totally understand what you are doing in these next ste
 
    This should display the version of Rails installed on your system indicating the installation went smoothly.
 
-1. #### Install Yarn
-
-   You may be wondering why we are installing Yarn when Rails 7 provides import maps that allows you to import JavaScript Modules directly from the browser. We will go over import maps in a later lesson but, it is important to note that import maps handles libraries without transpiling or bundling and uses the asset pipeline. We still need to install Yarn to ensure frameworks that require compiling or bundling can still be used. This is due to the way some JavaScript is bundled requiring the usage of Yarn.
-
-   JavaScript libraries used to be managed through the asset pipeline in previous Rails versions but as JavaScript progressed it became a little dated and made it hard to integrate the latest JavaScript libraries and frameworks.
-
-   Yarn is a JavaScript package manager, much like Bundler for Ruby, and allows you to easily manage your JavaScript libraries for the frameworks that do require bundling and compiling.
-
-   Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable). The easiest way to install Yarn is to run the `npm` command shown on the page. This will install Yarn Classic, which is the version we want.
-
-   You can verify the install by running the following command:
-
-   ```bash
-   yarn --version
-   ```
-
-   If you don't get a version number drop by the chatrooms for some assistance.
-
 1. #### Create the application
 
    This is where it might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
@@ -126,7 +108,7 @@ Don't worry if you don't totally understand what you are doing in these next ste
 
    In the same terminal window, type `rails console --sandbox` to open an IRB session loaded with the project code. This command is useful for exploring your project and testing out quick ideas. The `--sandbox` flag ensures that any changes you make to the application's database do not persist once you leave the session. Try typing `Car.all` to see a list of the car objects that you've created on the website. When you are done with the session, type `exit` to go back to the terminal window.
 
-### Git groundwork
+#### Git groundwork
 
 Like all of the projects you've done so far we need to use Git for our version control and to push our app to different remotes.
 

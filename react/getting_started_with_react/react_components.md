@@ -88,6 +88,6 @@ Otherwise, just like that, you've successfully imported and used your first cust
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What does a React element look like?](#what-are-components)
+- [What does a React component look like?](#what-are-components)
 - [How would you create a functional component?](#how-to-create-components)
 - [How do you export and then import a component?](#where-do-components-live)
