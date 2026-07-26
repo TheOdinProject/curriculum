@@ -24,7 +24,7 @@ These are our secrets, [encrypted](https://www.cloudflare.com/learning/ssl/what-
 
 #### Protecting your master key
 
-By default, Rails has already taken care to not commit `master.key` file. However, do make sure this key NEVER gets exposed. Otherwise, your data can be left exposed.
+By default, Rails has already taken care to not commit `master.key` file. However, do make sure this key NEVER gets exposed. Otherwise, others can decode your data and steal your API keys.
 
 </div>
 
@@ -37,10 +37,10 @@ rails new odins_secrets -d postgresql
 cd odins_secrets
 ```
 
-Before adding anything though, chances are your computer is using vim as its default text editor, but we want to use VSCode to modify our secrets instead. Modify your text editor by adding it into your bash profile like this:
+Before adding anything though, let's make sure we are only using VSCode to modify our secrets:
 
 ```bash
-echo 'export EDITOR="code -w"' >> .bashrc"
+echo 'export EDITOR="code -w"' >> ~/.bashrc"
 ```
 
 By doing so, anytime we want to modify our secrets, we'll be able to use VSCode.
@@ -51,7 +51,7 @@ Now for the fun part. Let's store some secrets! First, run this command:
 bin/rails credentials:edit
 ```
 
-VSCode will automatically open up a decrypted version of `credentials.yml.enc`. You'll notice there is already a `secret_key_base` key already available in this file. This key is responsible for different kind of encryption operations throughout your Rails app, keep that in mind and do not modify it. Let's say we want to protect these secrets:
+VSCode will automatically open up a new file on your VSCode tab, which is a decrypted version of `credentials.yml.enc`. You'll notice there is already a `secret_key_base` key already available in this file. This key is responsible for different kind of encryption operations throughout your Rails app, keep that in mind and do not modify it. Let's say we want to protect these secrets:
 
 ```yaml
 # ...
@@ -66,21 +66,21 @@ Once you had those secrets down, save the file and close it. You'll see the term
 File encrypted and saved.
 ```
 
-Now your secrets are protected! You can now launch Rails' console and access these values.
+Now your secrets are protected! You can now run `bin/rails console` and access these values.
 
 ```ruby
 Rails.application.credentials.my_api_key # => "MYKEY"
 Rails.application.credentials.test.test_key # => "SOMEKEY"
 ```
 
-If you ever need to modify existing or add new secrets, just run `bin/rails credentials:edit` again and follow the same process above. Note that accessing non existing key will silently return `nil`. If you want an error to be thrown, make sure to add a `!` at the end.
+If you ever need to modify existing or add new secrets, just run `bin/rails credentials:edit` again and follow the same process above. Note that accessing non existing key will silently return `nil`. If you want an error to be thrown, append a `!` at the end of your method call.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. [Rails' custom credentials guide](https://guides.rubyonrails.org/security.html#custom-credentials) should sum this lesson up just fine.
-1. [WebCrunch's guide on Rails encrypted credentials](https://webcrunch.com/posts/the-complete-guide-to-ruby-on-rails-encrypted-credentials) also talk about environment-specific crendetials, should you need to have environment-specific variables.
+1. [WebCrunch's guide on Rails encrypted credentials](https://webcrunch.com/posts/the-complete-guide-to-ruby-on-rails-encrypted-credentials) also talk about setting up environment-specific crendetials, should you ever need it.
 
 </div>
 
