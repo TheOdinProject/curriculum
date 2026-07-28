@@ -167,7 +167,7 @@ Now, you may also have a question - what use is an object's `[[Prototype]]`? Wha
 We can narrow it down to two reasons:
 
 1. We can define properties and functions common among all objects on a prototype to save memory. Defining every property and function takes up a lot of memory, especially if you have a lot of common properties and functions, and a lot of created objects! Defining them on a centralized, shared object which the objects have access to, thus saves memory.
-1. The second reason is the name of this section, **Prototypal Inheritance**, which we've referred to in passing earlier, in the introduction to the Prototype. In recap, we can say that the `player1` and `player2` objects *inherit* from the `Player.prototype` object, which allows them to access functions like `.sayHello`.
+1. The second reason is to allow multiple objects to share and reuse behavior through JavaScript's prototypal inheritance mechanism, such as allowing `player1` and `player2` to access functions like `.sayHello` defined on `Player.prototype`.
 
 Let's now try to do the following:
 
