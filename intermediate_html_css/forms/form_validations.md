@@ -198,9 +198,10 @@ To see this in action, we will be using our email and website example that we lo
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-First, we target valid inputs with a green border. Initially, our email and URL fields maintain their default browser styling, representing a neutral state because the user hasn't interacted with them yet.
+Initially, our email and URL fields maintain their default browser styling, representing a neutral state because the user hasn't interacted with them yet. We start by targetting valid inputs, setting a green border on the respective input field.
 
-Once a user enters an invalid value, the border switches to red. You can test this by entering an incorrectly formatted email or URL to see the validation in action.
+Once a user enters an invalid value and clicks or tabs away from the input (which would constitute a complete user interaction), the border switches to red. From then on, the border will automatically change between green and red depending on the validity of its contents. Test this out by entering an incorrectly formatted email or URL, clicking away to engage the validation, then editing the value between correctly formatted and incorrectly formatted.
+
 
 ### Conclusion
 
