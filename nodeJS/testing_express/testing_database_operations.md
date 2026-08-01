@@ -25,8 +25,8 @@ We'll leverage environment variables for your codebase to identify which databas
 
 ```properties
 NODE_ENV=development
-DATABASE_URL=postgresql://<user>:<password>@localhost:3306/inventory_application
-TEST_DATABASE_URL=postgresql://<user>:<password>@localhost:3306/test_inventory_application
+DATABASE_URL=postgresql://<user>:<password>@localhost:5432/inventory_application
+TEST_DATABASE_URL=postgresql://<user>:<password>@localhost:5432/test_inventory_application
 ```
 
 Next, setup appropriate npm scripts in your `package.json` file:
