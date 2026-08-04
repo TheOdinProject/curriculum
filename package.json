@@ -10,5 +10,17 @@
   "license": "CC BY-NC-SA 4.0",
   "devDependencies": {
     "markdownlint-cli2": "^0.20.0"
+  },
+  "devEngines": {
+    "os": [
+      {
+        "name": "linux",
+        "onFail": "warn"
+      },
+      {
+        "name": "darwin",
+        "onFail": "warn"
+      }
+    ]
   }
 }
