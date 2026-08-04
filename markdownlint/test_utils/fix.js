@@ -18,6 +18,7 @@ module.exports = (dirname) => {
     const fileContents = await readFile(markdownFileFullPath);
     const childProcess = spawnSync(`npm`, ["run", "lint", "--", "--format"], {
       input: fileContents.toString(),
+      shell: true,
     });
 
     return (

@@ -22,7 +22,15 @@ module.exports = (dirname) => {
       await exec(`npm run lint -- "${markdownFileFullPath}"`);
       return [];
     } catch (error) {
-      return error.stderr.trim().split("\n");
+      const errors = error.stderr.trim().split("\n");
+      if (process.platform === "win32") {
+        return errors.map((err) =>
+          err.replace(/^(.+?):(\d+)/, (match, path, line) => {
+            return path.replace(/\//g, "\\") + ":" + line;
+          })
+        );
+      }
+      return errors;
     }
   };
 };
