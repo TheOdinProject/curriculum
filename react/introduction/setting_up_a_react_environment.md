@@ -59,6 +59,14 @@ npm create vite@latest my-first-react-app -- --template react
 
 You may be asked if you want to install the `create-vite` package, in which case you should accept by typing `y` then hitting <kbd>Enter</kbd>. If it asks you any questions about using experimental features, you can answer no to them. Finally, answer yes to `Install with npm and start now?`.
 
+<div class="lesson-note" markdown=1>
+
+#### Choosing a linter
+
+Depending on your version of Vite, you may be prompted to choose a linter (for example, `ESLint` or `Oxlint`). Linters are tools that analyze your code to detect errors, potential bugs, and style issues. Either option will create a working React project. However, if you're unsure, choose `ESLint` because it is more widely used.
+
+</div>
+
 Once the command has executed, it should output the following:
 
 ```bash
