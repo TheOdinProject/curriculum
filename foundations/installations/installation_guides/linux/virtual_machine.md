@@ -16,7 +16,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.1: Download VirtualBox
 
-[Download VirtualBox for Windows hosts](https://www.virtualbox.org/wiki/Downloads).
+[Download VirtualBox for Windows hosts version 7.2.4 (last known working version)](https://download.virtualbox.org/virtualbox/7.2.4/VirtualBox-7.2.4-170995-Win.exe).
 
 #### Step 1.2: Download Xubuntu
 
