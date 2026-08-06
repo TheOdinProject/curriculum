@@ -80,7 +80,7 @@ Instead, we will set up our own role to avoid switching to the `postgres` role a
 
    Remember that you should change the `<role_database_name>` and `<role_name>` (they should both be the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
 
-1. After finishing our configuration, the last step is save it into the environment to access later.
+1. After finishing our configuration, the last step is to save it into the environment to access later.
 
    In order to save our password to the environment, we can run this command:
 

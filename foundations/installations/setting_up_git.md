@@ -96,7 +96,7 @@ This section contains a general overview of topics that you will learn in this l
 
    #### Multiple SSH keys
 
-   If you have already setup an ssh key pair with GitHub on a different machine prior to starting The Odin Project, GitHub allows you to have multiple key pairs associated with your account. You can just follow these instructions again to set up another key pair and register it with GitHub.
+   If you have already setup an SSH key pair with GitHub on a different machine prior to starting The Odin Project, GitHub allows you to have multiple key pairs associated with your account. You can just follow these instructions again to set up another key pair and register it with GitHub.
 
    </div>
 
