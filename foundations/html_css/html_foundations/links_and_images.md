@@ -171,6 +171,8 @@ For example, using an absolute path we can display an image located on The Odin 
 
 To display images on your website that are hosted on your own web server, you can use a relative path.
 
+To see this in action, we will add an image of a dog to our project. Expand the dropdown below that matches your operating system and follow its instructions to download the image and add it to the project directory.
+
 <details markdown="block">
 
 <summary class="dropDown-header">Linux, macOS, ChromeOS</summary>
