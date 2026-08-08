@@ -38,7 +38,6 @@ Here are a few extra resources that will take you a bit deeper into software arc
 
 - Explore additional [frameworks built on Express](https://web.archive.org/web/20240328030121/https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
 - Watch [more about APIs](https://www.youtube.com/watch?v=oBW_VNg4qD0) to learn a bit more about how APIs work.
-- [90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) is a great repo if you wish to explore more about DevOps.
 - [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8) is a classic book on object-oriented design patterns.
 - Read [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_1?dchild=1&keywords=Clean+Code&qid=1602168590&s=digital-text&sr=1-1) to learn principles for writing readable and maintainable code.
 - Check out [syntax.fm Podcast](https://syntax.fm), a podcast covering web development.
