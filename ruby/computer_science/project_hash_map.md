@@ -33,6 +33,8 @@ Start by creating a `HashMap` class. It should have at least two variables for `
 
    You are free to use that, or you can conduct your own research on hashing algorithms. Beware, this is a deep, deep rabbit hole.
 
+   However, our hash code can be larger than the number of buckets. To get a valid bucket index, we can use the modulo % operator with the hash map's current capacity. This ensures the index fits within our buckets, even when the hash map grows.
+
    You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us *only* inside the `hash` function, as we never access a bucket directly with the key. Instead, we always do so with the hash code.
 
    <div class="lesson-note lesson-note--tip" markdown="1">
