@@ -31,7 +31,7 @@ Start by creating a `HashMap` class. It should have at least two variables for `
    end
    ```
 
-   You are free to use that, or you can conduct your own research on hashing algorithms. Beware, this is a deep, deep rabbit hole.
+   You are free to use that, or you can conduct your own research on hashing algorithms. Beware, this is a deep, deep rabbit hole. Remember to modulo (`%`) the hash code by the current capacity before you return it to ensure the index fits within our buckets (regardless of growth).
 
    You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us *only* inside the `hash` function, as we never access a bucket directly with the key. Instead, we always do so with the hash code.
 
