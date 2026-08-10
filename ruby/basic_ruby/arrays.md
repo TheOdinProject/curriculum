@@ -162,9 +162,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are 3 ways to add data to an array?](#adding-and-removing-elements)
 - [How can you remove elements from an array?](#adding-and-removing-elements)
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- If you need a different take on arrays, read through this [alternative article on arrays by zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
-- Arrays also allow for [set operations](https://www.endpointdev.com/blog/2011/06/using-set-operators-with-ruby-arrays/). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!

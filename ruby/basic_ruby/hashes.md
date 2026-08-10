@@ -189,8 +189,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How can you merge two hashes together?](#merging-two-hashes)
 - [Why is it preferred to use symbols as hash keys?](#symbols-as-hash-keys)
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman. Note that one of the delete examples is incorrect: setting a value to `nil` does not delete the key-value pair.
