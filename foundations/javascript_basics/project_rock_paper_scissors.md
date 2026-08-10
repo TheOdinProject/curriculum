@@ -20,6 +20,8 @@ Since this is the first JavaScript project being built from scratch, it's import
 
 ### Assignment
 
+<div class="lesson-content__panel" markdown="1">
+   
 <div class="lesson-note" markdown="1">
 
 #### Focus on the task at hand
@@ -29,8 +31,6 @@ When making interactive projects, like this one, you might be tempted to add mor
 We recommend not doing that, and saving this effort for your portfolio projects. For more information, read ["Strategically building your portfolio" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/strategically-building-your-portfolio-1km4).
 
 </div>
-
-<div class="lesson-content__panel" markdown="1">
 
 Remember to commit early and often! To refresh your memory, check out the [commit messages lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages).
 
