@@ -163,4 +163,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is a `#times` loop, and how would you use it?](#times-loop)
 - [What is an `until` loop, and how would you use it?](#until-loop)
 - [What are the `#upto` and `#downto` loops, and how would you use them?](#upto-and-downto-loops)
-

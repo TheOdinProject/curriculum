@@ -161,4 +161,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are some ways of accessing the elements in an array?](#accessing-elements)
 - [What are 3 ways to add data to an array?](#adding-and-removing-elements)
 - [How can you remove elements from an array?](#adding-and-removing-elements)
-

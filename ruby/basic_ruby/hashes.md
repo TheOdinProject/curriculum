@@ -188,4 +188,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How can you delete existing data from a hash?](#removing-data)
 - [How can you merge two hashes together?](#merging-two-hashes)
 - [Why is it preferred to use symbols as hash keys?](#symbols-as-hash-keys)
-
