@@ -353,4 +353,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What does `true` represent?](#true-and-false)
 - [What does `false` represent?](#true-and-false)
 - [What does `nil` represent?](#nil)
-

@@ -336,4 +336,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is returned by `puts("woah") || true`?](https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
 - [What is the ternary operator?](#ternary-operator)
 - [When should you use a case statement?](#case-statements)
-
