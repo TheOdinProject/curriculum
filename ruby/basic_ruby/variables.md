@@ -134,3 +134,4 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What does the `*=` assignment operator do?](#non-add-assignment-operators)
 - [What does the `/=` assignment operator do?](#non-add-assignment-operators)
 - [What are the variable naming conventions?](#how-to-name-variables)
+
