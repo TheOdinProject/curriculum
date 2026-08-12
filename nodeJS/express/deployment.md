@@ -140,29 +140,6 @@ Can deploy both servers and databases.
 
 ---
 
-#### Koyeb
-
-Can deploy both servers and databases.
-
-- Easily Git push to deploy.
-- Ability to run web apps, APIs, and workers easily.
-- SSL and 10 free custom domains
-
-##### Koyeb: Free Plan
-
-- One free Web service.
-- One free Postgres database (50 hours).
-- Doesn't require a credit card to start.
-- Pay-per-use by the second for more.
-
-##### Koyeb: Links
-
-- [Koyeb homepage](https://www.koyeb.com/)
-- [Koyeb documentation](https://www.koyeb.com/docs)
-- [Guide: Official getting started with Node/Express on Koyeb guide](https://www.koyeb.com/docs/deploy/express)
-
----
-
 #### Neon
 
 Can deploy databases only.
