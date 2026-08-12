@@ -64,7 +64,7 @@ As you become more senior and your work is more unique, recruiters can add a lot
    - [Work-At-A-Startup](https://www.workatastartup.com/) - Y-Combinator Startups.
    - [Hubstaff-Talent](https://talent.hubstaff.com/) - for freelancers and remote.
    - [Wellfound (formerly AngelList Talent)](https://wellfound.com/jobs) - transparent startup hiring.
-   - [Jobs in Javascript](https://jobsinjs.com) - JavaScript and NodeJS roles. 
+   - [Jobs in JavaScript](https://jobsinjs.com) - JavaScript and NodeJS roles.
 
 </div>
 
