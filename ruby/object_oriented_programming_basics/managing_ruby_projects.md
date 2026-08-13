@@ -30,25 +30,24 @@ For Ruby projects, the rules of thumb are:
 - One class per file. Every time you create a new class, you should create a new file for it to live in.
 - It is convention to put all your Ruby files into a lib directory. For example:
 
-```bash
-project_name
-├── lib
-│   └── lovely_file_of_yours.rb
-└── main.rb
-```
+  ```text
+  project_name
+  ├── lib
+  │   └── lovely_file_of_yours.rb
+  └── main.rb
+  ```
 
 ### Making use of multiple files
 
-If you are to split your code across multiple files, you first will need to know how to make sure code from one file can be used in another file.
-Let's consider this file structure:
+If you are to split your code across multiple files, you first will need to know how to make sure code from one file can be used in another file. Let's consider this file structure:
 
-```bash
+```text
 ├── lib
-│   ├── sort
-│   │   ├── bogo_sort.rb
-│   │   ├── bubble_sort.rb
-│   │   └── merge_sort.rb
-│   └── sort.rb
+│   ├── sort
+│   │   ├── bogo_sort.rb
+│   │   ├── bubble_sort.rb
+│   │   └── merge_sort.rb
+│   └── sort.rb
 └── main.rb
 ```
 
@@ -56,17 +55,18 @@ There are two main ways to do that: `require_relative` and `require`.
 
 #### require_relative
 
-```ruby
-# You're in the root of the project, the directory that holds main.rb
+Let's say in your terminal, you're currently in the root of the project (the directory that holds `main.rb`). `main.rb` and `lib/sort.rb` have the following contents:
 
+```ruby
 # main.rb
 require_relative 'lib/sort'
+```
 
-# sort.rb
+```ruby
+# lib/sort.rb
 require_relative 'sort/bubble_sort'
 require_relative 'sort/bogo_sort'
 require_relative 'sort/merge_sort'
-
 ```
 
 Let's start with how the docs define its functionality:
@@ -91,25 +91,27 @@ The absolute path bit seems self-explanatory. When you use a relative path the d
 ```ruby
 # You're in the root of the project, the directory that holds main.rb
 
+```ruby
 # main.rb
 require 'lib/sort'
+```
 
-# sort.rb
+```ruby
+# lib/sort.rb
 require 'sort/bubble_sort'
 require 'sort/bogo_sort'
 require 'sort/merge_sort'
-
 ```
 
 Ah. Of course—an error—it can't find `lib/sort`! Those are not relative paths... Fancy schmancy `require_relative` and its implicitly assuming the paths are relative!
 
 ```ruby
-# You're in the root of the project, the directory that holds main.rb
-
 # main.rb
 require './lib/sort'
+```
 
-# sort.rb
+```ruby
+# lib/sort.rb
 require './sort/bubble_sort'
 require './sort/bogo_sort'
 require './sort/merge_sort'
@@ -120,8 +122,6 @@ Now it says it can't find `./sort/bubble_sort`! This is because it is not lookin
 What about the `$LOAD_PATH` part?
 
 ```ruby
-# You're in the root of the project, the directory that holds main.rb
-
 # main.rb
 require 'csv'
 
@@ -136,37 +136,44 @@ Convention is that `require_relative` is used for your own code, while `require`
 
 Benefit of this approach is that you don't need to hold all the code for part of your app in one file:
 
-```ruby
-# You're in the root of the project, the directory that holds main.rb
-
-# This is your file structure:
+```text
 ├── lib
-│    ├── flight.rb
-│    ├── hotel.rb
-│    └── airport.rb
+│   ├── flight.rb
+│   ├── hotel.rb
+│   └── airport.rb
 └── main.rb
+```
 
+And the contents of your files:
+
+```ruby
 # lib/airport.rb
 class Airport
   def introduce
     puts "I'm at the airport!"
   end
 end
+```
 
+```ruby
 # lib/flight.rb
 class Flight
   def introduce
      puts "I'm on the flight!"
   end
 end
+```
 
+```ruby
 # lib/hotel.rb
 class Hotel
   def introduce
      puts "I'm at the hotel!"
   end
 end
+```
 
+```ruby
 # main.rb
 require_relative 'lib/airport'
 require_relative 'lib/flight'
@@ -186,47 +193,53 @@ So instead of defining both the `Flight` and `Hotel` classes inside `airport.rb`
 
 Another thing to keep in mind is that local variables do not get loaded, so if your `airport.rb` had a local variable `coolest_airports`, trying to access it in `main.rb` would raise an error. Constants do get loaded however, so you can access those.
 
-<span id="namespace">Something important to keep in mind is that all required code is put into the same namespace. This means that if you have the same names for methods, modules, classes and so on they will be added together in the order they were required.</span> For example, let's say you and your friend have used the same method name and you're trying to use their code and yours:
-
 ```ruby
 # all files are in the same directory for simplicity's sake
 
+```ruby
 # not_so_green.rb
 def food_opinion(food)
   "#{food} is awesome!"
 end
+```
 
+```ruby
 # scheals.rb
 def food_opinion(food)
   "#{food} is awful!"
 end
+```
 
+```ruby
 # main.rb
 require_relative 'not_so_green'
 require_relative 'scheals'
 
 puts food_opinion('Cereal')
 #=> Cereal is awful!
-# Since food_opinion is defined twice, the last definition wins out.
 ```
 
-To make sure code doesn't get overwritten, Rubyists wrap their code in modules which give them the benefits of a namespace:
+Since food_opinion is defined twice, the last definition wins out. To make sure code doesn't get overwritten, Rubyists wrap their code in modules which give them the benefits of a namespace:
 
 ```ruby
-# all files are in the same directory for simplicity's sake
-
 # not_so_green.rb
 module NotSoGreen
   def self.food_opinion(food)
     "#{food} is awesome!"
   end
 end
+```
+
+```ruby
 # scheals.rb
 module Scheals
   def self.food_opinion(food)
     "#{food} is awful!"
   end
 end
+```
+
+```ruby
 # main.rb
 require_relative 'not_so_green'
 require_relative 'scheals'
@@ -292,7 +305,9 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "colorize", "~> 1.1"
+```
 
+```ruby
 # Gemfile.lock
 GEM
   remote: https://rubygems.org/
