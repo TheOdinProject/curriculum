@@ -71,25 +71,19 @@ require_relative 'sort/merge_sort'
 
 Let's start with how the docs define its functionality:
 
-> require_relative(string) → true or false
-  Ruby tries to load the library named `string` relative to the directory containing the requiring file. If the file does not exist a `LoadError` is raised. Returns `true` if the file was loaded and `false` if the file was already loaded before.
+> `require_relative(string) → true or false`
+>
+> Ruby tries to load the library named `string` relative to the directory containing the requiring file. If the file does not exist a `LoadError` is raised. Returns `true` if the file was loaded and `false` if the file was already loaded before.
 
-The important part here is *relative to the directory containing the requiring file*. This means that no matter where you execute the code from, `require_relative` looks for the file specified from the point of view of the file it has been written in. So `main.rb` is simply going to `lib` to find `sort` (the .rb is implicit), and `sort.rb` is going to `sort` to find those three different sorts. Simple enough, isn't it?
+The important part here is *relative to the directory containing the requiring file*. This means that no matter where you execute the code from, `require_relative` looks for the file specified from the point of view of the file it has been written in. So `main.rb` is simply going to `lib` to find `sort` (the `.rb` is implicit), and `sort.rb` is going to `sort` to find those three different sorts. Simple enough, isn't it?
 
 #### require
 
 `require` is trickier. Let's grab *some* of the docs here:
-> If the  feature is an  absolute path (e.g.  starts with `'/'`),  the feature
-  will  be loaded  directly using  the absolute  path.  If  the feature  is an
-  explicit relative  path (e.g.  starts with `'./'`  or `'../'`),  the feature
-  will  be  loaded  using  the  relative  path  from  the  current  directory.
-  Otherwise,  the feature  will be  searched  for in  the library  directories
-  listed in the `$LOAD_PATH`.
 
-The absolute path bit seems self-explanatory. When you use a relative path the difference between using a relative path with `require` and doing `require_relative` is that `require`'s relative paths are resolved from the point of view of the directory you are running your code from. Let's change our example:
+> If the feature is an absolute path (e.g.starts with `'/'`), the feature will be loaded directly using the absolute path. If the feature is an explicit relative path (e.g. starts with `'./'` or `'../'`), the feature will be loaded using the relative path from the current directory. Otherwise, the feature will be searched for in the library directories listed in the `$LOAD_PATH`.
 
-```ruby
-# You're in the root of the project, the directory that holds main.rb
+The absolute path bit seems self-explanatory. When you use a relative path, the difference between using `require` and `require_relative` is that `require` resolves it from the point of view of the directory you are running your code from. Let's change our example, again imagining your terminal is currently in the root of the project where `main.rb` is:
 
 ```ruby
 # main.rb
@@ -128,13 +122,13 @@ require 'csv'
 require_relative 'lib/sort'
 ```
 
-`require 'csv'` is going to look for a `csv.rb` in the Ruby's `$LOAD_PATH` global variable which by default contains the Ruby standard library. There are other file extensions it might look for, but this is not important at this point—just remember that the `require`s look for some extensions like `.rb` without the need to declare them explicitly. In addition to that, if it doesn't find that file in `$LOAD_PATH` it is going to look through installed gems (more on those later) to see if the file is there.
+`require 'csv'` is going to look for a `csv.rb` in the Ruby's `$LOAD_PATH` global variable, which by default contains the Ruby standard library. There are other file extensions it might look for, but this is not important at this point—just remember that the `require`s look for some extensions like `.rb` without the need to declare them explicitly. In addition to that, if it doesn't find that file in `$LOAD_PATH`, it is going to look through installed gems (more on those later) to see if the file is there.
 
-Both of those approaches (`require` and `require_relative`) are going to execute the file, allowing you to use their contents. If you try to require something for the second time, nothing will happen, and the requires will return `false`.
+Both of those approaches (`require` and `require_relative`) are going to execute the file, allowing you to use their contents. If you try to require something for the second time, nothing will happen and those `require`s will return `false`.
 
-Convention is that `require_relative` is used for your own code, while `require` is used for things outside of it, like gems that your app depend on.
+The convention is that `require_relative` is used for your own code while `require` is used for things outside of it, like gems that your app depend on.
 
-Benefit of this approach is that you don't need to hold all the code for part of your app in one file:
+The benefit of this approach is that you don't need to hold all the code for part of your app in one file. Say this is your file structure:
 
 ```text
 ├── lib
@@ -193,8 +187,9 @@ So instead of defining both the `Flight` and `Hotel` classes inside `airport.rb`
 
 Another thing to keep in mind is that local variables do not get loaded, so if your `airport.rb` had a local variable `coolest_airports`, trying to access it in `main.rb` would raise an error. Constants do get loaded however, so you can access those.
 
-```ruby
-# all files are in the same directory for simplicity's sake
+#### Namespaces
+
+Something important to keep in mind is that all required code is put into the same namespace. This means that if you have the same names for methods, modules, classes and so on they will be added together in the order they were required. For example, let's say you and your friend have used the same method name and you're trying to use their code and yours (for simplicity's sake, let's say all files are in the same directory):
 
 ```ruby
 # not_so_green.rb
@@ -219,7 +214,7 @@ puts food_opinion('Cereal')
 #=> Cereal is awful!
 ```
 
-Since food_opinion is defined twice, the last definition wins out. To make sure code doesn't get overwritten, Rubyists wrap their code in modules which give them the benefits of a namespace:
+Since `food_opinion` is defined twice, the last definition wins out. To make sure code doesn't get overwritten, Rubyists wrap their code in modules which give them the benefits of a namespace:
 
 ```ruby
 # not_so_green.rb
@@ -276,7 +271,7 @@ puts "I'm blue da ba dee da ba di!".colorize(:blue)
 puts "It ain't easy bein' green...".colorize(:green)
 ```
 
-You're probably itching to see all those colours, so run your file with `ruby main.rb` to see them... or rather, a LoadError. Right—you need to <span id="install-gem">install that gem first!</span> Do that with `gem install colorize` and you'll see RubyGems in action. Your system now has access to the `Colorize` gem!
+You're probably itching to see all those colours, so run your file with `ruby main.rb` to see them... or rather, a `LoadError`. Right—you need to <span id="install-gem">install that gem first!</span> Do that with `gem install colorize` and you'll see RubyGems in action. Your system now has access to the `Colorize` gem!
 
 Wait, *your system*—what about others who would like to use your code? Yeah, they would also need to `gem install` it—no big deal.
 
@@ -329,13 +324,13 @@ BUNDLED WITH
 
 The `"~> 1.1"` is a version constraint, particularly a pessimistic constraint. It relies on semantic versioning.
 
-- The first number is the **major** version
-- The second is the **minor** version
-- the third, if it exists, is the **patch** number
+1. The first number is the **major** version.
+1. The second is the **minor** version.
+1. The third, if it exists, is the **patch** number.
 
 Major versions can break things from previous versions—for example, changing method names. Minor versions can add and change things but can't break anything. Patches happen when you introduce bug fixes that don't break anything.
 
-So, if people behind a gem maintain it in line with semantic versioning, you can rely on this pessimistic constraint never letting your project have a gem version that could potentially break your app—it is equivalent to `gem "colorize", ">= 1.1", "<2.0"`.
+So, if people behind a gem maintain it in line with semantic versioning, you can rely on this pessimistic constraint never letting your project have a gem version that could potentially break your app—it is equivalent to `gem "colorize", ">= 1.1", "< 2.0"`.
 
 `Gemfile.lock` has information on what was the last environment that should be able to run your app. Bundler will use it to install the same versions of gems even if `Gemfile` could potentially allow for newer versions to be installed.
 
@@ -369,7 +364,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [Why would you split your code across multiple files?](#confusion-convention-convenience)
 - [How can you make code from different files available?](#making-use-of-multiple-files)
-- [Why would you wrap your code in a module?](#namespace)
+- [Why would you wrap your code in a module?](#namespaces)
 - [What are gems?](#gems-and-you)
 - [How do you install gems?](#install-gem)
 - [What is Bundler used for?](#bundler)
