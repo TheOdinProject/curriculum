@@ -21,7 +21,6 @@ Since this is the first JavaScript project being built from scratch, it's import
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-   
 <div class="lesson-note" markdown="1">
 
 #### Focus on the task at hand
