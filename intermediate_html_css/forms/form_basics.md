@@ -96,15 +96,17 @@ We do this by adding a `name` attribute to our inputs:
 
 The `name` attribute serves as a reference to the data inputted into a form control after submitting it. You can think of it as a variable name for the input. Form input should always have a `name` attribute; otherwise, it will be ignored when the form is submitted.
 
-To get a better understanding of what this looks like we can submit a form to [httpbin](http://httpbin.org/). This service will send back a response which will let us view what data was submitted. Fill in the form below and click submit:
+To get a better understanding of what this looks like we can submit a form to [httpbun](http://httpbun.com/). This service will send back a response which will let us view what data was submitted. Fill in the form below and click submit:
 
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="dyVRMbq" data-preview="true" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-pen-title="form-basics-name-attribute" data-default-tab="html,result" data-slug-hash="gbgNpJz" data-user="suhail256" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/dyVRMbq">
-  form-basics-name-attribute</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  <span>See the Pen <a href="https://codepen.io/suhail256/pen/gbgNpJz">
+  form-basics-name-attribute</a> by suhail (<a href="https://codepen.io/suhail256">@suhail256</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
+
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
