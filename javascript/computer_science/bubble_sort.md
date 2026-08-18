@@ -13,7 +13,7 @@ For example, given:
 5 < 8  → no swap
 8 > 4  → swap → [3, 5, 4, 8, 2]
 8 > 2  → swap → [3, 5, 4, 2, 8]
-
+```
 After the first pass, the largest value (8) is in its correct position at the end.
 
 The algorithm then repeats the process on the remaining unsorted portion of the array until the entire array is sorted.
