@@ -28,12 +28,14 @@ Follow along [Robin Wieruch's guide on setting up Vitest with RTL](https://www.r
 #### Vitest globals and ESLint
 
 Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `eslint.config.js` file, change the globals property of [languageOptions](https://eslint.org/docs/latest/use/configure/language-options#predefined-global-variables) in `eslint.config.js` like this:
-```js
+
+```javascript
   languageOptions: {
       globals: { ...globals.browser, ...globals.vitest },
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
 ```
+
 You can also explicitly import the globals you'd need instead and omit `globals: true` from `vite.config.js` in that case.
 
 </div>
