@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 Let's have a look at some more ways we can access different elements *without* referring to their classes. Here are three new selectors to do just that.
 
 - `>` - the child combinator
-- `+` - the adjacent sibling combinator
+- `+` - the Next-sibling combinator
 - `~` - the general sibling combinator
 
 We'll tackle some practical examples using this sample markup.
@@ -63,7 +63,7 @@ main > div > div {
 }
 ```
 
-Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacent (immediately following) to our target, or on the same level of indentation, we can use the adjacent sibling combinator `+`.
+Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacent (immediately following) to our target, or on the same level of indentation, we can use the Next-sibling combinator `+`.
 
 ```css
 /* Only the div with the classes "child group2" will get selected by this */
