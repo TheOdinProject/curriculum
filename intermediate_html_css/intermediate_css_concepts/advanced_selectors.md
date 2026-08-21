@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 Let's have a look at some more ways we can access different elements *without* referring to their classes. Here are three new selectors to do just that.
 
 - `>` - the child combinator
-- `+` - the Next-sibling combinator
+- `+` - the next-sibling combinator
 - `~` - the general sibling combinator
 
 We'll tackle some practical examples using this sample markup.
