@@ -63,7 +63,7 @@ main > div > div {
 }
 ```
 
-Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacent (immediately following) to our target, or on the same level of indentation, we can use the Next-sibling combinator `+`.
+Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is next to (immediately following) our target, or on the same level of indentation, we can use the next-sibling combinator `+`.
 
 ```css
 /* Only the div with the classes "child group2" will get selected by this */
