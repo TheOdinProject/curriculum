@@ -87,7 +87,7 @@ If we had defined multiple routes, Express would pass the request through the fi
 
 Express takes the callback function we gave it and passes the request object into the first parameter (conventionally named `req`), and a [response object](https://expressjs.com/en/5x/api/response) into the second parameter (`res`). Our callback tells the response object to respond to the request by sending (via `res.send`) the string `"Hello, world!"`.
 
-There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request-response cycle. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in our response. We could even [tell Express to send a file](https://expressjs.com/en/5x/api/response/#ressendfilepath--options--fn).
+There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request-response cycle. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in our response. We could even [tell Express to send a file](https://expressjs.com/en/5x/api/response/#ressendfile).
 
 ### Auto-restarting your server upon file changes
 
@@ -110,5 +110,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is Express?](https://expressjs.com/)
 - [What happens when a server receives a request?](#a-requests-journey)
-- [What can we use to tell Express to send a file in response to a request?](https://expressjs.com/en/5x/api/response/#ressendfilepath--options--fn)
+- [What can we use to tell Express to send a file in response to a request?](https://expressjs.com/en/5x/api/response/#ressendfile)
 - [What can you use to automatically restart your server when you make changes to a file?](#auto-restarting-your-server-upon-file-changes)

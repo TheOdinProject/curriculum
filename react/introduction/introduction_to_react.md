@@ -44,7 +44,7 @@ To name a few reasons to learn React:
 
 1. Read this [FreeCodeCamp article discussing the differences between a JavaScript library and a framework](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/).
 
-1. Lastly, skim this article which explains the [main advantages of using React](https://www.geeksforgeeks.org/what-are-the-advantages-of-react-js/).
+1. Lastly, skim this article which explains the [main advantages of using React](https://www.geeksforgeeks.org/reactjs/what-are-the-advantages-of-react-js/).
 
 </div>
 

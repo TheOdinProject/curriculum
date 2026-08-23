@@ -59,7 +59,7 @@ Recall [template repositories](https://www.theodinproject.com/lessons/node-path-
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read this article that goes more into [the value of linters and how they work](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe).
+1. Read this article that goes more into [the value of linters and how they work](https://blog.codacy.com/what-is-a-linter).
 1. Watch this [short intro to Prettier](https://www.youtube.com/watch?v=hkfBvpEfWdA) by its creator.
 1. Go to [Prettier's online playground](https://prettier.io/playground) and give it a test drive. Go ahead and copy/paste some of your old JavaScript code into that editor and see what happens.
 

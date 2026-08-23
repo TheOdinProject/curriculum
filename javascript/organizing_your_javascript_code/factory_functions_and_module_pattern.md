@@ -264,7 +264,7 @@ In this case, we did not need control of the `reputation` variable itself. To av
 
 #### Constructors and closure
 
-Note that you could technically also use closure in constructors, by defining the methods to access a "private property" inside the constructor, instead of on the prototype. But that would make them non-inheritable, which defies the purpose of constructors.
+Note that you could technically also use closure in constructors, by defining the methods to access a "private property" inside the constructor, instead of on the prototype. But that would make them non-inheritable, which defeats the purpose of constructors.
 
 </div>
 

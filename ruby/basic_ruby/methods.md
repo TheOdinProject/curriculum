@@ -302,7 +302,7 @@ Writing `whisper.downcase!` is the equivalent of writing `whisper = whisper.down
 <div class="lesson-content__panel" markdown="1">
 
 1. For a good introduction to all the different concepts related to methods, read the [Methods chapter](https://launchschool.com/books/ruby/read/methods) from Launch School's *Introduction to Programming with Ruby*. Make sure to do the exercises at the end of the chapter too!
-1. To get a different take, read the part of the Objects section that discusses [Methods](http://ruby-for-beginners.rubymonstas.org/objects/methods.html) from Ruby Monsta's *Ruby for Beginners*.
+1. To learn about advanced types of method arguments, read the [Ruby's Method Arguments](https://www.rubyguides.com/2018/06/rubys-method-arguments/) article from *Ruby Guides*.
 1. For more depth on how you can write your own methods, read the section on [Writing Methods](http://ruby-for-beginners.rubymonstas.org/writing_methods.html) from Ruby Monsta's *Ruby for Beginners*.
 1. Complete the method exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
@@ -324,11 +324,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are some of Ruby's reserved words?](#reserved-words)
 - [What do you call a method that returns `true` or `false`? What is their naming convention?](#predicate-methods)
 - [What do bang methods do? What is their naming convention?](#bang-methods)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Check out the [Ruby's Method Arguments](https://www.rubyguides.com/2018/06/rubys-method-arguments/) article from Ruby Guides to learn about advanced types of method arguments such as variable, keyword and optional.
-- For a deeper look at methods, read the [Methods chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards Book of Ruby. Try to complete the exercises throughout the chapter.
-- Read this explanation on Stack Overflow about the [subtle differences between methods and functions, and how they can differ between programming languages](https://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).

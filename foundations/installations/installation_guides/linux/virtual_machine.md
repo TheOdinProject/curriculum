@@ -16,7 +16,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.1: Download VirtualBox
 
-[Download VirtualBox for Windows hosts](https://www.virtualbox.org/wiki/Downloads).
+[Download VirtualBox for Windows hosts version 7.2.4 (last known working version)](https://download.virtualbox.org/virtualbox/7.2.4/VirtualBox-7.2.4-170995-Win.exe).
 
 #### Step 1.2: Download Xubuntu
 
@@ -302,6 +302,7 @@ Here are some tips to help you get started in a virtual environment:
   - Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
   - If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
   - Do look out for the ![Icon with a green turtle and a V](../../installations/imgs/17_turtle.png) icon in the bottom right of your VM window. This signifies that something called Hyper-V is turned on. A thread on the VirtualBox forums describes [how to turn off Hyper-V completely](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the icon of a chip with a V ![Icon of a chip with a V](../../installations/imgs/18_vboxV.png) icon instead. If you don't see either of these icons in the bottom right, you have to exit full screen mode to see them. *Yes, the turtle is present in all of the helpful screenshots above.*
+  - Prior WSL2 installation on your machine will rely on Hyper-V, so even disabling Hyper-V by itself will not affect your VM's performance. We recommend that you turn off WSL2 completely (if you had it installed) before running your VM while ensuring that Hyper-V is disabled. [ninjaOne's article on enabling and disabling WSL2 in Windows 10](https://www.ninjaone.com/blog/enable-or-disable-windows-subsystem-for-linux-wsl/) will help you find where to complete this operation.
   - If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
 - If your scroll wheel behaves oddly in Google Chrome and/or in other applications and you have gone through VM performance tips to make sure your VM is working as intended, look into [whether your version of Guest Additions is correct](https://discord.com/channels/505093832157691914/690588860085960734/1195697147123867668).
 
