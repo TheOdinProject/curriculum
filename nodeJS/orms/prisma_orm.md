@@ -140,7 +140,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go through the [Quickstart with Prisma ORM and PostgreSQL](https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/postgresql), which covers migrations, schema, and the Prisma client.
+1. Go through the [Quickstart with Prisma v7 ORM and PostgreSQL](https://www.prisma.io/docs/v7/prisma-orm/quickstart/postgresql), which covers migrations, schema, and the Prisma client.
 
    <div class="lesson-note" markdown="1">
 
