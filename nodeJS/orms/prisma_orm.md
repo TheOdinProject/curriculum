@@ -158,7 +158,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    npx tsc --init
    ```
 
-    **Step 2:** You do not need to install `@types/pg`. If you get a warning about "install scripts not yet covered by allowScripts", you can safely ignore this as Prisma will perform the necessary actions in a later step anyway.
+   **Step 2:** You do not need to install `@types/pg`. If you get a warning about "install scripts not yet covered by allowScripts", you can safely ignore this as Prisma will perform the necessary actions in a later step anyway.
 
    **Step 3:** We're not using Typescript, so we will completely skip this step.
 
