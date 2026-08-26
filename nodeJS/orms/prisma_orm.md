@@ -186,13 +186,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
    To run the script, run `node script.js`.
 
-   **Step 9:** Since we changed the file extension of prisma config, we should modify the command to be:
-
-   ```bash
-   npx prisma studio --config ./prisma.config.js
-   ```
-
-   </div>
+   **Step 9:** No changes necessary.
 
 1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practicing *a lot* of Prisma in the coming projects.
    - [What is Prisma ORM?](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma)
