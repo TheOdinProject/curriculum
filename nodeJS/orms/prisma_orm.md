@@ -158,15 +158,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    npx tsc --init
    ```
 
-   **Step 2:** You do not need to install `@types/pg`.
-
-   <div class="lesson-note lesson-note--warning" markdown="1">
-
-   #### Prisma installation warning
-
-   When installing Prisma, you might get an error informing you that "2 packages have install scripts not yet covered by allowScripts". You can safely ignore this. Prisma has a fallback behavior, and will perform the necessary actions again when you first run `migrate` or `generate` commands.
-
-   </div>
+    **Step 2:** You do not need to install `@types/pg`. If you get a warning about "install scripts not yet covered by allowScripts", you can safely ignore this as Prisma will perform the necessary actions in a later step anyway.
 
    **Step 3:** We're not using Typescript, so we will completely skip this step.
 
