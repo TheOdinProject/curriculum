@@ -160,6 +160,14 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
    **Step 2:** You do not need to install `@types/pg`.
 
+   <div class="lesson-note lesson-note--warning" markdown="1">
+
+   #### Prisma installation warning
+
+   When installing Prisma, you might get an error informing you that "2 packages have install scripts not yet covered by allowScripts". You can safely ignore this. Prisma has a fallback behavior, and will download necessary files when you first run `migrate` or `generate` commands.
+
+   </div>
+
    **Step 3:** We're not using Typescript, so we will completely skip this step.
 
    **Step 4:** We want to be using the `prisma-client-js` generator instead of the default, so add `--generator-provider prisma-client-js` to the Prisma init command. We also don't want any AI features being installed from the Prisma Skills catalog by default, so add `--no-skills` to opt out:
