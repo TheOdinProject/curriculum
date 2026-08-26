@@ -168,7 +168,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    npx prisma init --datasource-provider postgresql --output ../generated/prisma --generator-provider prisma-client-js --no-skills
    ```
 
-   We will also rename `prisma.config.ts` to `prisma.config.js`.
+   We will also rename `prisma7.config.ts` to `prisma7.config.js`.
 
    **Steps 5 and 6:** No changes necessary.
 
