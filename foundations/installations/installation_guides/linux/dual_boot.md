@@ -1,6 +1,8 @@
 ### Guide: Dual-boot Ubuntu and Windows
 
-Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
+Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. There are many Ubuntu flavors out there and while our curriculum supports official flavors of Ubuntu, this guide will focus on installing the official Ubuntu Desktop running on GNOME. If you would like to install a different flavor, instructions this guide will still work. Just pay close attention to the installer's instructions on your flavor.
+
+Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
 
 ### Step 0: BitLocker
 
@@ -8,19 +10,17 @@ If you have Windows Pro (or any of the editions listed on [the official Microsof
 
 There are a few ways to resolve this dilemma but we're going to go with the most simple one: temporarily disabling BitLocker.
 
-This [Dual Booting Ubuntu With Windows 10 Pro With BitLocker Encryption guide from It's FOSS](https://itsfoss.com/dual-boot-ubuntu-windows-bitlocker/) will get you moving in the right direction, particularly steps 2, 3, and 8. Step 1 is regarding making backups, which everyone should do on the regular. The remaining steps are regarding installing Ubuntu, which are already provided in this lesson above. These instructions are relevant for Windows 10 and 11.
+[Ubuntu's official guide for turning off BitLocker in Windows](https://ubuntu.com/desktop/docs/en/latest/how-to/turn-off-bitlocker-in-windows/#turn-off-bitlocker-in-windows) will provide you with instructions on how to disable BitLocker on both Windows 11 and prior Windows releases.
 
 If you're going to install Ubuntu on a separate drive/partition that does not have BitLocker enabled then you should have no issues dual booting and will not need to disable BitLocker.
 
 ### Step 1: Download Ubuntu
 
-First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/24.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/24.04/). Be sure to download the 64-bit version of Ubuntu or Xubuntu. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the Long-Term Support (LTS) version 24.04 (Noble Numbat). You may be tempted to choose a more recent release if one exists, but this version is tried and tested by the Odin Project community and therefore the most reliable option for the purposes of this curriculum.
+First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/24.04/). Be sure to download the 64-bit version of Ubuntu. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the Long-Term Support (LTS) version 24.04 (Noble Numbat). You may be tempted to choose a more recent release if one exists, but this version is tried and tested by the Odin Project community and therefore the most reliable option for the purposes of this curriculum.
 
 ### Step 2: Create a bootable flash drive
 
-Next, follow the guide on [how to create an Ubuntu Live USB in Windows](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
-
-Note: You can use this method to try out [different flavors of Ubuntu](https://www.ubuntu.com/download/flavours) if you'd like. These images allow you to try out different flavors without committing to an installation. Be aware that running the OS from a flash drive will cause the OS to be slow and can decrease the life of your flash drive.
+Next, follow [step 3 from the official Install Ubuntu Desktop guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#3-create-a-bootable-usb-stick) to create a bootable flash drive so that you can install Ubuntu on your hard drive. You will need a USB stick with at least 12GB or above available. Be sure to back up any data that you have on this USB stick because this step involves erasing all data available on this stick.
 
 ### Step 3: Install Ubuntu
 
@@ -36,11 +36,13 @@ For example, on a Dell computer, you would need to plug in the flash drive, rebo
 
 #### Step 3.2: Install Ubuntu
 
-If you would like to test out the version of Ubuntu on the flash drive, click 'Try me'. When you have found a flavor of Ubuntu you like, click 'Install' and continue to the next step.
+Once you're in, you'll be greeted by Ubuntu's installer to select your language, accessibility settings, keyboard layout and wifi connection.
 
-Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can).
+If you would like to test out Ubuntu on the flash drive, click on **Try Ubuntu**. Once you're ready to install, double click on the **Install Ubuntu 24.04 LTS** icon on your home page
 
-For step-by-step instructions, please follow [how to install Ubuntu and dual boot alongside Windows](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73). These instructions are for 22.04 and Windows 10, but they will get you through the process until we get dedicated dual booting instructions in place.
+Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **Install Ubuntu alongside Windows** and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can).
+
+For step-by-step instructions, please follow [step 6 from the official Install Ubuntu Desktop guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#6-type-of-installation).
 
 ### Intel RST (Rapid Storage Technology)
 
