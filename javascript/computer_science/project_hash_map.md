@@ -20,7 +20,7 @@ if (index < 0 || index >= buckets.length) {
 
 Start by creating a `HashMap` class or factory function. It's up to you which you want to use. It should have at least two variables for `load factor` and `capacity`. For a `load factor` of `0.75` you should have an initial `capacity` of size `16`. Then proceed to create the following methods:
 
-1. `hash(key)` takes a key and produces a hash code with it. We already implemented a fairly good `hash` function in the previous lesson. As a reminder:
+1. `hash(key)` takes a string key and produces a hash code with it (in the real world, hash maps can accommodate various data types as keys, such as numbers or even other objects, but we'll keep it simple for now). We already implemented a fairly good `hash` function in the previous lesson. As a reminder:
 
    ```javascript
    function hash(key) {
@@ -35,21 +35,9 @@ Start by creating a `HashMap` class or factory function. It's up to you which yo
    } 
    ```
 
-   You are free to use that, or you can conduct your own research on hashing algorithms. Beware, this is a deep, deep rabbit hole.
-
-   However, there is one edge case our `hash` function still needs to address. For very long keys, our hash code will exceed the maximum integer value allowed by JavaScript. Once that happens, calculations become inaccurate, and the chance of collisions significantly increases. One way to avoid this issue is to apply the modulo `%` operator on *each iteration* instead of outside the loop at the end.
-
-   You may remember from the [previous lesson](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#growth-of-a-hash-map) that we used modulo % operator at the end of the hash function to fit the final hash into the bucket array. This approach still works for sizing, but placing modulo % operator inside the loop helps avoid integer overflow for long keys while still keeping the result within bucket range.
+   You are free to use that, or you can conduct your own research on hashing algorithms. Beware, this is a deep, deep rabbit hole. Remember that to ensure we get an index that fits in our buckets (regardless of growth), we need to modulo (`%`) the hash code by our current capacity before we return it. An important edge case to note is that with very long keys, we may end up exceeding the [maximum safe integer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER) and calculations end up inaccurate. Therefore, it'd be sensible to modulo the hash code by the current capacity on every iteration in the loop, rather than only once after the loop has completed.
 
    You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us *only* inside the `hash` function, as we never access a bucket directly with the key. Instead, we always do so with the hash code.
-
-   <div class="lesson-note lesson-note--tip" markdown="1">
-
-   #### Limiting key types to strings
-
-   In the real world, hash maps can accommodate various data types as keys, including numbers, strings, or objects. However, for this project, we will only handle keys of type `string`.
-
-   </div>
 
 1. `set(key, value)` takes two arguments: the first is a key, and the second is a value that is assigned to this key. If a key already exists, then the old value is overwritten, and we can say that we *update* the key's value (e.g. `Carlos` is our key but it is called twice: once with value `I am the old value.`, and once with value `I am the new value.`. Following this logic, `Carlos` should contain only the latter value).
 

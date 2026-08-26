@@ -29,7 +29,7 @@ DATABASE_URL=postgresql://<user>:<password>@localhost:5432/inventory_application
 TEST_DATABASE_URL=postgresql://<user>:<password>@localhost:5432/test_inventory_application
 ```
 
-Next, setup appropriate npm scripts in your `package.json` file:
+Next, set up appropriate npm scripts in your `package.json` file:
 
 ```json
 {
