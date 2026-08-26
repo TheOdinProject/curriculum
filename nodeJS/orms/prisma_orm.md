@@ -164,7 +164,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
    #### Prisma installation warning
 
-   When installing Prisma, you might get an error informing you that "2 packages have install scripts not yet covered by allowScripts". You can safely ignore this. Prisma has a fallback behavior, and will download necessary files when you first run `migrate` or `generate` commands.
+   When installing Prisma, you might get an error informing you that "2 packages have install scripts not yet covered by allowScripts". You can safely ignore this. Prisma has a fallback behavior, and will perform the necessary actions again when you first run `migrate` or `generate` commands.
 
    </div>
 
