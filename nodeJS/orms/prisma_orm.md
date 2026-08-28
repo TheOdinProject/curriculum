@@ -195,7 +195,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    - [Relations](https://docs.prisma.io/docs/orm/v7/prisma-schema/data-model/relations)
    - [Prisma client CRUD](https://docs.prisma.io/docs/orm/v7/prisma-client/queries/crud)
    - [Raw SQL](https://docs.prisma.io/docs/orm/v7/prisma-client/using-raw-sql)
-   - [Prisma migrate getting started](https://www.prisma.io/docs/orm/prisma-migrate/getting-started)
+   - [Prisma migrate getting started](https://docs.prisma.io/docs/orm/v7/prisma-migrate/getting-started)
    - [Prisma migrate mental model](https://www.prisma.io/docs/orm/prisma-migrate/understanding-prisma-migrate/mental-model)
    - [Data migrations](https://www.prisma.io/docs/guides/data-migration)
 
