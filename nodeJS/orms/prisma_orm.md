@@ -211,7 +211,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How does Prisma client know about the models in your schema?](#prisma-client)
 - [What is Prisma migrate?](#prisma-migrate)
 - [How do you define a relation in Prisma schema?](https://www.prisma.io/docs/orm/v7/prisma-schema/data-model/relations)
-- [How can you get all records from a table using Prisma client?](https://www.prisma.io/docs/orm/prisma-client/queries/crud#get-all-records)
+- [How can you get all records from a table using Prisma client?](https://www.prisma.io/docs/orm/v7/prisma-client/queries/crud#get-all-records)
 
 ### Additional resources
 
