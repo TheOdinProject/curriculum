@@ -191,7 +191,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practicing *a lot* of Prisma in the coming projects.
    - [What is Prisma ORM?](https://www.prisma.io/docs/orm/v7)
    - [Prisma schema overview](https://docs.prisma.io/docs/orm/v7/prisma-schema/overview)
-   - [Data models](https://www.prisma.io/docs/orm/prisma-schema/data-model/models)
+   - [Data models](https://docs.prisma.io/docs/orm/v7/prisma-schema/data-model/models)
    - [Relations](https://www.prisma.io/docs/orm/prisma-schema/data-model/relations)
    - [Prisma client CRUD](https://www.prisma.io/docs/orm/prisma-client/queries/crud)
    - [Raw SQL](https://www.prisma.io/docs/orm/prisma-client/using-raw-sql/typedsql)
