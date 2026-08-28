@@ -189,7 +189,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    **Step 9:** No changes necessary.
 
 1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practicing *a lot* of Prisma in the coming projects.
-   - [What is Prisma ORM?](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma)
+   - [What is Prisma ORM?](https://www.prisma.io/docs/orm/v7)
    - [Prisma schema overview](https://www.prisma.io/docs/orm/prisma-schema/overview)
    - [Data models](https://www.prisma.io/docs/orm/prisma-schema/data-model/models)
    - [Relations](https://www.prisma.io/docs/orm/prisma-schema/data-model/relations)
