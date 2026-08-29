@@ -162,5 +162,5 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How can you amend your last commit?](#changing-the-last-commit)
 - [What is the difference between git reset, git reset --soft, and git reset --hard?](#splitting-up-a-commit)
 - [How would you squash two commits into one using git rebase -i?](#splitting-up-a-commit)
-- [How can you split a commit into two smaller commits?]()
+- [How can you split a commit into two smaller commits?](#splitting-up-a-commit)
 - [What does it mean for branches to be pointers?](#branches-are-pointers)
