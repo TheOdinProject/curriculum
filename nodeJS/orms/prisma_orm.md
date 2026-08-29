@@ -189,14 +189,14 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    **Step 9:** No changes necessary.
 
 1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practicing *a lot* of Prisma in the coming projects.
-   - [What is Prisma ORM?](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma)
-   - [Prisma schema overview](https://www.prisma.io/docs/orm/prisma-schema/overview)
-   - [Data models](https://www.prisma.io/docs/orm/prisma-schema/data-model/models)
-   - [Relations](https://www.prisma.io/docs/orm/prisma-schema/data-model/relations)
-   - [Prisma client CRUD](https://www.prisma.io/docs/orm/prisma-client/queries/crud)
-   - [Raw SQL](https://www.prisma.io/docs/orm/prisma-client/using-raw-sql/typedsql)
-   - [Prisma migrate getting started](https://www.prisma.io/docs/orm/prisma-migrate/getting-started)
-   - [Prisma migrate mental model](https://www.prisma.io/docs/orm/prisma-migrate/understanding-prisma-migrate/mental-model)
+   - [What is Prisma ORM?](https://www.prisma.io/docs/orm/v7)
+   - [Prisma schema overview](https://www.prisma.io/docs/orm/v7/prisma-schema/overview)
+   - [Data models](https://www.prisma.io/docs/orm/v7/prisma-schema/data-model/models)
+   - [Relations](https://www.prisma.io/docs/orm/v7/prisma-schema/data-model/relations)
+   - [Prisma client CRUD](https://www.prisma.io/docs/orm/v7/prisma-client/queries/crud)
+   - [Raw SQL](https://www.prisma.io/docs/orm/v7/prisma-client/using-raw-sql)
+   - [Prisma migrate getting started](https://www.prisma.io/docs/orm/v7/prisma-migrate/getting-started)
+   - [Prisma migrate mental model](https://www.prisma.io/docs/orm/v7/prisma-migrate/understanding-prisma-migrate/mental-model)
    - [Data migrations](https://www.prisma.io/docs/guides/data-migration)
 
 </div>
@@ -210,8 +210,8 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the Prisma client?](#prisma-client)
 - [How does Prisma client know about the models in your schema?](#prisma-client)
 - [What is Prisma migrate?](#prisma-migrate)
-- [How do you define a relation in Prisma schema?](https://www.prisma.io/docs/orm/prisma-schema/data-model/relations)
-- [How can you get all records from a table using Prisma client?](https://www.prisma.io/docs/orm/prisma-client/queries/crud#get-all-records)
+- [How do you define a relation in Prisma schema?](https://www.prisma.io/docs/orm/v7/prisma-schema/data-model/relations)
+- [How can you get all records from a table using Prisma client?](https://www.prisma.io/docs/orm/v7/prisma-client/queries/crud#get-all-records)
 
 ### Additional resources
 
