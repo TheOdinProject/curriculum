@@ -160,5 +160,7 @@ In modern Git setups, the default branch is typically called `main` instead of `
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How can you amend your last commit?](#changing-the-last-commit)
-- [What are some different ways to rewrite history?](#changing-multiple-commits)
+- [What is the difference between git reset, git reset --soft, and git reset --hard?]()
+- [How would you squash two commits into one using git rebase -i?]()
+- [How can you split a commit into two smaller commits?]()
 - [What does it mean for branches to be pointers?](#branches-are-pointers)
