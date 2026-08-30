@@ -18,23 +18,23 @@ Even better, when you inevitably want to make large-scale changes or just fix so
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* What is SAAS?
-* What is Cloud Computing?
-* What does it mean to host your application in the cloud?
-* What primary factors have made cloud computing possible?
-* What are the advantages of hosting your app in the cloud versus deploying to your own server?
-* What are the disadvantages of cloud hosting vs self hosting?
+- What is SAAS?
+- What is Cloud Computing?
+- What does it mean to host your application in the cloud?
+- What primary factors have made cloud computing possible?
+- What are the advantages of hosting your app in the cloud versus deploying to your own server?
+- What are the disadvantages of cloud hosting vs self hosting?
 
 ### Assignment
 
 1. Check out this [explanation of cloud computing](http://mashable.com/2013/08/26/what-is-the-cloud/) from Mashable.
-2. (Optional) If you want another go at it, take a look at this [explanation of cloud computing](http://www.cnbc.com/id/43077233) from CNBC.
-3. Next, watch the [David Patterson's explanation of Cloud Computing](https://www.youtube.com/watch?v=IJCxqoh5ep4) from the Berkeley University.
-4. Read [The difference between SAAS and Cloud Computing](http://www.itworld.com/article/2758057/enterprise-software/back-to-basics--the-difference-between-saas-and-cloud-computing.html).
-5. See Additional Resources below if you've got lingering questions.
+1. (Optional) If you want another go at it, take a look at this [explanation of cloud computing](http://www.cnbc.com/id/43077233) from CNBC.
+1. Next, watch the [David Patterson's explanation of Cloud Computing](https://www.youtube.com/watch?v=IJCxqoh5ep4) from the Berkeley University.
+1. Read [The difference between SAAS and Cloud Computing](http://www.itworld.com/article/2758057/enterprise-software/back-to-basics--the-difference-between-saas-and-cloud-computing.html).
+1. See Additional Resources below if you've got lingering questions.
 
 ### Additional Resources
 
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* An [interesting perspective on SAAS](http://www.itworld.com/article/2780751/software-as-a-service/what-to-ask-before-saying-yes-to-saas--cloud-computing.html) from a few years ago (2008).
+- An [interesting perspective on SAAS](http://www.itworld.com/article/2780751/software-as-a-service/what-to-ask-before-saying-yes-to-saas--cloud-computing.html) from a few years ago (2008).

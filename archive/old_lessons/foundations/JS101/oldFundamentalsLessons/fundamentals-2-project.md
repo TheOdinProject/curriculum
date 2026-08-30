@@ -1,4 +1,4 @@
-It's time to write some code. Here we're going to introduce you to automated code testing and then give you a _lot_ of practice writing code that uses the skills you've been obtaining throughout the lessons.
+It's time to write some code. Here we're going to introduce you to automated code testing and then give you a *lot* of practice writing code that uses the skills you've been obtaining throughout the lessons.
 
 ## Test Driven Development
 
@@ -12,17 +12,14 @@ For the moment we are not going to teach you how to write these tests, because i
 
 1. JS test-first exercises \(roll our own\)
 
-   * We have a repo for these: [https://github.com/TheOdinProject/javascript-exercises](https://github.com/TheOdinProject/javascript-exercises "We have a repo for these").  There are instructions on downloading and running them there!
-   * Complete the following exercises:
+   - We have a repo for these: [https://github.com/TheOdinProject/javascript-exercises](https://github.com/TheOdinProject/javascript-exercises "We have a repo for these").  There are instructions on downloading and running them there!
+   - Complete the following exercises:
 
-     * helloWorld
-     * repeatString
-     * reverseString
-     * removeFromArray
-     * sumAll
-     * leapYears
+     - helloWorld
+     - repeatString
+     - reverseString
+     - removeFromArray
+     - sumAll
+     - leapYears
 
-     * tempConversion
-
-
-
+     - tempConversion

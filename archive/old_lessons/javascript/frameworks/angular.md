@@ -12,7 +12,7 @@ At the time of writing version 6 has just been released.
 
 ### Overview
 
-The first thing to know if you want to give Angular a try is that it's built with [Typescript](https://www.typescriptlang.org/), a superset of Javascript that gives you static typing, interfaces, classes, namespaces and many other features that Javascript doesn't natively support. All valid Javascript is valid Typescript so it's not a completely new language to learn but it does have some differences from traditional Javascript. If you want to learn Angular you should get familiar with Typescript.
+The first thing to know if you want to give Angular a try is that it's built with [Typescript](https://www.typescriptlang.org/), a superset of JavaScript that gives you static typing, interfaces, classes, namespaces and many other features that JavaScript doesn't natively support. All valid JavaScript is valid Typescript so it's not a completely new language to learn but it does have some differences from traditional JavaScript. If you want to learn Angular you should get familiar with Typescript.
 
 Some of the main benefits of using Angular are:
 
@@ -45,10 +45,12 @@ You will need node and npm installed. I personally prefer to use [nvm](https://g
 ### Assignment
 
 1. Follow along with the getting started guide on the [Angular Site](https://angular.io/guide/quickstart) and ensure you have your environment set up correctly
-2. Skim through this [Angular Fundamentals](https://angular.io/guide/architecture) guide on the architecture of an Angular app to get a high-level overview of how an app is put together
-3. Try this [Angular 8 Tutorial](https://coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course) to get an idea of the power of using a framework like Angular
+1. Skim through this [Angular Fundamentals](https://angular.io/guide/architecture) guide on the architecture of an Angular app to get a high-level overview of how an app is put together
+1. Try this [Angular 8 Tutorial](https://coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course) to get an idea of the power of using a framework like Angular
 
 ### Additional Resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Angular has their [own tutorial](https://angular.io/tutorial) you can try
 - [This blog](https://www.telerik.com/blogs/whats-new-in-angular-6) explains whats new in Angular 6

@@ -6,26 +6,28 @@ Forms are important to get right not just because you want the correct data gett
 
 ### Learning Outcomes
 
-* Why are forms probably the most important part of your site?
-* How do you construct a basic form?
-* How do you specify which path the form gets submitted to?
-* When would you want to submit using `GET` vs `POST` requests?
-* What are all the possible form element types?
-* When should you use checkboxes instead of radio buttons?
-* When should you use a combobox/dropdown instead of a text field?
-* How do you make a very large text field?
-* How do you link elements with their labels?
-* How do you link element selections together (e.g. check boxes) so they are nicely formatted when your server receives them?
-* What should your "submit" button probably say instead of "submit"?
+- Why are forms probably the most important part of your site?
+- How do you construct a basic form?
+- How do you specify which path the form gets submitted to?
+- When would you want to submit using `GET` vs `POST` requests?
+- What are all the possible form element types?
+- When should you use checkboxes instead of radio buttons?
+- When should you use a combobox/dropdown instead of a text field?
+- How do you make a very large text field?
+- How do you link elements with their labels?
+- How do you link element selections together (e.g. check boxes) so they are nicely formatted when your server receives them?
+- What should your "submit" button probably say instead of "submit"?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read [Shay Howe on Forms](http://learn.shayhowe.com/html-css/building-forms)
 2. Browse through [Form Basics from MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form) to see if you've missed anything.
+
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* [HTML Forms Docs](http://www.w3schools.com/html/html_forms.asp)
+- [HTML Forms Docs](http://www.w3schools.com/html/html_forms.asp)

@@ -6,7 +6,7 @@ React was created by Facebook in 2013 to help with creating user interfaces. It 
 
 React is used most in conjunction with the react router to create single-page web-applications that feel like multi-page websites. This can make websites feel very fast when a user does not have to wait for different pages to load. It can also reduce strain on the server by having the client render the requested web page for you.
 
-This framework's most defining feature is its components. React was developed to be modular, and have easy to use 'parts' that can be plugged into different parts of your application. React heavily uses a syntax called **JSX**, which is an html like syntax for JavaScript (This can be used without react, as it is just syntactic sugar over creating DOM elements manually using `document.createElement('div')`, for example). Anything written in react is simply javascript, and can be treated as such. React stays performant by utilizing what they call a virtual DOM. The framework utilizes this virtual DOM by comparing it with the real DOM to tell which elements need to be updated and which ones do not. This keeps react fast.
+This framework's most defining feature is its components. React was developed to be modular, and have easy to use 'parts' that can be plugged into different parts of your application. React heavily uses a syntax called **JSX**, which is an HTML like syntax for JavaScript (This can be used without react, as it is just syntactic sugar over creating DOM elements manually using `document.createElement('div')`, for example). Anything written in react is simply JavaScript, and can be treated as such. React stays performant by utilizing what they call a virtual DOM. The framework utilizes this virtual DOM by comparing it with the real DOM to tell which elements need to be updated and which ones do not. This keeps react fast.
 
 React is not only limited to the web. React Native can be used to develop cross-platform mobile applications with the same languages you are familiar within the web browser.
 
@@ -21,9 +21,11 @@ Facebook has made getting started with React really easy. They have developed a 
 ### Assignment
 
 1. [This tutorial](https://reactjs.org/tutorial/tutorial.html) directly from the React team, uses `create-react-app` to get you started. In general the official React docs are a great way to learn. They are clearly written and will stay up to date much more reliably than 3rd party tutorials.
-2. [This tutorial](https://scrimba.com/course/glearnreact/) is a deeper dive into react.
+1. [This tutorial](https://scrimba.com/course/glearnreact/) is a deeper dive into react.
 
 ### Additional Resources
 
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
 - [This course](https://www.udemy.com/react-the-complete-guide-incl-redux/?siteID=vedj0cWlu2Y-lLrWBTqwmP6ifgZP6OyP8A&LSNPUBID=vedj0cWlu2Y) is not free, but if you like video courses it's worth the discount price you can often get from udemy.
-- [An _extensive_ list of react resources.](https://github.com/enaqx/awesome-react)
+- [An *extensive* list of react resources.](https://github.com/enaqx/awesome-react)

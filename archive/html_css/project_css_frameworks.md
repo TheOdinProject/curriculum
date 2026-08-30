@@ -5,9 +5,11 @@ In this final project, you'll get to take everything you've learned and use it t
 Once you're done setting up your framework, you will use it to clone any website you like.  If you're out of ideas, try cloning The Odin Project!
 
 ### Assignment
+
 You'll be creating your own grid-based framework.
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) to set up a GitHub repository for this project (of course you'll need to change the title).
 2. Create a new CSS document.
 3. Think about the major elements that are required of a framework.  This includes a CSS reset, a fixed number of grids separated by "gutters", a way to make new rows, and default values for the font properties of elements.
@@ -17,15 +19,16 @@ You'll be creating your own grid-based framework.
 #### Applying the Framework
 
 1. Create a new HTML document and a new GitHub repository.
-2. Identify the webpage you'd like to clone and break it down into its major elements like we have in the previous projects.
-3. Add your framework to your project.
-4. Use your framework to lay out the structure of the page.
-5. Fill in the necessary details/images etc.
-6. Push your solution to GitHub.
-7. Have a frosty beverage, you're done with the HTML/CSS projects!
+1. Identify the webpage you'd like to clone and break it down into its major elements like we have in the previous projects.
+1. Add your framework to your project.
+1. Use your framework to lay out the structure of the page.
+1. Fill in the necessary details/images etc.
+1. Push your solution to GitHub.
+1. Have a frosty beverage, you're done with the HTML/CSS projects!
+
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* Add some!
+- Add some!

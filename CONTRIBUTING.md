@@ -76,7 +76,7 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 > - [MD053](https://github.com/DavidAnson/markdownlint/blob/main/doc/md053.md) link-image-reference-definitions
 > - [TOP002](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP002.md) no-code-in-headings
 > - [TOP003](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP003.md) default-section-content
-> - [TOP005](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md) blanks-around-multiline-html-tags
+> - [TOP005](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md) blanks-around-multiline-HTML-tags
 > - [TOP006](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP006.md) full-fenced-code-language
 > - [TOP007](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP007.md) use-markdown-links
 > - [TOP008](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP008.md) use-backticks-for-fenced-code-blocks
@@ -125,7 +125,7 @@ Only do this bit once the PR to add the image file(s) to the repository has been
 1. Right-click the commit ID where it was merged and select `copy link`.
 
    ![The commit ID is a random looking seven digit string that will appear like a message in the PR when your PR is merged.](https://cdn.statically.io/gh/wise-king-sullyman/curriculum/81577535181eae1bbaac066c37e304475af22855/images/Add-Images-Instructions/Click-Commit-ID.png)
-1. Go to https://wise-king-sullyman.github.io/better-statically-converter-react/
+1. Go to <https://wise-king-sullyman.github.io/better-statically-converter-react/>
 1. Paste the URL you copied into the text box on the main screen of that site, then hit Enter.
 1. The site will generate the statically CDN link to each image that was merged into the curriculum with that PR. You can click each link to auto-copy that link to your clipboard.
 1. Use each of these links to link to your desired images in the curriculum content you’re editing/adding.

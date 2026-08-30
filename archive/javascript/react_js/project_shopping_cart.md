@@ -6,6 +6,7 @@ This application should also have at least two routes to give you a chance to ma
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Create a new project with `create-react-app` and get rid of the boilerplate as in the previous projects.
 2. Think about the component and the folder structure. How could you set up your application? Which components or functionalities do you need?
 3. You should have at least two pages (a homepage and a shop page, which includes your shopping cart). Let a user navigate between the pages with a navigation bar, which will be shown on both routes.
@@ -16,4 +17,5 @@ This application should also have at least two routes to give you a chance to ma
 8. Make sure to test your app thoroughly using the React Testing Library. Take care that you don't directly test `react-router-dom`, since it is an external library and the developers working on it must have tested the library already.
 9. As usual, style your application so you can show it off!
 10. Lastly, push the project to GitHub! Follow [this link](https://create-react-app.dev/docs/deployment/#github-pages) for instructions on how to deploy React applications with client-side routing to Github Pages. Be aware that the page will stay blank, unless you add `import { HashRouter } from 'react-router-dom'` and utilize a `<HashRouter />` component in place of `<BrowserRouter />` as GitHub Pages doesn't support `<BrowserRouter />`. Alternatively, you can set up a redirect to `index.html`. For a more detailed description, read these parts of the React Router Docs on [client-side routing](https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing) and [deploying using gh-pages](https://create-react-app.dev/docs/deployment/#github-pages).
+
 </div>

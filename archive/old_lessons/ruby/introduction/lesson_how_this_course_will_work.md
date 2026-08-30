@@ -10,26 +10,25 @@ As you may gather, this is also where the real project work begins.  Some of the
 
 Ruby's a big language so it's been broken up into smaller chunks to make it more digestible.  The format should feel quite familiar to you since it's essentially the same as we used in the Foundations course.
 
-#### In each lesson:
+#### In each lesson
 
 1. We'll introduce the topic briefly and provide you with a list of things you should pay attention to.
 1. You'll be asked to do readings, watch videos, do online courses or otherwise consume content to initially learn the material.
-2. At the end of most lessons will be exercises to help you solidify your knowledge of the material.
-3. Every few lessons you will be asked to build a larger project.  These are best done with a friend.
-2. Finally, we'll include additional helpful resources and other potentially useful tidbits at the end of each lesson.
-
+1. At the end of most lessons will be exercises to help you solidify your knowledge of the material.
+1. Every few lessons you will be asked to build a larger project.  These are best done with a friend.
+1. Finally, we'll include additional helpful resources and other potentially useful tidbits at the end of each lesson.
 
 ### Two Paths Forward
 
 Everyone is coming into this with a different goal in mind, so to accommodate that, here's two options for your path forward:
 
 1. **If you're just trying to race ahead and put up some Rails sites as fast as possible** (and worry about learning the fundamentals later), then your best bet is to first complete the Basic Ruby section, which uses primarily Codecademy as a resource, and then skip to the Rails course.  Your knowledge won't be complete but you'll be in a pretty good spot to start from if you're in a hurry.
-2. **If you're really looking for a solid, sustainable base of knowledge**, just stick to the normal roadmap.  What we cover will give you a problem solving ability that you won't otherwise have.  The projects, especially the final one, are worthy feathers in your cap that you can show off to any employer.  We'll get you there and there really aren't any shortcuts in the long term.
+1. **If you're really looking for a solid, sustainable base of knowledge**, just stick to the normal roadmap.  What we cover will give you a problem solving ability that you won't otherwise have.  The projects, especially the final one, are worthy feathers in your cap that you can show off to any employer.  We'll get you there and there really aren't any shortcuts in the long term.
 
 ### Our Primary "Textbooks"
 
 1. [Codecademy.com](https://www.codecademy.com/catalog/language/ruby) has a lot of great introductory content to get you ramped into the Ruby language.  [Chris Pine's Learn to Program](http://pine.fm/LearnToProgram/) is also a good introduction. It overlaps with the Codecademy stuff a bit and will carry forward from there.
-2. Peter Cooper's [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) is a solid introduction to Ruby that covers pretty much the breadth of the language as you need to understand it. It's a bit outdated but Ruby hasn't changed a whole lot since then.  The goal of this project is to move BEYOND Codecademy and other simple, free resources and get you building stuff on your own.  This book will start covering some of the more intermediate/useful stuff that you'll need to know to do that.
+1. Peter Cooper's [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) is a solid introduction to Ruby that covers pretty much the breadth of the language as you need to understand it. It's a bit outdated but Ruby hasn't changed a whole lot since then.  The goal of this project is to move BEYOND Codecademy and other simple, free resources and get you building stuff on your own.  This book will start covering some of the more intermediate/useful stuff that you'll need to know to do that.
 
 ### The (Free) Backup "Textbooks"
 
@@ -37,6 +36,6 @@ Some things you just won't pick up right away or their coverage by main resource
 
 1. The best free online book: Dan Nguyen's [Bastard's Book of Ruby](http://ruby.bastardsbook.com/).  Basically, if you don't like the content we've roped together, this is your resource to shore up your understanding.
 1. Another free online book: Zed Shaw's [Learn Code the Hard Way](https://learnrubythehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.  The downside is that the flow feels a bit choppy and parts aren't fully complete.
-2. The other good book, available in the older edition online for free: [The "Pickaxe", or Programming Ruby 3rd Edition](https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0).  This, too, is a bit outdated.
+1. The other good book, available in the older edition online for free: [The "Pickaxe", or Programming Ruby 3rd Edition](https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0).  This, too, is a bit outdated.
 
 ### Okay, enough talk... Let's get started learning Ruby!

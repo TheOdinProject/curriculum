@@ -11,11 +11,13 @@ As an added bonus, you'll get a chance to touch a bit of AJAX when making it so 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. You've got a User model.  Write down how you would implement (and name) the associations necessary to make one user follow another.  You'll get a lot more out of the tutorial chapter if you think it through first.
   2. Do the [Ruby on Rails Tutorial Chapter 14](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/following_users), "Following users".
+
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* [Railscast on Many-to-Many Self-Referential Relationships (2010)](http://railscasts.com/episodes/163-self-referential-association?view=asciicast).  This is old but should be helpful to see the concept covered.
+- [Railscast on Many-to-Many Self-Referential Relationships (2010)](http://railscasts.com/episodes/163-self-referential-association?view=asciicast).  This is old but should be helpful to see the concept covered.

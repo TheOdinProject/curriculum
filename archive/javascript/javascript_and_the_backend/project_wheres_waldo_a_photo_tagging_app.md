@@ -12,11 +12,12 @@ To start with, you'll need to choose a photo and identify where exactly each per
 
 When the user selects one of these characters, you should check with your Backend to see if that character is actually within the targeting box. Provide the user with appropriate feedback (e.g. if wrong, an error message). If correct, place a marker on the photo in the character's location. In either case, remove the targeting box until the user clicks again.
 
-Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score). *Note: do this if you're using rails as your backend. Firebase users don't need to add a timer on the backend, instead add one on the front end.* Once a round is complete, ask the user for his/her name and record that time. This will get a bit tricky since you'll have anonymous users you need to keep track of! 
+Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score). *Note: do this if you're using rails as your backend. Firebase users don't need to add a timer on the backend, instead add one on the front end.* Once a round is complete, ask the user for his/her name and record that time. This will get a bit tricky since you'll have anonymous users you need to keep track of!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Set up a GitHub Repo for this project. Follow the instructions atop the [Recipes project](https://www.theodinproject.com/lessons/foundations-recipes) if you need help.
 2. Think about what you'll need to do to get this all working together. This is where it's really helpful to think it completely through on paper or whiteboard ahead of time! A few minutes of thought can save you from wasting an hour of coding.
 3. If you're using Rails as your backend: create a new Rails application with just the bare bones required to load your HTML page for now. If you'll be using Firebase, this is a good time to create a new Firebase project for this app, and link to the necessary scripts at the bottom of your HTML page.
@@ -26,8 +27,9 @@ Keep track of how long it takes between when the photo is first loaded and when 
 7. Add in the ability to time the user from when they first load the page and then display their "score" (time) when they successfully identify all characters. Create a popup that asks them to enter their name for the high scores table if they have earned it.
 8. Play with it!
 9. Push your solution to GitHub, Heroku, and/or Firebase Hosting and submit it below. This is a serious project, congratulations!
+
 </div>
 
-### Optional Extensions:
+### Optional Extensions
 
 1. Load many images into your database and allow the user to select from them before starting the game.

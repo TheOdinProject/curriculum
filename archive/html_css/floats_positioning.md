@@ -5,31 +5,33 @@ Pay particular attention to which element acts as the parent of the element you'
 
 ### Learning Outcomes
 
-* What is the DOM?
-* How do elements get placed in the DOM by default?
-* How can you override element positioning using the `position` attribute?
-* When are you able to use the `top` `left` `right` and `bottom` attributes?
-* What is the difference between `float` and `position`?
-* Which element acts as the parent for a floated element?
-* What is the difference between floating right and floating left?
-* If you have a bunch of elements floated next to each other and you make the browser narrower, what happens?
-* What's the practical difference between relative and absolute positioning?
-* Which element acts as the parent for an absolutely or relatively positioned element?
-* How would you set up a grid of 20x20 boxes on the page using floats?  Using lists?
-* What are negative margins useful for?
+- What is the DOM?
+- How do elements get placed in the DOM by default?
+- How can you override element positioning using the `position` attribute?
+- When are you able to use the `top` `left` `right` and `bottom` attributes?
+- What is the difference between `float` and `position`?
+- Which element acts as the parent for a floated element?
+- What is the difference between floating right and floating left?
+- If you have a bunch of elements floated next to each other and you make the browser narrower, what happens?
+- What's the practical difference between relative and absolute positioning?
+- Which element acts as the parent for an absolutely or relatively positioned element?
+- How would you set up a grid of 20x20 boxes on the page using floats?  Using lists?
+- What are negative margins useful for?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read [CSS Floats 101 from A List Apart](http://alistapart.com/article/css-floats-101)
 2. Read [CSS Positioning 101 from A List Apart](http://alistapart.com/article/css-positioning-101)
 3. Play around with the [Positioning Tutorial / Widget from BarelyFitz Designs](http://www.barelyfitz.com/screencast/html-training/css/positioning/) to see the differences between different positioning schemes.
+
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* [Video: Positioning Elements](https://www.youtube.com/watch?v=TiY5FuwgocI) - amazing video giving a general overview of the different CSS position values and how they work.
-* [Absolute Horizontal and Vertical Positioning in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/) is a great resource for when you begin worrying about the finer details of positioning elements.
-* [CSS Float docs](http://www.w3schools.com/css/css_float.asp)
-* [CSS Position docs](http://www.w3schools.com/css/css_positioning.asp)
+- [Video: Positioning Elements](https://www.youtube.com/watch?v=TiY5FuwgocI) - amazing video giving a general overview of the different CSS position values and how they work.
+- [Absolute Horizontal and Vertical Positioning in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/) is a great resource for when you begin worrying about the finer details of positioning elements.
+- [CSS Float docs](http://www.w3schools.com/css/css_float.asp)
+- [CSS Position docs](http://www.w3schools.com/css/css_positioning.asp)

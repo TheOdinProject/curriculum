@@ -4,9 +4,9 @@ FTP stands for File Transfer Protocol and is basically a way of transferring fil
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* What is FTP?
-* When is FTP used?
-* How is FTP used?
+- What is FTP?
+- When is FTP used?
+- How is FTP used?
 
 ### Assignment
 
@@ -14,7 +14,6 @@ FTP stands for File Transfer Protocol and is basically a way of transferring fil
 
 ### Additional Resources
 
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-
-* [Wiki article on FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol)
+- [Wiki article on FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol)

@@ -4,20 +4,24 @@ By this point you have probably heard about JavaScript frameworks such as React,
 
 ### What is a framework?
 
-Essentially a framework is some JS code that makes it faster and easier to write interactive web apps with reusable components. If you have completed odin assignments such as the restaurant page, the library, or the todo-list you will know that you spend a lot of time manipulating the DOM with code like `document.createElement` or `element.innerHTML`. Every time you wanted to change some data like marking a todo complete, or adding a book to your library you had run a function that updates your entire page just to keep your view in sync with the data.  This is a very verbose and error-prone way of doing things! 
+Essentially a framework is some JS code that makes it faster and easier to write interactive web apps with reusable components. If you have completed odin assignments such as the restaurant page, the library, or the todo-list you will know that you spend a lot of time manipulating the DOM with code like `document.createElement` or `element.innerHTML`. Every time you wanted to change some data like marking a todo complete, or adding a book to your library you had run a function that updates your entire page just to keep your view in sync with the data.  This is a very verbose and error-prone way of doing things!
 
 Frameworks are there to ease that pain! The frameworks will automatically and efficiently keep your UI in sync with the data in your app. All the tedious code you had to write manually is now abstracted away letting you focus on more productive things.
 
-The various frameworks (there _are_ a lot of them) tend to have a few things in common.  In general any given JS framework will have at least some sort of templating system that allows you to create reusable components (A templating system is nothing more than the ability to create bits of code that you can reuse). These components can be thought of as building-blocks that you use to build your project.  For example, you could have a `header` and a `footer` component that you re-use on all your pages, or you could have something like a `card` component that nicely wraps whatever you put inside of it with a `div` and a `box-shadow` or `border`.
+The various frameworks (there *are* a lot of them) tend to have a few things in common.  In general any given JS framework will have at least some sort of templating system that allows you to create reusable components (A templating system is nothing more than the ability to create bits of code that you can reuse). These components can be thought of as building-blocks that you use to build your project.  For example, you could have a `header` and a `footer` component that you re-use on all your pages, or you could have something like a `card` component that nicely wraps whatever you put inside of it with a `div` and a `box-shadow` or `border`.
 
 Imagine the power of being able to do something like this as many times as you like across your whole project to get a nice looking card:
 
-~~~
+```
+
 <my-card-component>
+
   <h1>Card title</h1>
   <p>Card Content</p>
+
 </my-card-component>
-~~~
+
+```
 
 The way that these components are created differs greatly between frameworks, but re-usuable components are the foundation of all frameworks.
 
@@ -27,7 +31,7 @@ Different frameworks will have various other tools built-in (or easily included 
 
 ### Which framework then?
 
-It's no secret that there are a _ton_ of Front-end frameworks in the world... so selecting one to learn is a daunting process.  Here's an incomplete and unordered list of JS frameworks you may have heard of. 
+It's no secret that there are a *ton* of Front-end frameworks in the world... so selecting one to learn is a daunting process.  Here's an incomplete and unordered list of JS frameworks you may have heard of.
 
 - [React](https://reactjs.org/)
 - [Angular](https://angular.io/)
@@ -43,17 +47,17 @@ It's no secret that there are a _ton_ of Front-end frameworks in the world... so
 
 Picking which framework to learn comes down to a few considerations.  First and probably most importantly is your goal in learning.  If you are looking to get a job or internship as soon as possible then you are going to want to look at which framework occurs most frequently in job-postings in your area.  If you are looking to pick up a framework quickly to build a side-project, then you might consider which one seems easiest to getting started. If none of that matters to you then you can just pick whichever one suits your preferences at the moment.
 
-The good news is that it doesn't _really_ matter which framework you select.  Most of the big ones are similar enough that once you've learned one transitioning to another is relatively simple. If you've already mastered React, for example, but then notice job-postings that ask for experience with Vue, you will likely be able to pick up Vue and start using it in less than a week.
+The good news is that it doesn't *really* matter which framework you select.  Most of the big ones are similar enough that once you've learned one transitioning to another is relatively simple. If you've already mastered React, for example, but then notice job-postings that ask for experience with Vue, you will likely be able to pick up Vue and start using it in less than a week.
 
 The rest of this section will go through the 3 most popular front-end frameworks (React, Angular and Vue), tell you a bit about them, and offer resources to get you started.
 
 ### Assignment
 
 1. Spend a little time poking around the sites for various frameworks above to get a feel for what's out there.
-2. Check out [this recent survey](https://2019.stateofjs.com/front-end-frameworks/) to get a feel for the general popularity and usage of the various frameworks.
-3. [This survey](https://insights.stackoverflow.com/survey/2020#technology) is not JS or web centered, but includes some data about frameworks.
-4. [This video](https://www.youtube.com/watch?v=KMX1mFEmM3E) gives a good overview and comparison of the 'Big 3'.
+1. Check out [this recent survey](https://2019.stateofjs.com/front-end-frameworks/) to get a feel for the general popularity and usage of the various frameworks.
+1. [This survey](https://insights.stackoverflow.com/survey/2020#technology) is not JS or web centered, but includes some data about frameworks.
+1. [This video](https://www.youtube.com/watch?v=KMX1mFEmM3E) gives a good overview and comparison of the 'Big 3'.
 
 ### Additional Resources
 
-* [A blogpost diving into why frameworks exist](https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445)
+This section contains helpful links to related content. It isn't required, so consider it supplemental.

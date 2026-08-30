@@ -1,4 +1,5 @@
 ### So... How Can I Get a Job?
+
 The best thing you can do in order to get a job as a web developer is, of course, to know your stuff!  But, when compared to other careers, web development does have some wrinkles (that probably work in your favor).  Because the industry has a long history of successful developers with varying backgrounds, people tend to care more about what you've actually **built** than how you got there (e.g. which school you went to).  
 
 *So build!*  Build and build and build and keep on building.  Build projects that try out new technologies and put up websites for you and your friends.  Hack on open source projects once you feel comfortable tackling some of their bug reports.  [The Odin Project is a perfect project to hack on (we've put a lot of effort into making it easy to contribute)!](/contributing) Not only do you get better at developing by practicing it, not only is it fun, but it will also help you decide which parts of web development you really find the most interesting.  You may surprise yourself.  
@@ -13,6 +14,6 @@ Take a look at [this comprehensive blog post from Happy Bear Software](https://w
 
 ### Additional Resources
 
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* [Salary Information](http://www.indeed.com/salary/Web-Developer.html), though take it with a grain of salt because it's highly dependent on location and skills/seniority.  Developers in tech hubs like San Francisco earn significantly more than average but, of course, their costs of living are higher as well.
+- [Salary Information](http://www.indeed.com/salary/Web-Developer.html), though take it with a grain of salt because it's highly dependent on location and skills/seniority.  Developers in tech hubs like San Francisco earn significantly more than average but, of course, their costs of living are higher as well.

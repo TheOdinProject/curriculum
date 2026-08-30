@@ -10,22 +10,21 @@ There are many benefits to pair programming, two of the main ones both stem from
 
 Once you finish these lessons, you should have the tools to be able to collaborate with people from anywhere on the globe, and we want to encourage you to find someone else who is working through The Odin Project to team up with. Two heads are better than one.
 
-
 ### Learning Outcomes
 
-* What is Pair Programming?
-* What are the benefits of Pair Programming?
+- What is Pair Programming?
+- What are the benefits of Pair Programming?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
   1. Read [this article](https://www.agilealliance.org/glossary/pairing/) from [Agile Alliance](https://www.agilealliance.org/) for a good overview and history of Pair Programming.
-  2. Along with the obligatory car metaphor, [this article](http://techcrunch.com/2012/03/17/pair-programming-considered-extremely-beneficial/) talks about some of the benefits of Pair Programming.
+  1. Along with the obligatory car metaphor, [this article](http://techcrunch.com/2012/03/17/pair-programming-considered-extremely-beneficial/) talks about some of the benefits of Pair Programming.
 
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* An older [writeup on pairing](http://collaboration.csc.ncsu.edu/laurie/pair.html) from Dr. Laurie Williams of NC State University has a rich bibliography of research on pairing.
+- An older [writeup on pairing](http://collaboration.csc.ncsu.edu/laurie/pair.html) from Dr. Laurie Williams of NC State University has a rich bibliography of research on pairing.

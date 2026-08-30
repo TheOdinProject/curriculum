@@ -8,7 +8,7 @@ Frameworks are great for rapidly producing sites with interfaces that end-users 
 
 Additionally, the process of overriding a framework's styling or debugging style issues on your page becomes very difficult if you haven't really mastered CSS fundamentals. It is imperative to understand what a framework is doing "under the hood" so you are equipped to handle these issues later (and trust us, you will).
 
-For these reasons, this lesson is designed to teach you _about_ frameworks and what their role is, but we **strongly recommend that you continue to focus on the fundamentals of CSS as you continue through the curriculum.**
+For these reasons, this lesson is designed to teach you *about* frameworks and what their role is, but we **strongly recommend that you continue to focus on the fundamentals of CSS as you continue through the curriculum.**
 
 Doing so will make you a better developer in the end.
 
@@ -26,15 +26,17 @@ Doing so will make you a better developer in the end.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read [From A List Apart, Frameworks for Designers](http://alistapart.com/article/frameworksfordesigners)
 2. Read [From A List Apart, Building Twitter Bootstrap](http://alistapart.com/article/building-twitter-bootstrap)
 3. Browse through [Getting Started with Foundation](https://get.foundation/sites/docs/) for an idea of how that framework operates.  Observe the similarities and differences between that and Bootstrap.
 4. Take a brief look at [TailwindCSS](https://tailwindcss.com/) for a more unique and modern approach to CSS frameworks.
+
 </div>
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Bootstrap Docs](http://getbootstrap.com/)
 - [Foundation Docs](http://foundation.zurb.com/)

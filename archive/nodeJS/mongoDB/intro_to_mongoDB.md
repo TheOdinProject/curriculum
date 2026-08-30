@@ -26,6 +26,7 @@ This section contains a general overview of topics that you will learn in this l
 When you get to the lesson that asks you to install MongoDB Compass you can skip the installation.
 
 </div>
+
 </div>
 
 ### Knowledge check

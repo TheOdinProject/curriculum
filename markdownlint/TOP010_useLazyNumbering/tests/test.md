@@ -23,10 +23,10 @@ CUSTOM SECTION CONTENT.
    - AN INSTRUCTION ITEM
 
 1. Item One
-2. Item Two
+1. Item Two
    1. Child of Item Two
-   2. Child of Item Two
-3. Item Three
+   1. Child of Item Two
+1. Item Three
 
 1. Item One
 1. Item Two
@@ -35,7 +35,7 @@ CUSTOM SECTION CONTENT.
 1. Item Three
 
 1. *foo*
-2. *Bar*
+1. *Bar*
 
 - This is an unordered list item to test TOP010
 - This is another unordered list item

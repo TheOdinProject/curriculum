@@ -5,9 +5,10 @@ At this point in the curriculum you've learned incredibly valuable concepts in w
 What you may not have too much an understanding of, though, is the topic of accessibility, often referred to as "a11y" (due to there being 11 letters between the first and last letters). Unfortunately, this is a topic that many people either don't know much about, or just don't take into account when developing websites. If you fit into either of those two categories, you may have adopted some habits that aren't exactly a11y friendly. Before we get into how you can break away from such habits and begin implementing a11y friendly concepts, it's important to first understand some basic information about web accessibility.
 
 ### Learning Outcomes
+
 By the end of this lesson, you should be able to:
 
-* Explain what web accessibility is.
+- Explain what web accessibility is.
 
 ### What is Web Accessibility?
 
@@ -28,20 +29,22 @@ One other pretty big reason that accessibility matters is that, depending on the
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Go through [Diverse Abilities and Barriers](https://www.w3.org/WAI/people-use-web/abilities-barriers/) to get a better understanding of how some users with disabilities are affected by inaccessible sites.
 2. Watch the videos on [Web Accessibility Perspectives](https://www.w3.org/WAI/perspective-videos/) to see how (and which) users can benefit from accessibility features. Each video is pretty short and has audio descriptions and transcripts. If you prefer, the page also has a link to a compiled version of all of the videos on YouTube.
+
 </div>
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-* <a class="knowledge-check-link" href="#what-is-web-accessibility">What is web accessibility?</a>
-* <a class="knowledge-check-link" href="https://www.w3.org/WAI/people-use-web/abilities-barriers/">Who truly benefits from accessibility features?</a>
+- [What is web accessibility?](#what-is-web-accessibility)
+- [Who truly benefits from accessibility features?](https://www.w3.org/WAI/people-use-web/abilities-barriers/)
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* [The Business Case for Digital Accessibility](https://www.w3.org/WAI/business-case/) goes over reasons for implementing accessibility beyond just being more inclusive to more users.
-* [How People with Disabilities Access Digital Content](https://www.youtube.com/watch?v=Lu7a5RU5lM0) is a rather long video (a whopping 45 minutes), but it goes over a lot of various assistive technologies and will offer you some more perspective on how users with disabilities may browse the websites you create.
-* [When we design for disability, we all benefit](https://www.youtube.com/watch?v=g2m97gPI70I) is a video featuring Elise Roy that furthers the point mentioned in this lesson, that accessibility benefits everyone. While this video is a more general overview that doesn't revolve around web development specifically, it can still be an eye-opening experience.
+- [The Business Case for Digital Accessibility](https://www.w3.org/WAI/business-case/) goes over reasons for implementing accessibility beyond just being more inclusive to more users.
+- [How People with Disabilities Access Digital Content](https://www.youtube.com/watch?v=Lu7a5RU5lM0) is a rather long video (a whopping 45 minutes), but it goes over a lot of various assistive technologies and will offer you some more perspective on how users with disabilities may browse the websites you create.
+- [When we design for disability, we all benefit](https://www.youtube.com/watch?v=g2m97gPI70I) is a video featuring Elise Roy that furthers the point mentioned in this lesson, that accessibility benefits everyone. While this video is a more general overview that doesn't revolve around web development specifically, it can still be an eye-opening experience.

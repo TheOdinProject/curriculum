@@ -3,6 +3,7 @@
 This section aims to provide you with all you need to know to get started with React, to feel the power of a frontend framework, and to help you create highly scalable React applications. Before we jump into it, one question must be answered.
 
 ### Learning Outcomes
+
 By the end of this lesson, you should be able to:
 
 - Understand the benefits of learning React
@@ -28,7 +29,7 @@ Just to name a few reasons on why to learn React.js:
 
 If you need more convincing, the recent [2023 StackOverflow Developer Survey](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
 
-_Convinced and excited? Great, because it's going to change your life! Let's dive right into it._
+*Convinced and excited? Great, because it's going to change your life! Let's dive right into it.*
 
 ### Components
 
@@ -53,7 +54,7 @@ In the beginning, it might be a little bit difficult to figure out the best comp
 
 To give you an example of a basic component, see the following code:
 
-~~~javascript
+```javascript
 import React, { Component } from 'react'
 
 class App extends Component {
@@ -73,41 +74,41 @@ class App extends Component {
 }
 
 export default App
-~~~
+```
 
 Does the code look foreign? Don't worry, it isn't as complicated as it looks. Let's walk through it step by step.
 
-~~~javascript
+```javascript
 import React, { Component } from 'react';
-~~~
+```
 
 With the above `import` statement, we are importing React and Component from the React library, which allows us to create a class component. If you are wondering why we have to wrap `Component` into curly brackets and not `React`, this is due to the way they are exported from the `react` module. Default exports are imported without curly brackets; everything else must be wrapped in curly brackets. Don't worry about this too much as we will get plenty of exposure to import and export statements soon.
 
-~~~javascript
+```javascript
 class App extends Component {
     {/* Some logic we haven't yet talked about. */}
 }
-~~~
+```
 
 Secondly, we are declaring the class component, `App`. We do this by extending the React class Component, which we imported at the top of the file. In doing this, we are essentially "Reactifying" our App component by giving it all of the fun methods and properties every React component should have. One thing to notice is that React components, like all classes and object constructors, should always be declared with a capital letter at the beginning ([PascalCase](https://techterms.com/definition/pascalcase)). This is a naming convention used by most developers and recommended by the React core team at Facebook.
 
-~~~javascript
+```javascript
 constructor() {
     super()
 }
-~~~
+```
 
 Next is the constructor. A constructor is not obligatory in a class component, but you will most likely encounter one because it becomes important when concepts like inheritance and state are involved. It is included here so you can get used to seeing it. You will usually see developers passing `props` as an argument to the constructor and also to the `super()` call, which must be called in any React constructor. Props will be discussed further in the next lesson. The idea here is to simply expose you to some terminology that we will be using in the future.
 
-~~~javascript
+```javascript
 {
   /* Some logic we haven't yet talked about. */
 }
-~~~
+```
 
 This syntax may look weird at first, but it is nothing more than a simple comment. In React, you write comments within curly brackets and `/* */`. There are sections of React components where the comments we are used to (denoted by `//`) are permissible. For now, we'll leave that as an exercise for you.
 
-~~~javascript
+```javascript
 render() {
     return (
         <div className="App">
@@ -115,13 +116,13 @@ render() {
         </div>
     )
 }
-~~~
+```
 
-The most unfamiliar code is likely the `render()` function, which returns something that looks like HTML, but is actually **JSX**. JSX is an HTML-like syntax that is "transpiled" (or converted) into JavaScript so a browser is able to process it. One of the primary characteristics and features of React is the ability to combine JavaScript and JSX. One thing you should know about JSX is that you can't use some JavaScript protected words as html attributes anymore, such as `class`, `onchange`, or `for`. Instead of `class` you will need to use `className`, instead of `onchange` you write `onChange`, and instead of `for`, you must use ... wait for it ... `htmlFor`. All attributes in JSX are written in camelCase and some have their names changed completely to avoid the transpiler getting too confused about whether you're assigning a label `for` an input, or instantiating a `for` loop. You should be fairly familiar with the camelCase naming convention from the naming of variables in JavaScript.
+The most unfamiliar code is likely the `render()` function, which returns something that looks like HTML, but is actually **JSX**. JSX is an HTML-like syntax that is "transpiled" (or converted) into JavaScript so a browser is able to process it. One of the primary characteristics and features of React is the ability to combine JavaScript and JSX. One thing you should know about JSX is that you can't use some JavaScript protected words as HTML attributes anymore, such as `class`, `onchange`, or `for`. Instead of `class` you will need to use `className`, instead of `onchange` you write `onChange`, and instead of `for`, you must use ... wait for it ... `htmlFor`. All attributes in JSX are written in camelCase and some have their names changed completely to avoid the transpiler getting too confused about whether you're assigning a label `for` an input, or instantiating a `for` loop. You should be fairly familiar with the camelCase naming convention from the naming of variables in JavaScript.
 
-The `render()` function you see is the most used React "lifecycle" function (more on that in an upcoming section). The only thing you should know for now is that every React class component needs a render function, which returns _one_ top-level JSX element. When you want to return elements nested within one another, they need to be wrapped in a single parent element. For example:
+The `render()` function you see is the most used React "lifecycle" function (more on that in an upcoming section). The only thing you should know for now is that every React class component needs a render function, which returns *one* top-level JSX element. When you want to return elements nested within one another, they need to be wrapped in a single parent element. For example:
 
-~~~javascript
+```javascript
 // BAD - will throw an error!
 render() {
     return (
@@ -139,19 +140,19 @@ render() {
         </div>
     )
 }
-~~~
+```
 
 Finally, to be able to reuse this `App` component we created in other files of our project, we have to export the component. In our example, we export the component as the file's default export:
 
-~~~javascript
+```javascript
 export default App;
-~~~
+```
 
 If you have multiple components in one file, you could export each component separately by adding the `export` keyword before the declaration of the component, or you could export them all at once using this syntax:
 
-~~~javascript
+```javascript
 export { ComponentA, ComponentB, ComponentC };
-~~~
+```
 
 However, when you import them, they will each need to be wrapped in curly braces. If you export a component as a default, you can import it without the curly braces. If you export multiple components, you have to import them inside of curly brackets.
 
@@ -161,7 +162,7 @@ So far, so good! We have already learned a lot about components in React. Using 
 
 A basic functional component looks something like this:
 
-~~~javascript
+```javascript
 import React from 'react';
 
 function App() {
@@ -179,13 +180,13 @@ const App = () => {
 const App = () => <div className="App">Hello World!</div>;
 
 export default App;
-~~~
+```
 
 As you can see, there are a few differences between functional and class components. With functional components:
 
 1. We don't have to import and extend "Component" from React.
-2. We don't need a constructor.
-3. We don't need the render function, instead we put the return statement right at the end of the function body.
+1. We don't need a constructor.
+1. We don't need the render function, instead we put the return statement right at the end of the function body.
 
 There are more differences which we will encounter when discussing props, state, and lifecycle methods, but it's enough for you to understand this much for now.
 
@@ -203,40 +204,41 @@ If you want to see all the things we have discussed in action, go ahead and run 
 
 Two of the most important files create-react-app includes for you are index.js and App.js. `index.js` is the "entry point" of your application by default. Open up your index.js file and check out this:
 
-~~~javascript
+```javascript
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-~~~
+```
 
-In short, this line of code tells React to render the App component into the DOM, and more specifically, into the element with the id "root". Every create-react-app project has a root div, which is visible in the index.html file in your public directory. If you decide to name your main application component something other than `App.js`, make sure to change its name in `index.js` as well.
+In short, this line of code tells React to render the App component into the DOM, and more specifically, into the element with the id "root". Every create-react-app project has a root div, which is visible in the index.HTML file in your public directory. If you decide to name your main application component something other than `App.js`, make sure to change its name in `index.js` as well.
 
 If you want to get a better understanding of how create-react-app works and which files it creates for you, make sure to check out [this article](https://blog.logrocket.com/getting-started-with-create-react-app-d93147444a27/) and watch [this video](https://www.youtube.com/watch?v=rUdtgnwrA14) to really understand the file system create-react-app sets up for you.You can also look at more aspects of your application's performance by learning about ReportWebVitals [here](https://create-react-app.dev/docs/measuring-performance/#:~:text=Web%20Vitals%E2%80%8B,calculated%2C%20refer%20to%20the%20documentation).
 
 ### React Developer Tools
 
-React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. [This article](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) will show you how to install React Developer Tools and some basic debugging you can do with it. And [here](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) is the link to React Developer Tools Chrome Extension. 
+React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component. [This article](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) will show you how to install React Developer Tools and some basic debugging you can do with it. And [here](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) is the link to React Developer Tools Chrome Extension.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Go through the open-source Learn section of React which begins with the Quick Start page. It is a short introductory tour of React. It introduces the syntax for concepts like components, props, and state, but doesn’t go into much detail on how to use them. Their documentation is a great resource for coming back at a later point if you have to get more familiar with certain concepts or have to fresh up something. So let's get started. Read [this](https://react.dev/learn), [this](https://react.dev/learn/writing-markup-with-jsx) and [this](https://react.dev/learn/your-first-component) lesson.
 2. Watch [this video](https://www.youtube.com/watch?v=JPT3bFIwJYA&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS) to get another quick explanation of React, and then watch these: ([one](https://www.youtube.com/watch?v=G40iHC-h0c0&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=4), [two](https://www.youtube.com/watch?v=9wK4gHoOh1g&list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS&index=5)) videos from the same series, which focus on components. Feel free to code along with the whole course if you enjoy it.
 
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [This video series](https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=1) really provides it all. Watch it for a greater understanding of the most important React concepts.
 - [This video](https://www.youtube.com/watch?v=deyxI-6C2u4) shows you how to set up a React application without using create-react-app.
 - [This video](https://www.youtube.com/watch?v=SAIdyBFHfVU) by Kent C Dodds explains how React works under the hood.
 
 ### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Why should you learn React?](#why-react)
 - [What is JSX?](https://react.dev/learn/writing-markup-with-jsx)
@@ -245,4 +247,3 @@ This section contains questions for you to check your understanding of this less
 - [How should you structure your application into components?](https://dev.to/sarah_chima/an-introduction-to-react-components-cke)
 - [What does `create-react-app` do?](#create-react-app)
 - [Instead of the DOM tree, what is displayed when you inspect an element using the Components tab provided by React Developer Tools](#react-developer-tools)
-

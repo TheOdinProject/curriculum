@@ -1,4 +1,5 @@
 ### Introduction
+
 In this course, you'll learn HTML5 and CSS3, the foundations of building and styling modern web pages.  We'll also dip into design and UX because it's difficult to call yourself a full stack developer without having at least a cursory appreciation for the decisions that produce the page itself.  If you're taking this course because you want to build your own websites, that section will be even more helpful.
 
 If you haven't completed it already, the first place to start is the [Introduction to HTML and CSS](/courses/foundations/lessons/introduction-to-html-and-css), which covers a lot of ground so you can get up to speed on the basics.  In fact, most of what you need to know to build effective websites is covered there.
@@ -17,11 +18,11 @@ We'll start by covering all the building blocks of HTML from lists to forms befo
 
 There's a lot to cover but it's been broken up into bite-sized lessons and their accompanying projects.  The projects will give you a chance to apply what you've learned and to show what you're capable of.  After a few of them, you'll really start getting the hang of things.  If you've already completed the courses for Ruby and Ruby on Rails, you'll find that these lessons go much quicker.
 
-### In each lesson:
+### In each lesson
 
 1. We'll introduce the topic briefly and provide you with a list of things you should pay attention to.
-2. You'll be asked to do readings, watch videos, do online courses or otherwise consume content to initially learn the material.
-4. Every few lessons you will be asked to build a larger project, in this case they are almost exclusively rebuilding sites that you're probably familiar with.  These are best done with a friend.
-5. Finally, we'll include additional helpful resources and other potentially useful tidbits at the end of each lesson.
+1. You'll be asked to do readings, watch videos, do online courses or otherwise consume content to initially learn the material.
+1. Every few lessons you will be asked to build a larger project, in this case they are almost exclusively rebuilding sites that you're probably familiar with.  These are best done with a friend.
+1. Finally, we'll include additional helpful resources and other potentially useful tidbits at the end of each lesson.
 
 ### Enough talk, get learning!

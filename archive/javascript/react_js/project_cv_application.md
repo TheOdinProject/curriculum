@@ -4,13 +4,14 @@ Congratulations, you made it to the first project. In this project, you will be 
 
 ### Just a quick reminder
 
-Learning a new technology is never easy. Along the way you might think: "Well, I could easily implement this in plain Javascript". **BUT** don't let that demotivate you. If you keep pushing, you will end up far more productive than you were before with the ability to add a new skill to your skillset.
+Learning a new technology is never easy. Along the way you might think: "Well, I could easily implement this in plain JavaScript". **BUT** don't let that demotivate you. If you keep pushing, you will end up far more productive than you were before with the ability to add a new skill to your skillset.
 
 So let's get started.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Create a new project using `npx create-react-app cv-project`. If you need a reminder on how it works, check out the previous lessons. Don't forget to setup a GitHub repository for your project, to push your progress.
 2. Remove the boilerplate code created by `create-react-app`.
 3. You should use class components for this project. You're going to find a lot of code written using class components and this practical experience will help you understand it when encountered. You'll also revisit this project in a later lesson to replace the class components with functional ones.
@@ -24,4 +25,5 @@ So let's get started.
 8. Don't forget to push your solution to GitHub. You should be proud of your work and show it off to the world!
 
 Tip: If you're confused on how to deploy using GitHub Pages, take a look at [this article](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e)
+
 </div>

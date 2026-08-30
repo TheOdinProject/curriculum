@@ -5,14 +5,14 @@ There are still plenty of ways you can make your workflow better or improve your
 Onwaaaaaaard!!!
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* [Web Fundamentals](https://developers.google.com/web/fundamentals/)... tons of links to articles specific to your goals.
-* [Shay Howe's Beginner's Guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
-* [HTML5 Tutorial](http://www.html-5-tutorial.com/start-html5-tutorial.htm)
-* [Responsive Prototyping with Foundation](http://alistapart.com/article/dive-into-responsive-prototyping-with-foundation)
-* [Equal Height Columns in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2010/11/08/equal-height-columns-using-borders-and-negative-margins-with-css/)
-* [HTML tutorials and help docs](http://www.webplatform.org/)
-* [Awwwards is a great place to go for design inspiration](http://www.awwwards.com/)
-* [Figma is a vector graphics editor and prototyping tool](https://www.figma.com/) [Click here for a tutorial](https://www.youtube.com/watch?v=3q3FV65ZrUs)
-* PS.. "tags" don't really exist, they're always technically called "elements"
+- [Web Fundamentals](https://developers.google.com/web/fundamentals/)... tons of links to articles specific to your goals.
+- [Shay Howe's Beginner's Guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
+- [HTML5 Tutorial](http://www.html-5-tutorial.com/start-html5-tutorial.htm)
+- [Responsive Prototyping with Foundation](http://alistapart.com/article/dive-into-responsive-prototyping-with-foundation)
+- [Equal Height Columns in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2010/11/08/equal-height-columns-using-borders-and-negative-margins-with-css/)
+- [HTML tutorials and help docs](http://www.webplatform.org/)
+- [Awwwards is a great place to go for design inspiration](http://www.awwwards.com/)
+- [Figma is a vector graphics editor and prototyping tool](https://www.figma.com/) [Click here for a tutorial](https://www.youtube.com/watch?v=3q3FV65ZrUs)
+- PS.. "tags" don't really exist, they're always technically called "elements"

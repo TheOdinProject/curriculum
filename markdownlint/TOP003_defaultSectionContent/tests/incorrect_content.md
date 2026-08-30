@@ -4,7 +4,7 @@ Text content
 
 ### Lesson overview
 
-This section has the wrong text following the heading that should flag an error.
+This section contains a general overview of topics that you will learn in this lesson.
 
 - LO item.
 
@@ -21,6 +21,8 @@ Assignment content
 </div>
 
 ### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - KC item that should flag an error
 

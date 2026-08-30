@@ -12,11 +12,11 @@ This section contains a general overview of topics that you will learn in this l
 
 Some more content.
 
-### This `heading` SHOULD be flagged
+### This heading SHOULD be flagged
 
 Some content.
 
-### This `other heading` will get `flagged` twice
+### This other heading will get flagged twice
 
 ### Assignment
 

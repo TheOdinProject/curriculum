@@ -16,7 +16,7 @@ Some more content.
 
 Some content.
 
-  ### This heading is indented so will flag an error
+### This heading is indented so will flag an error
 
 <div class="lesson-note" markdown="1">
 
@@ -44,13 +44,13 @@ Some content.
 
        <div class="lesson-note" markdown="1">
 
-         #### The note box and heading do not match indentation levels (7v9) so this should flag
+       #### The note box and heading do not match indentation levels (7v9) so this should flag
 
        </div>
 
 <div class="lesson-note" markdown="1">
 
-  #### The note box and heading do not match indentation levels (0v2) so this should flag
+#### The note box and heading do not match indentation levels (0v2) so this should flag
 
 </div>
 

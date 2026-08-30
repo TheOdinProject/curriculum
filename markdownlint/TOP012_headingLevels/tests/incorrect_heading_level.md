@@ -24,7 +24,7 @@ Note box contents.
 
 <div class="lesson-note" markdown="1">
 
-### Level 3 note box heading: Will flag error as it should be level 4
+#### Level 3 note box heading: Will flag error as it should be level 4
 
 Note box contents.
 
@@ -32,7 +32,7 @@ Note box contents.
 
 <div class="lesson-note" markdown="1">
 
-## Level 2 note box heading: Will flag error as it should be level 4
+#### Level 2 note box heading: Will flag error as it should be level 4
 
 Note box contents.
 
@@ -42,17 +42,17 @@ Note box contents.
 
 <div class="lesson-content__panel" markdown="1">
 
-## Assignment subheading 1
+#### Assignment subheading 1
 
 Sentence.
 
-### Assignment subheading 2
+#### Assignment subheading 2
 
 Sentence.
 
 <div class="lesson-note" markdown="1">
 
-### Level 3 note box heading in assignment: Will only flag error once
+#### Level 3 note box heading in assignment: Will only flag error once
 
 Note box contents.
 

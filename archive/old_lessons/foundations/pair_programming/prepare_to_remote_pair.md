@@ -2,15 +2,14 @@
 
 As you learned in the last lesson, pairing in person is the best option, but if that isn't a viable solution, we have many options for pairing remotely. To get underway, you will need a way to share a screen and a way to communicate:
 
-* Screen Sharing Options. There may be more, but these are a few of the most popular:
-  * A great option is [Live Share for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack). It is a free plugin for VSCode that allows you to easily share your workspace with other VSCode users remotely. If you're both using VSCode already, this might be the best option for you.
-  * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/guide/mac-help/mh11848/mac).
-  * Another option is to use [Teletype for Atom](https://teletype.atom.io/). It is similar to the Live Share plugin, but for the editor Atom.
-* Communication Options. You can always text chat, but for true Pair Programming, you will need voice communication. The Odin Project does not have a preference, just find one that works for you and your partner:
-  * Microsoft's [Skype](https://www.skype.com/) is probably the most well known and is a stand alone application.
-  * The other primary option is [Google Hangouts](https://hangouts.google.com/). It exists inside your browser.
-  * Another option is [Discord](https://discordapp.com). It provides both Web and Desktop application that allows you to make voice calls(Desktop and Web) and share your screen(Desktop.)
-
+- Screen Sharing Options. There may be more, but these are a few of the most popular:
+  - A great option is [Live Share for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack). It is a free plugin for VSCode that allows you to easily share your workspace with other VSCode users remotely. If you're both using VSCode already, this might be the best option for you.
+  - If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/guide/mac-help/mh11848/mac).
+  - Another option is to use [Teletype for Atom](https://teletype.atom.io/). It is similar to the Live Share plugin, but for the editor Atom.
+- Communication Options. You can always text chat, but for true Pair Programming, you will need voice communication. The Odin Project does not have a preference, just find one that works for you and your partner:
+  - Microsoft's [Skype](https://www.skype.com/) is probably the most well known and is a stand alone application.
+  - The other primary option is [Google Hangouts](https://hangouts.google.com/). It exists inside your browser.
+  - Another option is [Discord](https://discordapp.com). It provides both Web and Desktop application that allows you to make voice calls(Desktop and Web) and share your screen(Desktop.)
 
 ### Installing the Software
 
@@ -29,14 +28,13 @@ As you learned in the last lesson, pairing in person is the best option, but if 
 Of course all this preparation is pointless without someone to pair with. Perhaps you already have someone in mind, but if you are having trouble finding someone, The Odin Project has a Forum Category just for that. If you haven't [joined the Odin community](http://www.theodinproject.com/courses/foundations/lessons/join-the-odin-community), now is a good time to do that, and then post in the [Pair Category](https://forum.theodinproject.com/c/pairs). There should be other people there at about the same place you are in the curriculum looking to find someone to pair with as well.
 
 ### Things to keep in mind
-* Your pair is a living breathing human being. Don't forget the manners your mama taught you.
-* Follow through with your commitments and communicate when life comes up--don't just not show up.
-* You are not guaranteed to find a good match the first time, don't be afraid to communicate as much--nicely.
-* Even if you find someone you really like pairing with, try pairing with a variety of people of different skill levels.
-* The Odin Project is a community. Remember the Golden Rule and we should all get along. Forget it, and you will have a hard time finding people to pair with you.
-
+- Your pair is a living breathing human being. Don't forget the manners your mama taught you.
+- Follow through with your commitments and communicate when life comes up--don't just not show up.
+- You are not guaranteed to find a good match the first time, don't be afraid to communicate as much--nicely.
+- Even if you find someone you really like pairing with, try pairing with a variety of people of different skill levels.
+- The Odin Project is a community. Remember the Golden Rule and we should all get along. Forget it, and you will have a hard time finding people to pair with you.
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* A talk given at LA Ruby Conference 2014 by Joe Moore where he [answers a lot of questions](https://www.youtube.com/watch?v=rIcUXcyC6BA) about pair programming.
+- A talk given at LA Ruby Conference 2014 by Joe Moore where he [answers a lot of questions](https://www.youtube.com/watch?v=rIcUXcyC6BA) about pair programming.

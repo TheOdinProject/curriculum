@@ -18,12 +18,12 @@ Assignment section
 
 #### Custom section
 
-<a href="#custom-section">Link should flag as we should be using a markdown link instead</a>.
+[Link should flag as we should be using a markdown link instead](#custom-section).
 
-<a href="#custom-section">Will flag</a> if <a href="#assignment">multiple anchors</a> in same line.
+[Will flag](#custom-section) if [multiple anchors](#assignment) in same line.
 
 <!-- But flag codepen anchors if they're not inside p.codepen -->
-<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>
+[@TheOdinProjectExamples](https://codepen.io/TheOdinProjectExamples)
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
@@ -31,7 +31,7 @@ Assignment section
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#knowledge-check">Flags knowledge check anchors</a>
+- [Flags knowledge check anchors](#knowledge-check)
 
 ### Additional resources
 

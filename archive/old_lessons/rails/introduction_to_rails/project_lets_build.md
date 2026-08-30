@@ -7,6 +7,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Make sure that you've got Rest Client installed by running`$ gem install rest-client`.
 2. Head into IRB (`$ irb`).
 3. Run `require 'rest-client'` to bring the gem into your IRB session.
@@ -14,91 +15,95 @@ You may find yourself using Rest Client down the road if you need to communicate
 5. Use Rest Client to do a Bing search (yes, Bing) and examine the results (you can find the parameters that Bing wants in the URL by simply making a search in a normal browser. Pay attention to the `q=` parameter).
 
 That's it! The point is to get familiar with making HTTP requests using your command line, which should prepare you for making them from within a Rails app later.
+
 </div>
 
 ### Student Solutions
+
 Send us your solution by editing this [file](https://github.com/TheOdinProject/curriculum/blob/master/rails_programming/introduction_to_rails/project_lets_build.md) so we can show others! Submit a link to the GitHub repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 <details markdown="block">
+
   <summary> Show Student Solutions </summary>
 
-* Add your solution below this line!
-* [Paulo Felipe Souza's solution](https://github.com/Pauloparakleto/bing_search)
-* [David Auza's Solution](https://github.com/davidauza-engineer/REST-Client-Gem)
-* [Nasser Abachi's Solution](https://github.com/abachi/rest-clinet-app)
-* [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby/bing_search)
-* [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/warmup_restclient)
-* [Kevin Vuong's Solution](https://github.com/fffear/bing_search)
-* [Braxton Lemmon's solution](https://github.com/braxtonlemmon/rest-client-warmup)
-* [Rudi Boshoff's solution](https://github.com/RudiBoshoff/rails-exercises/tree/master/rest-client)
-* [Simon Tharby's solution](https://github.com/jinjagit/rest_client)
-* [Jason McKee's Solution (with Regex to get results and links)](https://github.com/jttmckee/rest-client/tree/master)
-* [Isil Donmez's solution](https://github.com/isildonmez/rest_client)
-* [Maria Tikhonova's solution](https://github.com/MariaTikhonova/odin_rails/tree/master/rest_client)
-* [Omar Moataz's solution](https://github.com/OmarMoataz/bing_console)
-* [Andrew's solution](https://github.com/andrewr224/bing-search)
-* [Dennis Cope's Solution](https://github.com/coped/restclient-warmup)
-* [Jmooree30's solution](https://github.com/jmooree30/rest-client.git)
-* [Kasey Z's solution](https://github.com/kasey-z/bing_search)
-* [Jonathan Yiv's solution](https://github.com/JonathanYiv/rest_client)
-* [Clayton Sweeten's solution](https://github.com/cjsweeten101/OdinProjects/tree/master/rest-client)
-* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/rest-client)
-* [mindovermiles262's solution](https://github.com/mindovermiles262/rest-client)
-* [holdercp's solution](https://github.com/holdercp/rest-client)
-* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/rest)
-* [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/blob/master/rest-client.rb)
-* [leosoaivan's solution](https://github.com/leosoaivan/TOP_rest-client)
-* [Austin's solution](https://github.com/CouchofTomato/rest-client/blob/master/rest_client.rb)
-* [zkay's solution](https://github.com/zkay/PersonalProjects/tree/master/Rest)
-* [afshinator's solution](https://github.com/afshinator/playground/tree/master/RestPinger)
-* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/rest_client)
-* [Arman Ghassemi's solution](https://github.com/ArmanG/Rest-Client)
-* [Dominik Stodolny's solution](https://github.com/dstodolny/rest_client)
-* [Lara Finnegan's solution](https://github.com/lcf0285/rest-client/blob/master/google_search.rb)
-* [Kevin Mulhern's solution](https://github.com/KevinMulhern/rest_client)
-* [Filipe's solution](https://github.com/panceri/rest-client-demo)
-* [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/RubyOnRails/restClient/rest_client.rb)
-* [Querylous's Solution](https://github.com/querylous/ddgrest)
-* [Matias Pan's solution](https://github.com/kriox26/odin_rails/tree/master/g_search)
-* [Dan Hoying's solution](https://github.com/danhoying/rest_client_google_search)
-* [andrewdbass' solution](https://github.com/andrewdbass/rest)
-* [Aviv Levinsky's solution](https://github.com/pugsiman/Restclient_search/blob/master/search.rb)
-* [Alex Tsiras' solution](https://github.com/arialblack14/rest_client)
-* [srashidi's solution](https://github.com/srashidi/The_Odin_Project/blob/master/Ruby%20on%20Rails/Web_Refresher/google_search.rb)
-* [Scott Bobbitt's solution](https://github.com/sco-bo/rest_client_gem)
-* [Carlos Diaz's solution](https://github.com/bycdiaz/rest-client)
-* [Radi Totev's solution](https://github.com/raditotev/rest-tester)
-* [Hassan Mahmoud's solution](https://github.com/HassanTC/RestClient)
-* [Max Gallant's solution](https://github.com/mcgalcode/WebRefresher)
-* [Arthur Vieira's solution](https://github.com/arthur-vieira/rest_client_gem_demo)
-* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project4--params-with-restclient/rest-tester)
-* [Fabricio Carrara's solution](https://github.com/fcarrara/rest_client)
-* [Deepak's solution](https://github.com/Deepak5050/rest_client/blob/master/rest_client.rb)
-* [djhart's solution](https://github.com/djhart/rest_client_ex)
-* [Earth35's solution](https://github.com/Earth35/rest-client)
-* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/Rails/RestClient)
-* [Shala Qweghen's solution](https://github.com/ShalaQweghen/web_refresher)
-* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/web_refresher)
-* [DV's solution](https://github.com/dvislearning/rest_client)
-* [at0micr3d's solution](https://github.com/at0micr3d/rest-client-session)
-* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_rest_client)
-* [Tom Westerhout's solution](https://github.com/Westw00d/RestClient)
-* [Sophia Wu's solution](https://github.com/SophiaLWu/RestClient)
-* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-rest-client)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/rest_client)
-* [Anistor86's solution](https://github.com/anistor86/RESTClient)
-* [Oliver Curting's solution](https://github.com/Curting/rest-client)
-* [Jeff Jubin's solution](https://github.com/jeff1st/rest_client)
-* [Agon's solution](https://github.com/AgonIdrizi/RestClient_bingsearch)
-* [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Rest_Client_Example)
-* [Areeba's solution](https://github.com/AREEBAISHTIAQ/rest-client/blob/master/rest-client.rb)
-* [ParamagicDev's solution](https://github.com/ParamagicDev/rest_search)
-* [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
-* [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
-* [Nyaga Roy's solution](https://github.com/RobertDunbar/rest-client)
-* [Rey's Solution](https://github.com/Rey810/Rest-Client/tree/master)
-* [guacamobley's solution](https://github.com/guacamobley/rest-client-project)
-* [Wilmir's Solutiom](https://github.com/Wilmir/ruby-rest-client/blob/master/rest_client.rb)
+- Add your solution below this line!
+- [Paulo Felipe Souza's solution](https://github.com/Pauloparakleto/bing_search)
+- [David Auza's Solution](https://github.com/davidauza-engineer/REST-Client-Gem)
+- [Nasser Abachi's Solution](https://github.com/abachi/rest-clinet-app)
+- [Vedant's Solution](https://github.com/vedantshetty/Odin_Project_Code/tree/master/Ruby/bing_search)
+- [Airi Chow's Solution](https://github.com/airi-14x/TheOdinProject-Sinastra-and-Basic-Rails/tree/master/warmup_restclient)
+- [Kevin Vuong's Solution](https://github.com/fffear/bing_search)
+- [Braxton Lemmon's solution](https://github.com/braxtonlemmon/rest-client-warmup)
+- [Rudi Boshoff's solution](https://github.com/RudiBoshoff/rails-exercises/tree/master/rest-client)
+- [Simon Tharby's solution](https://github.com/jinjagit/rest_client)
+- [Jason McKee's Solution (with Regex to get results and links)](https://github.com/jttmckee/rest-client/tree/master)
+- [Isil Donmez's solution](https://github.com/isildonmez/rest_client)
+- [Maria Tikhonova's solution](https://github.com/MariaTikhonova/odin_rails/tree/master/rest_client)
+- [Omar Moataz's solution](https://github.com/OmarMoataz/bing_console)
+- [Andrew's solution](https://github.com/andrewr224/bing-search)
+- [Dennis Cope's Solution](https://github.com/coped/restclient-warmup)
+- [Jmooree30's solution](https://github.com/jmooree30/rest-client.git)
+- [Kasey Z's solution](https://github.com/kasey-z/bing_search)
+- [Jonathan Yiv's solution](https://github.com/JonathanYiv/rest_client)
+- [Clayton Sweeten's solution](https://github.com/cjsweeten101/OdinProjects/tree/master/rest-client)
+- [Nikolay Dyulgerov's solution](https://github.com/NicolayD/rest-client)
+- [mindovermiles262's solution](https://github.com/mindovermiles262/rest-client)
+- [holdercp's solution](https://github.com/holdercp/rest-client)
+- [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/rest)
+- [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/blob/master/rest-client.rb)
+- [leosoaivan's solution](https://github.com/leosoaivan/TOP_rest-client)
+- [Austin's solution](https://github.com/CouchofTomato/rest-client/blob/master/rest_client.rb)
+- [zkay's solution](https://github.com/zkay/PersonalProjects/tree/master/Rest)
+- [afshinator's solution](https://github.com/afshinator/playground/tree/master/RestPinger)
+- [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/rest_client)
+- [Arman Ghassemi's solution](https://github.com/ArmanG/Rest-Client)
+- [Dominik Stodolny's solution](https://github.com/dstodolny/rest_client)
+- [Lara Finnegan's solution](https://github.com/lcf0285/rest-client/blob/master/google_search.rb)
+- [Kevin Mulhern's solution](https://github.com/KevinMulhern/rest_client)
+- [Filipe's solution](https://github.com/panceri/rest-client-demo)
+- [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/RubyOnRails/restClient/rest_client.rb)
+- [Querylous's Solution](https://github.com/querylous/ddgrest)
+- [Matias Pan's solution](https://github.com/kriox26/odin_rails/tree/master/g_search)
+- [Dan Hoying's solution](https://github.com/danhoying/rest_client_google_search)
+- [andrewdbass' solution](https://github.com/andrewdbass/rest)
+- [Aviv Levinsky's solution](https://github.com/pugsiman/Restclient_search/blob/master/search.rb)
+- [Alex Tsiras' solution](https://github.com/arialblack14/rest_client)
+- [srashidi's solution](https://github.com/srashidi/The_Odin_Project/blob/master/Ruby%20on%20Rails/Web_Refresher/google_search.rb)
+- [Scott Bobbitt's solution](https://github.com/sco-bo/rest_client_gem)
+- [Carlos Diaz's solution](https://github.com/bycdiaz/rest-client)
+- [Radi Totev's solution](https://github.com/raditotev/rest-tester)
+- [Hassan Mahmoud's solution](https://github.com/HassanTC/RestClient)
+- [Max Gallant's solution](https://github.com/mcgalcode/WebRefresher)
+- [Arthur Vieira's solution](https://github.com/arthur-vieira/rest_client_gem_demo)
+- [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project4--params-with-restclient/rest-tester)
+- [Fabricio Carrara's solution](https://github.com/fcarrara/rest_client)
+- [Deepak's solution](https://github.com/Deepak5050/rest_client/blob/master/rest_client.rb)
+- [djhart's solution](https://github.com/djhart/rest_client_ex)
+- [Earth35's solution](https://github.com/Earth35/rest-client)
+- [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/Rails/RestClient)
+- [Shala Qweghen's solution](https://github.com/ShalaQweghen/web_refresher)
+- [Jiazhi Guo's solution](https://github.com/jerrykuo7727/web_refresher)
+- [DV's solution](https://github.com/dvislearning/rest_client)
+- [at0micr3d's solution](https://github.com/at0micr3d/rest-client-session)
+- [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_rest_client)
+- [Tom Westerhout's solution](https://github.com/Westw00d/RestClient)
+- [Sophia Wu's solution](https://github.com/SophiaLWu/RestClient)
+- [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-rest-client)
+- [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/rest_client)
+- [Anistor86's solution](https://github.com/anistor86/RESTClient)
+- [Oliver Curting's solution](https://github.com/Curting/rest-client)
+- [Jeff Jubin's solution](https://github.com/jeff1st/rest_client)
+- [Agon's solution](https://github.com/AgonIdrizi/RestClient_bingsearch)
+- [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Rest_Client_Example)
+- [Areeba's solution](https://github.com/AREEBAISHTIAQ/rest-client/blob/master/rest-client.rb)
+- [ParamagicDev's solution](https://github.com/ParamagicDev/rest_search)
+- [Slaven's solution](https://github.com/Everdrought/stunning-memory/blob/master/RestClient/script.rb)
+- [Nyaga Roy's solution](https://github.com/RoyNyaga/project_let-s_get_building_microverse)
+- [Nyaga Roy's solution](https://github.com/RobertDunbar/rest-client)
+- [Rey's Solution](https://github.com/Rey810/Rest-Client/tree/master)
+- [guacamobley's solution](https://github.com/guacamobley/rest-client-project)
+- [Wilmir's Solutiom](https://github.com/Wilmir/ruby-rest-client/blob/master/rest_client.rb)
+
 </details>
 
 ### Project: Ruby on Rails Tutorial
@@ -121,7 +126,7 @@ The tutorial covers more specifically the practice of "Test Driven Development",
 
 This is an example (listing 3.15) from the tutorial:
 
-~~~ruby
+```ruby
     # test/controllers/static_pages_controller_test.rb
     require 'test_helper'
 
@@ -145,7 +150,7 @@ This is an example (listing 3.15) from the tutorial:
         assert_select "title", "About | Ruby on Rails Tutorial Sample App"
       end
     end
-~~~
+```
 
 This syntax will be a bit different from the testing you have done before, that's because it uses the minitest testing framework instead of RSpec, which you have been using so far. The syntax is a little different but the concepts are all the same so you shouldn't have much trouble understanding minitest tests. This is an "integration" or "feature" test, which means it deals with making sure your higher level user flows (as the user moves from one page to the next) behave as expected.  You'll also get to do "unit tests", which are meant to specifically test narrow pieces of functionality like model methods.  Both are important.
 
@@ -166,17 +171,18 @@ If you're already scratching your head, don't worry (like I said, better explana
 ### Your Task
 
 <div class="lesson-content__panel" markdown="1">
+
 1. If you'd still like a refresher on testing basics, check out [An Introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse.
 2. Do [Chapter 3](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/static_pages) of the Ruby on Rails Tutorial to get started building the application.
 3. Do [Chapter 4](https://www.learnenough.com/ruby-on-rails-4th-edition-tutorial/rails_flavored_ruby) of the tutorial to see how Ruby will be used in Rails.
 4. Glance back at the [Deployment Lesson](/courses/ruby-on-rails/lessons/deployment) if you've got lingering questions or issues about the process of deployment.
+
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-
-* [Intro to RSpec](http://www.youtube.com/watch?v=aYXAWgSA5Kw) Video from RailsConf2012 on YouTube.
-* [Rails Conf 2013 BDD and Acceptance Testing with RSpec & Capybara](https://www.youtube.com/watch?v=BG_DDUD4M9E) This video gives you a nice angle on BDD & TDD in Rails that you won't get from the primary sources.
-* [RailsConf 2015 - Understanding Rails test types in RSpec](https://www.youtube.com/watch?v=SOi_1reKn8M) 30-minute RSpec presentation by Sam Phippen. Contains a few prewritten methods, but most of it is live coding with RSpec with explanations, which can be very helpful.
-* [Rails Pacific 2016 - Workshop / Taming Chaotic Specs: RSpec Design Patterns by Adam Cuppy](https://www.youtube.com/watch?v=KjENZNjRCWM) In this video you can see how to refactor your Rails specs to make them more descriptive and thorough. It also presents some very helpful ideas and "tricks". The best thing is the specs Adam Cuppy uses as examples are not really complicated and you can easily build up on the basics you already know.
+- [Intro to RSpec](http://www.youtube.com/watch?v=aYXAWgSA5Kw) Video from RailsConf2012 on YouTube.
+- [Rails Conf 2013 BDD and Acceptance Testing with RSpec & Capybara](https://www.youtube.com/watch?v=BG_DDUD4M9E) This video gives you a nice angle on BDD & TDD in Rails that you won't get from the primary sources.
+- [RailsConf 2015 - Understanding Rails test types in RSpec](https://www.youtube.com/watch?v=SOi_1reKn8M) 30-minute RSpec presentation by Sam Phippen. Contains a few prewritten methods, but most of it is live coding with RSpec with explanations, which can be very helpful.
+- [Rails Pacific 2016 - Workshop / Taming Chaotic Specs: RSpec Design Patterns by Adam Cuppy](https://www.youtube.com/watch?v=KjENZNjRCWM) In this video you can see how to refactor your Rails specs to make them more descriptive and thorough. It also presents some very helpful ideas and "tricks". The best thing is the specs Adam Cuppy uses as examples are not really complicated and you can easily build up on the basics you already know.

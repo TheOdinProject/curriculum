@@ -9,6 +9,7 @@ Other than the basic hooks you will encounter in this section, there are many ot
 Now we will discuss the most basic hooks.  Create a `create-react-app` and use the App.js file for the following examples. This won't actually create a lot of functionality, but when coding along, you will remember everything better thanks to muscle memory.
 
 ### Learning Outcomes
+
 By the end of this lesson, you should be able to:
 
 - Explain how state is managed in a functional component
@@ -18,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 So finally, as already mentioned in an earlier section, we will be coming back here to discuss how to use state in functional components. The `useState` hook makes it possible to declare a state in functional components. Here is an example on how to use it:
 
-~~~javascript
+```javascript
 import React, { useState } from "react";
 
 const App = () => {
@@ -37,21 +38,21 @@ const App = () => {
 };
 
 export default App;
-~~~
+```
 
 Go try this out in the browser.
 
 First, we have to import the `useState` hook from react.
- 
+
 Then we can <span id='declare-state'>declare</span> a state like this: `const [count, setCount] = useState(0)`. This is the syntax to declare a state. The name "count" and "setCount" is totally up to us, we could also call it "something" and "somethingElse" but this wouldn't be very good because then "somethingElse" would be called to set "something" in the state. It doesn't read as easily. The <span id='naming-convention'>convention</span> is to always call the second value like the first, just with a "set" in front. The `useState(0)` call initializes our state with the value we set in parentheses (0).
- 
+
 Afterwards, we are declaring a function, which right now just sets a new count. In this case, we are incrementing the current count by one. This function will be called anytime we click the button. In the div above the button, we are just displaying the current state. One thing to mention and keep in mind here is that setting the state is an asynchronous task. Additionally, setting the state is called a re-render. That’s the reason we see the new count when clicking the button. If it wouldn’t trigger a re-render, then we would still see the old count. Our component will update after setting the state. As mentioned in our last lecture, we might want to use this opportunity for updating to do some tasks. Unfortunately, we don’t have any lifecycle methods for functional components, right?
 
 ### useEffect
 
 Well, we don't have any lifecycle methods such as `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`, but we do have something better. We have `useEffect`, which can actually do everything the above-mentioned lifecycle methods can do. Let's have a closer look.
 
-~~~javascript
+```javascript
 import React, { useState, useEffect } from "react";
 
 const App = () => {
@@ -94,14 +95,15 @@ const App = () => {
 };
 
 export default App;
-~~~
-Try it out to get an idea of what is happening. 
- 
+```
+
+Try it out to get an idea of what is happening.
+
 Once you've done that, let's go through it all in detail.
- 
+
 You should already be familiar with the `useState` logic implemented. Basically, we are just saving a color in state, and on click, we are changing the color saved in state. This color is applied to our div element. Don't worry about all the inline styles of the div, the only important thing within this styles object is where we set the background to the color that is currently saved in state.
- 
-Now the only thing we haven't looked at is the `useEffect` hook. As mentioned, this hook can do a lot. 
+
+Now the only thing we haven't looked at is the `useEffect` hook. As mentioned, this hook can do a lot.
 
 The syntax is as follows:
 
@@ -113,59 +115,62 @@ You have three different options for the <span id='dependency'>dependency</span>
 
 1. Leave it empty. If you leave it empty the useEffect hook would look something like this:
 
-   ~~~javascript
+   ```javascript
    useEffect(() => {
      // Do something
    }, []);
-   ~~~
+   ```
 
    This option is equal to a `componentDidMount` lifecycle method, meaning the hook runs **one time** when the component mounts (is inserted in the DOM tree)
 
-2. Add a dependency to the array. Like we did it in our example code.
+1. Add a dependency to the array. Like we did it in our example code.
 
-   ~~~javascript
+   ```javascript
    useEffect(() => {
      // Do something
    }, [color]);
-   ~~~
+   ```
 
    This way, the useEffect hook will re-run anytime the dependency (color) changes. This is similar to a `componentDidUpdate` method, with the only difference that it only runs when a certain condition has changed.
 
-3. Leave out the dependency array.
+1. Leave out the dependency array.
 
-   ~~~javascript
+   ```javascript
    useEffect(() => {
      // Do something
    });
-   ~~~
+   ```
 
 You can also completely leave out the dependency array. This way, the useEffect hook runs anytime the component is updated, **AND** right after the initial render. This is the difference compared to the `componentDidUpdate` lifecycle method, because it also runs after the initial render. This way it would be equal to a `componentDidMount` and `componentDidUpdate` method combined.
 
 The return statement we are adding to our useEffect is actually equal to a `componentWillUnmount` method.
 
-~~~javascript
+```javascript
 return () => {
   document.removeEventListener("click", changeColorOnClick);
 };
-~~~
+```
 
-If you write a return statement like the above in a useEffect, it will do the same as a `componentWillUnmount` method. As you can see, there is a lot to the useEffect hook.  You can also create your own custom hooks if desired. However, with the above mentioned hooks `useState` and `useEffect` you will be fine in most of your smaller projects. 
+If you write a return statement like the above in a useEffect, it will do the same as a `componentWillUnmount` method. As you can see, there is a lot to the useEffect hook.  You can also create your own custom hooks if desired. However, with the above mentioned hooks `useState` and `useEffect` you will be fine in most of your smaller projects.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. The React documentation provides a whole section on hooks. Read through all steps [here](https://react.dev/reference/react). You can also always refer back to this page if you get stuck. The main idea is to understand the concepts, the details come with time.
 2. Now go back to your CV Project and rewrite it using functional components and hooks.  
+
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* [Here](https://web.archive.org/web/20210614125842/https://blog.ohansemmanuel.com/react-hooks-documentation-easy-to-read/) is another article about hooks, which provides a simpler version of the official React hooks documentation.
-* [Watch this video](https://youtu.be/-MlNBTSg_Ww) for a look into `useState()`, `useEffect()` and custom hooks in great detail.
-  * There is currently a small bug in this program as it is currently written, which can be fixed by changing the url on CharPicker.js line 10 from https://swapi.co to https://swapi.dev.
+- [Here](https://web.archive.org/web/20210614125842/https://blog.ohansemmanuel.com/react-hooks-documentation-easy-to-read/) is another article about hooks, which provides a simpler version of the official React hooks documentation.
+- [Watch this video](https://youtu.be/-MlNBTSg_Ww) for a look into `useState()`, `useEffect()` and custom hooks in great detail.
+  - There is currently a small bug in this program as it is currently written, which can be fixed by changing the url on CharPicker.js line 10 from <https://swapi.co> to <https://swapi.dev>.
 
 ### Knowledge Checks
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [How do you declare state in a functional component?](#declare-state)

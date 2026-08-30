@@ -18,21 +18,21 @@ Assignment section
 
 #### Custom section
 
-~~~text
+```text
 This codeblock should flag an error as it uses tildes instead of backticks.
-~~~
+```
 
-~~~~markdown
-~~~text
+````markdown
+```text
 Parent and nested code blocks should both individually flag if tildes are used instead of backticks.
-~~~
-~~~~
+```
+````
 
 1. List item
 
-   ~~~text
+   ```text
    Indented code blocks are treated all the same.
-   ~~~
+   ```
 
 ```text
 Backticks are valid and will not flag errors.
