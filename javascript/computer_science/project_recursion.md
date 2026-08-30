@@ -4,7 +4,7 @@ Use what you have learnt about recursion so far to tackle two classic problems t
 
 #### Fibonacci
 
-The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), is a numerical sequence where each number is the sum of the two numbers before it. Eg. 0, 1, 1, 2, 3, 5, 8, 13 are the first eight digits in the sequence.
+The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number) is a numerical sequence where each number is the sum of the two numbers before it. E.g. 0, 1, 1, 2, 3, 5, 8, 13 are the first eight digits in the sequence.
 
 You should already be thinking that perhaps this can be solved iteratively rather than recursively, and you would be correct. Nevertheless generating the sequence recursively is an excellent way to better understand recursion.
 
