@@ -2,13 +2,13 @@
 
 So far you’ve been learning how to test code that you’ve written, but there’s a popular development process that flips that concept on its head. Rather than writing code, manually testing it until you get it working, then writing a test to make sure it stays working; you can write the test **before** the code, so that you don’t have to waste *any* time manually testing. Test Driven Development is the name of this inverted development process.
 
-### Learning Outcomes
+### Lesson overview
 
-Look through these now and use them to guide your learning. By the end of this lesson, expect to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Learn what Test Driven Development is
-- Learn the advantages of Test Driven Development
-- Learn how to write code TDD style
+- Understand what Test Driven Development is.
+- Understand the advantages of Test Driven Development.
+- Understand how to write code TDD style.
 
 ### What is TDD, and why do it?
 
@@ -205,22 +205,25 @@ Since this seems like it doesn’t need any refactoring we’re all done!
 
 ### Assignment
 
-TODO: Exercise: Finishing TDD'ing a few more methods in the example class used in the content
+<div class="lesson-content__panel" markdown="1">
 
-TODO: Exercise: TDD a value object
+1. TODO: Exercise: Finishing TDD'ing a few more methods in the example class used in the content
+1. TODO: Exercise: TDD a value object
+1. TODO: Exercise: TDD a class that has a collaborator which doesn't exist yet using mocks
 
-TODO: Exercise: TDD a class that has a collaborator which doesn't exist yet using mocks
+</div>
 
 ### Additional Resources
+
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-Read ["TDD is Dead. Long Live Testing"](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html) by DHH for an anti-TDD viewpoint
+- [Read "TDD is Dead. Long Live Testing" by DHH for an anti-TDD viewpoint](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
 
-### Knowledge Check
+### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- What does it mean for code to be test **driven**?
-- List four different advantages of TDD.
-- What is the 3 part development cycle used for TDD?
-- How much code should be written when going from the `red` state to the `green` state of the red-green-refactor cycle?
+- [What does it mean for code to be test **driven**?](#what-is-tdd-and-why-do-it)
+- [List four different advantages of TDD.](#what-is-tdd-and-why-do-it)
+- [What is the 3 part development cycle used for TDD?](#red-green-refactor)
+- [How much code should be written when going from the `red` state to the `green` state of the red-green-refactor cycle?](#red-green-refactor)

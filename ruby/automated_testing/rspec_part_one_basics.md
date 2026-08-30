@@ -8,15 +8,14 @@ RSpec's popularity is largely owed to its rich, expressive syntax which makes wr
 
 This lesson is designed to be a guide through all the basic RSpec features you will need to know to get started writing your own automated tests. To get the most out this lesson, please follow along with all the examples.
 
-### Learning Outcomes
+### Lesson overview
 
-- How to install RSpec
-- What is an example group and how do you define one?
-- What is an `it` block for?
-- What is an expectation?
-- What is a matcher?
-- What are the 3 phases of a test?
-- When should a teardown phase be used?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Understand what an expectation is.
+- Understand what a matcher is.
+- Understand the 3 phases of a test.
+- Understand when a teardown phase should be used.
 
 ### Project Setup and Installing RSpec
 
@@ -819,6 +818,16 @@ We will once again be using the `odin_rspec` project we set up in this lesson to
 </div>
 
 ### Additional Resources
+
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [https://www.rubyguides.com/2018/09/ruby-gems-gemfiles-bundler/](https://www.rubyguides.com/2018/09/ruby-gems-gemfiles-bundler/)
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is an expectation?](#making-expectations)
+- [What is a matcher?](#matchers)
+- [What are the 3 phases of a test?](#anatomy-of-a-test)
+- [When should a teardown phase be used?](#teardown-phase)

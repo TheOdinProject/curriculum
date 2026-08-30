@@ -4,12 +4,14 @@ In this lesson we will be exploring some of the tools RSpec provides for sharing
 
 We will once again be working from the `odin_rspec` project we set up in the previous lesson. To get the most out this lesson, please follow along with all the examples.
 
-### Learning Outcomes
+### Lesson overview
 
-- What is a before hook and what phase of a test should you use it for?
-- What is an after hook and phase of a test should you use it for?
-- What is a let variable for?
-- What is a subject for?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Understand what a before hook is and what phase of a test you should use it for.
+- Understand what an after hook is and what phase of a test you should use it for.
+- Understand what a let variable is for.
+- Understand what a subject is for.
 
 ### Hooks
 
@@ -524,6 +526,16 @@ These code sharing tools are best only when they improve the overall readability
 </div>
 
 ### Additional Resources
+
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [https://mixandgo.com/learn/let-vs-instance-variables-in-rspec](https://mixandgo.com/learn/let-vs-instance-variables-in-rspec)
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is a before hook and what phase of a test should you use it for?](#before-hooks)
+- [What is an after hook and what phase of a test should you use it for?](#after-hooks)
+- [What is a let variable for?](#let-variables)
+- [What is a subject for?](#subjects)
