@@ -22,24 +22,12 @@ Write tests for the following, and then make the tests pass! Remember that Jest 
    const object = analyzeArray([1,8,3,4,2,6]);
 
    // object should equal:
-{
-  average: 4,
-  min: 1,
-  max: 8,
-  length: 6
-}
+   {
+     average: 4,
+     min: 1,
+     max: 8,
+     length: 6
+   }
    ```
-
-Or, a Jest exercise will follow:
-
-```javascript
-expect(analyzeArray([1, 8, 3, 4, 2, 6])).toEqual({
-  average: 4,
-  min: 1,
-  max: 8,
-  length: 6,
-});
-
- ```
 
 </div>
