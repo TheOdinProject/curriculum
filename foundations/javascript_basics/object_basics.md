@@ -116,12 +116,12 @@ console.log(dog); // { species: "dog" }
 1. More practice with objects (inside arrays!). Fork and clone Wes Bos' [JavaScript30 repository](https://github.com/wesbos/JavaScript30). To follow along with these two video exercises, you'll want to open the `index-START.html` file.
     - [04 - Array Cardio Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs)
     - [07 - Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw)
-1. Go back to the [JavaScript exercises repository's `foundations/` directory](https://github.com/TheOdinProject/javascript-exercises/tree/main/foundations). Review each README file prior to completing the following exercises in order:
-   - `12_calculator`
-   - `13_palindromes`
-   - `14_fibonacci`
-   - `15_getTheTitles`
-   - `16_findTheOldest`
+1. Go to the [JavaScript exercises repository's `foundations/object_basics` directory](https://github.com/TheOdinProject/javascript-exercises/tree/main/foundations/object_basics). Review each README file prior to completing the following exercises in order (as a reminder, you can always check the [repo's own README](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises "JavaScript exercises repo README") for general instructions):
+   - `01_calculator`
+   - `02_palindromes`
+   - `03_fibonacci`
+   - `04_getTheTitles`
+   - `05_findTheOldest`
 
    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
