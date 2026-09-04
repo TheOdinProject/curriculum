@@ -70,6 +70,22 @@ Here's a quick example that includes arrays and loop logic.
 </ul>
 ```
 
+#### Formatting EJS
+
+If you use Prettier for code formatting, you may want to install the [Prettier Plugin for EJS](https://www.npmjs.com/package/prettier-plugin-ejs), as Prettier doesn't natively support EJS tags.
+
+```bash
+npm install prettier-plugin-ejs --save-dev
+```
+
+You will also need to add the configuration to your `.prettierrc` file in the root of your project.
+
+```json
+{
+  "plugins": ["prettier-plugin-ejs"]
+}
+```
+
 ### Using EJS with Express
 
 Let's use EJS with Express. First, create an EJS template file called `index.ejs` in the `views` subdirectory, and add the following:
