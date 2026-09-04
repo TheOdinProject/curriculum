@@ -198,7 +198,7 @@ We will teach you the art of actually writing these tests later in the course. F
    - `Copy and sort array`
    - `Shuffle an array`
    - `Filter unique array members`
-1. Go to the [JavaScript exercises repository's `foundations/loops_and_arrays` directory](https://github.com/TheOdinProject/javascript-exercises/tree/main/foundations/loops_and_arrays). Review each README file prior to completing the following exercises in order (it may have been a while, so take a moment to remind yourself of the [repo's own README](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) for general instructions):
+1. Go to the [JavaScript exercises repository's `foundations/loops_and_arrays` directory](https://github.com/TheOdinProject/javascript-exercises/tree/main/foundations/loops_and_arrays). Review each README file prior to completing the following exercises in order (it may have been a while, so take a moment to remind yourself of the [repo's own README](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises "JavaScript exercises repo README") for general instructions):
     - `01_repeatString`
     - `02_reverseString`
     - `03_removeFromArray`
