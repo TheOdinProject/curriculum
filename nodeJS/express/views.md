@@ -78,7 +78,7 @@ If you use Prettier for code formatting, you may want to install the [Prettier P
 npm install prettier-plugin-ejs --save-dev
 ```
 
-You will also need to add the configuration to your `.prettierrc` file in the root of your project.
+You will also need to add the configuration to a `.prettierrc` file in the root of your project.
 
 ```json
 {
