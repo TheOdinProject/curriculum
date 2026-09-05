@@ -352,7 +352,7 @@ After that, you will enjoy all the benefits of using `Ruby LSP` and its `RuboCop
 
 1. Read [Eric Mathison's Understanding require and Friends in Ruby](https://github.com/ericmathison/articles/blob/master/understanding-require-in-ruby.md).
 1. Check out the [RubyGems Basics](https://guides.rubygems.org/rubygems-basics/).
-1. Skim through [Patterns guide from RubyGems](https://guides.rubygems.org/patterns/), paying closer attention to `Semantic versioning`, `Declaring dependencies` and `Loading code`.
+1. Skim through [Patterns guide from RubyGems](https://guides.rubygems.org/patterns/), paying closer attention to [`Semantic versioning`](https://guides.rubygems.org/versioning/), [`Declaring dependencies`](https://guides.rubygems.org/gemfile-and-gemspec/#:~:text=Declaring%20dependencies) and [`Loading code`](https://guides.rubygems.org/patterns/#:~:text=name%20you%20like.-,Loading%20code,-At%20its%20core).
 1. Skim through [Bundler's Getting Started](https://guides.rubygems.org/getting_started/) and [Frequently Asked Questions](https://guides.rubygems.org/faq/).
 1. Check out [Ruby LSP VSCode extension's README](https://github.com/Shopify/ruby-lsp/tree/main/vscode#readme).
 
