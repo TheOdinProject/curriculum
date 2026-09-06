@@ -1,39 +1,53 @@
-'Content: Advanced HTML/CSS':
-  - 'advanced_html_css/**/*'
+"Content: Advanced HTML/CSS":
+  - changed-files:
+      - any-glob-to-any-file: "advanced_html_css/**/*"
 
-'Content: Databases':
-  - 'databases/**/*'
+"Content: Databases":
+  - changed-files:
+      - any-glob-to-any-file: "databases/**/*"
 
-'Content: Getting Hired':
-  - 'getting_hired/**/*'
+"Content: Getting Hired":
+  - changed-files:
+      - any-glob-to-any-file: "getting_hired/**/*"
 
-'Content: Git':
-  - 'git/**/*'
+"Content: Git":
+  - changed-files:
+      - any-glob-to-any-file: "git/**/*"
 
-'Content: Intermediate HTML/CSS':
-  - 'intermediate_html_css/**/*'
+"Content: Intermediate HTML/CSS":
+  - changed-files:
+      - any-glob-to-any-file: "intermediate_html_css/**/*"
 
-'Content: JavaScript':
-  - 'javascript/**/*'
+"Content: JavaScript":
+  - changed-files:
+      - any-glob-to-any-file: "javascript/**/*"
 
-'Content: NodeJS':
-  - 'nodeJS/**/*'
+"Content: NodeJS":
+  - changed-files:
+      - any-glob-to-any-file: "nodeJS/**/*"
 
-'Content: React':
-  - 'react/**/*'
+"Content: React":
+  - changed-files:
+      - any-glob-to-any-file: "react/**/*"
 
-'Content: Ruby':
-  - 'ruby/**/*'
+"Content: Ruby":
+  - changed-files:
+      - any-glob-to-any-file: "ruby/**/*"
 
-'Content: Ruby on Rails':
-  - 'ruby_on_rails/**/*'
+"Content: Ruby on Rails":
+  - changed-files:
+      - any-glob-to-any-file: "ruby_on_rails/**/*"
 
-'Content: Foundations':
-  - 'foundations/**/*'
+"Content: Foundations":
+  - changed-files:
+      - any-glob-to-any-file: "foundations/**/*"
 
-'Content: Markdownlint':
-  - 'markdownlint/**/*'
-  - '**/*.markdownlint-cli2.jsonc'
+"Content: Markdownlint":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "markdownlint/**/*"
+          - "**/*.markdownlint-cli2.jsonc"
 
-'Type: Chore':
-  - 'archive/**/*'
+"Type: Chore":
+  - changed-files:
+      - any-glob-to-any-file: "archive/**/*"
