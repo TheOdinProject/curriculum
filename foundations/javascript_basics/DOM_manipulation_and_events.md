@@ -6,7 +6,6 @@ One of the most unique and useful abilities of JavaScript is its ability to mani
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Testing that labeler v6 is assigning labels correctly - remove this in the same PR.
 - Explain what the DOM is in relation to a webpage.
 - Explain the difference between a "node" and an "element".
 - Explain how to target nodes with "selectors".
