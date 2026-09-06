@@ -58,8 +58,8 @@ Another facet of this is related to your web presence -- don't be afraid to prod
 
 1. Learn why GitHub is so important:  
 
-   - Read [**A Programmer's Portfolio**](https://blog.codinghorror.com/a-programmers-portfolio/), to understand how showing your actual code is more powerful than relying on a resume to prove your skills.  
-   - The article [**The Power of a Programming Portfolio**](http://grokcode.com/58/the-power-of-a-programming-portfolio/) describes how a portfolio can help you stand out.  
+   - Read The article [**The Power of a Programming Portfolio**](http://grokcode.com/58/the-power-of-a-programming-portfolio/), to understand how showing your actual code is more powerful than relying on a resume to prove your skills, and how a portfolio can help you stand out. 
+   - The article [**The Importance of Portfolio Building for Web Developers**](https://www.csinow.edu/blog/the-importance-of-portfolio-building-for-web-developers/) provides another viewpoint on why building a portfolio is important and goes a little more in depth on how you should build it.
    - According to [**Your GitHub Portfolio**](http://www.forbes.com/sites/anthonykosner/2012/10/20/software-engineers-are-in-demand-and-github-is-how-you-find-them/) from Forbes, GitHub is a central hiring tool that lets employers see your code.  
 
 1. Read articles on how to brand yourself:
