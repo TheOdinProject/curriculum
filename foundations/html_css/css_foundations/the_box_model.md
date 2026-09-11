@@ -65,4 +65,4 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Would you use `margin` or `padding` to create more space between the contents of an element and its border?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
 - [Would you use `margin` or `padding` if you wanted two elements to overlap each other?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders)
 - [How do you set the alternative box model for all of your elements?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model)
-- [How do you center an element horizontally?](https://css-tricks.com/almanac/properties/m/margin/#aa-auto-and-centering)
+- [How do you horizontally center a block-level element with a specified width?](https://css-tricks.com/almanac/properties/m/margin/#aa-auto-and-centering)
