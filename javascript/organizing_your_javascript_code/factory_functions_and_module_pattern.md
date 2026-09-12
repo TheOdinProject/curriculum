@@ -378,7 +378,7 @@ But then why not just write the factory function then call it once? Why bother w
 
 1. Read [Wes Bos' article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope).
 1. Read [Wes Bos' article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures).
-1. Read [MDN's guide on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures) (Ignore ES6 modules for now; we’ll talk about them in a future lesson).
+1. Read [MDN's guide on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures) (ignore ES6 modules for now; we’ll talk about them in a future lesson).
 
 </div>
 
