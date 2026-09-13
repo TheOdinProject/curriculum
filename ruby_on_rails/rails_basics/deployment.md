@@ -100,7 +100,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - 750 hours of free usage per month.
 - Applications are put to sleep automatically after 15 minutes of inactivity, so the 750 free hours should be enough to host a few apps for the entire month.
-- You only get one free database at a time which lasts 90 days before being deleted. With this strict database allowance, the free tier is enough to host one free app for 90 days.
+- You can only have one active free database at a time, which expires 30 days after creation.
 
 ##### Render: Links
 
