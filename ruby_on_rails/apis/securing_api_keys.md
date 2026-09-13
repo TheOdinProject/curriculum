@@ -88,5 +88,5 @@ If you ever need to modify existing or add new secrets, just run `bin/rails cred
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [How does Rails manage secrets?](#understanding-rails-crendentials)
+- [How does Rails manage secrets?](#understanding-rails-credentials)
 - [How do you add or modify secrets?](#adding-secrets)
