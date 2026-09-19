@@ -1,6 +1,6 @@
 ### Introduction
 
-As you work on more sophisticated web applications, there are certain security guidelines to keep in mind as you go. In this lesson, we'll briefly talk about them and how you can incorporate that into your Express application.
+As you work on more sophisticated web applications, there are some further concepts that might be good for you to be aware of, which we've left until now to avoid rabbit holes. In this lesson, we'll briefly talk about some of them along with possible ways to incorporate them into your Express applications.
 
 ### Lesson overview
 
