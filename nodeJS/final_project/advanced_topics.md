@@ -45,7 +45,7 @@ Another very common exploit in the World Wide Web. Imagine you encountered a str
 
 So what could you do about it? One of the most common methods is to use a CSRF token. Every time you prompt your user to perform some state-changing request in your application, check for a hidden, unpredictable key (this could be embedded inside a `<form>` or an HTTP request header). Then, in your app, carry out the request if and only if the token is valid.
 
-### Internationalisation
+### Internationalization
 
 Eventually, you might want to adapt your app to a wider range of audiences around the world. [Internationalisation (I18n)](https://learn.microsoft.com/en-us/globalization/methodology/software-internationalization) is a process of adapting your applications to different populations/languages.
 
