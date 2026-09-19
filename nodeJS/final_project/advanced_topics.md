@@ -18,7 +18,7 @@ This section contains a general overview of topics that you will learn in this l
 Depending on the app you are building, chances are you might want to limit what kind of resources are allowed on it. Content Security Policy (CSP) is a feature that allows you to restrict what resources are loaded on your pages. This is important because it can prevent a few common vulnerabilities:
 
 - **Cross-site scripting (XSS)**: the most common reason why you would want to employ CSP. You do not want to allow attackers to freely inject JavaScript into your app and target your clients.
-- **Clickjacking**: attackers could also embed certain HTML elements (such as `<iframe>` to overlay your app UI elements and trick users to click on those elements to perform something destructive.)
+- **Clickjacking**: Attackers could also embed certain HTML elements (such as an `<iframe>`), overlaying your UI and hiding what's really under it. A user clicks something, thinking it'll done one thing, but the real button underneath actually does something different instead, such as overlaying a fake "close" button over a "submit" button.
 
 ### Logging
 
