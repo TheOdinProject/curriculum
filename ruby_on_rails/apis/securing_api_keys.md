@@ -80,7 +80,7 @@ If you ever need to modify existing or add new secrets, just run `bin/rails cred
 <div class="lesson-content__panel" markdown="1">
 
 1. [Rails' custom credentials guide](https://guides.rubyonrails.org/security.html#custom-credentials) should sum this lesson up just fine.
-1. [WebCrunch's guide on Rails encrypted credentials](https://webcrunch.com/posts/the-complete-guide-to-ruby-on-rails-encrypted-credentials) also talk about setting up environment-specific crendetials, should you ever need it.
+1. [WebCrunch's guide on Rails encrypted credentials](https://webcrunch.com/posts/the-complete-guide-to-ruby-on-rails-encrypted-credentials) also talk about setting up environment-specific credentials, should you ever need it.
 
 </div>
 
