@@ -51,7 +51,7 @@ In the assignment, we will introduce a tool called `webpack-merge` that can make
 
 ### Template repositories
 
-One thing you might have noticed already is that setting up Webpack involves multiple files and directories, and a fair bit of configuration. Each time you set up a new project with Webpack, you may have to look at what you configured before to copy and paste the configuration you want to reuse. You may have also noticed that whenever you create a new repository on Github, there’s an option called `Start with a template` in the `Configuration` section.
+One thing you might have noticed already is that setting up Webpack involves multiple files and directories, and a fair bit of configuration. Each time you set up a new project with Webpack, you may have to look at what you configured before to copy and paste the configuration you want to reuse. You may have also noticed that whenever you create a new repository on Github, there is an option called `Start with a template` in the `Configuration` section.
 
 This is where template repositories can really come in handy. Any of your existing repositories can be converted to a template in its settings (right under where you can rename the repository, there is a checkbox for whether the repository is a template or not). If you check this box, congratulations! That's all you need to do. Now, when you go to create a new repository, the `Start with a template` dropdown will list any templates for you to select. Selecting one will mean your new repository will be a copy of the chosen template, not an empty one!
 
