@@ -52,7 +52,7 @@ So what could you do about it? One of the most common methods is to use a CSRF t
 
 Eventually, you might want to adapt your app to a wider range of audiences around the world. [Internationalization (I18n)](https://learn.microsoft.com/en-us/globalization/methodology/software-internationalization) is a process of adapting your applications to different populations/languages. This could involve taking a look at a client's [Accept-Language header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Accept-Language) and serve the content in the language that they want to see.
 
-MDN documentations also accomodate a wide range of langauges! For example, <https://developer.mozilla.org/fr/> will display all your pages in MDN in French! C'est pratique, non?
+MDN documentations also accommodate a wide range of languages! For example, <https://developer.mozilla.org/fr/> will display all your pages in MDN in French! C'est pratique, non?
 
 ### Cross-Origin Resource Sharing
 
