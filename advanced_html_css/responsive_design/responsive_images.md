@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The most basic problem you are going to face when working with responsive images is the aspect ratio or the relationship between width and height. If you shrink the width of an image on smaller screens and do not manipulate the height, the image will appear distorted!
 
-The solution to this issue is incredibly easy, and we've already mentioned it in an earlier lesson: don't define both a width and a height. <span id="aspect-ratio-knowledge-check">If an image is given a flexible width, and the height is set to `auto`, then it should retain its aspect ratio correctly.</span>
+The solution to this issue is incredibly easy, and we've already mentioned it in an earlier lesson: don't define both a width and a height. If an image is given a flexible width, and the height is set to `auto`, then it should retain its aspect ratio correctly.
 
 ### background-size, background-position and object-fit
 
@@ -55,7 +55,7 @@ It is also possible to literally use *different* images for different screen siz
 
 <div class="lesson-content__panel" markdown="1">
 
-1. <span id="object-fit-background-size-knowledge-check">First check out the docs for [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size), [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position), and [object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit). The demos on those pages should make their usage clear.</span>
+1. First check out the docs for [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size), [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position), and [object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit). The demos on those pages should make their usage clear.
 1. MDN's [Responsive Images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) is an introduction to serving up responsive images in HTML.
 1. CSS Tricks's [Guide to the Responsive Images Syntax in HTML](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/) is a great article that goes into more depth on how to actually implement responsive images.
 
