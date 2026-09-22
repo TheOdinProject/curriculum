@@ -1,7 +1,6 @@
 const sectionsWithDefaultContent = {
   lessonOverview: "lesson overview",
   assignment: "assignment",
-  knowledgeCheck: "knowledge check",
   additionalResources: "additional resources",
 };
 const listSectionsDefaultContent = {
@@ -230,7 +229,6 @@ module.exports = {
         } else {
           switch (headingContent) {
             case sectionsWithDefaultContent.lessonOverview:
-            case sectionsWithDefaultContent.knowledgeCheck:
             case sectionsWithDefaultContent.additionalResources:
               totalErrors.push(
                 ...getListSectionErrors(tokensBetweenHeadings, headingContent),
