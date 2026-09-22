@@ -73,12 +73,6 @@ const htmlString = `
 <!-- markdownlint-disable-next-line -->
 ### `Will not flag ignore comments which require being directly followed by the line to ignore`
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- KC item
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

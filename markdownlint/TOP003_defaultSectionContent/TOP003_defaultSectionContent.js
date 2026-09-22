@@ -1,14 +1,11 @@
 const sectionsWithDefaultContent = {
   lessonOverview: "lesson overview",
   assignment: "assignment",
-  knowledgeCheck: "knowledge check",
   additionalResources: "additional resources",
 };
 const listSectionsDefaultContent = {
   [sectionsWithDefaultContent.lessonOverview]:
     "This section contains a general overview of topics that you will learn in this lesson.",
-  [sectionsWithDefaultContent.knowledgeCheck]:
-    "The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.",
   [sectionsWithDefaultContent.additionalResources]:
     "This section contains helpful links to related content. It isn't required, so consider it supplemental.",
 };
@@ -230,7 +227,6 @@ module.exports = {
         } else {
           switch (headingContent) {
             case sectionsWithDefaultContent.lessonOverview:
-            case sectionsWithDefaultContent.knowledgeCheck:
             case sectionsWithDefaultContent.additionalResources:
               totalErrors.push(
                 ...getListSectionErrors(tokensBetweenHeadings, headingContent),
