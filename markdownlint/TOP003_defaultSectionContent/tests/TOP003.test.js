@@ -50,6 +50,7 @@ describe("TOP003", () => {
 
       assert.deepEqual(lintErrors, [
         `${errorPath}:7 error ${expected.name} ${expected.description} [Expected: "This section contains a general overview of topics that you will learn in this lesson."; Actual: "This section has the wrong text following the heading that should flag an error."]`,
+        `${errorPath}:25 error ${expected.name} ${expected.description} [Expect default content to precede unordered list of additional resources: "This section contains helpful links to related content. It isn't required, so consider it supplemental."]`,
       ]);
     });
 
