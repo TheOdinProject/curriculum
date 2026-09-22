@@ -82,6 +82,7 @@ describe("TOP003", () => {
       assert.deepEqual(lintErrors, [
         `${errorPath}:27 error ${expected.name} ${expected.description} [The additional resources section must not include any ordered lists.]`,
         `${errorPath}:27 error ${expected.name} ${expected.description} [Must include an unordered list of additional resources in the "additional resources" section]`,
+        `${errorPath}:28 error ${expected.name} ${expected.description} [The additional resources section must not include any ordered lists.]`,
       ]);
     });
 

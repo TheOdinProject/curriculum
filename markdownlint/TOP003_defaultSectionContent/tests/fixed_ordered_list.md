@@ -24,4 +24,5 @@ Assignment content
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- AR item
+- AR item that should flag an error
+- Another AR item that should flag an error
