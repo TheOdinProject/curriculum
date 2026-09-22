@@ -312,13 +312,3 @@ Phew, this was a long lesson. Refs and memoization are difficult concepts to gra
 1. Go through [React Compiler docs](https://react.dev/learn/react-compiler) to learn a bit more about it, and to find out how to install and configure it in your projects.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why should you prefer useRef hook over other DOM manipulation methods like querySelector?](https://react.dev/learn/manipulating-the-dom-with-refs)
-- [What is the difference between useMemo and useCallback?](#usememo-or-usecallback)
-- [How do useMemo and useCallback help optimize the performance of React components?](#optimization-description)
-- [When should you memoize a value?](https://kentcdodds.com/blog/usememo-and-usecallback)
-- [What is React Compiler and how does it optimize React applications?](https://react.dev/learn/react-compiler/introduction)

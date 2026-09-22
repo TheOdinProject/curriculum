@@ -156,15 +156,3 @@ To reiterate, Turbolinks is the **predecessor** of Turbo, and **Turbo is not sho
 1. Read chapters 1 and 2 of the [Turbo handbook](https://turbo.hotwired.dev/handbook/introduction). Focus on ensuring you understand around link navigation and how that works as we'll cover forms later.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is page navigation defined by Turbo Drive?](#page-navigation)
-- [What is the default visit action that adds a new entry to the browser history?](#visit-action)
-- [How do you change the action of a Turbo Drive link?](#change-turbo-action)
-- [How do you disable Turbo Drive?](#disable-turbo-drive)
-- [What is the HTTP status code that Turbo cannot handle?](#http-200)
-- [How do you require confirmation for a visit?](https://turbo.hotwired.dev/handbook/drive#requiring-confirmation-for-a-visit)
-- [How does Turbo speeds up perceived link navigation latency?](https://turbo.hotwired.dev/handbook/drive#prefetching-links-on-hover)

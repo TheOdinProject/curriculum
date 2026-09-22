@@ -214,15 +214,3 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 1. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`,`debug`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics#readme) that you previously cloned.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a stack trace?](#reading-the-stack-trace)
-- [What is generally the most useful line in a stack trace?](#most-useful-stack-trace-line)
-- [What are the two things you can learn from the first line of a stack trace?](#stack-trace-first-line-info)
-- [How do `puts` and Pry help you in the debugging process?](#debugging-with-puts)
-- [What should you use instead of `puts` for `nil` values?](#debugging-with-puts-and-nil)
-- [Where should you start with debugging if you encounter a runtime error?](#debugging-with-stack-trace)
-- [Where should you start with debugging if your program runs but does not work the way you expect?](#debugging-without-stack-trace)

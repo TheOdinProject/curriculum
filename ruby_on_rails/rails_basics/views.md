@@ -225,17 +225,6 @@ Now that you've got a taste of the high-level stuff, read through the Rails Guid
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you make sure a preprocessor runs on your view file?](#how-do-preprocessors-work)
-- [What is the difference between `<%`, `<%=` and `<%#`?](#preprocessors)
-- [What does including `<%= yield %>` in a layout do?](https://guides.rubyonrails.org/layouts_and_rendering.html#understanding-yield)
-- [Why do we use partials?](https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials)
-- [What is the shortcut for rendering a collection as a series of partials?](https://guides.rubyonrails.org/layouts_and_rendering.html#rendering-collections)
-- [How do you dynamically link to another page of your Rails app?](#linkto)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

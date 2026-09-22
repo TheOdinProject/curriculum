@@ -211,12 +211,3 @@ Since we have a completed class-based component, let's add additional functional
 1. Implement an edit button for each task. It should replace the todo with an input field, and change the button itself to 'Resubmit', so the edits can be saved. This is a comparatively harder task, kudos for when you finish it!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do props get used in a class-based component?](#the-use-of-a-constructor-and-props)
-- [How does JSX get displayed?](#how-you-can-render-jsx)
-- [How do we deal with state in a class-based component?](#how-to-use-state-and-manage-context)
-- [How do you restore the context of `this` in a method?](#the-importance-of-bind)

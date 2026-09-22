@@ -34,10 +34,3 @@ One other pretty big reason that accessibility matters is that, depending on the
 1. Watch the [videos on Web Accessibility Perspectives by W3C](https://www.w3.org/WAI/perspective-videos/) to see how (and which) users can benefit from accessibility features. Each video is pretty short and has audio descriptions and transcripts. If you prefer, the page also has a link to a compiled version of all of the videos on YouTube.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is web accessibility?](#what-is-web-accessibility)
-- [Who truly benefits from accessibility features?](#benefits-knowledge-check)

@@ -306,14 +306,3 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
 1. You might have noticed us using the `this` keyword in object constructors and prototype methods in the examples above. [JavaScript Tutorial's article on the `this` keyword](https://www.javascripttutorial.net/javascript-this/) covers how `this` changes in various situations. Pay special attention to the pitfalls mentioned in each section.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you write an object constructor and instantiate the object?](#object-constructors)
-- [How can you prevent that an object constructor is called without using the keyword `new`?](#safeguarding-constructors)
-- [What is a prototype and how can it be used?](#the-prototype)
-- [What is prototypal inheritance?](https://javascript.info/prototype-inheritance)
-- [What are the basic do's and don't's of prototypal inheritance?](#recommended-method-for-prototypal-inheritance)
-- [How does `this` behave in different situations?](https://www.javascripttutorial.net/javascript-this/)

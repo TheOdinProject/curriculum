@@ -87,10 +87,3 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 1. Surprise! No assignment! You'll be learning a lot more throughout the coming lessons so keep going.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What's the difference between a flex container and a flex item?](#flex-container-item-knowledge-check)
-- [How do you create a flex item?](#how-to-create-flex-item-knowledge-check)

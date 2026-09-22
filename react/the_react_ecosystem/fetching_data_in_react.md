@@ -274,11 +274,3 @@ You've already tasted the complexity of data fetching in this lesson. Each reque
 1. Read [How to fetch data in React with performance in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react) to learn more about efficiently handling fetch requests in React components.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How can you fetch data from an API in React?](#using-fetch-in-react-components)
-- [Why should you manually throw errors in fetch requests?](#handling-errors)
-- [How can you avoid waterfalling requests?](#managing-multiple-fetch-requests)

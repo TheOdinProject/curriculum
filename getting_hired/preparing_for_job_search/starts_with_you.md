@@ -66,11 +66,3 @@ Some questions to ask (which you'll probably hear again in your early interviews
 Applying without much experience means you need to fill in your weak spots and emphasize your strengths.  For almost everyone, your biggest strength will be hunger and ability to learn.  But companies have heard that story before, so you'll have to tie in other strengths that you can use to make your story compelling.
 
 A quick note -- there is a difference between hunger for opportunity and desperation.  Hunger is about seeking reward (which you can do when you're in a comfortable situation and optimizing opportunities) and desperation is about avoiding failure (which occurs when you absolutely MUST have that job).  Do whatever it takes to not sound desperate, even if you are.
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why is it important to assess your current situation before starting a job search?](#where-you-are-now)
-- [What questions can help you define your career goals and priorities?](#where-you-want-to-be)
-- [What questions can help you identify your strengths and weaknesses as a job candidate?](#what-are-your-assets-and-liabilities)

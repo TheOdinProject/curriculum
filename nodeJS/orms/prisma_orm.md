@@ -201,18 +201,6 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are some of the challenges of using raw sql?](#challenges-with-raw-sqlin)
-- [What is Prisma schema and how is it useful?](#prisma-schema)
-- [What is the Prisma client?](#prisma-client)
-- [How does Prisma client know about the models in your schema?](#prisma-client)
-- [What is Prisma migrate?](#prisma-migrate)
-- [How do you define a relation in Prisma schema?](https://www.prisma.io/docs/orm/v7/prisma-schema/data-model/relations)
-- [How can you get all records from a table using Prisma client?](https://www.prisma.io/docs/orm/v7/prisma-client/queries/crud#get-all-records)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

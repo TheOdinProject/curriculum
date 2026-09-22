@@ -209,16 +209,3 @@ It’s important to know that these shortcuts are for English keyboard layout an
 1. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites. VS Code includes a shortcut to generate lorem ipsum for you. To trigger the shortcut, type `lorem` on the line where you want the dummy text, then press the <kbd>Enter</kbd> key, and voila, you have generated dummy text without a hitch.
 
 </div>
-
-### Knowledge check
-  
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you create a paragraph in HTML?](#create-paragraph-element)
-- [How do you create a heading in HTML?](#headings)
-- [How many different levels of headings are there and what is the difference between them?](#different-heading-levels)
-- [What element should you use to semantically mark text as important?](#strong-element)
-- [What element should you use to semantically emphasize text?](#em-element)
-- [What relationship does an element have with any nested elements within it?](#nested-relationship)
-- [What relationship do two elements have if they are at the same level of nesting?](#elements-same-level)
-- [How do you create HTML comments?](#html-comments)

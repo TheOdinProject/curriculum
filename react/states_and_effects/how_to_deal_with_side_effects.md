@@ -231,12 +231,3 @@ Let us address a few cases where `useEffect` does not need to be used.
 1. Yet another article that explains a common mistake that beginners make, [the infinite useEffect loop](https://dmitripavlutin.com/react-useeffect-infinite-loop).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is an effect?](#introduction)
-- [What constitutes a `useEffect` hook?](#body-of-an-useEffect)
-- [What is the one question we can ask to know when to use an effect?](#but-do-we-need-the-effect)
-- [What do we mean by lifting up the state?](#lifting-the-state)

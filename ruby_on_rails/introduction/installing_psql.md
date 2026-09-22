@@ -108,14 +108,6 @@ Now that we've installed and configured our local PostgreSQL server, let's gener
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the typical environments that make up a pipeline?](#pipeline)
-- [What is an environment variable?](#env_var)
-- [Why should we use environment variables?](#privacy)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

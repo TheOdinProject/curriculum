@@ -60,16 +60,6 @@ For now, it is acceptable to just allow access from any origin. This makes devel
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does REST stand for?](#rest)
-- [What are HTTP verbs and why are they important to an API?](#rest)
-- [What is the Same-Origin Policy?](#cors)
-- [How do you enable CORS in your Express app?](https://expressjs.com/en/resources/middleware/cors.html)
-- [Which HTTP verb does each letter in CRUD (Create, Read, Update, Delete) correspond to?](#http-verbs-table)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

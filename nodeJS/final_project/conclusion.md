@@ -63,10 +63,3 @@ We want to emphasize again that the learning never really stops but also that yo
 1. Visit [our Discord server](https://discordapp.com/channels/505093832157691914/505093832157691916) to see what we're up to. We'd love to have you get involved!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a great first step after finishing the curriculum?](#next-steps)
-- [How can you get involved with contributing to The Odin Project curriculum?](#contributing)

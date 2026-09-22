@@ -115,17 +115,6 @@ APIs are fundamental to making rich web applications and they're also a lot of f
 
 Working with external APIs can be incredibly rewarding because you're able to leverage functionality that others have spent a lot of time perfecting but also incredibly frustrating because they're all different and you have to rely on gems which are doing things behind the scenes that you're not entirely sure of.  Over time, you'll start to see a lot of similarities between APIs and the procedure for working with them will feel more and more comfortable.  To help get you there, the next project will have you working with an API and your final project will have you implementing signin via API as well.  
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What's the best way to locate an API's docs?](#introduction)
-- [What is an API key?](#first-steps)
-- [How do you avoid including an API's secret token in your GitHub repo (e.g. hard coding it)?](#first-steps)
-- [Why is it important to know which API version you're using?](#versions)
-- [Why would a user prefer to sign into your site using Facebook instead of giving you a new password?](#oauth-and-login-via-api)
-- [What are the different types of "security clearance" for the different types of API requests you can make?](#api-rates-and-security-tokens)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

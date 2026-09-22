@@ -197,16 +197,6 @@ Authentication can appear to be a fairly complicated topic -- there are a lot of
 
 This lesson should have given you some appreciation for how complicated login systems can potentially get but it should also have removed the veil from the websites you've visited countless times.  Auth isn't rocket science and you'll shortly be building it into your own applications.
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How would you set a cookie for hair color on a user's browser?](#using-cookies)
-- [How would you require a user is logged in *before* running some code?](#login-check)
-- [Would you use Basic HTTP Authentication for authenticating users over alternatives such as the Devise gem?](#http-authentication)
-- [How would you flash an error message on a user's browser if they put an invalid username?](#flash-message)
-- [What are some reasons you would want to use the Devise gem for user authentication over building your own authorization system?](#using-devise)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

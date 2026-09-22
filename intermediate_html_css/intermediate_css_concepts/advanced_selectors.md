@@ -266,16 +266,3 @@ To see what other things you can achieve with attribute selectors, such as searc
 1. Do this [Selectors Assessment](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors/Selectors_Tasks) from MDN. It'd help you put your newly learned knowledge of selectors to practice!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the difference between the child combinator and the descendant combinator?](#childvdesc-knowledge-check)
-- [How does the syntax of pseudo-classes and pseudo-elements differ?](#syntax-exist-knowledge-check)
-- [Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?](#syntax-exist-knowledge-check)
-- [Name two ways you could select every second child of an element, starting with the first.](#second-child-knowledge-check)
-- [What is the difference between `div:first-child` and `div:last-child`? What will each select?](#first-child-knowledge-check)
-- [What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?](#hover-active-knowledge-check)
-- [How could you select all input elements with a type of text?](#type-text-knowledge-check)
-- [How could you select all classes that begin with `thunder`?](#thunder-knowledge-check)

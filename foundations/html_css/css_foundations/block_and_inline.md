@@ -70,14 +70,3 @@ Neither `div` nor `span` adds meaning to the content the way semantic tags do, a
    - We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the difference between a block element and an inline element?](#block-inline-difference)
-- [What is the difference between an inline element and an inline-block element?](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block)
-- [Is an `h1` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
-- [Is `button` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
-- [Is `div` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
-- [Is `span` block or inline?](https://www.w3schools.com/html/html_blocks.asp)

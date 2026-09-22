@@ -39,14 +39,3 @@ This section contains a general overview of topics that you will learn in this l
   1. Take a look at [The Odin Project's GitHub repository](https://github.com/TheOdinProject/curriculum). This is where all the lessons are stored! While you're there, look at all [our contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What kind of program is Git?](#introduction)
-- [What are the differences between Git and a text editor in terms of what they save and their record keeping?](#text-editor-and-git)
-- [Does Git work at a local or remote level?](#git-local)
-- [Does GitHub work at a local or remote level?](#github-remote)
-- [Why is Git useful for developers?](https://www.youtube.com/watch?v=2ReR1YJrNOM)
-- [Why are Git and GitHub useful for a team of developers?](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)

@@ -34,12 +34,3 @@ In this codepen example we created a table element, containing two table row ele
 1. Do this [Tables Assessment](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data) from MDN. It's good to put your newly learned skills to practice!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a table?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#what_is_a_table_)
-- [Why is it a bad idea to use HTML Tables for page layout?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#when_should_you_avoid_html_tables)
-- [What are caption elements useful for?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#adding_a_caption_to_your_table_with_caption)
-- [What is the scope attribute?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#the_scope_attribute)

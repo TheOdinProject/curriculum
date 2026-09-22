@@ -64,11 +64,3 @@ This actually applies to the whole process, not just applications.  Follow up yo
 1. Read about [how to get noticed by a startup you want to work for](https://www.themuse.com/advice/want-to-work-for-a-startup-heres-how-to-get-noticed).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are some strategies to get noticed by companies you want to work for?](#go-in-the-side-door)
-- [How can you maintain perseverance during the job search?](#perseverance-through-the-process)
-- [How can you tailor your resume for different positions?](#resume-versions)

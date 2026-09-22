@@ -151,14 +151,3 @@ You should also be careful not to give an element `aria-hidden="true"` if it is 
 1. [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What purpose does WAI-ARIA serve?](#wai-aria-purpose)
-- [What are the four things ARIA can't do?](#aria-limitations)
-- [What are the five rules of ARIA?](#the-five-rules-of-aria)
-- [What is the accessibility tree?](#the-accessibility-tree)
-- [What are the differences between the three ARIA labels?](#aria-labels)
-- [What does the `aria-hidden` attribute do?](#hiding-content-from-the-accessibility-tree)

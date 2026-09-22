@@ -340,20 +340,3 @@ Amazing! We have found a great solution to returning an array that only contains
 1. Complete the nested collections exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a nested array? What data is useful to store in a nested array?](#nested-arrays)
-- [What is a nested hash? What data is useful to store in a nested hash?](#nested-hashes)
-- [How do you access elements in a nested array?](#accessing-elements)
-- [How do you access data in a nested hash?](#accessing-data)
-- [Why is the `#dig` method useful?](#dig-method)
-- [How do you add elements to a nested array?](#adding-and-removing-elements)
-- [How do you add data to a nested hash?](#adding-and-removing-data)
-- [How do you delete elements from a nested array?](#remove-elements-nested-array)
-- [How do you delete data in a nested hash?](#deleting-data-nested-hash)
-- [How do you create a new nested array that can’t be changed through references to the original one?](#create-nested-arrays)
-- [How do you iterate over a nested array?](#iterating-over-a-nested-array)
-- [How do you iterate over a nested hash?](#methods)

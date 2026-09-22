@@ -76,19 +76,3 @@ There are two solutions to the 'tightly coupled code' problem.  The first, and b
 1. Watch this amazing video that covers [what to test in your codebase](https://www.youtube.com/watch?v=URSWYvyc42M). The video is specifically about testing the Ruby language, but that doesn't matter *at all*.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is tightly coupled code?](#tightly-coupled-code)
-- [What are the two requirements for a function to be pure?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
-- [What are side effects and why is it important to identify them when testing a function?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
-- [What should you try before testing tightly coupled code?](#try-before)
-- [How can you test code that can't be decoupled?](#mocking)
-- [What is mocking?](#mocking)
-- [When would you use a mock function?](#mock-function-example)
-- [How should you test incoming query messages?](https://youtu.be/URSWYvyc42M?t=699)
-- [Why should you not test implementation?](https://youtu.be/URSWYvyc42M?t=792)
-- [Should you test private methods?](https://youtu.be/URSWYvyc42M?t=1102)
-- [Why should you not test outgoing messages with no side effects?](https://youtu.be/URSWYvyc42M?t=1370)

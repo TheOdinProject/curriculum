@@ -332,23 +332,6 @@ With time, you are going to be better at adhering to rules but perhaps more impo
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a style guide?](#style-guide)
-- [What is formatting?](#formatting)
-- [What is linting?](#linting)
-- [How do you install RuboCop?](#install-rubocop)
-- [How do you run RuboCop in a command line interface?](#cli-rubocop)
-- [How do you read RuboCop's output?](#output-rubocop)
-- [How do you configure RuboCop?](#configure-rubocop)
-- [Why is Metrics department so important for new Rubyists?](#importance-metrics)
-- [What is the ABC metric?](#abc)
-- [What is cyclomatic complexity?](#cyclomatic)
-- [What is perceived complexity?](#perceived)
-- [How do you configure RuboCop in VSCode?](#vscode-rubocop)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

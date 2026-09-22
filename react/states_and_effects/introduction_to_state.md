@@ -83,12 +83,3 @@ Hooks are functions that let you use React features. All hooks are recognizable 
 1. Head back to the state example app from our `react-examples` repo earlier in the lesson. Add a new state variable to keep track of the number of times the background color has been changed. Display the number of times the background color has been changed on the page.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is state?](#what-is-state-in-react)
-- [What is the `useState` hook and how would you use it?](#useState-hook)
-- [What happens to a component when one of its states is changed?](#how-does-state-work-in-react)
-- [What are some of the rules of hooks?](#hooks)

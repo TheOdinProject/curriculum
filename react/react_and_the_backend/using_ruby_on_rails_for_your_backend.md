@@ -27,10 +27,3 @@ Are you done? Good. Next, it's time to practice allowing your front end JavaScri
 1. Follow the tutorial in ["How to Build a fullstack Rails 7 backend with React Frontend"](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04). It demonstrates how to integrate React with Rails via esbuild, retrieve data from the API layer through an AJAX request using the Fetch API (remember what you learned in the JavaScript lesson ["Working with APIs"](https://www.theodinproject.com/lessons/javascript-working-with-apis)), and handle the CSRF token in non-GET requests.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What possibilities exist to connect a React frontend with a Rails backend?](https://thoughtbot.com/blog/how-to-integrate-react-rails)
-- [How do you integrate React with Rails using esbuild?](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04#step-3-installing-frontend-dependencies)

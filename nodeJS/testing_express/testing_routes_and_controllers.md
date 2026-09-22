@@ -156,12 +156,3 @@ If we were using a real database here, then we would want to do something simila
 1. SuperTest actually pulls from another related project called SuperAgent.  Any method that you can call in SuperAgent you can also call from SuperTest, so you'll need to take a look through the [SuperAgent docs](https://forwardemail.github.io/superagent/) as well.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the motivation behind SuperTest?](https://github.com/forwardemail/supertest#about)
-- [What is the purpose of `done`? What convenience does SuperTest provide concerning it?](#done)
-- [What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?](https://github.com/forwardemail/supertest#example)
-- [What are the methods provided by SuperAgent to handle multipart requests and how to use them?](https://forwardemail.github.io/superagent/#multipart-requests)

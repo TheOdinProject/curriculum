@@ -94,13 +94,3 @@ One way to prevent this frustrating behavior is to give each individual item in 
 1. Read about [Skip Links](https://webaim.org/techniques/skipnav/), another form of accessibility for keyboard users and can be especially helpful for those who require more effort to tab through the contents of a page.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are two things that interactive elements must have for keyboard users?](#interactive-elements-keyboard)
-- [What are focus styles?](#focus-styles)
-- [Why should you never completely remove focus styles from an element?](#focus-never-remove)
-- [What is the tab order?](#tab-order)
-- [What is the best way to hide hidden content from assistive technologies?](#best-way-hide-content)

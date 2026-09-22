@@ -33,9 +33,3 @@ The smallest phones in common circulation rarely get smaller than `320px`, so th
 1. Read this Google Chrome DevTools guide on [how to simulate mobile device displays](https://developer.chrome.com/docs/devtools/device-mode/).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is Responsive Design?](#what-is-responsive-design)

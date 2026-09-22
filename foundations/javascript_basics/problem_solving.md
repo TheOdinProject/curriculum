@@ -264,15 +264,3 @@ Buzz
   1. Read this [Pseudocode: What It Is and How to Write It](https://www.builtin.com/data-science/pseudocode) article from Built In.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the three stages in the problem solving process?](#problem-solving-stages)
-- [Why is it important to clearly understand the problem first?](#important-understand-problem)
-- [What can you do to help get a clearer understanding of the problem?](#help-understand-problem)
-- [What are some of the things you should do in the planning stage of the problem solving process?](#planning-stage)
-- [What is an algorithm?](#algorithm)
-- [What is pseudocode?](#pseudo)
-- [What are the advantages of breaking a problem down and solving the smaller problems?](#breaking-problem)

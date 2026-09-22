@@ -251,11 +251,3 @@ No assignment for this particular lesson! While JavaScript is a very flexible la
 While this lesson has touched on the basic ideas behind why we might use objects in the first place, we will explore these concepts much more practically in the coming lessons via a multitude of techniques for creating and using objects.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are two ways you can use objects to organize code?](#objects-as-a-data-structure)
-- [What is a method?](#objects-as-a-design-pattern)
-- [In object methods, what is the `this` keyword used for?](#this-keyword)

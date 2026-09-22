@@ -234,18 +234,6 @@ That's really just a taste of the Rails controller, but you should have a pretty
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does a controller do?](https://guides.rubyonrails.org/action_controller_overview.html#what-does-a-controller-do-questionmark)
-- [Why is it important to adhere to the Rails naming convention for your controllers and all of its methods?](#naming-matters)
-- [What is the difference between `render` and `redirect_to`?](#rendering-and-redirecting)
-- [Which variable in your controller contains all the data sent in by the user?](https://guides.rubyonrails.org/action_controller_overview.html#parameters)
-- [Data from a client can never be trusted. Which helper method should you incorporate in your controller to prevent malicious data injections?](#strong-parameters)
-- [When is a flash message shown?](https://guides.rubyonrails.org/action_controller_overview.html#the-flash)
-- [How do we change when a flash is shown?](https://guides.rubyonrails.org/action_controller_overview.html#flash-now)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

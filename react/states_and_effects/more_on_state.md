@@ -194,14 +194,3 @@ This pattern is extremely useful wherever you need more control over user input,
    - There are many ways you can do this. Keep in mind what you've learned in this lesson while coding it out.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What should you keep in mind while declaring state?](#how-to-structure-state)
-- [Why should we always use `setState` to update our state?](#state-should-not-be-mutated)
-- [What does "state as a snapshot" mean?](#how-state-updates)
-- [What's the difference between passing a value vs a callback to the `setState` function?](#state-updater-functions)
-- [Why should we always provide a new Object to `setState`?](#objects-and-arrays-in-state)
-- [Why would you want to control a component?](#controlled-components)

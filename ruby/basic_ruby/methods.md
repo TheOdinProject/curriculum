@@ -307,20 +307,3 @@ Writing `whisper.downcase!` is the equivalent of writing `whisper = whisper.down
 1. Complete the method exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How would you create your own method?](#creating-a-method)
-- [How would you call your new method?](#calling-a-method)
-- [How do you pass variables to your method?](#parameters-and-arguments)
-- [How do you define default parameters for your method?](#default-parameters)
-- [What is the difference between an explicit return and an implicit return?](#what-methods-return)
-- [What is the difference between `puts` and `return`?](#difference-between-puts-and-return)
-- [How do you chain multiple methods together?](#chaining-methods)
-- [Give an example of a valid method name and an invalid method name.](#method-names)
-- [What is snake case?](#snake-case)
-- [What are some of Ruby's reserved words?](#reserved-words)
-- [What do you call a method that returns `true` or `false`? What is their naming convention?](#predicate-methods)
-- [What do bang methods do? What is their naming convention?](#bang-methods)

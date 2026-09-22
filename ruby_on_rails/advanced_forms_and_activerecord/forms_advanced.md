@@ -187,18 +187,6 @@ We've covered two of the more common use cases for complex forms -- pre-populati
 
 The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferable to every form you'll ever make.
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does the `#select_tag` helper do?](#prepopulating-select-tags-with-collections)
-- [When using `#options_for_select`, what format does the array need to be in?](#options-for-select)
-- [When would you use the `#select` helper?](#select-helper)
-- [How can you prevent users from having to submit multiple forms?](#nested-forms)
-- [What do you add to the model that allows nested forms to create new objects?](#accepts-nested-attributes-for)
-- [How do you allow the nested parameters in your controller?](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html)
-- [How can you set up a dropdown or checkbox to delete a record that already exists?](#miscellania-blank-submissions-that-mean-delete)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

@@ -153,10 +153,3 @@ The other important thing to note is almost all the tests follow a certain patte
 1. This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. The `userEvent` API in this tutorial is synchronous, unlike our current asynchronous one. However, you should be able to follow along using your previous knowledge and you can still use Vite and Vitest as before.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How can you mock a callback handler?](#testing-callback-handlers)
-- [How can you mock a child component?](#mock-child-component)

@@ -197,13 +197,3 @@ Now that you’ve made a grid you can start to see how easy it is to control the
 - Look through the developer tools docs on [inspecting CSS Grid in Chrome DevTools](https://developer.chrome.com/docs/devtools/css/grid/).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How does an HTML element become a grid item?](#setting-up-a-grid)
-- [What is the space between lines on the grid?](#columns-and-rows)
-- [How do you set gutters (also known as alleys) in the grid?](#gap)
-- [Describe what happens when you have more content than defined tracks.](#explicit-vs-implicit-grid)
-- [How could you change the size for those undefined tracks?](#explicit-vs-implicit-grid)

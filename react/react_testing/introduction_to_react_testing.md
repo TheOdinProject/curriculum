@@ -189,16 +189,3 @@ Even though some articles use Jest and the Enzyme testing library, the concepts 
 1. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what snapshot testing is for programming in general.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why might you want to test your UI?](#ui-testing)
-- [What packages are required for React testing?](#setting-up-a-react-testing-environment)
-- [What is the significance of the user-event package?](#user-event)
-- [What does the `render` method do?](https://testing-library.com/docs/react-testing-library/api/#render)
-- [What is the most preferred method for querying?](#by-role-methods)
-- [How would you test for a click event with `userEvent`?](#simulating-user-events)
-- [What is the advantage of snapshot tests?](#advantage-snapshot-tests)
-- [What are the disadvantages of snapshot tests?](#disadvantage-snapshot-tests)

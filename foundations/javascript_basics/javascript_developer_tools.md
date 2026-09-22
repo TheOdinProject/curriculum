@@ -45,12 +45,3 @@ Google has updated some of the required sections in the below tutorials and some
 1. Go through the [Chrome DevTools console overview](https://developer.chrome.com/docs/devtools/console/) to familiarize yourself with the console and its usage.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you open developer tools?](#opening-devtools)
-- [How do you change screen size of a website using developer tools?](https://developer.chrome.com/docs/devtools/device-mode/)
-- [What is a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
-- [How do you set a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc)

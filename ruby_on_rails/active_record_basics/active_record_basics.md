@@ -59,12 +59,6 @@ That was really just a teaser about what Active Record can do. In the reading be
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Should Active Record model classes be singular or plural?](https://guides.rubyonrails.org/active_record_basics.html#naming-conventions)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

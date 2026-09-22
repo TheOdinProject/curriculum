@@ -400,14 +400,3 @@ If you need to add a *unique* style for a *single* element, this method can work
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the syntax for class and ID selectors?](#class-selectors)
-- [How would you apply a single rule to two different selectors?](#the-grouping-selector)
-- [Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?](#chaining-selectors)
-- [What does the descendant combinator do?](#descendant-combinator-description)
-- [What are the names of the three ways to add CSS to HTML?](#adding-css-to-html)
-- [What are the main differences between the three ways of adding CSS to HTML?](#additional-methods-for-adding-css-to-html)

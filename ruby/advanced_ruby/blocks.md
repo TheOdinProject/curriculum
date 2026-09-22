@@ -528,22 +528,3 @@ After coming to grips with the information in this lesson you'll be a block, pro
 1. Read this [article on lambdas in Ruby](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we’ve used here. We really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a block?](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks)
-- [How is a block like a method?](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks)
-- [What are the two ways to declare a block?](#block-basics)
-- [How do you return data from a block?](#return-value)
-- [How can your methods collect the return data from a block?](#collect-return)
-- [What happens if you include a `return` statement in a block?](#explicit-return)
-- [What does `yield` do?](#yield)
-- [How do you pass arguments to a block from within a method?](#pass-arguments)
-- [How do you check whether a block was actually passed in?](#block-given)
-- [What is a proc?](#procs)
-- [What is a lambda?](#lambdas)
-- [What's different between a lambda and a proc?](#procs-vs-lambdas)
-- [How do you convert a proc to a block?](#proc-to-block)
-- [How do you convert a block to a proc?](#capturing-blocks)

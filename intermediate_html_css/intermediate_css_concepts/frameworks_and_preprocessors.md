@@ -48,10 +48,3 @@ Some of the standard preprocessors in use are [SASS](https://sass-lang.com/), [L
 1. Read about [some disadvantages to using a CSS preprocessor](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/). Note that since the article was written, CSS now has nesting and variables via custom properties.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are CSS frameworks?](#frameworks-overview)
-- [What are CSS preprocessors?](#preprocessors-overview)

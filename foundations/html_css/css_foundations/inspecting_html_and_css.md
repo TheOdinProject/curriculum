@@ -42,11 +42,3 @@ The Styles panel also allows you to edit styles directly in the browser. You can
    - [View and change CSS](https://developer.chrome.com/docs/devtools/css): be sure to follow along with any interactive instructions!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you select a specific element on your page with your browser’s developer tools?](#inspecting-elements)
-- [What does a strikethrough in a CSS declaration mean in your browser’s developer tools?](#strikethrough)
-- [How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?](#testing-styles-in-the-inspector)

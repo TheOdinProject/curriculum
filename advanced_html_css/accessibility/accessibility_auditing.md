@@ -36,10 +36,3 @@ Of course, one of the best ways to check the accessibility of your websites is t
     - Although there will be differences between different browsers, such as the value of the role property or how a11y properties are presented, check out [the "Features of the Accessibility panel" section in MDN's documentation](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/index.html#features-of-the-accessibility-panel). There is useful information that, while more tailored to Firefox, may still be useful for Chrome users.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are some of the various accessibility features available in your browser's DevTools?](https://developer.chrome.com/docs/devtools/accessibility/reference/#pane)
-- [Which third-party accessibility auditing tool is available in the Chrome DevTools by default?](#chrome-default-tool-knowledge-check)

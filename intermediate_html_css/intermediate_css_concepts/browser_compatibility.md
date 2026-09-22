@@ -68,11 +68,3 @@ It's important to remember that mobile browsers are not one-to-one with their de
 1. Read this article [about browsers on iOS](https://adactio.com/journal/17428).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the most used browser currently?](#most-used-browser)
-- [What was the original name of the first web browser?](#first-web-browser)
-- [How are mobile browsers different on Apple mobile operating systems from Android?](#apple-browsers)

@@ -141,11 +141,3 @@ A font-size of `5vw` is set in-between. The value `5vw` allows the font-size to 
 1. Have a more in-depth look at the [`min`, `max` and `clamp` CSS functions](https://web.dev/min-max-clamp/) in action.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the four CSS math functions we covered above?](#function-names-knowledge-check)
-- [How do we use CSS math functions in our CSS?](#what-is-a-function-and-how-are-they-used-in-css)
-- [How can CSS functions help make websites and applications more responsive?](#responsive-design-knowledge-check)

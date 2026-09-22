@@ -46,11 +46,3 @@ The answer, by the way, is button 4. The image above is simulating achromatopsia
 Let's look at another example. Let's say you want to create a form that has an instruction stating that required fields are indicated by red text. If a user is color blind or otherwise has difficulty telling some colors apart, having to rely solely on the color of this text can make it difficult or even impossible to perceive or operate the form. Instead of only using color, your form could indicate all required fields with red text and an asterisk:
 
 ![Conveying information with color](https://user-images.githubusercontent.com/70952936/125674026-9baafc58-2339-48f4-8b12-892375b87ad7.jpg)
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a contrast ratio?](#contrast-ratio)
-- [What are two ways you can check a contrast ratio using your dev tools?](#dev-tools)
-- [What should you avoid when conveying information to users?](#color-information)

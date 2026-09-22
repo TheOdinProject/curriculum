@@ -227,17 +227,6 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What do you name the folder that contains your test files?](#tests-folder)
-- [What does the keyword `RSpec.describe` define?](#keyword-describe)
-- [What does the keyword `it` define?](#keyword-it)
-- [How many expect clauses can you write for one test case?](#expect-clauses)
-- [What are some of RSpec's equality matchers?](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/)
-- [How do we tell RSpec where to find the code to be tested?](#require)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

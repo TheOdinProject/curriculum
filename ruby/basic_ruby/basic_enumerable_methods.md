@@ -438,15 +438,3 @@ invited_friends(friends)
   1. Complete the basic enumerable exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does the `#each` method do? What does it return?](#the-each-method)
-- [What does the `#each_with_index` method do?](#the-eachwithindex-method)
-- [What does the `#map` method do?](#the-map-method)
-- [What does the `#select` method do?](#the-select-method)
-- [What does the `#reduce` method do?](#the-reduce-method)
-- [When should you use `do...end` around a code block versus `{...}`?](#ruby-knowledge-check-do..end-vs-{...})
-- [Why should you avoid using the bang methods of enumerables?](#bang-methods)

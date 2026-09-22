@@ -57,11 +57,3 @@ To get some practice using lists, create a new HTML document and create the foll
 1. An ordered list of your all time top 5 favorite video games or movies
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What HTML element is used to create an unordered list?](#unordered-lists)
-- [What HTML element is used to create an ordered list?](#ordered-lists)
-- [What HTML element is used to create list items within both unordered and ordered lists?](#li)

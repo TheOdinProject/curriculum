@@ -119,14 +119,3 @@ Environment variables aren't only for sensitive data, but you will often need th
 1. Check out [Node's documentation on environment variables](https://nodejs.org/docs/latest-v24.x/api/environment_variables.html) for more information about file syntax and CLI usage.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are environment variables?](#environment-variables)
-- [What might you want to use environment variables for?](#environment-variables)
-- [How can you load environment variables from a `.env` file?](#node-env-files)
-- [How do you access environment variables in a Node app?](#accessing-environment-variables)
-- [What data type will an environment variable always be?](#accessing-environment-variables)
-- [Should you push your `.env` file to GitHub?](#keep-your-secrets-safe)

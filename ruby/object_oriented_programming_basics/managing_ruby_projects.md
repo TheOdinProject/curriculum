@@ -358,19 +358,6 @@ After that, you will enjoy all the benefits of using `Ruby LSP` and its `RuboCop
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why would you split your code across multiple files?](#confusion-convention-convenience)
-- [How can you make code from different files available?](#making-use-of-multiple-files)
-- [Why would you wrap your code in a module?](#namespaces)
-- [What are gems?](#gems-and-you)
-- [How do you install gems?](#install-gem)
-- [What is Bundler used for?](#bundler)
-- [Why would you use bundle exec?](#bundle-exec)
-- [What are Gemfile and Gemfile.lock for?](#gemfile)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

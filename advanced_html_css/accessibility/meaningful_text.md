@@ -89,11 +89,3 @@ For Example 2, the screen reader would announce, "Odin, graphic", making the use
   1. Read [Usable and Accessible Form Validation and Error Recovery](https://webaim.org/techniques/formvalidation/) to learn about different ways to provide errors to users, as well as the pros and cons of each.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are three rules you should follow in order to provide meaningful links?](#meaningful-links-rules)
-- [What information should you inform users of in order to provide meaningful error messages in forms?](#meaningful-error-msg)
-- [When should you use the empty string/null value for the `alt` attribute?](#empty-alt-attribute)

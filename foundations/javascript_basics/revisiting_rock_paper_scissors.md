@@ -90,12 +90,3 @@ For example: if you have a bug in a new feature you’re working on that you can
 1. Make sure to publish the project on GitHub Pages and add a live preview link in the [project lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are branches in git?](#introduction)
-- [How do you create a new branch?](#using-branches)
-- [How do you merge a branch back into main?](#using-branches)
-- [What is one use case for branches?](#sharing-code)

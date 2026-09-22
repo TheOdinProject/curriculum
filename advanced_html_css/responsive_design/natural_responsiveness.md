@@ -80,13 +80,3 @@ Here's a statement so obvious that it sounds like a joke: flexbox was *created* 
 1. [Using Percentages in CSS](https://web.archive.org/web/20251116005914/https://codyloyd.com/2021/percentages/) is an article that tackles another common pitfall. Don't focus too much on the `@media` parts, as we will cover media queries very soon.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is natural responsiveness?](#natural-responsiveness)
-- [When should you avoid using fixed widths?](#fixed-width)
-- [When should you avoid using fixed heights?](#fixed-height)
-- [In what situations might it be appropriate to use a fixed height or width?](#when-fixed-widths-are-appropriate)
-- [When might percentages interfere with responsiveness?](https://web.archive.org/web/20251116005914/https://codyloyd.com/2021/percentages/)

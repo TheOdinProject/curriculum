@@ -75,12 +75,3 @@ This one is related pretty strongly to 'Single Responsibility' but takes a diffe
 1. FunFunFunction has a great video on [favoring composition over inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the "Single Responsibility Principle"?](#single-responsibility)
-- [What are the additional SOLID principles?](https://duncan-mcardle.medium.com/solid-principle-1-single-responsibility-javascript-5d9ce2c6f4a5)
-- [What are "tightly coupled" objects and why do we want to avoid them?](https://web.archive.org/web/20170215102316/http://www.innoarchitech.com:80/scalable-maintainable-javascript-coupling)
-- [Why is favoring composition over inheritance suggested?](https://www.youtube.com/watch?v=wfMtDGfHWpA)

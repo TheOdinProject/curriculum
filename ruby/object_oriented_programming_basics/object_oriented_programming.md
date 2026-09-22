@@ -29,15 +29,3 @@ This section contains a general overview of topics that you will learn in this l
 1. Do this [quiz on introductory object-oriented programming](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) and this [quiz on modules, classes, and inheritance](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) from Code Quizzes.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a class?](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects)
-- [What are getters and setters?](https://www.eriktrautman.com/posts/ruby-explained-classes)
-- [What is inheritance?](https://www.eriktrautman.com/posts/ruby-explained-classes)
-- [What is a scope?](https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
-- [When is a new scope defined?](https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
-- [What is the purpose of instance variables?](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1#instancevariables)
-- [What is the difference between class variables and instance variables?](https://www.eriktrautman.com/posts/ruby-explained-classes)

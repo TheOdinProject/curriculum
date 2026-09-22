@@ -40,10 +40,3 @@ Good luck and happy learning!
 1. Before you move onto the next section, fill out this very short [React course feedback survey](https://docs.google.com/forms/d/e/1FAIpQLSdj_tNMp0LEz3ZLPqYcF67V11tX_CCJP3CTictPZzZ6XQm2Gw/viewform?usp=sf_link) to add your input and experience with the section. This helps us improve the section as well as the overall course and is greatly appreciated.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are some of the topics you can explore next?](#whats-next)
-- [How to prevent your app "forgetting" changes made on a page reload?](#using-a-backend)

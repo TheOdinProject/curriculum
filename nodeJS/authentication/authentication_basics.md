@@ -381,15 +381,6 @@ You should now be able to log in using the new user you've created (the one with
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Which passport.js strategy did we use in the lesson?](#strategy)
-- [Why does passport.js create a cookie?](#cookie)
-- [What does the `bcrypt.compare()` function do?](#compare)
-- [Why should we include bcrypt when we begin a project?](#bcrypt)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

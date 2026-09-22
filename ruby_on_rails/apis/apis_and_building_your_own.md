@@ -196,19 +196,6 @@ In the next lesson, we'll cover working with other people's APIs, which can add 
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How does Rails know which type of file you are expecting back when you make an HTTP request?](#http-request-format)
-- [What is the purpose of the `#respond_to` method?](#rendering-json-or-xml)
-- [How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?](#specifying-attributes-to-return)
-- [What are the two steps performed behind the scenes by the `#to_json` method?](#to-json-steps)
-- [How do you tell a controller action to render nothing but an error message?](https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses)
-- [How do you build your own custom error messages?](https://web-crunch.com/posts/custom-error-page-ruby-on-rails)
-- [Why can't you use session-based controller authentication methods if you want people to access your API programmatically?](#api-tokens)
-- [What is "Service Oriented Architecture?](#service-oriented-architecture-soa)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

@@ -38,12 +38,3 @@ In all honesty, this is *not* something that you are going to need to worry abou
 1. Have a brief look at the [timeline of the various ECMAScript releases](https://en.wikipedia.org/wiki/ECMAScript_version_history#14th_Edition_%E2%80%93_ECMAScript_2023) which includes small summaries of the annual versions since ES6. Again, some things you may have already used and others you will not recognize nor need to explore yet.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is ES6?](#what-is-ecmascript)
-- [Since ES6, what release schedule has been used for new ECMAScript versions?](#release-schedule)
-- [Why might someone need to be careful about using brand new JavaScript features?](#browser-support)
-- [What tool can be used to transpile newer JavaScript for older browser support?](#babel)

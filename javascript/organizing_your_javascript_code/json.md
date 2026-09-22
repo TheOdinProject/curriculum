@@ -20,11 +20,3 @@ This section contains a general overview of topics that you will learn in this l
 1. Mis-formatted JSON is a common cause of errors. This [JSON formatter website](https://jsonformatter.curiousconcept.com/) lets you paste in JSON code and will search it for formatting errors.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is JSON?]( https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
-- [How do you convert a JSON string into a JavaScript object?](https://www.w3schools.com/js/js_json_parse.asp)
-- [How do you convert a JavaScript object into a JSON string?](https://www.w3schools.com/js/js_json_stringify.asp)

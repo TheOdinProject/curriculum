@@ -130,14 +130,6 @@ All of the above may have you wondering why you'd use importmaps all things cons
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Can you use import maps with npm packages?](#import-maps-with-npm-packages)
-- [How do you download vendor files using import maps?](#downloading-vendor-files)
-- [How can you preload pinned modules?](#preloading-pinned-modules)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

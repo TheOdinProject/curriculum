@@ -88,9 +88,3 @@ These are great questions, and you should feel comfortable asking them even if y
     - Seeds (section 8) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Which rails command will undo a database migration?](#rollback-knowledge-check)

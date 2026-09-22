@@ -65,13 +65,3 @@ You may not know for sure what you might want or need in a template, but when yo
    - You can ignore the "Specify the Mode" section and its examples.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Where do npm scripts live?](#npm-scripts)
-- [How do you define and run npm scripts?](#npm-scripts)
-- [What are the two Webpack modes?](#webpack-modes)
-- [What tool allows you to split your Webpack configuration file with minimal duplication?](https://webpack.js.org/guides/production/)
-- [What is a template repository, and how would you create one?](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)

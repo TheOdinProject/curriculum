@@ -267,16 +267,6 @@ This is just the most common among several options to specify for `:dependent`. 
 
 In this lesson we covered some of the more advanced associations material.  Associations are all over the place in Rails and incredibly useful because of all the new methods they give you access to.  As long as you pause and think about what Rails is assuming when you set them up, you should be able to modify them to your liking without too much trouble.  Practice makes perfect, though, so keep building projects with associations in them and it'll eventually stick.
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What two pieces of information will Rails assume by default for associations?](#foreign-keys-and-class-names)
-- [Which type of association may require the `:source` option to be specified?](#source-option-knowledge-check)
-- [What is populated automatically when an object is created by an association?](#automatic-foreign-key-knowledge-check)
-- [Can a polymorphic association use a single column foreign key?](#polymorphic-column-knowledge-check)
-- [Can a model have associations with instances of the same model?](#self-joins)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

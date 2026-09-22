@@ -146,19 +146,6 @@ On the server side, you will end up writing (or using) methods which restrict ac
 
 We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before in regards to how requests are made because it brings a couple of extra layers onto these formerly-independent HTTP requests. Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What do you call an HTTP message that goes from client to server?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
-- [What do you call an HTTP message that goes from server to client?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
-- [Which HTTP message would include a status code and which would include an action verb?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
-- [What is the name of the additional information that is added after the path of a URL?](https://www.mattcutts.com/blog/seo-glossary-url-definitions/)
-- [What does MVC stand for?](https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/)
-- [What is an "API"?](https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm)
-- [Why do you need "cookies" to continue your "session"?](https://en.wikipedia.org/wiki/HTTP_cookie#Session_management)
-- [What is the difference between "authentication" and "authorization"?](#authorization)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

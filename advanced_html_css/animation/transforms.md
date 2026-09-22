@@ -275,12 +275,3 @@ Another benefit of `transform` is that it can be hardware-accelerated via a devi
 1. Go through [The World of CSS Transforms](https://www.joshwcomeau.com/css/transforms/) by Josh Comeau.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the four main functions of the `transform` property?](#two-dimensional-transforms)
-- [Which function can be used to move an object through space on the X, Y, or Z axis?](#translate)
-- [Which function can be used to make an object larger or smaller on the X, Y, or Z axis?](#scale)
-- [What additional function is required for 3D transforms?](#three-dimensional-transforms)

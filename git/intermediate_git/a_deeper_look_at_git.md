@@ -156,13 +156,3 @@ In modern Git setups, the default branch is typically called `main` instead of `
 1. Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How can you amend your last commit?](#changing-the-last-commit)
-- [What does it mean for branches to be pointers?](#branches-are-pointers)
-- [What is the difference between `git reset`, `git reset --soft`, and `git reset --hard`?](#git-reset)
-- [How would you squash two commits into one?](#squashing-commits)
-- [How would you split a commit into two smaller commits?](#splitting-up-a-commit)

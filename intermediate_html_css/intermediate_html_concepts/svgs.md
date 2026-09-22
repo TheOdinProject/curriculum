@@ -95,11 +95,3 @@ For now, just do whichever works best for your use-case. Linking is generally cl
 1. Read Josh Comeau's [A Friendly Introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/), a great guide with interactive demos covering shapes and scaling. Stop when you get to the section on animations (animations are covered later in the curriculum).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the `xmlns` attribute?](#anatomy-of-an-svg)
-- [What are some situations where you *wouldn't* want to use SVG?](#drawbacks)
-- [What are the benefits of "inlining" your SVGs? What are the drawbacks?](#embedding-svgs)

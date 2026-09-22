@@ -87,15 +87,6 @@ Callbacks are useful and many, like `:after_create` and `:before_destroy`, are p
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you register a callback?](#using-callbacks)
-- [What events happen in an Active Record object's lifecycle?](#the-life-cycle-of-an-active-record-object)
-- [How can you make a callback run under specific conditions?](#specifying-callback-characteristics)
-- [When are transaction callbacks most useful?](https://guides.rubyonrails.org/active_record_callbacks.html#transaction-callbacks)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

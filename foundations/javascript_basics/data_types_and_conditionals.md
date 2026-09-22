@@ -53,25 +53,3 @@ Be sure to follow the order presented here. Read all the directions, watch the t
 Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the eight data types in JavaScript?](https://javascript.info/types#summary)
-- [Which data type is NOT primitive?](https://javascript.info/types#objects-and-symbols)
-- [What is the relationship between null and undefined?](https://javascript.info/types#the-null-value)
-- [What is the difference between single, double, and backtick quotes for strings?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#single_quotes_double_quotes_and_backticks)
-- [What is the term for joining strings together?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#embedding_javascript)
-- [Which type of quote lets you embed variables/expressions in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#embedding_javascript)
-- [How do you embed variables/expressions in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#embedding_javascript)
-- [How do you use escape characters in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#including_quotes_in_strings)
-- [What is the difference between the slice/substring string methods?](https://www.w3schools.com/js/js_string_methods.asp)
-- [What are the three logical operators, and what do they stand for?](http://javascript.info/logical-operators)
-- [What are the comparison operators?](https://javascript.info/comparison)
-- [What are truthy and falsy values?](https://javascript.info/ifelse#boolean-conversion)
-- [What are the falsy values in JavaScript?](https://javascript.info/ifelse#boolean-conversion)
-- [What is the syntax for an if/else conditional?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#basic_if...else_syntax)
-- [What is the syntax for a switch statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements)
-- [What is the syntax for a ternary operator?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#ternary_operator)
-- [What is nesting?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#nesting_if...else)

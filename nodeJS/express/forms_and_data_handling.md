@@ -574,17 +574,6 @@ What if we want to search for a specific user in a list of thousands? We'll need
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the attributes of a form element and what do they do?](#html-forms-overview)
-- [How do you install and import express-validator in your project?](#validation-and-sanitization)
-- [How do you validate and sanitize form input using express-validator?](#understanding-the-body-function)
-- [What is the difference between validation and sanitization?](#validation-and-sanitization)
-- [How do you handle validation errors in Express routes?](#validation-results)
-- [What is the importance of escaping HTML characters in a form?](#escaping-user-input)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

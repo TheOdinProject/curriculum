@@ -90,11 +90,3 @@ Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` 
 1. Shake your moneymaker, you're an OSS contributor!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What name is typically given for a Git remote that points to a repo that's been forked?](#initial-setup)
-- [Can you directly send your changes to a repository that you don't own/have write access to?](#sending-your-pull-request)
-- [What should you do immediately before merging main into your feature branch?](#ongoing-workflow)

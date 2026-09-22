@@ -242,13 +242,3 @@ This code will behave exactly like the code from the last lesson; it just looks 
 1. Watch this [Async and Await video by Wes Bos](https://www.youtube.com/watch?v=9YkUCxvaLEk) for a good overview on async/await and its purpose, along with a special trick.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does the `async` keyword do?](#the-async-keyword)
-- [What does the `await` keyword do?](#the-await-keyword)
-- [What is returned from an `async` function?](https://javascript.info/async-await#summary)
-- [What happens when an error is thrown inside an `async` function?](https://javascript.info/async-await#error-handling)
-- [How can you handle errors inside an `async` function?](https://javascript.info/async-await#error-handling)

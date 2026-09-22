@@ -155,19 +155,3 @@ There will be no confirmation or any output on the terminal after entering this 
 With that done, you can now choose to use either `git commit -m "your message here"` or `git commit` to type your message with Visual Studio Code!
 
 To make a commit with Visual Studio Code as the text editor, just type `git commit`. After you hit <kbd>Enter</kbd> a new tab in VS Code will open for you to write your commit message. You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you create a new repository on GitHub?](#new-github-repo)
-- [How do you copy a repository onto your local machine from GitHub?](#github-to-local)
-- [What is the default name of your remote connection?](#default-remote)
-- [Explain what `origin` is in `git push origin main`.](#origin-push)
-- [Explain what `main` is in `git push origin main`.](#main-push)
-- [Explain the two-stage system that Git uses to save files.](#two-stages)
-- [How do you check the status of your current repository?](#git-status)
-- [How do you add files to the staging area in Git?](#git-add)
-- [How do you commit the files in the staging area and add a descriptive message?](#git-commit)
-- [How do you push your changes to your repository on GitHub?](#git-push)
-- [How do you look at the history of your previous commits?](#git-log)

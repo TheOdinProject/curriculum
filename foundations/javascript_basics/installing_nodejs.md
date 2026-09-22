@@ -70,10 +70,3 @@ For convenience, Node provides a REPL which is an interactive console that lets 
 To run the Node console, open up your terminal and run `node` on its own to open the REPL. Type `.exit` to quit the REPL.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is Node.js?](#introduction)
-- [Should we install the absolute latest version of Node or the latest LTS version?](#lts-version)

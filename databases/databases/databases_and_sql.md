@@ -153,16 +153,3 @@ SQL can be a tricky set of concepts to wrap your head around, particularly when 
 If you never quite get to the point where you're comfortable with the really advanced concepts, you'll luckily not need to use them except in a small fraction of situations in your future.  It's good to learn it all up front but you'll probably find yourself Googling for how to perform certain advanced queries when the time comes anyway.
 
 The next step, once you've had a chance to practice this all in the project, is to apply it to your codebase in the upcoming courses.  You'll quickly find that using ORM tools makes your life much, much, much better.  Just don't forget about ol' SQL when you've moved onto those better and brighter things, okay?
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the difference between a foreign key and a primary key?](#primary-key)
-- [Where is the setup information for your database stored?](#schema)
-- [What are the important parts of a SQL command?](#command-parts)
-- [Which SQL statement is associated with "Read" from the CRUD acronym?](#sql-read)
-- [Which `JOIN` statement keeps only the rows from both tables where they match up?](#inner-join)
-- [How do you use an aggregate function?](#aggregate-function)
-- [In which situation would you use the `HAVING` clause?](#having-clause)
-- [Why can't I just use code to process my database data?](#sql-is-faster-than-your-code)

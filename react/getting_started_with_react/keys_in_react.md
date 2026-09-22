@@ -131,15 +131,3 @@ function GamePage() {
 1. Watch this short video demonstrating [index as key being an anti-pattern](https://youtu.be/xlPxnc5uUPQ).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why does React need keys?](#why-does-react-need-keys)
-- [Why does React need keys when rendering lists?](#keys-when-rendering-lists)
-- [How do you use keys?](#using-keys)
-- [Where should the key value ideally come from?](#keys-from-data)
-- [When can we use an array index as the key value?](#index-as-key)
-- [What is an anti-pattern when using keys?](#anti-pattern)
-- [How are keys related to state?](#keys-and-state)
