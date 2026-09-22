@@ -1,6 +1,6 @@
 ### Introduction
 
-This file should flag 3 errors due to the "Lesson overview", "Knowledge check", and "Additional resources" sections not containing unordered lists.
+This file should flag 2 errors due to the "Lesson overview" and "Additional resources" sections not containing unordered lists.
 
 ### Lesson overview
 
@@ -17,10 +17,6 @@ Text content
 Assignment content
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 ### Additional resources
 

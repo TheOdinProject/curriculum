@@ -20,10 +20,6 @@ Assignment content
 
 </div>
 
-### Knowledge check
-
-- KC item that should flag an error
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
