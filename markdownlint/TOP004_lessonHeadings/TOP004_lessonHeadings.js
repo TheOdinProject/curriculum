@@ -17,7 +17,6 @@ const HEADINGS = {
     "*",
     "### Assignment",
     "*",
-    "?",
   ],
   project: ["### Introduction", "*", "### Assignment", "*"],
   guide: ["### Guide: *", "*"],
