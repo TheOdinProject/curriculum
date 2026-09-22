@@ -163,8 +163,8 @@ You can see more detail and an example in this [CSS Tricks article on ellipsis o
 <div class="lesson-content__panel" markdown="1">
 
 1. Read [MDN's article on web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) and do the exercises.
-1. Read [Font Best Practices](https://web.dev/articles/font-best-practices) to understand some of the performance considerations of imported fonts and how to mitigate issues with them.
-1. Read [web.dev Typography](https://web.dev/learn/design/typography) to understand some important considerations for developers with typography.
+1. Read [web.dev's article on best practices for fonts](https://web.dev/articles/font-best-practices) to understand some of the performance considerations of imported fonts and how to mitigate issues with them.
+1. Read [web.dev's article on typography](https://web.dev/learn/design/typography) to understand some important considerations for developers with typography.
 
 </div>
 
