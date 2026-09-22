@@ -97,12 +97,6 @@ console.log("Flags abbreviated names even with nested code blocks.");
    console.log("Flags abbreviated names even with indented code blocks.");
    ```
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- KC item
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

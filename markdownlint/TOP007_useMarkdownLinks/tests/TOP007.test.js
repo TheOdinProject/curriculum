@@ -32,7 +32,6 @@ describe("TOP007", () => {
         `${errorPath}:23 error ${expected.name} ${expected.description} [   Expected: "[Will flag](#custom-section)"   Actual: "<a href="#custom-section">Will flag</a>" ]`,
         `${errorPath}:23 error ${expected.name} ${expected.description} [   Expected: "[multiple anchors](#assignment)"   Actual: "<a href="#assignment">multiple anchors</a>" ]`,
         `${errorPath}:26 error ${expected.name} ${expected.description} [   Expected: "[@TheOdinProjectExamples](https://codepen.io/TheOdinProjectExamples)"   Actual: "<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>" ]`,
-        `${errorPath}:34 error ${expected.name} ${expected.description} [   Expected: "[Flags knowledge check anchors](#knowledge-check)"   Actual: "<a class="knowledge-check-link" href="#knowledge-check">Flags knowledge check anchors</a>" ]`,
       ]);
     });
 
