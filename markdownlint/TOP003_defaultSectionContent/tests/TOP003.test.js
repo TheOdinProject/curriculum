@@ -74,6 +74,17 @@ describe("TOP003", () => {
       ]);
     });
 
+    it("Flags when ordered list used instead of unordered list", async () => {
+      const filePath = "./ordered_list.md";
+      const errorPath = join(pathInRepo, filePath);
+      const lintErrors = await getLintErrors(filePath);
+
+      assert.deepEqual(lintErrors, [
+        `${errorPath}:27 error ${expected.name} ${expected.description} [The additional resources section must not include any ordered lists.]`,
+        `${errorPath}:27 error ${expected.name} ${expected.description} [Must include an unordered list of additional resources in the "additional resources" section]`,
+      ]);
+    });
+
     it("Flags when list section contains a nested list", async () => {
       const filePath = "./nested_list.md";
       const errorPath = join(pathInRepo, filePath);
