@@ -52,11 +52,11 @@ The application visit lifecycle can be summarized as:
 1. Application visits begin when a user clicks a Turbo Drive enabled link (remember, Turbo Drive is enabled on links by default!).
 1. An HTTP network request is issued. Turbo Drive receives it and will render the HTML.
 1. If possible, Turbo Drive will use the browser's cache to render a preview of the page immediately after the visit begins, using the HTML for the previous visit of the same URL.
-1. <span id="visit-action">The browser history is updated to reflect this page navigation. The way it is changed is determined by the visit action.</span>
+1. The browser history is updated to reflect this page navigation. The way it is changed is determined by the visit action.
     - **Advance**: This is the default action and will result in a new entry being added to the browser history.
     - **Replace**: This action replaces the most recent browser history entry with the new location.
 
-<span id="change-turbo-action">To change the action of a Turbo Drive link, you can use data attributes inside of your Rails link tags</span>
+To change the action of a Turbo Drive link, you can use data attributes inside of your Rails link tags
 
 ```erb
 <%= link_to "Edit Article", edit_article_path(@article), data: { turbo_action: "replace" } %>
@@ -132,7 +132,7 @@ Think of it like this, after you submit a form usually you want to be directed s
 1. When the server responds with a 4XX status code. This is common if you submit a form with the wrong information in it and the server will respond with a 422 Unprocessable Entity status.
 1. When the server responds with a 5XX status code of which the most common is 500 Internal Server Error.
 
-If the server responds with any other status, Turbo won't be able to handle it and it will appear as though nothing has happened as the page won't update. <span id="http-200">The one thing to keep in mind with this is the HTTP 200 status. This is returned when a request has succeeded so it might seem strange at first that Turbo can't handle this type of request.</span>
+If the server responds with any other status, Turbo won't be able to handle it and it will appear as though nothing has happened as the page won't update. The one thing to keep in mind with this is the HTTP 200 status. This is returned when a request has succeeded so it might seem strange at first that Turbo can't handle this type of request.
 
 The reason is that if you've ever submitted a form and refreshed the page before the POST action completed you get a popup from your browser asking if you want to submit the form again. Your browser does this because when you refresh you've actually issued a new request and the server has responded with a 200 status because the request was ok and handled without an error or redirect. Browsers handle this case by offering to submit the form again as a POST request for you. Because Turbo has intercepted the request you won't get that default browser behavior and Turbo cannot replicate this and it has two options:
 

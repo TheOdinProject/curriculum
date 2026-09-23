@@ -26,15 +26,15 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Understand the problem
 
-<span id="problem-solving-stages"></span>
-The first step to solving a problem is understanding exactly what the problem is.<span id="important-understand-problem"> If you don't understand the problem, you won't know when you've successfully solved it and may waste a lot of time on a wrong solution</span>.
 
-<span id="help-understand-problem">To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.</span>
+The first step to solving a problem is understanding exactly what the problem is. If you don't understand the problem, you won't know when you've successfully solved it and may waste a lot of time on a wrong solution.
+
+To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.
 
 ### Plan
 
 Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
-<span id="planning-stage"></span>
+
 Some of the questions you should answer at this stage of the process:
 
 - Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
@@ -42,11 +42,11 @@ Some of the questions you should answer at this stage of the process:
 - What's the desired output?
 - Given your inputs, what are the steps necessary to return the desired output?
 
-The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudocode.</span>
+The last question is where you will write out an algorithm to solve the problem. You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudocode.
 
 ### Pseudocode
 
-<span id="pseudo">Pseudocode is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>
+Pseudocode is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.
 
 Here's an example of what the pseudocode for a program that prints all numbers up to an inputted number might look like:
 
@@ -65,7 +65,7 @@ From your planning, you should have identified some subproblems of the big probl
 
 It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete—this is fine. Getting started with and solving one of the subproblems you have identified in the planning stage often reveals the next subproblem you can work on. Or, if you already know the next subproblem, it’s often simpler with the first subproblem solved.
 
-Many beginners try to solve the big problem in one go. **Don’t do this**. <span id="breaking-problem">If the problem is sufficiently complex, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller and easier to solve subproblems is a much better approach. Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.</span>
+Many beginners try to solve the big problem in one go. **Don’t do this**. If the problem is sufficiently complex, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller and easier to solve subproblems is a much better approach. Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 

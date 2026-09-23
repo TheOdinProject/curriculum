@@ -4,7 +4,7 @@ You are already familiar with Ruby blocks from the [Basic Enumerable Methods](ht
 
 A very quick recap of the basics that you should already be familiar with...
 
-<span id="block-basics">A block can be declared as a single-line or multi-line block. Ruby convention is to use `{}` for single-line blocks and `do..end` for multi-line blocks. You can pass parameters to a block by defining them inside pipes, i.e. `|arg1, arg2|`. You'll already know both forms from working with enumerable methods.</span>
+A block can be declared as a single-line or multi-line block. Ruby convention is to use `{}` for single-line blocks and `do..end` for multi-line blocks. You can pass parameters to a block by defining them inside pipes, i.e. `|arg1, arg2|`. You'll already know both forms from working with enumerable methods.
 
 ```ruby
 # Single-line block
@@ -68,7 +68,7 @@ double_vision { puts "How many fingers am I holding up?" }
 
 Millennial avocados, Batman. That's cool.
 
-<span id="pass-arguments">We mentioned earlier that blocks can accept arguments. But how do you pass them to the block? No problem! Just pass them as arguments to `yield`, and they'll be passed to the block as parameters. If you call `yield` more than once, you can pass a different argument each time if you wanted to.</span>
+We mentioned earlier that blocks can accept arguments. But how do you pass them to the block? No problem! Just pass them as arguments to `yield`, and they'll be passed to the block as parameters. If you call `yield` more than once, you can pass a different argument each time if you wanted to.
 
 ```ruby
 def love_language
@@ -102,7 +102,7 @@ end
 
 If another bank wanted to print their transactions another way it's no problem, they can supply their own block.
 
-What if instead you didn't want the caller to define how the transaction is printed, but just the format? <span id="return-value">Like any method call in Ruby, blocks have a return value.</span> So when you call `yield`, it returns the last executed value from the block. Using the example above, if you instead moved the `p` from the block to inside the `#each` call, your method would be in control of how the transactions were printed. Maybe you only allow exporting to a .csv for example.
+What if instead you didn't want the caller to define how the transaction is printed, but just the format? Like any method call in Ruby, blocks have a return value. So when you call `yield`, it returns the last executed value from the block. Using the example above, if you instead moved the `p` from the block to inside the `#each` call, your method would be in control of how the transactions were printed. Maybe you only allow exporting to a .csv for example.
 
 ```ruby
 @transactions = [10, -15, 25, 30, -24, -70, 999]
@@ -119,7 +119,7 @@ end
 #=> ["10.00", "-15.00", "25.00", "30.00", "-24.00", "-70.00", "999.00"]
 ```
 
-<span id="collect-return">If you want to gather the value returned from the block, you can just assign it to a variable or collect it in a data structure.</span>
+If you want to gather the value returned from the block, you can just assign it to a variable or collect it in a data structure.
 
 ```ruby
 @transactions = [10, -15, 25, 30, -24, -70, 999]
@@ -139,7 +139,7 @@ end
 #=> ["10.00", "-15.00", "25.00", "30.00", "-24.00", "-70.00", "999.00"]
 ```
 
-<span id="explicit-return">You can also write explicit return statements from a block. This works the same way as an explicit return works in a method. This might be useful if you need some kind of [guard clause](https://blog.techatpower.com/never-let-your-guard-down-533605891528).</span>
+You can also write explicit return statements from a block. This works the same way as an explicit return works in a method. This might be useful if you need some kind of [guard clause](https://blog.techatpower.com/never-let-your-guard-down-533605891528).
 
 In the above examples, the value that we yield to the block in `transaction_statement` is captured by the block and assigned to the named parameter (the variable inside the pipes, in this case `|transaction|`). This works the same way it does in enumerable methods like `#each` and `#map`.
 
@@ -203,7 +203,7 @@ simple_method
 
 Yep, an error. So how can you write a method that works whether or not the caller passes a block to it?
 
-<span id="block-given">Enter `block_given?`</span>
+Enter `block_given?`
 
 You can use this method as a conditional check inside your own method to see if a block was included by the caller. If so, `block_given?` returns `true`, otherwise it returns `false`. This lets you write your method so that it behaves differently depending on whether or not it receives a block.
 
@@ -485,7 +485,7 @@ What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. 
 
 (Yes, names of methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation for #send](https://docs.ruby-lang.org/en/3.4/Object.html#method-i-send) if you're interested, and this Stack Overflow article on [how #send and #to_i are used together](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) for `arr.map(&:to_i)` to work.)
 
-<span id="proc-to-block">The `&` also works the other way. You can prepend it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
+The `&` also works the other way. You can prepend it to a proc object and it converts it to a block, and passes the block to the method being called.
 
 ```ruby
 def cool_method

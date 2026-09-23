@@ -118,7 +118,7 @@ app.use("/", index);
 
 The tests themselves are relatively straightforward, thanks to the SuperTest library! Remember that we imported supertest as the function `request` which we use as seen below. We call it on our freshly created express app, pass it our route, and then use it to make sure that the responses match the types and content that we expect.
 
-Notice the parameter <span id="done">`done`</span> that is passed into the test callback.  Most testing libraries use this to signal that the test is complete in the case of asynchronous operations. In this case, SuperTest allows us to pass it into the last `.expect` and calls it for us.  Thanks, SuperTest!
+Notice the parameter `done` that is passed into the test callback.  Most testing libraries use this to signal that the test is complete in the case of asynchronous operations. In this case, SuperTest allows us to pass it into the last `.expect` and calls it for us.  Thanks, SuperTest!
 
 ```javascript
 test("index route works", done => {

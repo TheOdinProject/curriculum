@@ -32,7 +32,7 @@ export default CustomButton;
 
 Nothing fancy. `CustomButton` is a component with a prop passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when the user clicks the button. Let's test it.
 
-<span id="testing-callback-handlers">Notice how we mock and test the `onClick` function</span>:
+Notice how we mock and test the `onClick` function:
 
 ```jsx
 // CustomButton.test.jsx
@@ -114,7 +114,7 @@ While the test suite above uses `data-test-id` to identify mocked child componen
 
 We notice there are two child components of `SubmissionsList`. One of them is from a package called `react-flip-move`. External Code. We'll mock it.
 
-<span id="mock-child-component">Notice how we mock the `Submission` component</span>:
+Notice how we mock the `Submission` component:
 
 ```jsx
 jest.mock('../submission', () => ({ submission, isDashboardView }) => (

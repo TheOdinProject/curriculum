@@ -47,7 +47,7 @@ Keys are passed into the component or a DOM element as a prop. You should alread
 
 An important difference to note is that the `key` prop is private, used only for internal React stuff. It is not passed to the component itself via the `props` param object.
 
-<span id="keys-from-data">Now that we know the syntax, the next question is: what should be used as a key? Ideally, there should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning an id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. For example, you can use the [crypto.randomUUID() function](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to generate a unique id. Let's look at an example:</span>
+Now that we know the syntax, the next question is: what should be used as a key? Ideally, there should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning an id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. For example, you can use the [crypto.randomUUID() function](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to generate a unique id. Let's look at an example:
 
 ```jsx
 // a list of todos, each todo object has a task and an id
@@ -69,7 +69,7 @@ function TodoList() {
 }
 ```
 
-<span id="index-as-key">Additionally, if you're sure the list will remain unchanged throughout the application's life,  you can use the array index as a key. However, this is not recommended since it can lead to confusing bugs if the list changes when items are deleted, inserted, or rearranged. You will learn more about this in the assignment section's linked article.</span>
+Additionally, if you're sure the list will remain unchanged throughout the application's life,  you can use the array index as a key. However, this is not recommended since it can lead to confusing bugs if the list changes when items are deleted, inserted, or rearranged. You will learn more about this in the assignment section's linked article.
 
 ```jsx
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -84,7 +84,7 @@ function MonthList() {
 }
 ```
 
-<span id="anti-pattern">Keys are straightforward to use, though there is an anti-pattern you should be aware of. Keys should never be generated on the fly. Using `key={Math.random()}` or `key={crypto.randomUUID()}` *while* rendering the list defeats the purpose of the key, as now a new `key` will get created for every render of the list. As shown in the above example, `key` should be inferred from the data itself.</span>
+Keys are straightforward to use, though there is an anti-pattern you should be aware of. Keys should never be generated on the fly. Using `key={Math.random()}` or `key={crypto.randomUUID()}` *while* rendering the list defeats the purpose of the key, as now a new `key` will get created for every render of the list. As shown in the above example, `key` should be inferred from the data itself.
 
 ```jsx
 const todos = [

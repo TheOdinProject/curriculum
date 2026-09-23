@@ -90,7 +90,7 @@ This section contains a general overview of topics that you will learn in this l
 
    </div>
 
-1. <span id="ssh-key"></span>Create an SSH key, which is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
+1. Create an SSH key, which is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
    <div class="lesson-note" markdown="1">
 

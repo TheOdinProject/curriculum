@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 If you want to have a list of items where the order doesn't matter, like a shopping list of items that can be bought in any order, then you can use an unordered list.
 
-Unordered lists are created using [the `<ul>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ul), and <span id="li"></span>each item within the list is created using the list item element `<li>`.
+Unordered lists are created using [the `<ul>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ul), and each item within the list is created using the list item element `<li>`.
 
 Each list item in an unordered list begins with a bullet point:
 

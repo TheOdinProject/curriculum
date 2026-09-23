@@ -117,7 +117,7 @@ git add test3.md && git commit -m 'Create third file'
 git add test4.md && git commit -m 'Create fourth file'
 ```
 
-<span id="git-reset"></span>
+
 
 Let's start by looking a bit closer at what happened here. When you ran `git reset`, you reset the current branch by pointing HEAD at the commit right before it. At the same time, `git reset` also updated the index (the staging area) with the contents of wherever HEAD is now pointed. So our staging area was also reset to what it was at the prior commit - which is great - because this allowed us to add and commit both files separately.
 

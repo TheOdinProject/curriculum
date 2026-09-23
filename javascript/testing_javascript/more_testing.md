@@ -9,10 +9,10 @@ This section contains a general overview of topics that you will learn in this l
 - Explain what tightly coupled code is.
 - Describe a pure function and how it relates to TDD.
 - Explain what mocking is.
-  
+
 ### Pure functions
 
-There are *many* benefits to using TDD when you write your code. One of the biggest benefits is less obvious at first - it helps you to write better code.  If you look back at some of your early projects you will probably notice how *tightly coupled* everything is.  <span id='tightly-coupled-code'>All of your functions include references to functions in other parts of your code, and the whole thing is *filled* with DOM methods or `console.log()`</span>.  
+There are *many* benefits to using TDD when you write your code. One of the biggest benefits is less obvious at first - it helps you to write better code.  If you look back at some of your early projects you will probably notice how *tightly coupled* everything is.  All of your functions include references to functions in other parts of your code, and the whole thing is *filled* with DOM methods or `console.log()`.
 
 Tightly coupled code is hard to test! Imagine trying to write tests for a function like this:
 
@@ -32,7 +32,7 @@ function guessingGame() {
 }
 ```
 
-<span id='try-before'>Making this testable requires us to split up all the different things that are happening.  First, we do not need to test the functions `prompt` and `alert` because they are built in to the browser.  They are external to our program and whoever wrote them has already tested them.  What we *do* need to test is the number logic, which is much easier if we untangle it from the other functions:</span>
+Making this testable requires us to split up all the different things that are happening.  First, we do not need to test the functions `prompt` and `alert` because they are built in to the browser.  They are external to our program and whoever wrote them has already tested them.  What we *do* need to test is the number logic, which is much easier if we untangle it from the other functions:
 
 ```javascript
 function evaluateGuess(magicNumber, guess) {
@@ -63,7 +63,7 @@ If we had written this program with TDD it is very likely that it would have loo
 
 ### Mocking
 
-There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to remove those dependencies from your code as we did above, but that is not always possible.  The second option is **mocking** - writing "fake" versions of a function that always behaves *exactly* how you want.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
+There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to remove those dependencies from your code as we did above, but that is not always possible.  The second option is **mocking** - writing "fake" versions of a function that always behaves *exactly* how you want.  For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test.
 
 ### Assignment
 

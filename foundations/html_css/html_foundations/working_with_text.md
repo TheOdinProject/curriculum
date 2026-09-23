@@ -43,7 +43,7 @@ It looks like two paragraphs of text, so you might expect it to display in that 
 
 When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The result of this compression is that all of the text is clumped together into one long line.
 
-If we want to create paragraphs in HTML, <span id='create-paragraph-element'>we need to use the paragraph element</span>, which will add a new line after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
+If we want to create paragraphs in HTML, we need to use the paragraph element, which will add a new line after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
 
 Changing our example from before to use paragraph elements fixes the issue:
 
@@ -61,7 +61,7 @@ Changing our example from before to use paragraph elements fixes the issue:
 
 Headings are different from other HTML text elements: they are displayed larger and bolder than other text to signify that they are headings.
 
-<span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. The largest and most important heading is h1, while h6 is the tiniest heading at the lowest level.</span>
+There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. The largest and most important heading is h1, while h6 is the tiniest heading at the lowest level.
 
 Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in an `<h1>` tag.
 
@@ -139,7 +139,7 @@ Again, like the strong element, you will find yourself mostly using the `<em>` e
 
 You may have noticed that in all the examples in this lesson we indent any elements that are within other elements. This is known as nesting elements.
 
-<span id='nested-relationship'>When we nest elements within other elements, we create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent.</span>
+When we nest elements within other elements, we create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent.
 
 In the following example, the body element is the parent and the paragraph is the child:
 
@@ -153,7 +153,7 @@ In the following example, the body element is the parent and the paragraph is th
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Just as in human relationships, HTML parent elements can have many children.  <span id='elements-same-level'>Elements at the same level of nesting are considered to be siblings.</span>
+Just as in human relationships, HTML parent elements can have many children.  Elements at the same level of nesting are considered to be siblings.
 
 For example, the two paragraphs in the following code are siblings, since they are both children of the body element and are at the same level of nesting as each other:
 

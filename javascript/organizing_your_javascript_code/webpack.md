@@ -416,7 +416,7 @@ export default {
 };
 ```
 
-<span id="source-maps"></span>
+
 
 Firstly, we add a [source map](https://webpack.js.org/configuration/devtool/) by setting `eval-source-map` as a `devtool` option. If we don't do this, any error messages we get won't necessarily match up to the correct files and line numbers from our development code. In the devtools "Sources" tab, we also won't be able to find our original untouched code, making the Chrome debugger harder to use. Adding this source map will solve both of these problems for us.
 

@@ -26,7 +26,7 @@ To a sighted user, the link in Example 1 makes perfect sense. However, in additi
 
 The link in Example 2, however, not only makes sense in context for all users, but it also makes sense *out of context* for screen reader users when it gets announced: "The Odin Project, link."
 
-<span id="meaningful-links-rules">When you add links to a page, there are a few rules you should be following:</span>
+When you add links to a page, there are a few rules you should be following:
 
 1. Make sure that the text content of the `<a>` element somehow indicates where the link redirects to and that it's brief (around 100 characters). So avoid using phrases like "click here" or "this page".
 1. If a link would open or download a file, include text that tells the user what kind of file it is as well as the file size.
@@ -61,7 +61,7 @@ Even if you could tell what input caused the error in Example 1, which may not a
 
 The error in Example 2 clearly tells you what input is invalid, so you now know exactly where to go. While this might be all a user needs to know, it's worth keeping in mind that it is still a rather vague error. We don't know *why* our email is invalid.
 
-The error in Example 3 is even more meaningful. It not only tells you what input is invalid, but also how to fix the error. <span id="meaningful-error-msg">Generally when you inform a user of a form error, you should be informing them what input caused the error and, when possible, how to fix the error or why the error occurred in some way.</span>
+The error in Example 3 is even more meaningful. It not only tells you what input is invalid, but also how to fix the error. Generally when you inform a user of a form error, you should be informing them what input caused the error and, when possible, how to fix the error or why the error occurred in some way.
 
 Another way to provide meaningful text in forms is with instructions, such as when a password input lists any characters that the password must contain ("Must include at least one uppercase letter and one number..."). For instructions that are unique to an input, they should be placed alongside the input itself. Instructions that are more global across the form, such as indicating which inputs are required, should either be placed at the top of the form ("* indicates a required field"), or placed alongside the input or its label ("Name (required)").
 
@@ -77,7 +77,7 @@ At this point you should be pretty familiar with the `alt` attribute on `img` el
 <img src='...' alt='Odin' />
 ```
 
-Believe it or not, both examples above are valid! While Example 1 doesn't actually have any meaningful text (perhaps a meaningful *lack of* text), you should still understand its importance. <span id="empty-alt-attribute">When you're using an image purely for decoration, or the image just isn't really important for the user to be aware of, you generally don't want users of assistive technologies to be made aware of it.</span> In those cases, you should **always** use an empty string for the value of the `alt` attribute as seen in Example 1 (this is also known as a null value, not to be confused with the JavaScript data type). If you omitted the `alt` attribute, the presence of the image could still be announced, which may confuse the user (especially if the file name was a random string of letters and numbers).
+Believe it or not, both examples above are valid! While Example 1 doesn't actually have any meaningful text (perhaps a meaningful *lack of* text), you should still understand its importance. When you're using an image purely for decoration, or the image just isn't really important for the user to be aware of, you generally don't want users of assistive technologies to be made aware of it. In those cases, you should **always** use an empty string for the value of the `alt` attribute as seen in Example 1 (this is also known as a null value, not to be confused with the JavaScript data type). If you omitted the `alt` attribute, the presence of the image could still be announced, which may confuse the user (especially if the file name was a random string of letters and numbers).
 
 For Example 2, the screen reader would announce, "Odin, graphic", making the user aware that there's an image and what it's an image of. What the alternative text should be for an image will ultimately depend on various factors, though.
 

@@ -22,7 +22,7 @@ Once opened, you'll see we have an app that changes its background color based o
 
 #### The useState hook
 
-<span id="useState-hook">The `useState` hook is a built-in hook (we'll talk about hooks later) in React that allows you to define state in a functional component. It takes an initial value as a parameter and returns an array with two elements that we can destructure to get:</span>
+The `useState` hook is a built-in hook (we'll talk about hooks later) in React that allows you to define state in a functional component. It takes an initial value as a parameter and returns an array with two elements that we can destructure to get:
 
 1. The current state value
 1. A function to update the state value

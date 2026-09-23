@@ -108,7 +108,7 @@ const car = {
 };
 ```
 
-You may want to have the ability to apply a discount to the car, or get a summary of all of the details in one go. For this, you may want to use methods. <span id="this-keyword"></span>The easiest way to get started creating methods to interact with your objects might be combining object literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
+You may want to have the ability to apply a discount to the car, or get a summary of all of the details in one go. For this, you may want to use methods. The easiest way to get started creating methods to interact with your objects might be combining object literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
 
 ```javascript
 const car = {

@@ -42,14 +42,14 @@ age = age + 4
 age #=> 22
 ```
 
-Because this is a common scenario, <span id="add-assignment-operator">Ruby provides a nice shorthand assignment operator for doing this: `+=`</span>.
+Because this is a common scenario, Ruby provides a nice shorthand assignment operator for doing this: `+=`.
 
 ```ruby
 age = 18
 age += 4 #=> 22
 ```
 
-<span id="non-add-assignment-operators">There are similar assignment operators for all the common math operators</span>:
+There are similar assignment operators for all the common math operators:
 
 ```ruby
 age = 18

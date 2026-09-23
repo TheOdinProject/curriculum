@@ -15,9 +15,9 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is WAI-ARIA?
 
-WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessible Rich Internet Applications specification. <span id="wai-aria-purpose">The purpose of WAI-ARIA (often referred to as just ARIA) is to define a way to make web content more accessible when native HTML is unable to do so.</span> Think of ARIA as something that fills in the accessible gaps left by native HTML.
+WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessible Rich Internet Applications specification. The purpose of WAI-ARIA (often referred to as just ARIA) is to define a way to make web content more accessible when native HTML is unable to do so. Think of ARIA as something that fills in the accessible gaps left by native HTML.
 
-<span id="aria-limitations">It's important to note that ARIA can only modify the semantics or context of an element. ARIA *can't*:</span>
+It's important to note that ARIA can only modify the semantics or context of an element. ARIA *can't*:
 
 - Modify an element's appearance
 - Modify an element's behavior

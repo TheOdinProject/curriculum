@@ -71,7 +71,7 @@ teacher_mailboxes[0][4]
 #=> nil
 ```
 
-<span id='dig-method'>If you want a nil value returned when trying to access an index of a nonexistent nested element, you can use the `#dig` method.</span> This method can also be used when accessing a nonexistent index inside of an existing nested element.
+If you want a nil value returned when trying to access an index of a nonexistent nested element, you can use the `#dig` method. This method can also be used when accessing a nonexistent index inside of an existing nested element.
 
 ```ruby
 teacher_mailboxes.dig(3, 0)
@@ -99,7 +99,7 @@ mutable
 
 Changing the value of the first element in the first nested array, causes the first element to change in all three nested arrays! This same behavior will happen with strings, hashes, or any other mutable objects.
 
-<span id='create-nested-arrays'>Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.</span>
+Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.
 
 ```ruby
 nested_arrays = Array.new(3) { Array.new(2) }
@@ -127,7 +127,7 @@ test_scores
 #=> [[97, 76, 79, 93, 100], [79, 84, 76, 79], [88, 67, 64, 76], [94, 55, 67, 81], [100, 99, 98, 97]]
 ```
 
-<span id='remove-elements-nested-array'>Using this similar syntax, you can add or remove elements from the entire nested array or from a specific nested element.</span>
+Using this similar syntax, you can add or remove elements from the entire nested array or from a specific nested element.
 
 ```ruby
 test_scores.pop
@@ -277,7 +277,7 @@ vehicles
 #=> {:alice=>{:year=>2019, :make=>"Toyota", :model=>"Corolla"}, :blake=>{:year=>2020, :make=>"Volkswagen", :model=>"Beetle"}, :caleb=>{:year=>2020, :make=>"Honda", :model=>"Accord"}, :dave=>{:year=>2021, :make=>"Ford", :model=>"Escape", :color=>"red"}}
 ```
 
-<span id='deleting-data-nested-hash'>Deleting one of the nested hashes will be just like a regular hash.</span> Let's say Blake has decided to sell his Beetle and backpack across Europe. So, let's delete Blake's car.
+Deleting one of the nested hashes will be just like a regular hash. Let's say Blake has decided to sell his Beetle and backpack across Europe. So, let's delete Blake's car.
 
 ```ruby
 vehicles.delete(:blake)

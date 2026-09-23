@@ -2,7 +2,7 @@
 
 Git is like a really **epic save button** for your files and directories. Officially, Git is a version control system.
 
-<span id="text-editor-and-git"></span>A *save* in a text editor records all of the words in a document as a single file. You are only ever given one record of the file, such as `essay.doc`, unless you make duplicate copies (which is difficult to remember to do and keep track of):
+A *save* in a text editor records all of the words in a document as a single file. You are only ever given one record of the file, such as `essay.doc`, unless you make duplicate copies (which is difficult to remember to do and keep track of):
 
 `essay-draft1.doc`, `essay-draft2.doc`, `essay-final.doc`
 
@@ -10,7 +10,7 @@ However, a *save* in Git records differences in the files and folders AND keeps 
 
 Please note, we **only** support GitHub within our curriculum, and will not help troubleshoot the alternatives.
 
-<span id="git-local"></span>While Git works on your *local* machine, <span id="github-remote"></span>GitHub is a *remote* storage facility on the web for all your coding projects. This means that by learning Git, you will get to showcase your portfolio on GitHub! This is really important because almost all software development companies consider using Git to be an **essential skill** for modern web developers. Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
+While Git works on your *local* machine, GitHub is a *remote* storage facility on the web for all your coding projects. This means that by learning Git, you will get to showcase your portfolio on GitHub! This is really important because almost all software development companies consider using Git to be an **essential skill** for modern web developers. Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
 
 In this lesson, we will briefly explore the history of Git, what it is, and what it's useful for.
 
