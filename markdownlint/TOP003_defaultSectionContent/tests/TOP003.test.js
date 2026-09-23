@@ -39,8 +39,7 @@ describe("TOP003", () => {
 
       assert.deepEqual(lintErrors, [
         `${errorPath}:5 error ${expected.name} ${expected.description} [The lesson overview section cannot be empty]`,
-        `${errorPath}:19 error ${expected.name} ${expected.description} [The knowledge check section cannot be empty]`,
-        `${errorPath}:21 error ${expected.name} ${expected.description} [The additional resources section cannot be empty]`,
+        `${errorPath}:19 error ${expected.name} ${expected.description} [The additional resources section cannot be empty]`,
       ]);
     });
 
@@ -51,7 +50,7 @@ describe("TOP003", () => {
 
       assert.deepEqual(lintErrors, [
         `${errorPath}:7 error ${expected.name} ${expected.description} [Expected: "This section contains a general overview of topics that you will learn in this lesson."; Actual: "This section has the wrong text following the heading that should flag an error."]`,
-        `${errorPath}:25 error ${expected.name} ${expected.description} [Expect default content to precede unordered list of knowledge checks: "The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge."]`,
+        `${errorPath}:25 error ${expected.name} ${expected.description} [Expect default content to precede unordered list of additional resources: "This section contains helpful links to related content. It isn't required, so consider it supplemental."]`,
       ]);
     });
 
@@ -62,8 +61,7 @@ describe("TOP003", () => {
 
       assert.deepEqual(lintErrors, [
         `${errorPath}:7 error ${expected.name} ${expected.description} [Must include an unordered list of lesson overviews in the "lesson overview" section]`,
-        `${errorPath}:23 error ${expected.name} ${expected.description} [Must include an unordered list of knowledge checks in the "knowledge check" section]`,
-        `${errorPath}:27 error ${expected.name} ${expected.description} [Must include an unordered list of additional resources in the "additional resources" section]`,
+        `${errorPath}:23 error ${expected.name} ${expected.description} [Must include an unordered list of additional resources in the "additional resources" section]`,
       ]);
     });
 
@@ -83,9 +81,9 @@ describe("TOP003", () => {
       const lintErrors = await getLintErrors(filePath);
 
       assert.deepEqual(lintErrors, [
-        `${errorPath}:27 error ${expected.name} ${expected.description} [The knowledge check section must not include any ordered lists.]`,
-        `${errorPath}:27 error ${expected.name} ${expected.description} [Must include an unordered list of knowledge checks in the "knowledge check" section]`,
-        `${errorPath}:28 error ${expected.name} ${expected.description} [The knowledge check section must not include any ordered lists.]`,
+        `${errorPath}:27 error ${expected.name} ${expected.description} [The additional resources section must not include any ordered lists.]`,
+        `${errorPath}:27 error ${expected.name} ${expected.description} [Must include an unordered list of additional resources in the "additional resources" section]`,
+        `${errorPath}:28 error ${expected.name} ${expected.description} [The additional resources section must not include any ordered lists.]`,
       ]);
     });
 
@@ -96,7 +94,7 @@ describe("TOP003", () => {
 
       assert.deepEqual(lintErrors, [
         `${errorPath}:10 error ${expected.name} ${expected.description} [The lesson overview section must not contain nested lists.]`,
-        `${errorPath}:36 error ${expected.name} ${expected.description} [The additional resources section must not contain nested lists.]`,
+        `${errorPath}:30 error ${expected.name} ${expected.description} [The additional resources section must not contain nested lists.]`,
       ]);
     });
 
