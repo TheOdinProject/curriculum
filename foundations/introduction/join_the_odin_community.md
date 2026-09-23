@@ -189,11 +189,3 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
    - **Take some time to observe the server before jumping in:** This helps you understand how our community interacts and communicates.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you join The Odin Project's Discord server?](https://discord.gg/fbFCkYabZB)
-- [What makes a good question that's easier for others to help with?](#asking-for-help)
-- [How can you more effectively help others with their coding problems?](#how-to-help-others-solve-coding-problems)

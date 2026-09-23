@@ -225,11 +225,3 @@ While we are pushing this API key to the frontend, this isn't something you shou
    If you want to conditionally handle any situations where the API does not give you the desired response (e.g. a `404 Not Found` or similar), you will need to do this manually in your `.then()`. Check out [MDN's docs for the Response object](https://developer.mozilla.org/en-US/docs/Web/API/Response) for some useful properties.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is an API?](#apis)
-- [How is access to an API restricted?](#apis)
-- [How do you fetch and extract data from an API?](#fetching-data)

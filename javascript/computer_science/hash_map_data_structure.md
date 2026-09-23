@@ -206,15 +206,6 @@ The growth of our hash map has the complexity of `O(n)` at all times.
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does it mean to hash?](#what-is-a-hash-code)
-- [What are buckets?](#buckets)
-- [What is a collision?](#collisions)
-- [When is it a good time to grow our buckets array?](#when-do-we-know-that-its-time-to-grow-our-buckets-array)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

@@ -158,14 +158,6 @@ On top of these considerations, you also need to balance the readability of your
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is space complexity?](#what-do-we-mean-by-space-complexity)
-- [How do we measure space complexity?](#measuring-space-complexity)
-- [What is a situation where auxiliary space analysis is useful?](#auxiliary-space-analysis)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

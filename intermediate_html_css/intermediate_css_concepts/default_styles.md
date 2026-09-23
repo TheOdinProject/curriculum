@@ -19,7 +19,7 @@ With very few exceptions you can simply write your own CSS rules. The rules you 
 
 To address inconsistencies across browsers and establish a consistent starting point for styling, some developers started using CSS resets. These resets are stylesheets containing CSS rules aimed at altering or removing the defaults set by user-agent stylesheets. Using them can help achieve consistency, and can provide a clean slate for developers to apply their styles without interference.
 
-<span id="resets-optional"></span>While CSS resets are still commonly used, they are not mandatory. Some developers opt not to use them, while others create their own or utilize prebuilt resets. It's important to understand that resets are subjective and opinionated, reflecting the preferences of the developer who created them. You can decide how you wish to do things yourself.
+While CSS resets are still commonly used, they are not mandatory. Some developers opt not to use them, while others create their own or utilize prebuilt resets. It's important to understand that resets are subjective and opinionated, reflecting the preferences of the developer who created them. You can decide how you wish to do things yourself.
 
 ### Assignment
 
@@ -30,10 +30,3 @@ To address inconsistencies across browsers and establish a consistent starting p
 1. [Josh Comeau's custom CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/) also includes a great breakdown of his thought process behind each rule he uses, giving you an idea of how to reason about these ideas.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why would you want to use a CSS reset?](#what-are-default-styles-and-where-do-they-come-from)
-- [Are resets required?](#resets-optional)

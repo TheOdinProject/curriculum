@@ -15,9 +15,9 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is WAI-ARIA?
 
-WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessible Rich Internet Applications specification. <span id="wai-aria-purpose">The purpose of WAI-ARIA (often referred to as just ARIA) is to define a way to make web content more accessible when native HTML is unable to do so.</span> Think of ARIA as something that fills in the accessible gaps left by native HTML.
+WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessible Rich Internet Applications specification. The purpose of WAI-ARIA (often referred to as just ARIA) is to define a way to make web content more accessible when native HTML is unable to do so. Think of ARIA as something that fills in the accessible gaps left by native HTML.
 
-<span id="aria-limitations">It's important to note that ARIA can only modify the semantics or context of an element. ARIA *can't*:</span>
+It's important to note that ARIA can only modify the semantics or context of an element. ARIA *can't*:
 
 - Modify an element's appearance
 - Modify an element's behavior
@@ -151,14 +151,3 @@ You should also be careful not to give an element `aria-hidden="true"` if it is 
 1. [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What purpose does WAI-ARIA serve?](#wai-aria-purpose)
-- [What are the four things ARIA can't do?](#aria-limitations)
-- [What are the five rules of ARIA?](#the-five-rules-of-aria)
-- [What is the accessibility tree?](#the-accessibility-tree)
-- [What are the differences between the three ARIA labels?](#aria-labels)
-- [What does the `aria-hidden` attribute do?](#hiding-content-from-the-accessibility-tree)

@@ -102,10 +102,3 @@ If you were to use only `<div>` elements to act as these landmarks and headings,
 1. Watch [Why headings and landmarks are so important](https://www.youtube.com/watch?v=vAAzdi1xuUY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=19) to see how a screen reader interacts with the heading and landmark elements.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why is semantic HTML important for accessibility?](#the-importance-of-semantics)
-- [What are the seven HTML elements that define landmarks on a page?](#headings-and-landmarks)

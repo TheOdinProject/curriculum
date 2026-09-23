@@ -171,12 +171,3 @@ This is not something we need to know about until we discuss responsive design, 
 1. Run your boilerplate through the W3 [HTML validator](https://validator.w3.org/#validate_by_input). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the purpose of the doctype declaration?](#the-doctype)
-- [What is the HTML element?](#html-element)
-- [What is the purpose of the head element?](#head-element)
-- [What is the purpose of the body element?](#body-element)

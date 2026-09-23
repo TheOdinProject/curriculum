@@ -45,14 +45,6 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the "red-green-refactor" cycle?](#what-is-test-driven-development)
-- [What is the difference between unit and integration tests?](https://thoughtbot.com/blog/rails-test-types-and-the-testing-pyramid)
-- [How does TDD help in code refactoring?](https://www.madetech.com/blog/9-benefits-of-test-driven-development)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

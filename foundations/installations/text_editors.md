@@ -39,10 +39,3 @@ As a reminder, if you're using a **virtual machine**, you should install VSCode 
 1. Disable the Copilot AI code completion feature which is enabled by default in Visual Studio Code. In VSCode, open the settings (`File > Preferences > Settings`), search for "Disable AI Features" then check the box under the same title. To understand why The Odin Project thinks you should disable this feature please revisit the Motivation and Mindset lesson section [A note on AI code generation](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a code editor?](#code-editors)
-- [Which code editor does The Odin Project support?](#code-editors)

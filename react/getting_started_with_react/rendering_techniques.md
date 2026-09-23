@@ -317,11 +317,3 @@ Nested ternaries and multiple `&&` operators can be intimidating to look at, so 
 1. From the same docs, explore more on what you can do with lists by working through the [Rendering Lists article](https://react.dev/learn/rendering-lists). You don't have to worry about the last part on keys, since we will be learning about them in the next lesson.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you render a list of elements/components in JSX?](#rendering-a-list-of-elements-in-jsx)
-- [What are the ways you could render UI conditionally?](#conditionally-rendering-ui)
-- [How would you conditionally return JSX?](https://beta.reactjs.org/learn/conditional-rendering#conditionally-returning-jsx)

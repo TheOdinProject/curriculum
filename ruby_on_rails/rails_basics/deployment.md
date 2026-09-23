@@ -298,17 +298,6 @@ This will be where the Git skills you've been learning will start to really pay 
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What's the difference between static and dynamic websites?](#static-vs-dynamic-sites)
-- [What does 'PaaS' stand for?](#what-is-a-paas)
-- [What are the advantages of using a PaaS hosting provider?](#what-is-a-paas)
-- [What is an instance?](#instances)
-- [What steps can you take to diagnose an issue that arises during deployment?](#on-deployment)
-- [What steps can you take to diagnose an issue that only appears after deployment?](#after-deployment)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

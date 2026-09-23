@@ -2,7 +2,7 @@
 
 Feeling scared of the command line? You're not alone. We have this image of developers staring intently at a black screen with white or green text flashing across as they wildly enter incomprehensible commands to hack into the corporate mainframe (no doubt while guzzling soda and wiping neon orange Cheetos dust off their keyboard).
 
-That blank screen or window with a prompt and blinking cursor is the <span id="command-line">command line interface (CLI)</span>, where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
+That blank screen or window with a prompt and blinking cursor is the command line interface (CLI), where you're able to enter commands that your computer will run for you. While there's no need for you to reenact the scene above, working with the command line is a critical skill for you to learn as a developer. The command line is like our base of operations, from which we can launch other programs and interact with them. It has a syntax of its own to learn, but since you'll be entering the same commands dozens of times, you'll quickly pick up the commands you need most.
 
 In this introductory lesson on the command line, you'll learn how to navigate your computer and manipulate files and directories (also known as folders) directly from the comfort of the command line. You'll soon see that this isn't as difficult as you may think. The commands you will learn in this lesson are very straightforward, so don't let the prospect of using the command line for the first time intimidate you.
 
@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Test drive your terminal
 
-<span id="open-command-line">Open a terminal</span> on your computer.
+Open a terminal on your computer.
 
 - **Linux**: Open the programs menu and search for "Terminal". You can also open the terminal by pressing <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> on your keyboard.
 
@@ -122,19 +122,3 @@ Many of these resources assume you're using a Mac or Linux environment. If you d
     That's it---you're done with practice! If you commit to doing most tasks from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the command line?](#command-line)
-- [How do you open the command line on your computer?](#open-command-line)
-- [How can you navigate to a particular directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-cd)
-- [Where will `cd` on its own navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid31)
-- [Where will `cd ..` navigate you to?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#uid30)
-- [How do you display the name of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-pwd)
-- [How do you display the contents of the directory you are currently in?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#sec-basics-ls)
-- [How do you create a new directory?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid7)
-- [How do you create a new file?](https://swcarpentry.github.io/shell-novice/03-create.html#create-a-text-file)
-- [How do you destroy a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid9)
-- [How do you rename a directory or file?](https://www.softcover.io/read/fc6c09de/unix_commands/basics#cid10)

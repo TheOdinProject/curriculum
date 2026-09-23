@@ -151,15 +151,3 @@ If you need to step through a series of numbers (or even letters) within a speci
 1. Try re-writing the above examples using alternative loop methods to achieve the same results.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a loop and why is it useful?](#introduction)
-- [What is a `loop` loop, and how would you use it?](#loop)
-- [What is a `while` loop, and how would you use it?](#while-loop)
-- [What is a `for` loop, and how would you use it?](#for-loop)
-- [What is a `#times` loop, and how would you use it?](#times-loop)
-- [What is an `until` loop, and how would you use it?](#until-loop)
-- [What are the `#upto` and `#downto` loops, and how would you use them?](#upto-and-downto-loops)

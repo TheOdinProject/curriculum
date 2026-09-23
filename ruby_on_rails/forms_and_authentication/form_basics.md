@@ -278,15 +278,3 @@ If you find yourself submitting a form and nothing is happening, chances are you
 #### Conclusion
 
 At this point, you should have a solid understanding of how forms work in general and a pretty good feel for how Rails helps you out by generating them for you. You'll get a chance to build a whole bunch of forms in the next few projects, so don't worry if it's not totally stuck for you yet. Seeing it in action will make things click.
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the `name` attribute of a form input element and what does it do?](#railsifying-your-form-by-making-forms-input-into-params)
-- [How do you nest attributes under a single hash in `params`?](#railsifying-your-form-by-making-forms-input-into-params)
-- [How does Rails protect against Cross-Site Request Forgery attacks?](#the-authenticity-token)
-- [How do you pass `form_with` a model object?](#using-models-with-the-formwith-helper)
-- [How do you access errors for a failed-to-save model object?](#forms-and-validations)
-- [How do Rails forms make PATCH or DELETE requests?](#making-patch-and-delete-submissions)
-- [What is one case where you may need an array of hashes within the `params` hash?](https://guides.rubyonrails.org/form_helpers.html#combining-arrays-and-hashes)

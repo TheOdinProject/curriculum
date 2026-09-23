@@ -80,12 +80,6 @@ We will start by focusing on server-side concepts, so client-side things like Re
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is Node?](#what-is-node)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

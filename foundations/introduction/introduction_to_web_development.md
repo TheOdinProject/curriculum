@@ -94,11 +94,3 @@ And it might even be life-changing.
 1. Read Udacity's blog post on [front-end, back-end and full stack developers.](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What kind of web developer will The Odin Project teach you to be?](#types-of-web-developers)
-- [What are the different types of careers you could have?](#types-of-careers)
-- [What are some of the tools you'll be using regularly?](#tools-of-the-trade)

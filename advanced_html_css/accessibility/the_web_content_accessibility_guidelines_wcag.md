@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Web Content Accessibility Guidelines
 
-<span id="wcag-purpose">The WCAG exist in order to help create a shared standard when it comes to web accessibility.</span> Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it.
+The WCAG exist in order to help create a shared standard when it comes to web accessibility. Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it.
 
 It's important to understand that while the WCAG can be incredibly helpful for building an a11y foundation, they are not the finish line when it comes to accessibility. Like the name says, they are guidelines, and they will only help us make websites *more* accessible.
 
@@ -53,10 +53,3 @@ The second thing to keep in mind is that just taking those first few steps towar
 1. Skim through [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist), keeping in mind to read the important disclaimer. For now the goal is just to get an idea of common accessibility issues, some of which you'll be ready to fix by the time you finish this set of lessons, rather than read through every issue listed on the page. Keep this resource bookmarked, though, as using it as your checklist when you start actively implementing accessibility will be really handy.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the purpose of the Web Content Accessibility Guidelines?](#wcag-purpose)
-- [What are the 4 principles of the WCAG?](#the-four-principles)

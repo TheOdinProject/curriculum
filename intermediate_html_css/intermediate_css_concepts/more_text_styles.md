@@ -167,12 +167,3 @@ You can see more detail and an example in this [CSS Tricks article on ellipsis o
 1. Read [web.dev Typography](https://web.dev/learn/design/typography) to understand some important considerations for developers with typography.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the 2 ways to add fonts that are not installed on a user's computer?](#web-fonts)
-- [What is the 'system font stack' and why would you want to use it?](#the-system-font-stack)
-- [Which property would you use to increase or decrease the space between letters in a word?](#letter-spacing)
-- [Which property would you use to increase or decrease the space between lines in a paragraph?](#line-height)

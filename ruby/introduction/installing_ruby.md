@@ -118,10 +118,3 @@ Using the extension is optional, but it is a quick install; go to the "Extension
 The most important features Ruby LSP provides will work out of the box. But it may bug you about using a monorepo setup, missing lockfiles or rubocop - you can choose "Don't show again" for now. We will introduce these later.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What program do we use to install and manage Ruby versions?](#install-ruby)
-- [How does a "local" version of Ruby differ from the "global" version?](#setting-local-and-global-ruby-versions)

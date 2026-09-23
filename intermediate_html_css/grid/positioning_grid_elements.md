@@ -172,13 +172,3 @@ As you go through the assignments you will come across more terminology like `sp
    Note: When doing this exercise, please use all the documentation and resources you need to accomplish it. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use Google, do what you need to do (besides checking the solutions) to get it done.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Explain the difference between a track and a line.](#reviewing-tracks)
-- [What is the smallest unit on a grid?](#cells)
-- [What kind of value do we give to the `grid-column-start` or `grid-column-end` properties?](#positioning)
-- [Which property can we use to combine all the start and end values for a grid item?](#grid-area)
-- [Which grid container property can map out a visual structure of grid items?](#grid-area)

@@ -65,7 +65,7 @@ Finished in 0.00037 seconds (files took 0.21108 seconds to load)
 0 examples, 0 failures
 ```
 
-Let's add our first test. Let's say we want to create a calculator with a few methods that we want to test. True to TDD, we will write the tests prior to the code. <span id='tests-folder'>The `spec/` folder is where all your tests will live</span>. Using `touch` on the command line or through your text editor, create `calculator_spec.rb` within the `spec/` folder and add the following lines:
+Let's add our first test. Let's say we want to create a calculator with a few methods that we want to test. True to TDD, we will write the tests prior to the code. The `spec/` folder is where all your tests will live. Using `touch` on the command line or through your text editor, create `calculator_spec.rb` within the `spec/` folder and add the following lines:
 
 ```ruby
 #spec/calculator_spec.rb
@@ -82,9 +82,9 @@ end
 
 Let's go line by line.
 
-<span id='keyword-describe'>First, `RSpec.describe` is an RSpec keyword that defines an "Example Group", or a collection of tests</span>. It takes a class or a string as an argument and is passed a block (`do/end`). `describe` blocks can be nested inside `RSpec.describe`, such as on the second line of our test above.
+First, `RSpec.describe` is an RSpec keyword that defines an "Example Group", or a collection of tests. It takes a class or a string as an argument and is passed a block (`do/end`). `describe` blocks can be nested inside `RSpec.describe`, such as on the second line of our test above.
 
-<span id='keyword-it'>The `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of [RSpec's equality matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/), `eql`:
+The `it` keyword defines an individual example (aka, test). `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of [RSpec's equality matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/), `eql`:
 
 ```ruby
   expect(calculator.add(5, 2)).to eql(7)
@@ -95,7 +95,7 @@ That's basically it. One more time, from the top:
 1. `RSpec.describe` the class
 1. `describe` the method example group. Conventionally, the string argument for instance methods are written as `#method`, while string arguments for class methods are written as `.method`.
 1. Write your test case/example with `it`.
-1. Write your expectation using `expect`. The `expect` method is also chained with `.to` for positive expectations, or `.to_not`/`.not_to` for negative expectations. We prefer `.not_to`. <span id='expect-clauses'>Also, limit one expect clause per test case</span>.
+1. Write your expectation using `expect`. The `expect` method is also chained with `.to` for positive expectations, or `.to_not`/`.not_to` for negative expectations. We prefer `.not_to`. Also, limit one expect clause per test case.
 
 #### Passing code
 
@@ -134,7 +134,7 @@ class Calculator
 end
 ```
 
-Finally, we must also tell the spec where the `Calculator` class is being defined. <span id='require'>This is easily done with `require`</span>:
+Finally, we must also tell the spec where the `Calculator` class is being defined. This is easily done with `require`:
 
 ```ruby
 #spec/calculator_spec.rb
@@ -226,17 +226,6 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 1. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information, you can read more about [configuring RSpec](http://rspec.info/features/3-12/rspec-core/configuration/).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What do you name the folder that contains your test files?](#tests-folder)
-- [What does the keyword `RSpec.describe` define?](#keyword-describe)
-- [What does the keyword `it` define?](#keyword-it)
-- [How many expect clauses can you write for one test case?](#expect-clauses)
-- [What are some of RSpec's equality matchers?](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/)
-- [How do we tell RSpec where to find the code to be tested?](#require)
 
 ### Additional resources
 

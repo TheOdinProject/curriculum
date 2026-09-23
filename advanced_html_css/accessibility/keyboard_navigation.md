@@ -42,7 +42,7 @@ buttons.forEach(button => {
 
 Of course, this example then makes it *less* understandable for screen reader users (remember, these "buttons" won't provide any context). Not only does using the `<button>` element provide the context screen reader users need, but they're focusable and have event handling for keyboards *by default*: pressing the <kbd>Space</kbd> or <kbd>Enter</kbd> keys on a keyboard when a `<button>` has focus will trigger the "click" event.
 
-<span id="interactive-elements-keyboard">The point is that you need to make sure that any interactive elements are focusable by and have event handling for keyboards. Using the correct semantic HTML can make this a lot easier of a goal to accomplish, but if you ever need to use an element that isn't focusable or doesn't have any event handling by default, then you need to add both of those functionalities in manually.</span>
+The point is that you need to make sure that any interactive elements are focusable by and have event handling for keyboards. Using the correct semantic HTML can make this a lot easier of a goal to accomplish, but if you ever need to use an element that isn't focusable or doesn't have any event handling by default, then you need to add both of those functionalities in manually.
 
 ### Focus styles
 
@@ -58,7 +58,7 @@ Another aspect of focusable elements is their focus styles, which are usually an
 
 You probably assume that you're about to be told not to do this. Well... **You should never completely remove focus styles**. You should either leave these default focus styles alone, or you should replace them with your own focus styles. Whether it's adding a `transform: scale()` CSS property to a button, adding an outline to a link, or increasing the border width and opacity on an input, adding your own focus styles is the only alternative you should consider to the default focus styles.
 
-<span id="focus-never-remove">Why? Completely removing focus styles can make a page impossible for keyboard users to navigate and operate, as they have no visual indication what element actually has focus. It would force them to have to manually keep track of how many times they've pressed the Tab key while also trying to guess what elements are *actually* focusable. Imagine trying to browse a website with an invisible cursor and without any visual indication of when the cursor was hovering over interactive elements like links or buttons. Doesn't sound too fun, does it?</span>
+Why? Completely removing focus styles can make a page impossible for keyboard users to navigate and operate, as they have no visual indication what element actually has focus. It would force them to have to manually keep track of how many times they've pressed the Tab key while also trying to guess what elements are *actually* focusable. Imagine trying to browse a website with an invisible cursor and without any visual indication of when the cursor was hovering over interactive elements like links or buttons. Doesn't sound too fun, does it?
 
 ### Tab order
 
@@ -84,7 +84,7 @@ If you don't properly hide such content, then keyboard users would be able to ta
 
 One way to prevent this frustrating behavior is to give each individual item in that hidden content a `tabindex` value of -1, since that prevents an element from receiving focus via the keyboard (though you can still give it focus with JavaScript's `focus()` method). While this fixes the issue for keyboard users, other assistive technologies would still have access to and could still announce this hidden content.
 
-<span id="best-way-hide-content">A better solution is giving the container for the hidden content itself either the `display: none` or `visibility: hidden` CSS property when it's hidden, and removing or overriding that property when it's meant to be visible. This not only removes the menu items from the tab order, but it also prevents assistive technologies from announcing them.</span>
+A better solution is giving the container for the hidden content itself either the `display: none` or `visibility: hidden` CSS property when it's hidden, and removing or overriding that property when it's meant to be visible. This not only removes the menu items from the tab order, but it also prevents assistive technologies from announcing them.
 
 ### Assignment
 
@@ -94,13 +94,3 @@ One way to prevent this frustrating behavior is to give each individual item in 
 1. Read about [Skip Links](https://webaim.org/techniques/skipnav/), another form of accessibility for keyboard users and can be especially helpful for those who require more effort to tab through the contents of a page.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are two things that interactive elements must have for keyboard users?](#interactive-elements-keyboard)
-- [What are focus styles?](#focus-styles)
-- [Why should you never completely remove focus styles from an element?](#focus-never-remove)
-- [What is the tab order?](#tab-order)
-- [What is the best way to hide hidden content from assistive technologies?](#best-way-hide-content)

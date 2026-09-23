@@ -336,15 +336,6 @@ The final piece of Turbo is something that you don't need to know much about for
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does SPA stand for and what is it?](#single-page-applications-spas)
-- [What is Hotwire?](#hotwire)
-- [How do we use a Turbo Frame?](#turbo-frames)
-- [How do we set up Turbo Streams?](#turbo-stream)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

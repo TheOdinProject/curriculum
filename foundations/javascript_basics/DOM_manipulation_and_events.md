@@ -459,24 +459,3 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
    - [Creating a dynamic shopping list](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting#creating_a_dynamic_shopping_list)
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the DOM?](#document-object-model)
-- [How do you target the nodes you want to work with?](#targeting-nodes-with-selectors)
-- [How do you create an element in the DOM?](#element-creation)
-- [How do you add an element to the DOM?](#append-elements)
-- [How do you remove an element from the DOM?](#remove-elements)
-- [How can you alter an element in the DOM?](#altering-elements)
-- [When adding text to a DOM element, should you use textContent or innerHTML? Why?](https://www.youtube.com/watch?v=ns1LX6mEvyM)
-- [Where should you include your JavaScript tag in your HTML file when working with DOM nodes?](#important-note)
-- [How do "events" and "listeners" work?](#events)
-- [What are three ways to use events in your code?](#events)
-- [Why are event listeners the preferred way to handle events?](#attaching-listeners-to-groups-of-nodes)
-- [What are the benefits of using named functions in your listeners?](#method-3)
-- [How do you attach listeners to groups of nodes?](#attaching-listeners-to-groups-of-nodes)
-- [What is the difference between the return values of `querySelector` and `querySelectorAll`?](#query-selectors)
-- [What does a "NodeList" contain?](#query-selectors)
-- [What is the difference between the "capturing phase" and "bubbling phase"?](https://www.javascripttutorial.net/javascript-dom/javascript-events/#:~:text=DOM%20Level%202%20Event%20flow)

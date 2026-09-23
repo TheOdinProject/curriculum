@@ -34,16 +34,6 @@ This section contains a general overview of topics that you will learn in this l
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How would you go through the lines of a file using an `IO` object?](https://thoughtbot.com/blog/io-in-ruby)
-- [How would you take the Array `[1,2,3]` and serialize it into a JSON string format?](https://www.sitepoint.com/choosing-right-serialization-format/)
-- [What are the benefits of YAML vs JSON vs MessagePack serialization formats?](https://www.sitepoint.com/choosing-right-serialization-format/)
-- [How can you check if a file or directory exists?](http://zetcode.com/lang/rubytutorial/io/)
-- [How can you list a directory's contents in the form of an array?](http://zetcode.com/lang/rubytutorial/io/)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

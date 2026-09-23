@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Not everything needs CSS
 
-<span id='natural-responsiveness'>Plain HTML, with no CSS is responsive</span>. Visit this [HTML-only page with no CSS](https://codyloyd.github.io/responsive-html/) and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
+Plain HTML, with no CSS is responsive. Visit this [HTML-only page with no CSS](https://codyloyd.github.io/responsive-html/) and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
 
 It's not realistic for every website you create to be as basic as plain text on a page, but it is important to keep in mind that most of the elements you're using to build your project are responsive until **you** change that with CSS. If you approach your project with this mindset and do your best to maintain that natural responsiveness, you might find that there isn't *that* much extra you need to do to make your sites properly responsive.
 
@@ -36,7 +36,7 @@ The number one enemy of flexibility is a fixed width on an element. If you put `
 
 Obviously the context will determine what works in a given situation, but an easy fix in many cases is replacing `width` or `height` with `max-width` or `min-height` (`min-width` and `max-height` are also valid and may be useful depending on the context).
 
-In the following example, notice how the <span id='fixed-width'>fixed width</span> causes our div to overflow the screen! Change it to `max-width` and watch it shrink down to fit the preview screen! Click 'Fork on CodePen', then 'Save', and navigate to the 'Open Live View in a New Window' icon at the bottom to see it in full window size. Try changing the size of the window to see how `max-width` works. When a `max-width` is defined, the element will not exceed that width but will shrink if the screen is too small to accommodate it.
+In the following example, notice how the fixed width causes our div to overflow the screen! Change it to `max-width` and watch it shrink down to fit the preview screen! Click 'Fork on CodePen', then 'Save', and navigate to the 'Open Live View in a New Window' icon at the bottom to see it in full window size. Try changing the size of the window to see how `max-width` works. When a `max-width` is defined, the element will not exceed that width but will shrink if the screen is too small to accommodate it.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="GRMpreM" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -48,7 +48,7 @@ In the following example, notice how the <span id='fixed-width'>fixed width</spa
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-This example shown below demonstrates the problem with <span id='fixed-height'>static heights.</span> On a full-sized screen the text would fit inside the pink box just fine, but here on this cramped embed, it overflows! What we want here is for the div to be `300px` in most cases, but to grow instead of causing an overflow when the text gets cramped. In this case changing `height: 300px` to `min-height: 300px` will fix the issue.
+This example shown below demonstrates the problem with static heights. On a full-sized screen the text would fit inside the pink box just fine, but here on this cramped embed, it overflows! What we want here is for the div to be `300px` in most cases, but to grow instead of causing an overflow when the text gets cramped. In this case changing `height: 300px` to `min-height: 300px` will fix the issue.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="qBjxVYg" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -80,13 +80,3 @@ Here's a statement so obvious that it sounds like a joke: flexbox was *created* 
 1. [Using Percentages in CSS](https://web.archive.org/web/20251116005914/https://codyloyd.com/2021/percentages/) is an article that tackles another common pitfall. Don't focus too much on the `@media` parts, as we will cover media queries very soon.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is natural responsiveness?](#natural-responsiveness)
-- [When should you avoid using fixed widths?](#fixed-width)
-- [When should you avoid using fixed heights?](#fixed-height)
-- [In what situations might it be appropriate to use a fixed height or width?](#when-fixed-widths-are-appropriate)
-- [When might percentages interfere with responsiveness?](https://web.archive.org/web/20251116005914/https://codyloyd.com/2021/percentages/)

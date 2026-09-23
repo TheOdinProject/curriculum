@@ -341,13 +341,3 @@ Remember to ensure the code you write is as efficient as it can be within its ti
 1. Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is Big O?](#what-is-big-o)
-- [What are the most common Big O Notations?](#big-o-notation)
-- [Why use Big O?](#why-big-o)
-- [What is Big Omega and why isn't it as useful?](#big-omega-notation)
-- [Why don't constants make a difference in Big O?](#algorithms-with-the-same-complexity)

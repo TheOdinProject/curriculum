@@ -271,15 +271,15 @@ puts "I'm blue da ba dee da ba di!".colorize(:blue)
 puts "It ain't easy bein' green...".colorize(:green)
 ```
 
-You're probably itching to see all those colours, so run your file with `ruby main.rb` to see them... or rather, a `LoadError`. Right—you need to <span id="install-gem">install that gem first!</span> Do that with `gem install colorize` and you'll see RubyGems in action. Your system now has access to the `Colorize` gem!
+You're probably itching to see all those colours, so run your file with `ruby main.rb` to see them... or rather, a `LoadError`. Right—you need to install that gem first! Do that with `gem install colorize` and you'll see RubyGems in action. Your system now has access to the `Colorize` gem!
 
 Wait, *your system*—what about others who would like to use your code? Yeah, they would also need to `gem install` it—no big deal.
 
 But what if you have dozens of gems? How do you ensure that the versions you use are the same version others download? This sounds rather tedious. Enter: Bundler. It's another gem, part of RubyGems, but released independently.
 
-<span id="bundler">Bundler allows you to declare what gems your project needs—down to their version.</span> As for others, Bundler allows them to take that declaration, a simple file called `Gemfile`, and use it to install those gems in a quick `bundle install`.
+Bundler allows you to declare what gems your project needs—down to their version. As for others, Bundler allows them to take that declaration, a simple file called `Gemfile`, and use it to install those gems in a quick `bundle install`.
 
-Since gem installs are global, <span id="bundle-exec">you need a way to run only those particular gem versions that are declared in the `Gemfile`.</span> You can do that by using `bundle exec` followed by a command you want to execute—most likely `bundle exec ruby foo.rb`.
+Since gem installs are global, you need a way to run only those particular gem versions that are declared in the `Gemfile`. You can do that by using `bundle exec` followed by a command you want to execute—most likely `bundle exec ruby foo.rb`.
 
 Let's make sure whoever wants to use our script can do so:
 
@@ -320,7 +320,7 @@ BUNDLED WITH
    2.5.4
 ```
 
-<span id="gemfile">There's not much in those, but as you can see,</span> the `Gemfile` has information on where to get the gems from and what gems are required.
+There's not much in those, but as you can see, the `Gemfile` has information on where to get the gems from and what gems are required.
 
 The `"~> 1.1"` is a version constraint, particularly a pessimistic constraint. It relies on semantic versioning.
 
@@ -357,19 +357,6 @@ After that, you will enjoy all the benefits of using `Ruby LSP` and its `RuboCop
 1. Check out [Ruby LSP VSCode extension's README](https://github.com/Shopify/ruby-lsp/tree/main/vscode#readme).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why would you split your code across multiple files?](#confusion-convention-convenience)
-- [How can you make code from different files available?](#making-use-of-multiple-files)
-- [Why would you wrap your code in a module?](#namespaces)
-- [What are gems?](#gems-and-you)
-- [How do you install gems?](#install-gem)
-- [What is Bundler used for?](#bundler)
-- [Why would you use bundle exec?](#bundle-exec)
-- [What are Gemfile and Gemfile.lock for?](#gemfile)
 
 ### Additional resources
 

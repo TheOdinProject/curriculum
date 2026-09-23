@@ -42,10 +42,3 @@ The database using the psql terminal is located inside the file system or local 
    - [macOS](https://github.com/TheOdinProject/curriculum/tree/main/nodeJS/express/installation_guides/postgresql/macos.md "PostgreSQL installation for macOS")
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why is data persistence important in web applications?](#introduction)
-- [What is the PostgreSQL shell?](#postgresql-shell)

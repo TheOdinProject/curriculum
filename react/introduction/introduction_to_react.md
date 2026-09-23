@@ -47,10 +47,3 @@ To name a few reasons to learn React:
 1. Lastly, skim this article which explains the [main advantages of using React](https://www.geeksforgeeks.org/reactjs/what-are-the-advantages-of-react-js/).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the purpose of React?](#what-is-react)
-- [What are the benefits of using React?](#why-cover-react)

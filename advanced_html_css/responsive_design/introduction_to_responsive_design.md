@@ -18,7 +18,7 @@ The word 'design' refers to making decisions about what kinds of things look nic
 
 Since the release of the first iPhone in 2007, it has become a *requirement* that your web projects function correctly on everything from normal desktop monitors to tiny phone screens.
 
-As you have likely discovered, this kind of responsiveness doesn't often happen automatically, especially once your projects get more complex than simple text on a page (your first HTML-only recipe project probably worked just fine on a phone, aside from the images getting cut off). So, when it comes down to it, <span id='what-is-responsive-design'>"Responsive Web Design" is a set of techniques you can use to make your sites work on any size screen.</span>
+As you have likely discovered, this kind of responsiveness doesn't often happen automatically, especially once your projects get more complex than simple text on a page (your first HTML-only recipe project probably worked just fine on a phone, aside from the images getting cut off). So, when it comes down to it, "Responsive Web Design" is a set of techniques you can use to make your sites work on any size screen.
 
 There are ways to make your designs flexible enough that they work well on most screens, and there are ways to dramatically change the layout of your page at certain sizes. You'll probably end up relying on both in most of your projects.
 
@@ -33,9 +33,3 @@ The smallest phones in common circulation rarely get smaller than `320px`, so th
 1. Read this Google Chrome DevTools guide on [how to simulate mobile device displays](https://developer.chrome.com/docs/devtools/device-mode/).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is Responsive Design?](#what-is-responsive-design)

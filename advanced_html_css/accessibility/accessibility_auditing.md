@@ -19,7 +19,7 @@ There are plenty of third-party tools to audit the accessibility of a web page, 
 
 - [axe DevTools for Chrome](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US) is an extension-based tool that returns a list of issues ranked by severity level, and will note any issues for you to manually check.
 
-- <span id="chrome-default-tool-knowledge-check">[Lighthouse for Chrome](https://developers.google.com/web/tools/lighthouse) is available in the Chrome DevTools by default (it might also be listed as the Auditing tab) or it can be run from the command line. Lighthouse provides more than just a11y auditing, including performance, best practices, search engine optimization (SEO), and progressive web app (PWA) if applicable. Issues are separated by category, and like the axe DevTools, there may be a list of issues for you to manually check.</span>
+- [Lighthouse for Chrome](https://developers.google.com/web/tools/lighthouse) is available in the Chrome DevTools by default (it might also be listed as the Auditing tab) or it can be run from the command line. Lighthouse provides more than just a11y auditing, including performance, best practices, search engine optimization (SEO), and progressive web app (PWA) if applicable. Issues are separated by category, and like the axe DevTools, there may be a list of issues for you to manually check.
 
 - [WebAIM's WAVE](https://wave.webaim.org/) is a website-based tool where you enter the URL of the page you want to audit. There are also browser extensions and API options. WAVE will return a preview of the page with an overlay of icons on it, and issues are separated into categories of alerts, warnings, and contrast errors. Unfortunately, the icons that are placed on the page may cause the layout to break, but that could be a minor issue if you're more focused on the a11y issues that are found.
 
@@ -36,10 +36,3 @@ Of course, one of the best ways to check the accessibility of your websites is t
     - Although there will be differences between different browsers, such as the value of the role property or how a11y properties are presented, check out [the "Features of the Accessibility panel" section in MDN's documentation](https://firefox-source-docs.mozilla.org/devtools-user/accessibility_inspector/index.html#features-of-the-accessibility-panel). There is useful information that, while more tailored to Firefox, may still be useful for Chrome users.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are some of the various accessibility features available in your browser's DevTools?](https://developer.chrome.com/docs/devtools/accessibility/reference/#pane)
-- [Which third-party accessibility auditing tool is available in the Chrome DevTools by default?](#chrome-default-tool-knowledge-check)

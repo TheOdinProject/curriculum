@@ -302,15 +302,6 @@ Go back to you **Flight Booker** project and improve it:
   - Allow to remove existing passengers by clicking a "Remove" button, which removes the one set of passenger fields (make sure submissions to the server still works as expected)
   - Prevent removing the last set of passenger details.
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [When do you use Stimulus?](#introduction)
-- [How do you select a DOM element?](#selecting-elements)
-- [How do you make your Stimulus controllers reusable?](#use-class-attributes-to-make-your-controllers-more-configurable)
-- [How do you trigger actions on an event?](#triggering-an-action)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

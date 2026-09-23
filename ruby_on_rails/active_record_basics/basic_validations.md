@@ -56,10 +56,3 @@ So the only way to truly enforce constraints is on the database level, since you
    - Section 9 will likely only be interesting if you've seen ERB in Rails views before... we'll get there.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does the validation helper `presence: true` enforce?](https://guides.rubyonrails.org/active_record_validations.html#presence)
-- [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#inspecting-and-handling-errors)

@@ -91,13 +91,3 @@ This is a sentence.
 1. Read this [Ruby guides article describing the differences between `puts`, `print` and `p`](https://www.rubyguides.com/2018/10/puts-vs-print/).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the two methods we can use to output data to the user's screen?](#output-commands)
-- [What is similar between these two output methods?](#output-commands)
-- [What is different between these two output methods?](#output-commands)
-- [What is the method you can use to get input from the user?](#input-commands)
-- [What is at least one difference between the output and input methods?](#input-commands)

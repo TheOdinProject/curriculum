@@ -90,15 +90,6 @@ Your time is limited and your options are endless. So, you should understand wha
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a professional network?](#what-is-a-professional-network)
-- [Why is a professional network useful?](#why-is-a-professional-network-useful)
-- [How can you build a professional network?](#build-a-professional-network)
-- [How can you maintain your professional network?](#maintain-your-network)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

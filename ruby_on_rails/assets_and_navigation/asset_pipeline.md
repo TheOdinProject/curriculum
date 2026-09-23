@@ -57,13 +57,6 @@ Some necessary and straightforward reading on the Asset Pipeline:
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How does the Asset Pipeline help with browser caching of your assets?](#fingerprinting)
-- [How do you include an asset in your views or layout?](https://guides.rubyonrails.org/asset_pipeline.html#digested-assets-in-views)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

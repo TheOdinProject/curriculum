@@ -49,10 +49,3 @@ The hiring process for internships is usually similar to but not quite as rigoro
     - Use [InternMatch](https://www.wayup.com/s/internships/it/) to explore available internships.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the 3 main things hiring managers look for?](#life-behind-the-curtain)
-- [What are the advantages to getting an internship?](#internships)

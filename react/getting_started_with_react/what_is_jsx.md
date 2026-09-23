@@ -199,12 +199,3 @@ In the following lessons, you will spend some time reading the React documentati
 1. Read through the React docs [JavaScript in JSX](https://react.dev/learn/javascript-in-jsx-with-curly-braces) page to introduce yourself to writing JavaScript logic and referencing dynamic values inside of your markup.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is JSX?](#what-is-jsx)
-- [Why do we use JSX?](#why-do-we-use-jsx)
-- [What are the three rules of JSX?](#rules-of-jsx)
-- [How do you reference a dynamic value inside of your JSX?](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world)

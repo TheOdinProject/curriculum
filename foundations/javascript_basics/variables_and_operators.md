@@ -161,19 +161,3 @@ Go through the following articles to deepen your knowledge.
 1. Read through (and code along with!) this article on [JavaScript operators](http://javascript.info/operators). Don't forget to do the "Tasks" at the bottom of the page! It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What three keywords can you use to declare new variables?](#variables)
-- [Which of the three variable declarations should you avoid and why?](#variables)
-- [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
-- [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
-- [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
-- [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
-- [What's the difference between prefixing and postfixing increment/decrement operators?](https://javascript.info/operators#increment-decrement)
-- [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
-- [How do you access developer tools and the console?](#how-to-run-javascript-code)
-- [How do you log information to the console?](#how-to-run-javascript-code)
-- [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)

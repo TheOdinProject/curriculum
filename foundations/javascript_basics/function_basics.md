@@ -87,15 +87,3 @@ For now, just write each function and test the output with `console.log`.
     - `lastLetter("abcd")` should return `"d"`
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are functions useful for?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
-- [How do you invoke a function?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions)
-- [What are anonymous functions?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions_and_arrow_functions)
-- [What is function scope?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts)
-- [What are return values?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values#what_are_return_values)
-- [What are arrow functions?](https://javascript.info/arrow-functions-basics)
-- [What is the difference between a function declaration and a function expression?](https://javascript.info/function-expressions#function-expression-vs-function-declaration)

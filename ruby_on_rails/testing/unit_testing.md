@@ -61,14 +61,6 @@ end
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are unit tests?](#what-are-unit-tests)
-- [Why utilize unit tests?](#what-are-unit-tests)
-- [How would I test if a post doesn't accept comments?](#example-test)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

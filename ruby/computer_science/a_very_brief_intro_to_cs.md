@@ -29,14 +29,6 @@ This section contains a general overview of topics that you will learn in this l
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8)
-- [What is the importance of algorithms in web development?](https://qr.ae/py3NAc)
-- [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

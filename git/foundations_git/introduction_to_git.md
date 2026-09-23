@@ -2,7 +2,7 @@
 
 Git is like a really **epic save button** for your files and directories. Officially, Git is a version control system.
 
-<span id="text-editor-and-git"></span>A *save* in a text editor records all of the words in a document as a single file. You are only ever given one record of the file, such as `essay.doc`, unless you make duplicate copies (which is difficult to remember to do and keep track of):
+A *save* in a text editor records all of the words in a document as a single file. You are only ever given one record of the file, such as `essay.doc`, unless you make duplicate copies (which is difficult to remember to do and keep track of):
 
 `essay-draft1.doc`, `essay-draft2.doc`, `essay-final.doc`
 
@@ -10,7 +10,7 @@ However, a *save* in Git records differences in the files and folders AND keeps 
 
 Please note, we **only** support GitHub within our curriculum, and will not help troubleshoot the alternatives.
 
-<span id="git-local"></span>While Git works on your *local* machine, <span id="github-remote"></span>GitHub is a *remote* storage facility on the web for all your coding projects. This means that by learning Git, you will get to showcase your portfolio on GitHub! This is really important because almost all software development companies consider using Git to be an **essential skill** for modern web developers. Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
+While Git works on your *local* machine, GitHub is a *remote* storage facility on the web for all your coding projects. This means that by learning Git, you will get to showcase your portfolio on GitHub! This is really important because almost all software development companies consider using Git to be an **essential skill** for modern web developers. Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
 
 In this lesson, we will briefly explore the history of Git, what it is, and what it's useful for.
 
@@ -39,14 +39,3 @@ This section contains a general overview of topics that you will learn in this l
   1. Take a look at [The Odin Project's GitHub repository](https://github.com/TheOdinProject/curriculum). This is where all the lessons are stored! While you're there, look at all [our contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What kind of program is Git?](#introduction)
-- [What are the differences between Git and a text editor in terms of what they save and their record keeping?](#text-editor-and-git)
-- [Does Git work at a local or remote level?](#git-local)
-- [Does GitHub work at a local or remote level?](#github-remote)
-- [Why is Git useful for developers?](https://www.youtube.com/watch?v=2ReR1YJrNOM)
-- [Why are Git and GitHub useful for a team of developers?](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)

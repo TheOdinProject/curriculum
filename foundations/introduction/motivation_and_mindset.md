@@ -173,11 +173,3 @@ Learning any new skill is a journey full of speed bumps and obstacles to overcom
 1. Once you join the TOP Discord server, give your motivation a bit of a boost! Read about the success of others in the [TOP Discord server's Success Stories forum](https://discord.com/channels/505093832157691914/1089990025162260570).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the two modes your mind switches between during the learning process, and how do they differ?](#the-learning-process)
-- [When you're stuck on a programming problem, what three main strategies does the curriculum recommend trying?](#what-to-do-when-youre-stuck)
-- [Why does the curriculum recommend against setting strict deadlines for completing The Odin Project?](#managing-your-study-time)

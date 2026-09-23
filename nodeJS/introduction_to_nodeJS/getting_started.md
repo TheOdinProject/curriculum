@@ -46,12 +46,6 @@ Let's dive in and start looking at Node server-side code! We will be hopping aro
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a File System Module? How and why would you use it?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

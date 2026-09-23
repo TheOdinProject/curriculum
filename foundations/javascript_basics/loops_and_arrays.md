@@ -209,16 +209,3 @@ We will teach you the art of actually writing these tests later in the course. F
    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are loops useful for?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops#why_are_loops_useful)
-- [What is the break statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break)
-- [What is the continue statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue)
-- [What is an array?](https://www.w3schools.com/js/js_arrays.asp)
-- [What are arrays useful for?](https://www.w3schools.com/js/js_arrays.asp)
-- [How do you access or change an array element?](https://javascript.info/array)
-- [What are some useful array methods?](https://javascript.info/array-methods)
-- [What is the advantage of writing automated tests?](#test-driven-development)

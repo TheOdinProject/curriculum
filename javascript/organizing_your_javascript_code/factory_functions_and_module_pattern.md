@@ -381,16 +381,3 @@ But then why not just write the factory function then call it once? Why bother w
 1. Read [MDN's guide on closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures) (ignore ES6 modules for now; we’ll talk about them in a future lesson).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How does scope work in JavaScript?](#scoopfuls-of-scopes)
-- [What are closures?](#closures-arent-scary)
-- [What common issues can you face when working with constructors?](#so-whats-the-matter-with-constructors)
-- [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
-- [How can we compose with factory functions?](#composition-with-factories)
-- [How does the module pattern work?](#the-module-pattern)
-- [What does IIFE stand for and what are they?](#iifes)
-- [How do factory functions help with encapsulation?](#using-iifes-to-implement-the-module-pattern)

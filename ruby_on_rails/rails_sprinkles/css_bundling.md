@@ -75,11 +75,3 @@ There isn't much more to what we've covered above, but there are a couple of ide
   1. If you are interested in using any of the tools it offers, go to the relevant website and see how you can get started using it in your own applications.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What tools can you choose with cssbundling-rails gem?](#cssbundling-tooling-options)
-- [How does cssbundling-rails gem work?](#build-script)
-- [Why should you use CSS bundling gem?](#why-use-css-bundling)

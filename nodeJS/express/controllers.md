@@ -392,20 +392,6 @@ As an exercise, feel free to create more sample data in our `db.js` file and con
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the common response methods and their use cases?](#handling-responses)
-- [What are the types of middleware?](#middleware)
-- [How does a middleware get executed? In which order?](#middleware)
-- [What does calling the next function do? What if we pass an error argument?](#what-is-the-next-function)
-- [What are the other arguments you can pass to the next function?](#what-is-the-next-function)
-- [What is a controller?](#controllers)
-- [What is the difference between a controller and a middleware?](#controllers)
-- [What happens if you define a middleware function with four parameters?](#error-handler-middleware)
-- [What would you do to create a custom error?](#creating-custom-errors)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

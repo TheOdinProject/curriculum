@@ -56,10 +56,3 @@ In our own projects, as we use npm to install new packages (or uninstall any!), 
 1. Here is a great little [history lesson about JavaScript and managing packages across multiple files](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html). Only read up to "Using a JavaScript module bundler (webpack)", as we will cover bundlers and webpack in the next lesson.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is npm?](#npm)
-- [What file does npm use that contains all information about dependencies?](https://docs.npmjs.com/creating-a-package-json-file)

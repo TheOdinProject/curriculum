@@ -355,17 +355,3 @@ And that's about it! Congratulations, if you've made it this far, you are well o
    Note: When doing these exercises, please use all the documentation and resources you need to accomplish them. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use Google, do what you need to do (besides checking the solutions) to get them done.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you create several grid tracks of the same size without manually typing each one out?](#repeat)
-- [What is the difference between a static and dynamic size value?](#fractional-units)
-- [How can you assign a grid track a flexible value that changes depending on the remaining space available in the grid?](#fractional-units)
-- [How can you assign grid tracks an uneven distribution of the remaining space in a grid?](#fractional-units)
-- [Which CSS functions will return the *smallest* or *largest* value supplied to them?](#minimum-and-maximum-track-sizes-min-and-max)
-- [Which CSS Grid-only function allows you to supply a minimum and maximum track size that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
-- [Which global CSS function allows you to supply a minimum, ideal, and maximum value that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
-- [What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?](#auto-fit-and-auto-fill)
-- [What is the difference between `auto-fit` and `auto-fill`?](#auto-fit-and-auto-fill)

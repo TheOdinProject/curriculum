@@ -89,7 +89,7 @@ Let's break down this syntax:
 - `{ |friend| puts "Hello, " + friend }` is a **block**, and the code inside this block is run for each element in your array. Because we have 5 friends in our array, this block will be run 5 times, once with each of the 5 elements.
 - Within the block, you'll notice that we have `|friend|`, which is known as a **block variable**. This is the element from your array that the block is currently iterating over. You can use any variable name that you find helpful here; in this example, we could have used `|x|`, but `|friend|` is more descriptive of what each element is. In the first iteration, the value of `|friend|` will be `'Sharon'`; in the second iteration, its value will be `'Leo'`; in the third, `'Leila'`; and so on until it reaches the end of the array.
 
-<span id="ruby-knowledge-check-do..end-vs-{...}">What if the block you want to pass to a method requires more logic than can fit on one line? It starts to become less readable and looks unwieldy. For multi-line blocks, the commonly accepted best practice is to change up the syntax to use `do...end` instead of `{...}`:</span>
+What if the block you want to pass to a method requires more logic than can fit on one line? It starts to become less readable and looks unwieldy. For multi-line blocks, the commonly accepted best practice is to change up the syntax to use `do...end` instead of `{...}`:
 
 ```ruby
 my_array = [1, 2]
@@ -438,15 +438,3 @@ invited_friends(friends)
   1. Complete the basic enumerable exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does the `#each` method do? What does it return?](#the-each-method)
-- [What does the `#each_with_index` method do?](#the-eachwithindex-method)
-- [What does the `#map` method do?](#the-map-method)
-- [What does the `#select` method do?](#the-select-method)
-- [What does the `#reduce` method do?](#the-reduce-method)
-- [When should you use `do...end` around a code block versus `{...}`?](#ruby-knowledge-check-do..end-vs-{...})
-- [Why should you avoid using the bang methods of enumerables?](#bang-methods)

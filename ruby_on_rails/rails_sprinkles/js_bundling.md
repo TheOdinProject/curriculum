@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### JS bundling options
 
-Before we install the jsbundling-rails gem let's go over a few of the options. <span id='bundle-options'></span>The three options are:
+Before we install the jsbundling-rails gem let's go over a few of the options. The three options are:
 
 #### Esbuild
 
@@ -50,13 +50,13 @@ When doing this you need to be running `rails server` in another terminal as wel
 
 It will wait for changes to occur in your JavaScript files and proceed to rebundle them which will update the bundled file that is delivered to the asset pipeline.
 
-Another useful command you can use is `./bin/dev` which will start the `yarn build --watch` and `rails server` at the same time. <span id="yarn-build-command"></span>That means not having to switch between terminal windows for developing. In development mode the command `./bin/dev` is useful since it allows your JavaScript bundle watcher and Rails server to update without needing to manually update it as yarn watches for those changes automatically.
+Another useful command you can use is `./bin/dev` which will start the `yarn build --watch` and `rails server` at the same time. That means not having to switch between terminal windows for developing. In development mode the command `./bin/dev` is useful since it allows your JavaScript bundle watcher and Rails server to update without needing to manually update it as yarn watches for those changes automatically.
 
 ### Using jsbundling-rails
 
 First ensure that you have Yarn and Node installed. Run `yarn -v` and `node -v` in the terminal. Both of these should return a number indicating the version.
 
-<span id="bundler-check"></span>Now let's go through these steps with a new app and for the last step select esbuild for your JavaScript. Run the command below.
+Now let's go through these steps with a new app and for the last step select esbuild for your JavaScript. Run the command below.
 
 ```bash
 rails new testapp
@@ -215,7 +215,7 @@ At this point, you might be wondering why import maps are even necessary. Being 
 
 It is important to remember that, in the days of HTTP 1, there *was* a performance penalty associated with making multiple requests. Since the introduction of HTTP 2, that performance penalty no longer applies. Therefore, one of the main benefits of using bundling, which was to mitigate the costs associated with HTTP 1, has become less significant.
 
-<span id='jsbundling-module'></span>Another downside to using JS bundling is that any changes to a module will expire the entire bundle, requiring the browser to redownload and parse everything from scratch.
+Another downside to using JS bundling is that any changes to a module will expire the entire bundle, requiring the browser to redownload and parse everything from scratch.
 
 In contrast, import maps keeps the modules separate, so you don't have to redownload every single module anytime something changes. Just the kind of performance jump that may make you consider using import maps over JS bundling.
 
@@ -227,7 +227,7 @@ One thing to really stress is that one is not necessarily worse than the other a
 
 You may have heard of Webpacker or have come across it in the wild so it's worth mentioning as it was used for quite a few years for Rails 6.
 
-<span id='webpacker-introduction'> </span>Webpacker was a Ruby gem created to work with webpack itself which allowed Rails to use ES6 (short for ECMAScript 6 which was introduced to standardize JavaScript) as it required transpilation for use with browsers at that time.
+ Webpacker was a Ruby gem created to work with webpack itself which allowed Rails to use ES6 (short for ECMAScript 6 which was introduced to standardize JavaScript) as it required transpilation for use with browsers at that time.
 
 In the context of Rails, Webpacker builds a map of your JavaScript code to build a dependency graph allowing it to generate bundles of code. Rails would grab a pack from `app/javascript/packs` and download it when that form is visited by the user.
 
@@ -251,16 +251,6 @@ While you may come across this in the wild it is important to note that Rails 7 
    - [Webpack](https://webpack.js.org/concepts/).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the three different options that jsbundling-rails provides?](#bundle-options)
-- [What are the steps to including a bundler for an import map based project?](#bundler-check)
-- [What is one downside to using JS bundling?](#jsbundling-module)
-- [Why was Webpacker introduced for Rails 6?](#webpacker-introduction)
-- [Why is the `./bin/dev` command useful in development mode?](#yarn-build-command)
 
 ### Additional resources
 

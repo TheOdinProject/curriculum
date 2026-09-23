@@ -22,7 +22,7 @@ Situational limitations are a little different. Using a phone outside on a brigh
 
 Let's first look at a non-web example to gain a little perspective. Imagine being in a multi-storied building that has no elevator. For some people, this might only be an annoyance. "Huh, no elevator. I guess I'll walk up a few flights of stairs, then." A person that requires a wheelchair, however, would find it impossible, or at the very least much more difficult, to go anywhere beyond the first floor. Even if a person in a wheelchair had someone to lift the wheelchair up each step, it would be a much more difficult process. The point here is that an elevator would have made this building more accessible.
 
-The building is your website, and the elevator is a collection of various accessibility features and tools (...it's a pretty big elevator). <span id='benefits-knowledge-check'>When you develop a website, you're developing it for users, and you need that website to actually be *usable* by them. People with disabilities, older people with changing abilities, people who aren't as tech savvy, and people with some sort of situational limitation are still users, and websites should be as equally usable by them as possible.</span>
+The building is your website, and the elevator is a collection of various accessibility features and tools (...it's a pretty big elevator). When you develop a website, you're developing it for users, and you need that website to actually be *usable* by them. People with disabilities, older people with changing abilities, people who aren't as tech savvy, and people with some sort of situational limitation are still users, and websites should be as equally usable by them as possible.
 
 One other pretty big reason that accessibility matters is that, depending on the country, there could actually be laws *requiring* accessibility to be implemented.
 
@@ -34,10 +34,3 @@ One other pretty big reason that accessibility matters is that, depending on the
 1. Watch the [videos on Web Accessibility Perspectives by W3C](https://www.w3.org/WAI/perspective-videos/) to see how (and which) users can benefit from accessibility features. Each video is pretty short and has audio descriptions and transcripts. If you prefer, the page also has a link to a compiled version of all of the videos on YouTube.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is web accessibility?](#what-is-web-accessibility)
-- [Who truly benefits from accessibility features?](#benefits-knowledge-check)

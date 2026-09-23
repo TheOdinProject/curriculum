@@ -48,11 +48,3 @@ You may want a certain margin size to be based off (and thus scale with) the roo
 1. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) demonstrates some interesting things you can do with `vh` and `vw`.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why would you want to use `em` or `rem` for font-size instead of `px`?](#em-and-rem)
-- [What are some instances where you might want to use `vh` and `vw`?](#viewport-units)
-- [What are some instances where you might want to use `px` instead of a relative unit?](https://web.archive.org/web/20251130034321/https://codyloyd.com/2021/css-units/)

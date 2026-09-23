@@ -132,11 +132,3 @@ Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provi
    - `03-dropdown-menu`
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the long and short-hand notations for CSS animations?](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
-- [How do you add keyframes to an animation?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframes)
-- [When would you use an animation over a transition (and vice versa)?](#animations-vs-transitions)

@@ -30,14 +30,3 @@ This section contains a general overview of topics that you will learn in this l
   1. Relational databases aren't the only way to store data. Non-relational (a.k.a. NoSQL) databases have emerged over the last couple decades. While we'll be using SQL in this curriculum, check out this article to learn the [difference between SQL and NoSQL](https://circleci.com/blog/SQL-vs-NoSQL-databases/).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a database?](https://launchschool.com/books/sql/read/introduction#structureddata)
-- [What are relational databases?](https://launchschool.com/books/sql/read/introduction#rdbms)
-- [What is a Primary Key?](https://youtu.be/z2kbsG8zsLM?t=200)
-- [What is SQL?](https://launchschool.com/books/sql/read/introduction#sql)
-- [How do you get all the records from a table in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/querying-the-table)
-- [How do you insert a record in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/creating-a-table-and-inserting-data)
