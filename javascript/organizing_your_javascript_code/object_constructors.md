@@ -30,7 +30,7 @@ const player = new Player("steve", "X");
 console.log(player.name); // "steve"
 ```
 
-This is not the same as calling `Player("steve", "X")` (without the `new` keyword). <span id="new-keyword">When we call a function with `new`, it creates a new object, makes `this` inside the function refer to that object, and makes that object inherit from the function's `.prototype` property (more on that later). The new object is then returned (even though we don't specify a `return` value in the constructor function).</span>
+This is not the same as calling `Player("steve", "X")` (without the `new` keyword). When we call a function with `new`, it creates a new object, makes `this` inside the function refer to that object, and makes that object inherit from the function's `.prototype` property (more on that later). The new object is then returned (even though we don't specify a `return` value in the constructor function).
 
 Just like with objects created using the object literal method, you can add functions to the object:
 

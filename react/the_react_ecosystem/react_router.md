@@ -312,7 +312,7 @@ createRoot(document.getElementById("root")).render(
 );
 ```
 
-The colon (:) turns the path section after it into a <span id="dynamic-segments">"dynamic segment"</span>. Dynamic segments will match dynamic (changing) values in that position of the URL, like the `name`. These can also be called "URL params" or "params" in short. These can be used with the help of the `useParams` hook. We can thus rewrite the Profile component as the following:
+The colon (:) turns the path section after it into a "dynamic segment". Dynamic segments will match dynamic (changing) values in that position of the URL, like the `name`. These can also be called "URL params" or "params" in short. These can be used with the help of the `useParams` hook. We can thus rewrite the Profile component as the following:
 
 ```jsx
 import { useParams } from "react-router";
