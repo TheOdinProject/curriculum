@@ -416,8 +416,6 @@ export default {
 };
 ```
 
-
-
 Firstly, we add a [source map](https://webpack.js.org/configuration/devtool/) by setting `eval-source-map` as a `devtool` option. If we don't do this, any error messages we get won't necessarily match up to the correct files and line numbers from our development code. In the devtools "Sources" tab, we also won't be able to find our original untouched code, making the Chrome debugger harder to use. Adding this source map will solve both of these problems for us.
 
 Secondly, by default, `webpack-dev-server` will only auto-restart when it detects any changes to files we import into our JavaScript bundle, so our HTML template will be ignored! All we need to do is add it to the dev server's array of watched files - nice and simple!

@@ -73,7 +73,6 @@ In all of the examples, we would advise you to use the [Profiler component](http
 
 > Premature optimization is the root of all evil -- The Art of Computer Programming by Donald Knuth
 
-
 The `useMemo` hook provides a way to add memoization inside our components. It's used to optimize expensive or complex calculations where it caches the result of a function call and stores it to be used later without recalculating it. The memoized value is, however, recalculated *only* when the dependencies of the `useMemo` hook change. And yes, this hook's parameters are the same as the `useEffect` hook you already know. The hook takes in two arguments: a `calculateValue` callback and a `dependencies` array.
 
 #### Memoizing expensive calculations
@@ -285,7 +284,6 @@ const handleClick = useCallback(
 // or
 const memoizedHandleClick = useCallback(handleClick, []);
 ```
-
 
 Yay, there's only one arrow function, and it's simpler to read. There's nothing extra to `useCallback` other than it only memoizes functions. So the main difference between `useMemo` and `useCallback` is just the type of value it returns.
 

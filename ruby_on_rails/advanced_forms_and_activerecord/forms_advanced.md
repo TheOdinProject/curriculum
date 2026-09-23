@@ -106,7 +106,7 @@ As you can imagine, it's important to get the names and parameters properly list
 
 We'll do a broad overview of the process here:
 
-1.  You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User. This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:
+1. You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User. This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:
 
    ```ruby
      # app/models/user.rb

@@ -55,8 +55,6 @@ It is worth giving special mention to `git push --force-with-lease`, a command w
 
 Let's review the dangers we've addressed so far. I know, I know, it's scary stuff - but we have to be mindful or our coworkers might end up hating our guts! If you look back through this lesson you'll see a common thread. `commit --amend`, `rebase`, `reset`, `push --force` are all especially dangerous when you're collaborating with others. These commands can destroy work your coworkers have created. So keep that in mind. When attempting to rewrite history, always check the dangers of the particular command you're using and follow these best practices for the commands we've covered:
 
-
-
 1. If working on a team project, make sure rewriting history is safe to do and others know you're doing it.
 1. Ideally, stick to using these commands only on branches that you're working with by yourself.
 1. Using the `-f` flag to force something should scare you, and you better have a really good reason for using it.

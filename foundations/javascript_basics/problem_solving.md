@@ -26,7 +26,6 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Understand the problem
 
-
 The first step to solving a problem is understanding exactly what the problem is. If you don't understand the problem, you won't know when you've successfully solved it and may waste a lot of time on a wrong solution.
 
 To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.

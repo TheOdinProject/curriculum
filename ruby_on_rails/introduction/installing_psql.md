@@ -19,8 +19,6 @@ In the context of application development, an environment is the collection of t
 
 There are four basic types of environments that are typically set up together. The application that's being developed will then progress through these environments, which are grouped together in a "production pipeline":
 
-
-
 1. The development environment is typically the developers local machine. Where they can safely make changes, add features and improve the code without impacting actual users.
 1. The test environment is set up to facilitate testing of the application. This environment may use different tools and configuration settings (like more verbose logging) to validate a program's behavior and identify bugs with automated tests.
 1. The staging environment usually mirrors the production environment but deployments are not meant to be public.
