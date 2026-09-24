@@ -102,7 +102,7 @@ When your computer or a server (which you're programming) wants to make a reques
 
 So you want to get data from Google Maps to display on your webpage? You hit its API using the rules specified in its API documentation. Just about every big website makes some portion of its data available via an API and you can too quite easily using Rails.
 
-See this explanation (just the first page) on [What APIs are](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) from howstuffworks.
+See this explanation (just the first section) on [What APIs are](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) from howstuffworks.
 
 Not all APIs are web-based. Plenty of them use the same HTTP format but are really just designed to pass data between services. In fact, that's how the components of Rails are all strung together -- they use HTTP to communicate with each other.
 
