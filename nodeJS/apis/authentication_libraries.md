@@ -62,7 +62,7 @@ What you decide to use in upcoming projects is up to you. Whether you decide to 
 
    #### Better Auth ESM and TypeScript
 
-   Better Auth is ESM only, but by leaving the `type` field out of `package.json`, Node will use automatic module resolution, allowing you to use both ESM (where Better Auth needs it) and CommonJS in other parts of our project. Its docs are also written entirely in TypeScript, so you'll have to translate the examples to JavaScript as we go.
+   Better Auth is ESM only, but by leaving the `type` field out of `package.json`, Node will use automatic module resolution, allowing you to use both ESM (where Better Auth needs it) and CommonJS in other parts of our project. Its docs are also written entirely in TypeScript, so you'll have to translate the examples to JavaScript as you go.
 
    </div>
 
