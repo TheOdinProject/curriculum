@@ -435,17 +435,3 @@ You don't need to know all the details of specific attack techniques but in this
 1. Watch this wonderful [video about password storage security](https://www.youtube.com/watch?v=qgpsIBLvrGY) from Studying With Alex.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a session?](#sessions)
-- [What library can we use in Express to implement sessions?](#implementing-sessions)
-- [Why do we need to set a session secret?](#session-secret)
-- [How should the server respond if a user successfully logs in?](#logging-in)
-- [After a user has logged in, how can the server recognize them for future requests?](#handling-requests-after-login)
-- [What should the server do to "log a user out"?](#logging-out)
-- [If we are to store passwords in our database, how can we ensure secure storage?](#storing-passwords-securely)
-- [Should passwords be encrypted for storage and why/why not?](#storing-passwords-securely)
-- [What library can we use to help us securely store passwords?](#argon2)
