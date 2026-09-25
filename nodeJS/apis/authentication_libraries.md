@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Rolling your own auth
 
-First of, what does "rolling your own auth" even mean? Well, it's basically what you've done so far. It's not like you had to write a hashing algorithm or invent a session format yourself - you'll have used `argon2` to hash passwords, `express-session` to manage sessions, or `jsonwebtoken` to sign and verify JWTs. Rolling your own auth just meant connecting those tools into a login system.
+First of, what does "rolling your own auth" even mean? Well, it's basically what you've done so far. It's not like you had to write a hashing algorithm or invent a session format yourself - you'll have used `argon2` to hash passwords, `express-session` to manage sessions, or `jsonwebtoken` to sign and verify JWTs. Rolling your own auth just meant connecting various authentication tools into a login system.
 
 However, there's a whole lot more to authentication, especially when you consider apps people might use everyday. In many of them, you can reset a forgotten password, or verify your email address. You can also turn on two-factor authentication. We haven't asked you to build any of those things.
 
