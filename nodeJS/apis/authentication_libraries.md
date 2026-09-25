@@ -8,6 +8,7 @@ In this lesson, we will address all of the *other things* that authentication in
 
 This section contains a general overview of topics that you will learn in this lesson.
 
+- What "rolling your own auth" means and the potential pitfalls.
 - Why you might want to use an authentication library.
 - What Passport and Better Auth provide, and how their approaches differ.
 
