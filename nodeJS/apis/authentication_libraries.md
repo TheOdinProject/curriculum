@@ -37,7 +37,7 @@ We are going to briefly cover two libraries (though these are by no means the on
 
 [Passport](https://www.passportjs.org/) is a middleware for Node.js and has been the go-to option in the Express ecosystem for a long time, so you're fairly likely to run into it in existing codebases. It's built around *strategies*, which are separate packages, once per authentication mechanism. For example, [`passport-local`](https://www.passportjs.org/packages/passport-local/) is a strategy for username and password, [`passport-jwt`](https://www.passportjs.org/packages/passport-jwt/) for JWT authentication, [`passport-github2`](https://www.passportjs.org/packages/passport-github2/) for signing in with GitHub, and there are many many others.
 
-In many ways, Passport is minimalistic, flexible and modular - it authenticates a request and then gives you back control. You still need to build things like session handling, password storage, database schema, etc.
+In most ways, Passport is minimalistic, flexible and modular - it authenticates a request and then gives you back control. You still need to build things like session handling, password storage, database schema, etc.
 
 #### Better Auth
 
