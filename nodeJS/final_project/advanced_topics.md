@@ -84,13 +84,3 @@ That was quite a lot that we covered. Hopefully by being aware of these concepts
 1. [ExpressJS' security best practices](https://expressjs.com/en/advanced/best-practice-security/) will help you well in securing your Express app. This guide also suggests a few libraries that could be helpful, should you want to tighten up your app's security without doing everything from scratch.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does Content Security Policy protect your app from?](#content-security-policy)
-- [When logging, what kind of information should not appear?](#logging)
-- [What is Cross-Site Request Forgery?](#cross-site-request-forgery)
-- [How does Cross-Origin Resource Sharing work?](#cross-origin-resource-sharing)
-- [Why is rate limiting needed on sensitive routes?](#rate limiting)
