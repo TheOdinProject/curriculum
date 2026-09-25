@@ -54,13 +54,3 @@ In this course, we will only be demonstrating the use of cookies for authenticat
 1. Read [MDN's docs on "Using HTTP cookies"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies) to consolidate your understanding of cookies' use cases and attributes, as well as expand your awareness of cookie security and general practices. We will naturally explore more of these over the coming lessons.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are cookies?](#introduction)
-- [Why might you need to set an expiry date on a cookie?](#expiresmaxage)
-- [Why might you want to prevent client-side JavaScript from accessing a cookie and how would you implement that?](#httponly)
-- [What does the "Secure" attribute do to a cookie?](#secure)
-- [Under some regulations, what kinds of cookies would require user consent before they can be used?](#regulations-and-cookie-consent)
