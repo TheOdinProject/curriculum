@@ -107,12 +107,3 @@ This change of mechanism does come with some caveats but they will be discussed 
 1. Read through [Postman's article "What is JWT?"](https://blog.postman.com/what-is-jwt/) for a little more on JWTs themselves.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How does stateless authentication differ from stateful authentication?](#introduction)
-- [What is a JSON web token?](#jwts)
-- [How does a JWT protect against tampering?](#jwt-signature)
-- [What are some ways that JWTs can be sent and stored between client and server?](#sending-jwts)
