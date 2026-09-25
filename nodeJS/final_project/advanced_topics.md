@@ -69,7 +69,7 @@ Depending on what kind of method you use in your request, a pre-flight request (
 
 ### Rate limiting
 
-Just like how your city has speed limit signs, [rate limiting](<https://www.cloudflare.com/learning/bots/what-is-rate> limiting/) is a technique that tracks a user's number of requests and puts a limit on how many times they can access a resource, such as how many requests they're allowed per day. This becomes especially important as your API grows, protecting you from [Denial of Service](https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/) attacks.
+Just like how your city has speed limit signs, [rate limiting](https://www.cloudflare.com/learning/bots/what-is-rate-limiting) is a technique that tracks a user's number of requests and puts a limit on how many times they can access a resource, such as how many requests they're allowed per day. This becomes especially important as your API grows, protecting you from [Denial of Service](https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/) attacks.
 
 This is commonly employed on sensitive endpoints, like ones involving authentication. You might've faced a similar problem where, after a number of unsuccessful attempts of logging into an application, it will temporarily lock you out and remind you to try again after half an hour or so. This is rate limiting coming into play because we want to protect users from brute-force login attacks. rate limiting can involve tracking both a user's IP address and their username and checking how many requests they have made before our application stops or slows them down before any more requests are made.
 
