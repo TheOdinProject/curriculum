@@ -94,13 +94,3 @@ In most cases, a value of 1 should suffice, though it's entirely possible that, 
 1. Check out [Netlify's docs for proxying to another service](https://docs.netlify.com/manage/routing/redirects/rewrites-proxies/#proxy-to-another-service) as well as [Vercel's docs for proxying to another service](https://vercel.com/docs/rewrites#external-rewrites).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why might a product want to use stateless authentication instead of stateful?](#stateful-vs-stateless)
-- [What issues might one face with stale data in authentication tokens?](#authentication-and-authorization)
-- [What issues might stateless authentication have regarding invalidation?](#invalidation)
-- [What issue can we face with session cookies when our client and server are hosted on separate domains?](#cross-site-authentication)
-- [What is one way we can solve our third-party session cookie dilemma?](#reverse-proxies)
