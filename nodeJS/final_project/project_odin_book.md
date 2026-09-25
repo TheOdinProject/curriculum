@@ -2,9 +2,9 @@
 
 You've come a long way, congratulations! At this point, you should feel comfortable with building new Express applications and using PostgreSQL to model and store data. This project will require you to put all of that knowledge to the test. It's not going to be easy, but it should be well within your capabilities and it will be a *great* portfolio piece.
 
-You'll be building a clone of a social media site, such as Facebook, X, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
+You'll be building a clone of a social media site, such as Facebook, X, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and back end. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
 
-You'll also implement some form of authentication. Ideally, you'll want to use passport.js to support authenticating via the social media site you're cloning, but some sites (such as Facebook), have recently made this process impossible. If this is the case for your site, you can use passport.js to support authenticating via username and password with `passport-local` or via Github with `passport-github2`.
+You'll also implement some form of authentication. Ideally, you'll want to use an auth library to support authenticating via the social media site you're cloning, but some sites (such as Facebook), have now made this process impossible for our purposes. If this is the case for your site, you can support authenticating via username and password, and/or via Github (such as with [`passport-github2`](https://www.passportjs.org/packages/passport-github2/)).
 
 There will probably be features you haven't been exposed to such as chat, real-time updates, and notifications. You won't be responsible for those unless you're feeling really confident in your skills at this point (e.g. [socket.io](https://socket.io/) allows you to use websockets for real-time communication).
 
@@ -12,7 +12,7 @@ There will probably be features you haven't been exposed to such as chat, real-t
 
 <div class="lesson-content__panel" markdown="1">
 
-Build a social media site! You'll build a large portion of the core user functionality of your chosen site in this project. You don't have to worry about some of the more flashy front-end stuff unless you want to, but you don't need it to get a nice user experience.
+Build a social media site! You'll build a large portion of the core user functionality of your chosen site in this project. You don't have to worry about some of the more flashy frontend stuff unless you want to, but you don't need it to get a nice user experience.
 
 This project will give you the chance to take a relatively high-level set of requirements and turn it into a functioning website. You'll need to do some of your own research and read the documentation for a few of the modules you'll be using in this project.
 
@@ -35,7 +35,7 @@ The following requirements are a very global list of features your app should ha
 1. Users can comment on posts.
 1. Posts should always display the post content, author, comments, and likes.
 1. There should be an index page for posts, which shows all the recent posts from the current user and users they are following.
-1. Users can create a profile with a profile picture. Depending on how you handle authentication, for example via `passport-github2`, you may be able to use their account's existing profile picture. If this isn't the case you can use [Gravatar](https://www.gravatar.com/) to generate them.
+1. Users can create a profile with a profile picture. Depending on how you handle authentication, for example if you used GitHub auth, you may be able to use their account's existing profile picture. If this isn't the case you can use [Gravatar](https://www.gravatar.com/) to generate them.
 1. A user's profile page should contain their profile information, profile photo, and posts.
 1. There should be an index page for users, which shows all users and buttons for sending follow requests to users the user is not already following or have a pending request.
 1. Deploy your app to a hosting provider of your choice!
