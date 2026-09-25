@@ -40,7 +40,7 @@ cd odins_secrets
 Before adding anything though, let's make sure we are only using VSCode to modify our secrets:
 
 ```bash
-echo 'export EDITOR="code -w"' >> ~/.bashrc"
+echo 'export EDITOR="code -w"' >> ~/.bashrc
 ```
 
 By doing so, anytime we want to modify our secrets, we'll be able to use VSCode.
