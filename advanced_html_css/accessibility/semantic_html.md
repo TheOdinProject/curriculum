@@ -7,7 +7,7 @@ As useful as `<div>` and `<span>` elements can be as generic containers, they're
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain why semantic HTML is important for accessibility.
-- Name the seven HTML elements that define landmarks on a page.
+- Name the eight HTML elements that define landmarks on a page.
 
 ### The importance of semantics
 
@@ -66,7 +66,7 @@ When it comes to using semantic HTML correctly, you want to think about what you
 
 ### Headings and landmarks
 
-Headings are the `<h1>` through `<h6>` elements, and like the name implies, these elements act as headings to sections of a page. Landmarks, on the other hand, are HTML elements that act as regions of a page. There are seven native HTML elements that define these landmark regions:
+Headings are the `<h1>` through `<h6>` elements, and like the name implies, these elements act as headings to sections of a page. Landmarks, on the other hand, are HTML elements that act as regions of a page. There are eight native HTML elements that define these landmark regions:
 
 - `<header>` - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header
 - `<main>` - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/main
@@ -74,6 +74,7 @@ Headings are the `<h1>` through `<h6>` elements, and like the name implies, thes
 - `<nav>` - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/nav
 - `<section>` - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section
 - `<aside>` - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside
+- `<search>` - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/search
 - `<form>`
 
 As an example, consider the following image which shows how this lesson in particular uses semantic HTML for the different areas in the page. If you want to examine the page in more detail, feel free to use the developer tools to do so.
