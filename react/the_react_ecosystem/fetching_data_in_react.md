@@ -28,7 +28,6 @@ fetch("https://picsum.photos/v2/list")
 
 We're making a request to the Picsum API to retrieve an image, and then setting that URL to the src of an `<img>` element.
 
-
 ### Using fetch in React components
 
 Now, let's take a look at how we can incorporate `fetch` into a React component, similar to our previous example. One common use case is to fetch data from an API when a component mounts, so that the data can be displayed on screen.
