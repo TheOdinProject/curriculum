@@ -49,7 +49,7 @@ main div {
 }
 ```
 
-But what if we wanted to be more specific and <span id="childvdesc-knowledge-check">select *only* the `child` or `grand-child` divs?</span> That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
+But what if we wanted to be more specific and select *only* the `child` or `grand-child` divs? That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
 
 ```css
 /* The divs with the class "child" will get selected by this */
@@ -92,7 +92,7 @@ This [MDN article on combinators](https://developer.mozilla.org/en-US/docs/Learn
 
 ### Pseudo-selectors
 
-Before diving into pseudo-selectors, a quick note on the difference between [pseudo-classes and pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). <span id="syntax-exist-knowledge-check">Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that *don't* normally exist in the markup.</span> If that doesn't make sense straight away, don't worry - we'll explore some examples below.
+Before diving into pseudo-selectors, a quick note on the difference between [pseudo-classes and pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that *don't* normally exist in the markup. If that doesn't make sense straight away, don't worry - we'll explore some examples below.
 
 ### Pseudo-classes
 
@@ -114,7 +114,7 @@ These types of useful pseudo-classes can make your page feel much more dynamic a
 
 [`:focus`](https://css-tricks.com/almanac/pseudo-selectors/f/focus/) applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard.
 
-<span id="hover-active-knowledge-check">[`:hover`](https://css-tricks.com/almanac/pseudo-selectors/h/hover/) will affect anything under the user's mouse pointer.</span> It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop-down menu.
+[`:hover`](https://css-tricks.com/almanac/pseudo-selectors/h/hover/) will affect anything under the user's mouse pointer. It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop-down menu.
 
 [`:active`](https://css-tricks.com/almanac/pseudo-selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
 
@@ -145,11 +145,11 @@ Structural pseudo-classes are a powerful way to select elements based on their p
 
 `:root` is generally the place where you will place your 'global' CSS rules that you want available everywhere - such as your custom properties and CSS variables, or rules such as `box-sizing: border-box;`.
 
-<span id="first-child-knowledge-check">[`:first-child`](https://css-tricks.com/almanac/pseudo-selectors/f/first-child/)</span> and [`:last-child`](https://css-tricks.com/almanac/pseudo-selectors/l/last-child/) will match elements that are the first or last sibling.
+[`:first-child`](https://css-tricks.com/almanac/pseudo-selectors/f/first-child/) and [`:last-child`](https://css-tricks.com/almanac/pseudo-selectors/l/last-child/) will match elements that are the first or last sibling.
 
 Similarly, [`:empty`](https://css-tricks.com/almanac/pseudo-selectors/e/empty/) will match elements that have no children at all, and [`:only-child`](https://css-tricks.com/almanac/pseudo-selectors/o/only-child/) will match elements that don't have any siblings.
 
-For a more dynamic approach we can use <span id="second-child-knowledge-check">[`:nth-child`](https://css-tricks.com/almanac/pseudo-selectors/n/nth-child/).</span> This is a flexible pseudo-class with a few different uses.
+For a more dynamic approach we can use [`:nth-child`](https://css-tricks.com/almanac/pseudo-selectors/n/nth-child/). This is a flexible pseudo-class with a few different uses.
 
 ```css
   .myList:nth-child(5) {/* Selects the 5th element with class myList */}
@@ -207,7 +207,7 @@ Let's look at some examples for basic usage.
 
 - `[attribute]` - This general selector will select anything where the given attribute exists. Its value doesn't matter.
 - `selector[attribute]` - Optionally we can combine our attribute selectors with other types of selectors, such as class or element selectors.
-- `[attribute="value"]` -<span id="type-text-knowledge-check"> To get really specific, we can use `=` to match a specific attribute with a specific value.</span>
+- `[attribute="value"]` - To get really specific, we can use `=` to match a specific attribute with a specific value.
 
 ```css
   [src] {
@@ -225,7 +225,7 @@ Let's look at some examples for basic usage.
 
 Sometimes we need to be more general in how we access these attributes. For example, perhaps we're only interested in `img` elements where the `src` attribute's value ends in `.jpg`. For cases like this we have some attribute selectors that allow us to match a part of the attribute's value. If you've ever come across [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) before, these attributes use a similar syntax.
 
-- `[attribute^="value"]` - `^=` <span id="thunder-knowledge-check">Will match strings from the start.</span>
+- `[attribute^="value"]` - `^=` Will match strings from the start.
 - `[attribute$="value"]` - `$=` Will match strings from the end.
 - `[attribute*="value"]` - `*=` The wildcard selector will match anywhere inside the string.
 
@@ -266,16 +266,3 @@ To see what other things you can achieve with attribute selectors, such as searc
 1. Do this [Selectors Assessment](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors/Selectors_Tasks) from MDN. It'd help you put your newly learned knowledge of selectors to practice!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the difference between the child combinator and the descendant combinator?](#childvdesc-knowledge-check)
-- [How does the syntax of pseudo-classes and pseudo-elements differ?](#syntax-exist-knowledge-check)
-- [Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?](#syntax-exist-knowledge-check)
-- [Name two ways you could select every second child of an element, starting with the first.](#second-child-knowledge-check)
-- [What is the difference between `div:first-child` and `div:last-child`? What will each select?](#first-child-knowledge-check)
-- [What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?](#hover-active-knowledge-check)
-- [How could you select all input elements with a type of text?](#type-text-knowledge-check)
-- [How could you select all classes that begin with `thunder`?](#thunder-knowledge-check)

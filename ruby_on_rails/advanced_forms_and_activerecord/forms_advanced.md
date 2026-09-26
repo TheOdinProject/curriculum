@@ -47,7 +47,7 @@ This creates a dropdown list with each user's name as an option.  Your `#create`
 
 But Rails provides some less verbose ways of doing the same thing, namely using the `#select_tag` helper in conjunction with the `#options_for_select` helper.  The `#select_tag` will create the surrounding tag while the `#options_for_select` gives `#select_tag` the array of options it needs.
 
-<span id='options-for-select'>`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.<span>  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into an array with just `name` and `value`.  That's easy using `#map`:
+`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into an array with just `name` and `value`.  That's easy using `#map`:
 
 ```ruby
   # app/controllers/posts_controller.rb
@@ -68,7 +68,7 @@ But Rails provides some less verbose ways of doing the same thing, namely using 
 
 So just pass `#select_tag` the name it should use for your chosen value and the collection and it will output the exact same thing!
 
-<span id='select-helper'>If you want to avoid the whole `options_for_select` thing altogether and your form is designed to build a model instance (e.g. a Post object), just use the more generic `#select` helper in your view:</span>
+If you want to avoid the whole `options_for_select` thing altogether and your form is designed to build a model instance (e.g. a Post object), just use the more generic `#select` helper in your view:
 
 ```erb
   # app/views/posts/new.html.erb
@@ -106,7 +106,7 @@ As you can imagine, it's important to get the names and parameters properly list
 
 We'll do a broad overview of the process here:
 
-1. <span id="accepts-nested-attributes-for"> You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User. This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g: </span>
+1. You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User. This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:
 
    ```ruby
      # app/models/user.rb
@@ -186,18 +186,6 @@ Sometimes [Rails helper methods will insert hidden fields for you](https://api.r
 We've covered two of the more common use cases for complex forms -- pre-populating a form with objects and creating multiple objects with a single form.  At this point, even if you're uncomfortable, you should have all the tools you need to work through creating a form.  We'll get your hands dirty in the project, have no fear.
 
 The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferable to every form you'll ever make.
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does the `#select_tag` helper do?](#prepopulating-select-tags-with-collections)
-- [When using `#options_for_select`, what format does the array need to be in?](#options-for-select)
-- [When would you use the `#select` helper?](#select-helper)
-- [How can you prevent users from having to submit multiple forms?](#nested-forms)
-- [What do you add to the model that allows nested forms to create new objects?](#accepts-nested-attributes-for)
-- [How do you allow the nested parameters in your controller?](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html)
-- [How can you set up a dropdown or checkbox to delete a record that already exists?](#miscellania-blank-submissions-that-mean-delete)
 
 ### Additional resources
 

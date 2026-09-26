@@ -83,10 +83,3 @@ Voila, the setup is complete. Now shoo... go get testin'.
 1. No need for a deep dive, but take a look at [pg's GitHub repo's tests directory](https://github.com/brianc/node-postgres/tree/master/packages/pg/test) to see how well tested most of the popular libraries are.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [When should you unit test database operations?](#unit-tests-do-you-even-need-to)
-- [How do you set up and use a test database for integration testing?](#integration-tests)

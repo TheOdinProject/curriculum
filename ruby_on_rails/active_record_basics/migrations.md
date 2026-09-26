@@ -66,7 +66,7 @@ To complete the migration and actually apply the changes to the schema, use the 
 
 Obviously, migrations let you set up your database using user-friendly Ruby code instead of SQL, but it's more than that. Over time, you'll build up a bunch of these migration files. If you decide that you want to blow away your database and start from scratch, you can do that easily and then rerun the migrations. If you decide to deploy to the web, you will run those same migrations and the production database will be there waiting for you... even if it's a different type of database! Again, Active Record does the heavy lifting for you here so you can focus on building your website.
 
-The most immediately useful feature of migrations is when you've screwed something up because they're (usually) reversible. <span id='rollback-knowledge-check'>Let's say you just migrated to create a new database column but forgot a column to store the user's email... oops! You can just type `$ rails db:rollback` and the last series of migrations that you ran will be reversed and you're back to where you were.</span> Then you just edit the file, rerun the migrations, and move on with your life.
+The most immediately useful feature of migrations is when you've screwed something up because they're (usually) reversible. Let's say you just migrated to create a new database column but forgot a column to store the user's email... oops! You can just type `$ rails db:rollback` and the last series of migrations that you ran will be reversed and you're back to where you were. Then you just edit the file, rerun the migrations, and move on with your life.
 
 This introduces the last nuance of migrations that we'll talk about here -- reversibility. For each method that you use in the migration, you want to specify how to reverse it if you have to. The reverse of adding a table is dropping that table, of adding a column is removing the column and so on. Many methods have a really obvious reverse case, so you don't need to explicitly state it and can set up the whole migration file using the `change` method. But some of them do not, so you will need to separately specify `up` and `down` methods. You'll read more about that in the assignment.
 
@@ -88,9 +88,3 @@ These are great questions, and you should feel comfortable asking them even if y
     - Seeds (section 8) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Which rails command will undo a database migration?](#rollback-knowledge-check)

@@ -307,19 +307,6 @@ This was a lot of material, but you should have a healthy appreciation for the b
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How does lazy evaluation help make Active Record more efficient?](#relations-and-lazy-evaluation)
-- [How do you check whether a database already contains a record?](#checking-for-existence)
-- [What is the difference between a `#where` query and a `#find` query?](#more-assorted-querying-knowledge)
-- [How do you join tables together in Rails?](#joins)
-- [What is an example of an N+1 query?](#n1-queries-and-eager-loading)
-- [What method is used to deal with an N+1 query?](#n1-queries-and-eager-loading)
-- [When would you use a class method in place of a scope?](#scopes)
-- [When should you consider using enums?](#why-use-enums)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

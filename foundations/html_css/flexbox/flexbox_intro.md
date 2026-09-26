@@ -68,9 +68,9 @@ If it's hard to see what's going on in the small embedded CodePen, feel free to 
 
 As you've seen, flexbox is not just a single CSS property but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the *flex container*, while some go on the *flex items*. This is an important concept.
 
-<span id="flex-container-item-knowledge-check">A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.</span>
+A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.
 
-![Element with 'display: flex' applied being a flex container and its children elements being its flex items](https://cdn.statically.io/gh/TheOdinProject/curriculum/b2a53579fcbec1cfde47646cc5a2b109cd7772cc/foundations/html_css/flexbox/imgs/03.png){: #how-to-create-flex-item-knowledge-check}
+![Element with 'display: flex' applied being a flex container and its children elements being its flex items](https://cdn.statically.io/gh/TheOdinProject/curriculum/b2a53579fcbec1cfde47646cc5a2b109cd7772cc/foundations/html_css/flexbox/imgs/03.png)
 
 Somewhat confusingly, any element can be both a flex container *and* a flex item. Said another way, you can also put `display: flex` on a flex item and then use flexbox to arrange *its* children.
 
@@ -87,10 +87,3 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 1. Surprise! No assignment! You'll be learning a lot more throughout the coming lessons so keep going.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What's the difference between a flex container and a flex item?](#flex-container-item-knowledge-check)
-- [How do you create a flex item?](#how-to-create-flex-item-knowledge-check)

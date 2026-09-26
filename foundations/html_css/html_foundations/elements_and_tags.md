@@ -50,11 +50,3 @@ You might also see these referred to as self-closing tags. But those are just vo
 1. Watch Kevin Powell's [HTML & CSS for Absolute Beginners: What is HTML?](https://www.youtube.com/watch?v=X4sClFRMJ00).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is an HTML tag?](#elements-and-tags)
-- [What are the three parts of an HTML element?](#elements-and-tags)
-- [What are void elements, and how are they different from regular HTML elements?](#void-elements)

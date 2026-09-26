@@ -39,9 +39,3 @@ This section isn't in the original lesson, but we wanted to show what adding an 
    - The alternative CSS box model
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [From inside to outside, what is the order of box-model properties?](#the-box-model)

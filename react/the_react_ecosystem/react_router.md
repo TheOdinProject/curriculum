@@ -312,7 +312,7 @@ createRoot(document.getElementById("root")).render(
 );
 ```
 
-The colon (:) turns the path section after it into a <span id="dynamic-segments">"dynamic segment"</span>. Dynamic segments will match dynamic (changing) values in that position of the URL, like the `name`. These can also be called "URL params" or "params" in short. These can be used with the help of the `useParams` hook. We can thus rewrite the Profile component as the following:
+The colon (:) turns the path section after it into a "dynamic segment". Dynamic segments will match dynamic (changing) values in that position of the URL, like the `name`. These can also be called "URL params" or "params" in short. These can be used with the help of the `useParams` hook. We can thus rewrite the Profile component as the following:
 
 ```jsx
 import { useParams } from "react-router";
@@ -473,17 +473,3 @@ You should now have enough basics to get started with React routing. There are a
 1. Browse through the [React Router documentation](https://reactrouter.com/home). Again, you don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. Look into the other features that React Router offers. This is a great resource to refer back to.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What does client-side routing mean?](#client-side-routing)
-- [How do you set up a basic router?](#adding-a-router)
-- [What should be used in place of "a" tags to enable client-side routing?](#the-link-element)
-- [How do you create nested routes?](#nested-routes-outlets-and-dynamic-segments)
-- [What do you mean by dynamic segments or URL params?](#nested-routes-outlets-and-dynamic-segments)
-- [How do you handle errors from bad URLs?](#handling-bad-urls)
-- [How do you pass data from parent to child through an `<Outlet />` component?](#outlets-and-state)
-- [How do you create protected routes?](#protected-routes-and-navigation)
-- [How do you test components that use React Router?](#react-router-testing)

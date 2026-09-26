@@ -28,9 +28,3 @@ Once you've worked through your negotiation and hopefully had the chance to rank
 1. [Negotiating your Startup Offer from Rob.by](https://web.archive.org/web/20180626035838/http://rob.by/2013/negotiating-your-startup-job-offer/) gets into the equity component of some offers.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How should you handle an offer?](#handling-an-offer)

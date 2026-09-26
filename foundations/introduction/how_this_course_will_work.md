@@ -74,10 +74,3 @@ Additional resources are the only thing that is considered optional unless expli
 1. Check out the [frequently asked questions](https://www.theodinproject.com/faq) section.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is The Odin Project?](#introduction)
-- [Should you skip anything in The Odin Project or complete it non-linearly?](#what-comes-next)

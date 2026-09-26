@@ -231,14 +231,3 @@ CJS is still used quite a lot in Node.js code, though in recent years, ESM in No
 1. As per usual, you can learn most about JavaScript keywords and concepts from the MDN docs, so check out the [docs on export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) and [docs on import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import). There are little extras about them we have not covered in this lesson, such as aliases and namespace imports.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Before ES6 modules, how would you privatize a variable from being accessible in other files?](#before-es6-modules-the-global-scope-problem)
-- [Before ES6 modules, how would you expose variables to be accessible in later files?](#before-es6-modules-the-global-scope-problem)
-- [What are some benefits of writing code in modules?](#introduction)
-- [What is the difference between default and named exports?](#default-exports)
-- [What is an entry point?](#entry-points)
-- [How do you link a module script in HTML?](#entry-points)

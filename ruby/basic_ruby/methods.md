@@ -65,19 +65,19 @@ Let's break this example down:
 - `my_name` is the name of your new method. You can name your methods almost anything you want, but there are some constraints and conventions, which are described in the next section.
 - `"Joe Smith"` is the code inside the method body. All of the logic for your method is contained in the indented lines of the method body. This particular method returns a string when the method is called.
 - `end` is a built-in keyword that tells Ruby that this is the end of the method definition.
-- <span id="calling-a-method">To call the method, you need to use its name, as shown in the last line of the example.</span>
+- To call the method, you need to use its name, as shown in the last line of the example.
 
 ### Method names
 
 As mentioned above, you can name your methods almost anything you want, but you shouldn't pick names haphazardly. There are certain conventions that are recommended in order to improve the readability and maintainability of your code.
 
-Your method names can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=`. <span id="snake-case">Just like with variable names in Ruby, the convention for a method name with multiple words is to use **snake_case**, separating words with underscores.</span>
+Your method names can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=`. Just like with variable names in Ruby, the convention for a method name with multiple words is to use **snake_case**, separating words with underscores.
 
 It's good practice to start the method name with a lower-case character, because [names that start with capital letters are constants in Ruby](https://stackoverflow.com/questions/10542354/what-are-the-restrictions-for-method-names-in-ruby).
 
 Here are some things you are not allowed to do with your method names:
 
-- <span id="reserved-words">You cannot name your method one of [Ruby’s approximately 40 reserved words](https://docs.ruby-lang.org/en/3.4/syntax/keywords_rdoc.html), such as `end`, `while`, or `for`.</span>
+- You cannot name your method one of [Ruby’s approximately 40 reserved words](https://docs.ruby-lang.org/en/3.4/syntax/keywords_rdoc.html), such as `end`, `while`, or `for`.
 - You cannot use any symbols other than `_`, `?`, `!`, and `=`.
 - You cannot use `?`, `!`, or `=` anywhere other than at the end of the name.
 - You cannot begin a method name with a number.
@@ -307,20 +307,3 @@ Writing `whisper.downcase!` is the equivalent of writing `whisper = whisper.down
 1. Complete the method exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How would you create your own method?](#creating-a-method)
-- [How would you call your new method?](#calling-a-method)
-- [How do you pass variables to your method?](#parameters-and-arguments)
-- [How do you define default parameters for your method?](#default-parameters)
-- [What is the difference between an explicit return and an implicit return?](#what-methods-return)
-- [What is the difference between `puts` and `return`?](#difference-between-puts-and-return)
-- [How do you chain multiple methods together?](#chaining-methods)
-- [Give an example of a valid method name and an invalid method name.](#method-names)
-- [What is snake case?](#snake-case)
-- [What are some of Ruby's reserved words?](#reserved-words)
-- [What do you call a method that returns `true` or `false`? What is their naming convention?](#predicate-methods)
-- [What do bang methods do? What is their naming convention?](#bang-methods)

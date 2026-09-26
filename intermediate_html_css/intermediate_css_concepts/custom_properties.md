@@ -155,12 +155,3 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 1. Open the inspector on this page to inspect the styles and see how Odin uses some custom properties.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How would you declare a custom property with a name of `text-color`?](#using-custom-properties)
-- [How would you access a custom property with a name of `background-color`?](#using-custom-properties)
-- [Where would you declare a custom property to have its scope be global and accessible by all other selectors?](#scope)
-- [Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?](#creating-themes-with-custom-properties)

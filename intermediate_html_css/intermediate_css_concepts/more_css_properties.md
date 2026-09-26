@@ -53,14 +53,3 @@ Opacity is another easy one that can be very useful in some circumstances. The `
    - [opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Which property would you use to make an element transparent?](#opacity)
-- [Which property would you use to make a background image tile?](#background)
-- [Which property would you use to add scrollbars to an element?](#overflow)
-- [Which property would you use to add a shadow behind an element?](#box-shadow)
-- [Which property would you use to create rounded corners on an element?](#borders)
-- [How would you use border-radius to make a circular element?](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)

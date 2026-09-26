@@ -41,12 +41,3 @@ This section contains a general overview of topics that you will learn in this l
    </div>
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How would you briefly define a recursive function?](#introduction)
-- [What is the point of recursion? Is it more efficient than using a plain loop?](http://ruby.bastardsbook.com/chapters/recursion/)
-- [What are the 2 essential parts in a recursive function?](https://youtu.be/mz6tAJMVmfM?t=193)
-- [Why is "stack overflow" relevant to a recursive problem?](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm#Stack_size)

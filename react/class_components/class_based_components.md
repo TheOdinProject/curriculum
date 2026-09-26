@@ -136,7 +136,7 @@ export default ClassInput;
 
 The pre-defined `setState` method can be used to set it again! Remember, state must not be mutated, so a new state must be set, every time.
 
-<span id="the-importance-of-bind">Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method]. Alternatively, if you define your methods using the arrow function syntax, `this` is automatically bound to the class instance, and you can skip binding it in the constructor.</span>
+Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method]. Alternatively, if you define your methods using the arrow function syntax, `this` is automatically bound to the class instance, and you can skip binding it in the constructor.
 
 ```jsx
 import { Component } from "react";
@@ -211,12 +211,3 @@ Since we have a completed class-based component, let's add additional functional
 1. Implement an edit button for each task. It should replace the todo with an input field, and change the button itself to 'Resubmit', so the edits can be saved. This is a comparatively harder task, kudos for when you finish it!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do props get used in a class-based component?](#the-use-of-a-constructor-and-props)
-- [How does JSX get displayed?](#how-you-can-render-jsx)
-- [How do we deal with state in a class-based component?](#how-to-use-state-and-manage-context)
-- [How do you restore the context of `this` in a method?](#the-importance-of-bind)

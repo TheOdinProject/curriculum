@@ -82,11 +82,3 @@ While some people thought CSS Grid was here to replace Flexbox, you will learn b
 1. Surprise! No assignment! You’ll be learning a lot more throughout the coming lessons so keep going.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How can you use Flex to make a two-dimensional layout?](#a-look-back-at-flex)
-- [Why was CSS Grid introduced?](#what-is-grid)
-- [Which CSS layout module would you use to easily make equal sized items in a container?](#what-is-grid)

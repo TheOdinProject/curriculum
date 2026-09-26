@@ -73,13 +73,6 @@ Another facet of this is related to your web presence -- don't be afraid to prod
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why is it important to build a portfolio of work as you prepare for your job search?](#build-a-portfolio)
-- [What steps can you take to improve your web presence before potential employers search for you online?](#clean-up-your-web-presence-and-have-one)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

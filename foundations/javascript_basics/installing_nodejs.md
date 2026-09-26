@@ -47,7 +47,7 @@ Now that we have nvm installed, we can use it to install Node.
    nvm use --lts
    ```
 
-   <span id="lts-version"></span>We have told nvm to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons.
+   We have told nvm to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons.
 
    Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with the Xs replaced with actual numbers).
 
@@ -70,10 +70,3 @@ For convenience, Node provides a REPL which is an interactive console that lets 
 To run the Node console, open up your terminal and run `node` on its own to open the REPL. Type `.exit` to quit the REPL.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is Node.js?](#introduction)
-- [Should we install the absolute latest version of Node or the latest LTS version?](#lts-version)

@@ -322,13 +322,3 @@ There is more to Action Cable but it's still quite a niche use case so it's not 
   1. Follow along with this [Basic Messaging App](https://github.com/TheOdinProject/curriculum/blob/main/ruby_on_rails/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What options did developers have before WebSockets to update a client without a user request?](#what-is-a-websocket)
-- [How can you broadcast to a stream from the server?](#terminology)
-- [Where do you authorize incoming connections?](#websocket-connections)
-- [What are Action Cable’s stream options?](#streams)
-- [What is the difference between `stream_from` and `stream_for`?](#streams)

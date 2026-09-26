@@ -141,7 +141,7 @@ export default function Clock() {
 }
 ```
 
-Phew! It finally works! As the counter keeps merrily ticking on, let us sum up <span id="body-of-an-useEffect">what we know about the `useEffect` hook.</span>
+Phew! It finally works! As the counter keeps merrily ticking on, let us sum up what we know about the `useEffect` hook.
 
 ```jsx
 useEffect(
@@ -220,7 +220,7 @@ Let us address a few cases where `useEffect` does not need to be used.
 
 - You do not need an effect to reset the state based on a condition most of the time. You have learned about keys in React. Just like using a key on a list's item, adding one to a component, based on the state on which it should be reset creates a unique version of that component for each change in the value of the state.
 
-- If you are having issues with managing your state and want to use an effect to update the state of a parent or some other non-child component, consider <span id="lifting-the-state">**lifting the state**.</span> As we know, in React, the state flows in one direction, generally down the DOM. So the parents know of the data before passing it to the children. If multiple children are required to make use of a single state, it should be moved up to the parent that has all of the components that need it, instead of using escape hatches like an effect.
+- If you are having issues with managing your state and want to use an effect to update the state of a parent or some other non-child component, consider **lifting the state**. As we know, in React, the state flows in one direction, generally down the DOM. So the parents know of the data before passing it to the children. If multiple children are required to make use of a single state, it should be moved up to the parent that has all of the components that need it, instead of using escape hatches like an effect.
 
 ### Assignment
 
@@ -231,12 +231,3 @@ Let us address a few cases where `useEffect` does not need to be used.
 1. Yet another article that explains a common mistake that beginners make, [the infinite useEffect loop](https://dmitripavlutin.com/react-useeffect-infinite-loop).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is an effect?](#introduction)
-- [What constitutes a `useEffect` hook?](#body-of-an-useEffect)
-- [What is the one question we can ask to know when to use an effect?](#but-do-we-need-the-effect)
-- [What do we mean by lifting up the state?](#lifting-the-state)

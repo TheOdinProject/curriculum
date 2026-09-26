@@ -79,12 +79,3 @@ Of course, there are many more occasions where one would want to use Promises be
 1. Read this [promise basics article](https://javascript.info/promise-basics), which is an excellent resource for beginners.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a callback?](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
-- [What is a promise?](#promises)
-- [When should you use promises over callbacks?](https://www.geeksforgeeks.org/javascript/what-to-understand-callback-and-callback-hell-in-javascript/)
-- [What does the `.then()` function do?](https://davidwalsh.name/promises)

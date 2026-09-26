@@ -63,11 +63,3 @@ This lesson includes recommendations, not the "right" or "wrong" way of using Fl
 1. Read up on [when to use Grid or Flexbox and why](https://webdesign.tutsplus.com/flexbox-vs-css-grid-which-should-you-use--cms-30184a).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [When might you use Flexbox over Grid?](#content-first-vs-layout-first-design)
-- [When might you use Grid over Flexbox?](#content-first-vs-layout-first-design)
-- [When might you use the two of these tools together?](#combining-flexbox-and-grid)

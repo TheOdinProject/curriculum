@@ -38,7 +38,7 @@ Add the following to the body of the `index.html` page we created and open it in
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
-<span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add an `href` (hypertext reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
+An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. In our case, we need to add an `href` (hypertext reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
 Add the following `href` attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
@@ -60,7 +60,7 @@ While `href` specifies the destination link, `target` specifies where the linked
 <a href="https://www.theodinproject.com/about" target="_blank" rel="noreferrer">About The Odin Project</a>
 ```
 
-<span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document and can take multiple values. The most relevant ones to discuss right now are:
+You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document and can take multiple values. The most relevant ones to discuss right now are:
 
 - `noopener`: Prevents the new tab from accessing the original page, which would have opened the possibility of phishing attacks like [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Modern browsers all set this automatically for any links that have `target="_blank"`, but you will often still see this manually set for historic browser compatibility.
 - `noreferrer`: The same as `noopener` but also prevents certain details about the original page from being passed to the new page; [referrer information is not always desirable to share](https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns#the_referrer_problem).
@@ -250,7 +250,7 @@ We recommend that you always review the license requirements of any images you w
 
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
-<span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
+To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
 
 ```html
 <img src="../images/dog.jpg">
@@ -266,7 +266,7 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 
 ### Alt attribute
 
-<span id="two-attributes"></span>Besides the `src` attribute, every image element should also have an `alt` (alternative text) attribute.
+Besides the `src` attribute, every image element should also have an `alt` (alternative text) attribute.
 
 The `alt` attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
@@ -317,17 +317,3 @@ Go ahead and update the `odin-links-and-images` project with width and height at
 1. Read and code along with Interneting is Hard's article on [Links and Images](https://internetingishard.netlify.app/html-and-css/links-and-images). Pay close attention to the section that covers the four main image formats. This article suggests that it is better to set image dimensions with CSS. We still recommend setting width and height attributes on all images as mentioned earlier in this lesson.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What element is used to create a link?](#anchor-elements)
-- [What is an attribute?](#attribute)
-- [What attribute tells links where to go to?](#where-to-go)
-- [What security considerations must be taken if you wish to use the target attribute to open links in a new tab/window?](#target-security)
-- [What is the difference between an absolute and relative link?](#absolute-and-relative-links)
-- [Which element is used to display an image?](#images)
-- [What two attributes do images always need to have?](#two-attributes)
-- [How do you access a parent directory in a filepath?](#parent-filepath)
-- [What are the four main image formats that you can use for images on the web?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)

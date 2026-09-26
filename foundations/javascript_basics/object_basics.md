@@ -128,11 +128,3 @@ console.log(dog); // { species: "dog" }
 If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help in the [TOP Discord server](https://discord.gg/fbFCkYabZB)!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the difference between objects and arrays?](https://javascript.info/object#summary)
-- [How do you access object properties?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation)
-- [How do primitives and object types differ when you assign them to other variables, or pass them into functions?](https://www.theodinproject.com/lessons/foundations-object-basics#differences-between-objects-and-primitives)

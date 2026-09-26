@@ -36,12 +36,6 @@ Now get your head out of the clouds, stop dreaming about how you'll get hired, a
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the main steps in the overall strategy for getting hired?](#overall-strategy)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

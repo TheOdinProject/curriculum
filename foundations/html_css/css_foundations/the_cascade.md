@@ -26,7 +26,7 @@ A CSS declaration that is more specific will take precedence over less specific 
 1. Class selectors
 1. Type selectors
 
-Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, <span id="high-specificity-class-type">a class selector will always beat any number of type selectors</span>, and a type selector will always beat any number of less specific selectors. If comparing specificity doesn't determine a winner, compare the number of selectors in the same category (ID, class, or type selectors). The rule with more selectors takes precedence.
+Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, a class selector will always beat any number of type selectors, and a type selector will always beat any number of less specific selectors. If comparing specificity doesn't determine a winner, compare the number of selectors in the same category (ID, class, or type selectors). The rule with more selectors takes precedence.
 
 Let's take a look at a few quick examples to visualize how specificity works.
 Consider the following HTML and CSS code:
@@ -209,9 +209,3 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?](#high-specificity-class-type)

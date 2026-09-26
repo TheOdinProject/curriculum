@@ -279,16 +279,6 @@ Your `index.ejs` file should now display red text!
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are template engines for that differs from rendering an SPA on the client?](#introduction)
-- [How do you configure EJS for Express projects?](#setting-up-ejs)
-- [What is the difference between "<%" and "<%=" tags?](#ejs-syntax)
-- [How do you render a view in a controller callback?](#using-ejs-with-express)
-- [How can templates be included in other templates?](#reusable-templates)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

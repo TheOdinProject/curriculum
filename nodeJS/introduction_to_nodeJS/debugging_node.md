@@ -16,9 +16,3 @@ This section contains a general overview of topics that you will learn in this l
 1. Check out the official [VS Code Node debugger documentation](https://code.visualstudio.com/docs/nodejs/nodejs-debugging). Take note of the JavaScript Debug Terminal- this is an easy way to get the debugger running!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What can you use to debug Node?](#introduction)

@@ -25,21 +25,11 @@ This section contains a general overview of topics that you will learn in this l
 1. Read JavaScript.info's [primer on class syntax](https://javascript.info/class) for an overview of class syntax.
 1. [MDN's docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper. There are lots of individual syntax features but these can be explored over time. As usual, you're not required to memorize anything just from reading docs here and now. Some good features to have a little look at include:
    - [Extending classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends) (like having a Player class that extends a Person class, adding `Person.prototype` to the prototype chain).
+   - [Static properties and methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) which are properties and methods that are accessed on the class itself and not on the instance of a class. This is similar to how some string methods are accessed on the instance of a string itself e.g. `someString.slice(0, 5)` whereas some methods are called on the String constructor directly e.g. `String.fromCharCode(79, 100, 105, 110)`.
    - [Private properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields), allowing you to have properties or methods that are not accessible outside of the class, like with private variables in factory functions.
-   - [Static properties and methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) which are properties and methods (public or private) that are accessed on the class itself and not on the instance of a class. This is similar to how some string methods are accessed on the instance of a string itself e.g. `someString.slice(0, 5)` whereas some methods are called on the String constructor directly e.g. `String.fromCharCode(79, 100, 105, 110)`.
 
 #### Practice
 
 Go back to your [Library project](https://www.theodinproject.com/lessons/node-path-javascript-library) and refactor it to use `class` instead of plain constructors.  Don't forget to use the git branch workflow you learned in [Revisiting Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to work on a new feature. You should get used to working like this!
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What differences are there between object constructors and classes?](https://javascript.info/class#not-just-a-syntactic-sugar)
-- [What are getters and setters?](https://javascript.info/property-accessors)
-- [How is inheritance used with classes?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#inheritance)
-- [What are some private class features?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
-- [What are static properties?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)

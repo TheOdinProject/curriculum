@@ -102,7 +102,7 @@ When your computer or a server (which you're programming) wants to make a reques
 
 So you want to get data from Google Maps to display on your webpage? You hit its API using the rules specified in its API documentation. Just about every big website makes some portion of its data available via an API and you can too quite easily using Rails.
 
-See this explanation (just the first page) on [What APIs are](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) from howstuffworks.
+See this explanation (just the first section) on [What APIs are](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) from howstuffworks.
 
 Not all APIs are web-based. Plenty of them use the same HTTP format but are really just designed to pass data between services. In fact, that's how the components of Rails are all strung together -- they use HTTP to communicate with each other.
 
@@ -145,19 +145,6 @@ On the server side, you will end up writing (or using) methods which restrict ac
 ### Conclusion
 
 We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before in regards to how requests are made because it brings a couple of extra layers onto these formerly-independent HTTP requests. Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What do you call an HTTP message that goes from client to server?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
-- [What do you call an HTTP message that goes from server to client?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
-- [Which HTTP message would include a status code and which would include an action verb?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
-- [What is the name of the additional information that is added after the path of a URL?](https://www.mattcutts.com/blog/seo-glossary-url-definitions/)
-- [What does MVC stand for?](https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/)
-- [What is an "API"?](https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm)
-- [Why do you need "cookies" to continue your "session"?](https://en.wikipedia.org/wiki/HTTP_cookie#Session_management)
-- [What is the difference between "authentication" and "authorization"?](#authorization)
 
 ### Additional resources
 

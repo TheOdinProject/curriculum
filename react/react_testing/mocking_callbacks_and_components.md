@@ -32,7 +32,7 @@ export default CustomButton;
 
 Nothing fancy. `CustomButton` is a component with a prop passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when the user clicks the button. Let's test it.
 
-<span id="testing-callback-handlers">Notice how we mock and test the `onClick` function</span>:
+Notice how we mock and test the `onClick` function:
 
 ```jsx
 // CustomButton.test.jsx
@@ -114,7 +114,7 @@ While the test suite above uses `data-test-id` to identify mocked child componen
 
 We notice there are two child components of `SubmissionsList`. One of them is from a package called `react-flip-move`. External Code. We'll mock it.
 
-<span id="mock-child-component">Notice how we mock the `Submission` component</span>:
+Notice how we mock the `Submission` component:
 
 ```jsx
 jest.mock('../submission', () => ({ submission, isDashboardView }) => (
@@ -153,10 +153,3 @@ The other important thing to note is almost all the tests follow a certain patte
 1. This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. The `userEvent` API in this tutorial is synchronous, unlike our current asynchronous one. However, you should be able to follow along using your previous knowledge and you can still use Vite and Vitest as before.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How can you mock a callback handler?](#testing-callback-handlers)
-- [How can you mock a child component?](#mock-child-component)

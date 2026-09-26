@@ -321,18 +321,3 @@ However, if your conditional statements are complicated, then using an `if...els
 1. For an overview of flow control, read through this [Ruby Explained: Conditionals and Flow Control](https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control) article.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a Boolean?](#boolean-logic)
-- [What are "truthy" values?](#truthy-and-falsy-in-ruby)
-- [Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?](#truthy-and-falsy-in-ruby)
-- [When do you use `elsif`?](#adding-else-and-elsif)
-- [When do you use `unless`?](#unless-statements)
-- [What do `||` and `&&` and `!` do?](#logical-operators)
-- [What is short circuit evaluation?](#logical-operators)
-- [What is returned by `puts("woah") || true`?](https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
-- [What is the ternary operator?](#ternary-operator)
-- [When should you use a case statement?](#case-statements)

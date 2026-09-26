@@ -103,12 +103,3 @@ You may also come across [Nodemon](https://www.npmjs.com/package//nodemon), a hi
 1. Go back to your [Basic Informational Site project](https://www.theodinproject.com/lessons/nodejs-basic-informational-site), install Express and rewrite the project using it! You should be able to do most of this with just a few `app.get()`s.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is Express?](https://expressjs.com/)
-- [What happens when a server receives a request?](#a-requests-journey)
-- [What can we use to tell Express to send a file in response to a request?](https://expressjs.com/en/5x/api/response/#ressendfile)
-- [What can you use to automatically restart your server when you make changes to a file?](#auto-restarting-your-server-upon-file-changes)

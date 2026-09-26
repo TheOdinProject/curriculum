@@ -130,13 +130,13 @@ Can deploy both servers and databases.
 
 - 750 hours of free usage per month.
 - Applications are put to sleep automatically after 15 minutes of inactivity, so the 750 free hours should be enough to host a few apps for the entire month.
+- You can only have one active free database at a time, which expires 30 days after creation.
 
 ##### Render: Links
 
 - [Render homepage](https://render.com/)
 - [Render documentation](https://render.com/docs/)
 - [Guide: Official getting started with Node/Express on Render guide](https://render.com/docs/deploy-node-express-app)
-- [Guide: CodeBrah video guide for deploying Node applications to Render](https://www.youtube.com/watch?v=bnCOyGaSe84&ab_channel=CodeBrah)
 
 ---
 
@@ -251,17 +251,6 @@ This will be where the Git skills you've been learning will start to really pay 
    - If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What's the difference between static and dynamic websites?](#static-vs-dynamic-sites)
-- [What does 'PaaS' stand for?](#what-is-a-paas)
-- [What are the advantages of using a PaaS hosting provider?](#what-is-a-paas)
-- [What is an instance?](#instances)
-- [What steps can you take to diagnose an issue that arises during deployment?](#on-deployment)
-- [What steps can you take to diagnose an issue that only appears after deployment?](#after-deployment)
 
 ### Additional resources
 

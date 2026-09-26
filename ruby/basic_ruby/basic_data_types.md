@@ -191,7 +191,7 @@ Below is a quick recap of the more common string methods you might find yourself
   "hello".include?("z") #=> false
   ```
 
-- <span id="upcase">`#upcase`</span>
+- `#upcase`
 
   ```ruby
   "hello".upcase #=> "HELLO"
@@ -223,7 +223,7 @@ Below is a quick recap of the more common string methods you might find yourself
   "hello".reverse #=> "olleh"
   ```
 
-- <span id="split">`#split`</span>
+- `#split`
 
   ```ruby
   "hello world".split #=> ["hello", "world"]
@@ -329,27 +329,3 @@ Remember, if you get stuck, ask questions in the #ruby-help channel of our Disco
    - After completing the exercises, check out the solutions branch on GitHub to compare solutions.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the basic arithmetic operators you can use on numbers?](#numbers)
-- [What's the difference between an integer and a float?](#integers-and-floats)
-- [What method would you use to convert a float to an integer?](#converting-number-types)
-- [What method would you use to convert an integer to a float?](#converting-number-types)
-- [What is a string?](#strings)
-- [What are the differences between single and double quotes?](#double-and-single-quotation-marks)
-- [What is string interpolation?](#interpolation)
-- [How do you concatenate strings?](#concatenation)
-- [What method would you use to change all the characters in your string to upper case?](#upcase)
-- [What method would you use to split up strings into arrays?](#split)
-- [What are escape characters?](#escape-characters)
-- [How do you access a specific character or substring?](#substrings)
-- [How do you convert other data types into strings?](#converting-other-objects-to-strings)
-- [What is a symbol?](#symbols)
-- [How do you create a symbol?](#create-a-symbol)
-- [What's the difference between a symbol and a string?](#symbols-vs-strings)
-- [What does `true` represent?](#true-and-false)
-- [What does `false` represent?](#true-and-false)
-- [What does `nil` represent?](#nil)

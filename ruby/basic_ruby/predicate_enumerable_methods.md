@@ -250,13 +250,3 @@ fruits.one? { |fruit| fruit.length > 2 }
   1. Complete the predicate enumerable exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why is there a question mark after some method names?](#introduction)
-- [What does the `#include?` method do?](#the-include-method)
-- [What does the `#any?` method do?](#the-any-method)
-- [What does the `#all?` method do?](#the-all-method)
-- [What does the `#none?` method do?](#the-none-method)

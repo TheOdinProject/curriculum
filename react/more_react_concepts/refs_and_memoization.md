@@ -73,7 +73,6 @@ In all of the examples, we would advise you to use the [Profiler component](http
 
 > Premature optimization is the root of all evil -- The Art of Computer Programming by Donald Knuth
 
-<span id="optimization-description"></span>
 The `useMemo` hook provides a way to add memoization inside our components. It's used to optimize expensive or complex calculations where it caches the result of a function call and stores it to be used later without recalculating it. The memoized value is, however, recalculated *only* when the dependencies of the `useMemo` hook change. And yes, this hook's parameters are the same as the `useEffect` hook you already know. The hook takes in two arguments: a `calculateValue` callback and a `dependencies` array.
 
 #### Memoizing expensive calculations
@@ -286,7 +285,6 @@ const handleClick = useCallback(
 const memoizedHandleClick = useCallback(handleClick, []);
 ```
 
-<span id="usememo-or-usecallback"></span>
 Yay, there's only one arrow function, and it's simpler to read. There's nothing extra to `useCallback` other than it only memoizes functions. So the main difference between `useMemo` and `useCallback` is just the type of value it returns.
 
 Which one should we use, then? Use `useMemo` for *any* value types, and use `useCallback` specifically for functions. At the end of the day, they both do similar things with a tiny difference, so use whatever you prefer.
@@ -312,13 +310,3 @@ Phew, this was a long lesson. Refs and memoization are difficult concepts to gra
 1. Go through [React Compiler docs](https://react.dev/learn/react-compiler) to learn a bit more about it, and to find out how to install and configure it in your projects.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Why should you prefer useRef hook over other DOM manipulation methods like querySelector?](https://react.dev/learn/manipulating-the-dom-with-refs)
-- [What is the difference between useMemo and useCallback?](#usememo-or-usecallback)
-- [How do useMemo and useCallback help optimize the performance of React components?](#optimization-description)
-- [When should you memoize a value?](https://kentcdodds.com/blog/usememo-and-usecallback)
-- [What is React Compiler and how does it optimize React applications?](https://react.dev/learn/react-compiler/introduction)

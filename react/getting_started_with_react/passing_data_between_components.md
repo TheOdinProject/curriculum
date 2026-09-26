@@ -266,12 +266,3 @@ Hopefully, you can now understand from the examples in this lesson just how incr
 1. Read through the React docs on [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component). Make sure to edit the code examples and experiment with different prop values.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How does data flow between React components? From child to parent? From parent to child? Both?](#data-transfer-in-react)
-- [Why do we use props in React?](#using-props-in-react)
-- [How do we define default properties on a React component? What are some benefits in doing so?](#default-props)
-- [How can we pass functions as props?](#functions-as-props)

@@ -137,15 +137,3 @@ We recommend installing this and becoming comfortable using it as early as possi
 1. Try to clean up your `my-first-react-app` project so that it no longer displays the default page. See if you can get it to display a "Hello, World!" message instead.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are some of the ways we can start a new React project?](#many-paths)
-- [Why should we initially be using pre-made toolchains instead of making our own?](#many-paths)
-- [What is Vite and why would we use it?](#simplifying-the-process)
-- [What command can we run to scaffold a new React project using Vite?](#creating-a-react-app)
-- [What is in the `public` folder?](#delving-deeper)
-- [What is in the `src` folder?](#delving-deeper)
-- [Why are the React Developer Tools useful?](#developer-tools)

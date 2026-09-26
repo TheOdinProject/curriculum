@@ -122,7 +122,7 @@ And our data model looks like:
 | created_at           | *datetime* |
 | updated_at           | *datetime* |
 
-<span id='source-option-knowledge-check'>The major thing to note here is that with has-many-through associations, Rails uses *the name of the association in the through table* to determine which foreign key and table name to reach out to.  If it's named anything irregular, you'll use the `:source` option to specify which association actually points where we'd like to go.  You can think of `:source` as being just like `:class_name` but for the associations in the "through table".</span>
+The major thing to note here is that with has-many-through associations, Rails uses *the name of the association in the through table* to determine which foreign key and table name to reach out to.  If it's named anything irregular, you'll use the `:source` option to specify which association actually points where we'd like to go.  You can think of `:source` as being just like `:class_name` but for the associations in the "through table".
 
 It may be helpful to illustrate what Rails is doing.  In the example above, if you ask for `Post.first.authors`, Rails sort of "thinks" like this:
 
@@ -143,7 +143,7 @@ Polymorphic associations can be a bit of a head scratcher at first and aren't te
 
 In a plain vanilla situation, the comment would `belongs_to` a Post or a Picture or a Video (or whatever you're commenting on).  You would have a foreign key called something like `post_id` in your Comments table.  Now if we want to be able to comment on multiple types of things, we need to figure out a different way of dealing with the foreign key because a single foreign key could be referencing a post, an image, a video etc and we don't know which one... it's ambiguous.  You could just make a different column for each one, e.g. `post_id`, `image_id`, `video_id`, but that is terribly inelegant and hardcoded (imagine if there were 100 different types of posts we want to be able to comment on!).  We need to stick with a single foreign key column.
 
-<span id='polymorphic-column-knowledge-check'>We solve this by storing not just the foreign key **id**, but also a reference to which **type** of model it corresponds to.  That way, whenever you want to retrieve a comment, by specifying which type of thing it belongs to it is no longer ambiguous what you're asking for.  Note that Rails does this for you in the background as long as it knows you're working with a polymorphic association.</span>
+We solve this by storing not just the foreign key **id**, but also a reference to which **type** of model it corresponds to.  That way, whenever you want to retrieve a comment, by specifying which type of thing it belongs to it is no longer ambiguous what you're asking for.  Note that Rails does this for you in the background as long as it knows you're working with a polymorphic association.
 
 We have to call our foreign key something a bit different from the normal case since it's ambiguous which model it's referencing and you can't just use `post_id` or `picture_id`.  A convention is to come up with an abstract term for what type of action you're doing and use that to name the association.  So in this case we're commenting on things and can thus call the foreign key `"commentable"`.  You'll see the `*able` convention used a fair bit. So the migration for that model might look like:
 
@@ -205,7 +205,7 @@ As mentioned in the intro, associations give you access to some nifty tricks tha
 
 #### Creating association objects
 
-<span id='automatic-foreign-key-knowledge-check'>There's a couple of shortcuts for creating new association objects.  The first is to call `#new` or `#create` on the association to automatically populate the foreign key.  For instance, if a User `has_many` Posts and Post `belongs_to` a User:</span>
+There's a couple of shortcuts for creating new association objects.  The first is to call `#new` or `#create` on the association to automatically populate the foreign key.  For instance, if a User `has_many` Posts and Post `belongs_to` a User:
 
 ```bash
   # Long version:
@@ -266,16 +266,6 @@ This is just the most common among several options to specify for `:dependent`. 
 #### Conclusion
 
 In this lesson we covered some of the more advanced associations material.  Associations are all over the place in Rails and incredibly useful because of all the new methods they give you access to.  As long as you pause and think about what Rails is assuming when you set them up, you should be able to modify them to your liking without too much trouble.  Practice makes perfect, though, so keep building projects with associations in them and it'll eventually stick.
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What two pieces of information will Rails assume by default for associations?](#foreign-keys-and-class-names)
-- [Which type of association may require the `:source` option to be specified?](#source-option-knowledge-check)
-- [What is populated automatically when an object is created by an association?](#automatic-foreign-key-knowledge-check)
-- [Can a polymorphic association use a single column foreign key?](#polymorphic-column-knowledge-check)
-- [Can a model have associations with instances of the same model?](#self-joins)
 
 ### Additional resources
 

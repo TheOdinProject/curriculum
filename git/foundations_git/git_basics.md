@@ -18,13 +18,13 @@ This section contains a general overview of topics that you will learn in this l
 
 - GitHub recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
   `git --version`
-- If you haven't already, set your <span id="main-push"></span>local default Git branch to `main`. You can do so by running:
+- If you haven't already, set your local default Git branch to `main`. You can do so by running:
   `git config --global init.defaultBranch main`
 - For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
 
 #### Create the repository
 
-1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson.
+1. You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson.
 
 1. From the GitHub homepage, create a new repository by clicking the "+" button in the top-right corner and selecting "New repository". *If you are using a smaller viewport, that button may be hidden. In that case click on your profile picture in the top-right corner and the button will appear next to your profile name.*
 
@@ -39,34 +39,34 @@ This section contains a general overview of topics that you will learn in this l
    cd repos/
    ```
 
-1. <span id="github-to-local"></span>Now it's time to clone your repository from GitHub into your newly created `repos` directory with `git clone` followed by the URL you copied in the last step. The full command should look similar to `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`. If your URL looks like `https://github.com/USER-NAME/REPOSITORY-NAME.git`, you have selected the HTTPS option, not the required SSH option.
+1. Now it's time to clone your repository from GitHub into your newly created `repos` directory with `git clone` followed by the URL you copied in the last step. The full command should look similar to `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`. If your URL looks like `https://github.com/USER-NAME/REPOSITORY-NAME.git`, you have selected the HTTPS option, not the required SSH option.
 
    ```bash
    git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
    ```
 
-1. <span id="origin-push"></span>That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this, run `cd git_test` to move into the new **git_test** folder that was downloaded, then enter `git remote -v` in your command line. You should see an output similar to the following, where `USER-NAME` is your GitHub username:
+1. That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this, run `cd git_test` to move into the new **git_test** folder that was downloaded, then enter `git remote -v` in your command line. You should see an output similar to the following, where `USER-NAME` is your GitHub username:
 
    ```bash
    origin  git@github.com:USER-NAME/git_test.git (fetch)
    origin  git@github.com:USER-NAME/git_test.git (push)
    ```
 
-   This displays the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana" (don't worry about the details of "origin" for now; it will come up again near the end of this tutorial).
+   This displays the URL of the repository you created on GitHub, which is the remote for your local copy. You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana" (don't worry about the details of "origin" for now; it will come up again near the end of this tutorial).
 
 #### Use the Git workflow
 
 1. Create a new file in the `git_test` folder called "hello_world.txt" with the command `touch hello_world.txt`.
 
-1. <span id="git-status"></span>Type `git status` in your terminal. In the output, your `hello_world.txt` file should be shown with a red text color as well as listed in a section titled "Untracked files". This means that the file is not yet staged.
+1. Type `git status` in your terminal. In the output, your `hello_world.txt` file should be shown with a red text color as well as listed in a section titled "Untracked files". This means that the file is not yet staged.
 
-1. <span id="git-add"></span><span id="two-stages"></span>Type `git add hello_world.txt`. This command adds your hello_world.txt file to the staging area in Git. The staging area is part of the two-step process for making a commit in Git. Think of the staging area as a "waiting room" for your changes until you commit them. Now, type `git status` again. In the output, notice that your file is now shown in green and in a section titled "Changes to be committed", which means that this file is now in the staging area.
+1. Type `git add hello_world.txt`. This command adds your hello_world.txt file to the staging area in Git. The staging area is part of the two-step process for making a commit in Git. Think of the staging area as a "waiting room" for your changes until you commit them. Now, type `git status` again. In the output, notice that your file is now shown in green and in a section titled "Changes to be committed", which means that this file is now in the staging area.
 
-1. <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "*nothing to commit, working tree clean*", indicating your changes have been committed. Don't worry if you get a message that says "*upstream is gone*". This is normal and only shows when your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
+1. Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "*nothing to commit, working tree clean*", indicating your changes have been committed. Don't worry if you get a message that says "*upstream is gone*". This is normal and only shows when your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
 
    The message, "*Your branch is ahead of 'origin/main' by 1 commit*" just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
 
-1. <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "*Add hello_world.txt*" commit. You will also see other details which include the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now.
+1. Type `git log` and look at the output. You should see an entry for your "*Add hello_world.txt*" commit. You will also see other details which include the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now.
 
 #### Modify a file or two
 
@@ -92,7 +92,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Finally, let's upload your work to the GitHub repository you created at the start of this tutorial.
 
-1. <span id="git-push"></span>Type `git push`. To be more specific, type `git push origin main`. Since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes. **NOTE: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for [switching remote URLs from HTTPS to SSH](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories?platform=linux#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github.**
+1. Type `git push`. To be more specific, type `git push origin main`. Since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes. **NOTE: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for [switching remote URLs from HTTPS to SSH](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories?platform=linux#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github.**
 
 1. Type `git status` one final time. It should output "*Your branch is up to date with 'origin/main'. nothing to commit, working tree clean*".
 
@@ -155,19 +155,3 @@ There will be no confirmation or any output on the terminal after entering this 
 With that done, you can now choose to use either `git commit -m "your message here"` or `git commit` to type your message with Visual Studio Code!
 
 To make a commit with Visual Studio Code as the text editor, just type `git commit`. After you hit <kbd>Enter</kbd> a new tab in VS Code will open for you to write your commit message. You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How do you create a new repository on GitHub?](#new-github-repo)
-- [How do you copy a repository onto your local machine from GitHub?](#github-to-local)
-- [What is the default name of your remote connection?](#default-remote)
-- [Explain what `origin` is in `git push origin main`.](#origin-push)
-- [Explain what `main` is in `git push origin main`.](#main-push)
-- [Explain the two-stage system that Git uses to save files.](#two-stages)
-- [How do you check the status of your current repository?](#git-status)
-- [How do you add files to the staging area in Git?](#git-add)
-- [How do you commit the files in the staging area and add a descriptive message?](#git-commit)
-- [How do you push your changes to your repository on GitHub?](#git-push)
-- [How do you look at the history of your previous commits?](#git-log)

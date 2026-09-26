@@ -175,16 +175,3 @@ japanese_cars[:honda]   #=> "Accord"
 1. Complete the hash exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the differences between hashes and arrays?](#arrays-vs-hashes)
-- [What are keys and values in a hash?](#arrays-vs-hashes)
-- [How can you create a new hash?](#creating-hashes)
-- [How can you populate a hash with data?](#adding-and-changing-data)
-- [How can you change existing values within a hash?](#adding-and-changing-data)
-- [How can you delete existing data from a hash?](#removing-data)
-- [How can you merge two hashes together?](#merging-two-hashes)
-- [Why is it preferred to use symbols as hash keys?](#symbols-as-hash-keys)

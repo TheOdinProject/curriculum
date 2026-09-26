@@ -88,10 +88,3 @@ It *is* possible to get fancy, and set up layouts where some columns relate to e
 1. [MDN's documentation on flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) summarizes the entire flex shorthand values, as well as introduces some new syntax that hasn't been covered in the previous article.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the 3 values defined in the shorthand `flex` property (e.g. `flex: 1 1 auto`)?](#the-flex-shorthand)
-- [What are the 3 defined values for the flex shorthand `flex:auto`?](#what-is-flex-auto)

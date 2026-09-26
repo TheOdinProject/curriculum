@@ -55,11 +55,3 @@ Sticky elements will act like normal elements until you scroll past them, then t
 1. Finally, Kevin Powell's article discusses the [difference between fixed and sticky positioning](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/). It’s a great read to understand the difference better.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the difference between static and relative positioning?](#static-and-relative-positioning)
-- [What is absolute positioning useful for?](#absolute-positioning)
-- [What is the difference between fixed and sticky positioning?](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/)

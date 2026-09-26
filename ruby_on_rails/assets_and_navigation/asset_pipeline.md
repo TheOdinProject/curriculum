@@ -45,7 +45,7 @@ This fingerprinting is automatically provided when using Rails's link helpers. S
 
 ### Images
 
-For images, the asset pipeline keeps them in the `/assets` directory unless you've made your own subdirectories.  Use `image_tag`'s to avoid confusion, e.g. `<%= image_tag "fuzzy_slippers.jpg" %>` will look for a file named `fuzzy_slippers.png` in the `/assets/images` folder. You can also organize images into subdirectories, which is helpful as applications grow and use more images and icons.
+For images, the asset pipeline keeps them in the `/assets` directory unless you've made your own subdirectories.  Use `image_tag`'s to avoid confusion, e.g. `<%= image_tag "fuzzy_slippers.jpg" %>` will look for a file named `fuzzy_slippers.jpg` in the `/assets/images` folder. You can also organize images into subdirectories, which is helpful as applications grow and use more images and icons.
 
 ### Assignment
 
@@ -56,13 +56,6 @@ Some necessary and straightforward reading on the Asset Pipeline:
   1. Read [Rails Guides on the Asset Pipeline](https://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How does the Asset Pipeline help with browser caching of your assets?](#fingerprinting)
-- [How do you include an asset in your views or layout?](https://guides.rubyonrails.org/asset_pipeline.html#digested-assets-in-views)
 
 ### Additional resources
 

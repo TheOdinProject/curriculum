@@ -250,7 +250,7 @@ In general, you can't chain more than one type selector since an element can’t
 
 #### Descendant combinator
 
-Combinators allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc.) that matches the previous selector.</span>
+Combinators allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc.) that matches the previous selector.
 
 So something like `.ancestor .child` would select an element with the class `child` if it has an ancestor with the class `ancestor`. Another way to think of it is that `child` will only be selected if it is nested inside `ancestor`, regardless of how deep that nesting is. Take a quick look at the example below and see if you can tell which elements would be selected based on the CSS rule provided:
 
@@ -400,14 +400,3 @@ If you need to add a *unique* style for a *single* element, this method can work
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the syntax for class and ID selectors?](#class-selectors)
-- [How would you apply a single rule to two different selectors?](#the-grouping-selector)
-- [Given an element that has an id of `title` and a class of `primary`, how would you use both attributes for a single rule?](#chaining-selectors)
-- [What does the descendant combinator do?](#descendant-combinator-description)
-- [What are the names of the three ways to add CSS to HTML?](#adding-css-to-html)
-- [What are the main differences between the three ways of adding CSS to HTML?](#additional-methods-for-adding-css-to-html)

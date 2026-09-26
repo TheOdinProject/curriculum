@@ -28,11 +28,3 @@ This section contains a general overview of topics that you will learn in this l
   1. Watch [Telusko's video on data structures and algorithms](https://youtu.be/iZmDcfTtcNg?si=7t1q8GxYJjkYH9d4) for a quick overview of DSA, and why companies may be interested in hiring candidates familiar with DSA.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8)
-- [What is the importance of algorithms in web development?](https://qr.ae/py3NAc)
-- [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)

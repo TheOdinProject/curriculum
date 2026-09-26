@@ -23,12 +23,3 @@ This section contains a general overview of topics that you will learn in this l
   1. Codecademy provides a good step-by-step breakdown of [what happens in the back end when a browser makes a request to a server](https://www.codecademy.com/articles/back-end-architecture).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is back-end development?](https://techterms.com/definition/backend)
-- [How many parts does the back end consist of?](https://www.codecademy.com/articles/back-end-architecture/)
-- [What do we name each part of the back end?](https://www.codecademy.com/articles/back-end-architecture)
-- [Where does the back end store its data?](https://www.codecademy.com/articles/back-end-architecture)

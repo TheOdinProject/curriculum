@@ -95,12 +95,3 @@ What's important is that you have a solid understanding of these concepts and ca
 1. Learn how to [catch and debug repaint issues](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Are all CSS properties animatable?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
-- [What are the long and short-hand notations for transitions?](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
-- [What is the stacking context?](https://www.joshwcomeau.com/css/stacking-contexts/)
-- [Why do you need to keep an eye on repaints?](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html)

@@ -47,13 +47,6 @@ This section contains a general overview of topics that you will learn in this l
    </div>
 
 1. Read and follow the [Using Matchers](https://jestjs.io/docs/using-matchers) document on the main Jest website.  This one demonstrates some of the other useful functions you can use in your tests.
-1. This article explains more about [the why/how and value behind TDD](https://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/) and also includes some great examples of how to apply it.
+1. This article explains more about [the why/how and value behind TDD](https://web.archive.org/web/20260824053151/https://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/) and also includes some great examples of how to apply it.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What are the benefits of TDD?](https://web.archive.org/web/20211123190134/http://godswillokwara.com/index.php/2016/09/09/the-importance-of-test-driven-development/)
-- [What are some common jest matchers?](https://jestjs.io/docs/using-matchers#common-matchers)

@@ -675,16 +675,6 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is pattern matching?](https://docs.ruby-lang.org/en/3.4/syntax/pattern_matching_rdoc.html)
-- [What is the difference between array patterns and hash patterns?](https://docs.ruby-lang.org/en/3.4/syntax/pattern_matching_rdoc.html#label-Patterns)
-- [What is the variable pattern match?](#variable-pattern)
-- [What are the different ways of pattern matching on an array?](#array-pattern-match)
-- [Explain the find pattern.](#find-pattern)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

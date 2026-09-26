@@ -1,6 +1,6 @@
 ### Introduction
 
-This file should flag 3 errors due to the "Lesson overview", "Knowledge check", and "Additional resources" sections being empty.
+This file should flag 2 errors due to the "Lesson overview" and "Additional resources" sections being empty.
 
 ### Lesson overview
 
@@ -15,7 +15,5 @@ Text content
 Assignment content
 
 </div>
-
-### Knowledge check
 
 ### Additional resources

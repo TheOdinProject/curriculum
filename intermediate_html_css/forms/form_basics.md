@@ -509,14 +509,3 @@ Certain aspects of other elements are downright impossible to style, for example
 1. Read and follow along with [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html).
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [Explain what the form element is for and what two attributes it should always include.](#the-form-element)
-- [Explain what form controls are at a high level.](#form-controls)
-- [What is the `name` attribute for?](#the-name-attribute)
-- [What are the three most common form controls you can use for allowing users to select predefined options?](#selection-elements)
-- [What are the three types of buttons in HTML?](#buttons)
-- [What are the two most challenging aspects of styling forms?](#a-note-on-styling-forms)

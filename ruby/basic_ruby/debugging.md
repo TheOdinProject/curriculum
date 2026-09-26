@@ -21,11 +21,11 @@ When your Ruby program crashes after encountering a runtime error or exception, 
 
 Don't let the stack trace intimidate you. You don't need to read it all or even know what most of it means.
 
-The stack trace prints each line of code in your program that was executed before it crashed. <span id='most-useful-stack-trace-line'>The very first line of the stack trace</span> will generally provide the most useful information about the error your program encountered:
+The stack trace prints each line of code in your program that was executed before it crashed. The very first line of the stack trace will generally provide the most useful information about the error your program encountered:
 
 ![First line of stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/01.png)
 
-<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 31 of the file `bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://docs.ruby-lang.org/en/3.4/NameError.html)). And yes, in Ruby, [errors (Exceptions) are also objects](https://docs.ruby-lang.org/en/3.4/Exception.html).</span>
+First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 31 of the file `bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://docs.ruby-lang.org/en/3.4/NameError.html)). And yes, in Ruby, [errors (Exceptions) are also objects](https://docs.ruby-lang.org/en/3.4/Exception.html).
 
 There you have it. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
 
@@ -199,7 +199,7 @@ Programs generally go wrong due to two main reasons:
 
 1. The program runs but does not work the way you expect. For example, you expect a method to return a `2`, but it actually returns `6` when you run it. In this case, there is no stack trace.
 
-Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace is the first place you should look when debugging.</span> <span id='debugging-without-stack-trace'>If there's no stack trace, then `puts` and Pry are the easiest and quickest tools you can use to get yourself back up and running.</span>
+Obviously, if available, the stack trace is the first place you should look when debugging. If there's no stack trace, then `puts` and Pry are the easiest and quickest tools you can use to get yourself back up and running.
 
 ### Assignment
 
@@ -214,15 +214,3 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 1. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`,`debug`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics#readme) that you previously cloned.
 
 </div>
-
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a stack trace?](#reading-the-stack-trace)
-- [What is generally the most useful line in a stack trace?](#most-useful-stack-trace-line)
-- [What are the two things you can learn from the first line of a stack trace?](#stack-trace-first-line-info)
-- [How do `puts` and Pry help you in the debugging process?](#debugging-with-puts)
-- [What should you use instead of `puts` for `nil` values?](#debugging-with-puts-and-nil)
-- [Where should you start with debugging if you encounter a runtime error?](#debugging-with-stack-trace)
-- [Where should you start with debugging if your program runs but does not work the way you expect?](#debugging-without-stack-trace)

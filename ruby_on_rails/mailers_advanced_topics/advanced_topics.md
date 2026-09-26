@@ -351,18 +351,6 @@ The more general principles like SOLID design and metaprogramming will be useful
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What would the routes file line for a singular resource look like?](#singular-resources)
-- [How do you nest one resource inside another in the routes file?](#nested-routes)
-- [When do you use the `#member` method?](#member-and-collection-routes)
-- [When do you use a redirect?](#redirects-and-wildcard-routes)
-- [What are some techniques for rendering multiple layouts for one page?](#advanced-layouts-nesting-layouts-and-passing-information)
-- [What does the `#send` method do?](#metaprogramming-rails)
-- [What are the five design principles represented by the SOLID acronym?](#design-patterns)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

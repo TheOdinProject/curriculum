@@ -214,16 +214,6 @@ You should have a good sense of what's going on in the routes file by now but pr
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is the purpose of the Rails router?](https://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router)
-- [How do you assign the root route of your application in the router?](#root)
-- [Assuming we have no knowledge of the HTTP-verb, which 3 RESTful controller actions could be triggered by the `/photos/:id` -route?](https://guides.rubyonrails.org/routing.html#crud-verbs-and-actions)
-- [How can you assign all of the RESTful routes for a resource - excluding the destroy-route - in just one line?](https://guides.rubyonrails.org/routing.html#restricting-the-routes-created)
-- [How would you create a link in your app (without hardcoding), that directs you to `/photos/10/edit`?](https://guides.rubyonrails.org/routing.html#path-and-url-helpers)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.

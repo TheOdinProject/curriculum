@@ -220,19 +220,6 @@ To test these routes, use [Postman](https://www.postman.com/downloads/) which wi
 
 </div>
 
-### Knowledge check
-
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [How can you define a route that will only match a specific HTTP verb?](#the-anatomy-of-a-route)
-- [How can you define a route that will match all HTTP verbs?](https://expressjs.com/en/5x/api/application/#appallpath-callback--callback-)
-- [How can you define path patterns for your routes to match?](#paths)
-- [How does the order of your routes affect which routes get matched?](#order-matters)
-- [What object gets populated with route parameters?](#route-parameters)
-- [How do you access query parameters within routes?](#query-parameters)
-- [How do you extract routes to an individual router?](#routers)
-- [We have a router for paths starting with `/users`. Inside that router, what path should a GET route have to match a GET request to the `/users/delete` path?](#routers)
-
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
