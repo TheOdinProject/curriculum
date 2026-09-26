@@ -28,27 +28,6 @@ fetch("https://picsum.photos/v2/list")
 
 We're making a request to the Picsum API to retrieve an image, and then setting that URL to the src of an `<img>` element.
 
-<div class="lesson-note" markdown="1">
-
-#### Including an identification header
-
-Some APIs might require clients to identify their traffic. When this is the case, you can do it by including a custom identifier header, such as a `User-Agent` or any other identifier the API owner specifies inside the request options. This is the same process for adding any other header.
-
-```javascript
-const image = document.querySelector("img");
-fetch("https://picsum.photos/v2/list", {
-  headers: {
-    "User-Agent": "the-odin-project"
-  }
-})
-  .then((response) => response.json())
-  .then((response) => {
-    image.src = response[0].download_url;
-  })
-  .catch((error) => console.error(error));
-```
-
-</div>
 
 ### Using fetch in React components
 
@@ -63,11 +42,7 @@ const Image = () => {
   const [imageURL, setImageURL] = useState(null);
 
   useEffect(() => {
-    fetch("https://picsum.photos/v2/list", {
-      headers: {
-        "User-Agent": "the-odin-project"
-      }
-    })
+    fetch("https://picsum.photos/v2/list")
     .then((response) => response.json())
     .then((response) => setImageURL(response[0].download_url))
     .catch((error) => console.error(error));
@@ -120,11 +95,7 @@ And finally, to assign `error` a value when a request fails, we'll add a conditi
 
 ```jsx
 useEffect(() => {
-  fetch("https://picsum.photos/v2/list", {
-    headers: {
-      "User-Agent": "the-odin-project"
-    }
-  })
+  fetch("https://picsum.photos/v2/list")
     .then((response) => {
       if (response.status >= 400) {
         throw new Error("server error");
@@ -157,11 +128,7 @@ const Image = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://picsum.photos/v2/list", {
-      headers: {
-        "User-Agent": "the-odin-project"
-      }
-    })
+    fetch("https://picsum.photos/v2/list")
       .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
@@ -202,11 +169,7 @@ const useImageURL = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://picsum.photos/v2/list", {
-      headers: {
-        "User-Agent": "the-odin-project"
-      }
-    })
+    fetch("https://picsum.photos/v2/list")
       .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
