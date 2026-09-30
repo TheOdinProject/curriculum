@@ -4,6 +4,8 @@
 
 Follow the instructions for [installing Visual Studio Code on Windows](https://code.visualstudio.com/docs/setup/windows).
 
+**Important note**: The default Windows installer used in the provided page assumes that you are using an x64 machine. If you are using an ARM64 machine, you will need to click on the link under the table and choose the correct version of installer for your machine.
+
 #### Step 2: Delete the installer file
 
 1. Open **File Explorer**.
