@@ -48,7 +48,7 @@ This means that it makes the whole process of setting up authentication a lot mo
 
 ### Conclusion
 
-What you decide to use in upcoming projects is up to you. Whether you decide to keep rolling your own auth, or use something like Passport or Better Auth, the important thing is for you to understand the pros and cons of each approach. For learning purposes, doing everything yourself was very important in understanding how authentication works, even if in real world projects you might want to use a library for convenience and security it provides.
+For learning purposes so far, doing everything yourself was very important to understand how authentication works, even if in real world projects you might want to use a library for convenience and security it provides. What you decide to use in upcoming projects is up to you. Whether you decide to keep rolling your own auth, or use something like Passport or Better Auth, the important thing is for you to understand the pros and cons of each approach.
 
 ### Assignment
 
