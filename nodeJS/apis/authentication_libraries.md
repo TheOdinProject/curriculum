@@ -58,13 +58,7 @@ For learning purposes so far, doing everything yourself was very important to un
 1. Passport's official documentation can be somewhat lacking. Although it hasn't been updated for a while, [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs) is a handy thing if you want to better understand some aspects of *how* Passport works.
 1. Skim Better Auth's [Express integration guide](https://www.better-auth.com/docs/integrations/express) to see how it gets used in an Express app.
 
-   <div class="lesson-note" markdown="1">
-
-   #### Better Auth ESM and TypeScript
-
-   Better Auth is ESM only, but by leaving the `type` field out of `package.json`, Node will use automatic module resolution, allowing you to use both ESM (where Better Auth needs it) and CommonJS in other parts of our project. Its docs are also written entirely in TypeScript, so you'll have to translate the examples to JavaScript as you go.
-
-   </div>
+   As a quick note, Better Auth is ESM only, but by leaving the `type` field out of `package.json`, Node will use automatic module resolution, allowing you to use both ESM (where Better Auth needs it) and CommonJS in other parts of our project. Its docs are also written entirely in TypeScript, so you'll have to translate the examples to JavaScript as you go.
 
 1. Read Better Auth's [OAuth documentation](https://www.better-auth.com/docs/concepts/oauth) to see what adding multiple sign-in providers looks like in practice.
 
