@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - What "rolling your own auth" means and the potential pitfalls.
 - Why you might want to use an authentication library.
-- What Passport and Better Auth provide, and how their approaches differ.
+- The different approaches authentication libraries can take.
 
 ### Rolling your own auth
 
