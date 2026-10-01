@@ -26,7 +26,7 @@ app.get("/", (req, res) => res.send("Hello, world!"));
 app.post("/messages", (req, res) => res.send("This is where you can see any messages."));
 ```
 
-That would tell us the route matches any POST requests to the `/messages` path of our `app`. If you sent a GET request to the `/messages` path, it would not match this route. Each HTTP verb has its own Express route method, and you can also use [app.all()](https://expressjs.com/en/5x/api/application/#appallpath-callback--callback-) to make a route match all verbs.
+That would tell us the route matches any POST requests to the `/messages` path of our `app`. If you sent a GET request to the `/messages` path, it would not match this route. Each HTTP verb has its own Express route method, and you can also use [app.all()](https://expressjs.com/en/5x/api/application/#appall) to make a route match all verbs.
 
 <div class="lesson-note" markdown="1">
 
