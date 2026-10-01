@@ -211,6 +211,8 @@ Dragging files from Windows into the VSCode file browser prevents the `Zone.Iden
 
 </details>
 
+#### Adding image to HTML file
+
 Finally add the image to the `index.html` file:
 
 ```html
