@@ -63,7 +63,7 @@ Cross-Origin Resource Sharing (CORS) is a mechanism that allows a server to gran
 - `https://www.my-blog-app.com`
 - `https://www.my-blog-app-api.com`
 
-Normally, browsers will restrict cross-origin HTTP requests due to security concerns, such as CSRF attacks, which we mentioned above. If we want to enable resource sharing across a different origin, we'll have to configure our API to accept `my-blog-app` as one of its allowed origins.
+Normally, browsers will restrict cross-origin HTTP requests due to security concerns - without that restriction, any site you visited could read your data from any other site you happened to be logged into. So if we want to enable resource sharing across a different origin, we'll have to configure our API to accept `my-blog-app` as one of its allowed origins.
 
 Depending on what kind of method you use in your request, a pre-flight request (a request to verify before our request) might be made to determine if such request could be safely made. This is done automatically by the browser via an `OPTIONS` request, using headers like `Access-Control-Request-Method` and `Origin` to ask the server what's allowed. Pre-flight requests are necessary for methods (such as `POST`) that could alter the state of our application. Non-destructive requests (like `GET`) do not trigger a pre-flight request. Nonetheless, the request's origin must still be validated by the `Access-Control-Allow-Origin` header.
 
