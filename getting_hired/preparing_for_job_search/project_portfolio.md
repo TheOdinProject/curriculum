@@ -10,34 +10,6 @@ Don't underestimate the importance of high quality documentation on your project
 
 Remember to write some documentation for both technical and non-technical audience. A potential employer should be able to follow your documentation, regardless of their technical background.
 
-### Show designs
-
-A list of portfolios of professional developers. Students should analyze these sites to understand what should be on their portfolios and how it should be presented.
-
-<details markdown="block">
-
-  <summary> Links for designs </summary>
-
-- [Stratis Bakas](https://stratisbakas.com/)
-- [Matt Farley](https://mattfarley.ca/)
-- [Dejan Markovic](https://www.dejan.works/)
-- [Ian Lunn](https://ianlunn.co.uk/)
-- [Ben Adam](https://benadam.me/)
-- [Seb Kay](https://sebkay.com/)
-- [Andriy Chemerynskiy](https://andrewchmr.com/)
-- [Chris Ota's Portfolio](https://www.otadesigns.com/)
-- [Pierre Nel](https://pierre.io/)
-- [Adrien Laurent's Portfolio](https://adrienlaurent.fr/)
-- [Thomas' Portfolio](https://www.thomasbosc.com)
-- [Timmy O’Mahony](https://timmyomahony.com/)
-- [Elliot's Portfolio](https://elliotcondon.com/)
-- [James Warner](https://jmswrnr.com/)
-- [Tiago Sá's Portfolio](https://i-am-tiago.com/)
-- [Patrick David](https://bepatrickdavid.com/)
-- [Luis Krötz](https://luiskr.com/)
-
-</details>
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
