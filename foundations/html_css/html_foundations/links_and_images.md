@@ -171,19 +171,13 @@ For example, using an absolute path we can display an image located on The Odin 
 
 To display images on your website that are hosted on your own web server, you can use a relative path.
 
-<details markdown="block">
-
-<summary class="dropDown-header">Linux, macOS, ChromeOS</summary>
+#### Linux, macOS, ChromeOS
 
 1. Create a new directory named `images` within the `odin-links-and-images` project.
 1. Next, [download our practice image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
 1. Rename the image to `dog.jpg`.
 
-</details>
-
-<details markdown="block">
-
-<summary class="dropDown-header">WSL2</summary>
+#### WSL2
 
 When you download a file from the internet, Windows has a security feature that creates a hidden `Zone.Identifier` file with the same name as your downloaded file and it looks like `mypicture.jpg:Zone.Identifier` This file is harmless, but we'd like to avoid copying it over and cluttering up our directories.
 
@@ -215,7 +209,7 @@ When you download a file from the internet, Windows has a security feature that 
 
 Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL2, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL2, you can safely delete them without any issue.
 
-</details>
+#### Adding an image to an HTML file
 
 Finally add the image to the `index.html` file:
 
