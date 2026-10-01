@@ -161,9 +161,7 @@ For a quick recap of these array methods, consider this picture which should vis
 
 ![example of filter, map and reduce methods being used to visually represent making a sandwich](https://cdn.statically.io/gh/TheOdinProject/curriculum/335ab97a10d66d0f07e81d01fc6b1c63d31dc5ae/foundations/javascript_basics/loops_and_arrays/imgs/00.jpg)
 
-Let's do some quick practice before your assignment! Rewrite the `sumOfTripledEvens(array)` function using these three methods. Once you are finished and you've tested that your function works correctly, check out the solution below.
-
-#### Solution
+Before proceeding to the next section, have a look at how we can rewrite the `sumOfTripledEvens(array)` function using these three methods:
 
 ```javascript
 function sumOfTripledEvens(array) {
