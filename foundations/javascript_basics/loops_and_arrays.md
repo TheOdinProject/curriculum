@@ -163,20 +163,16 @@ For a quick recap of these array methods, consider this picture which should vis
 
 Let's do some quick practice before your assignment! Rewrite the `sumOfTripledEvens(array)` function using these three methods. Once you are finished and you've tested that your function works correctly, check out the solution below.
 
-<details markdown="block">
-
-<summary>Solution</summary>
+#### Solution
 
 ```javascript
 function sumOfTripledEvens(array) {
   return array
-    .filter((num) => num % 2 === 0)
-    .map((num) => num * 3)
-    .reduce((acc, curr) => acc + curr);
+    .filter((num) => num % 2 === 0) // filter the array to only contain even numbers
+    .map((num) => num * 3) // multiply each number in the array by 3
+    .reduce((acc, curr) => acc + curr); // calculate the sum of all numbers in the array
 }
 ```
-
-</details>
 
 ### Test-driven development
 
