@@ -209,9 +209,7 @@ When you download a file from the internet, Windows has a security feature that 
 
 Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL2, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL2, you can safely delete them without any issue.
 
-</details>
-
-#### Adding image to HTML file
+#### Adding an image to an HTML file
 
 Finally add the image to the `index.html` file:
 
