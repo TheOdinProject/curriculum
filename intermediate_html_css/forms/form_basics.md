@@ -500,10 +500,10 @@ Certain aspects of other elements are downright impossible to style, for example
 
 #### Form basics
 
-1. Read and follow along with the two [MDN "Introductory tutorials" on forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_tutorials):
+1. Read and follow along with the two [MDN 'Introductory tutorials' on forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_tutorials):
    - `Your first form`
    - `How to structure a web form`
-1. Read and follow along with the three [MDN "The different form controls" tutorials](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls):
+1. Read and follow along with the three [MDN 'The different form controls' tutorials](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls):
    - `Basic native form controls`
    - `The HTML5 input types`
    - `Other form controls`
