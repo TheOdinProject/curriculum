@@ -500,12 +500,25 @@ Certain aspects of other elements are downright impossible to style, for example
 
 #### Form basics
 
-1. Read and follow along with [MDN's "Introductory Tutorials" on forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_tutorials).
-1. Read and follow along with [MDN's "The Different Form Controls" guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls).
+1. Read and follow along with the two [MDN "Introductory tutorials" on forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_tutorials):
+
+    - `Your first form`
+    - `How to structure a web form`
+   
+1. Read and follow along with the three [MDN "The different form controls" tutorials](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls):
+
+    - `Basic native form controls`
+    - `The HTML5 input types`
+    - `Other form controls`
 
 #### Styling forms
 
-1. Read and follow along with [MDN's Form Styling Tutorials](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_tutorials). You can skip the "Customizable select elements" and "Customizable select listbox" tutorials, as they rely on very new CSS features that are not yet supported across many browsers.
-1. Read and follow along with [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html).
+1. Read and follow along with these three [MDN 'Form styling tutorials'](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_tutorials):
+
+    - `Styling web forms`
+    - `Advanced form styling`
+    - `UI pseudo-classes`
+
+1. Read and follow along with the [tutorial on forms by *Interneting Is Hard*](https://internetingishard.netlify.app/html-and-css/forms/index.html).
 
 </div>
