@@ -23,7 +23,7 @@ When creating cookies, various optional [cookie attributes](https://developer.mo
 
 #### Expires/MaxAge
 
-By default, cookies expire when the client shuts down (whether that's from fully leaving the website or closing the browser). Sometimes, this may be perfectly fine. In other cases, such as a cookie used for keeping you logged in, you want the cookie to stay valid even after leaving or closing the browser.
+By default, cookies expire at "the end of the session", which in most cases will mean when the browser/client shuts down (though some browsers may implement slightly different behavior). Sometimes, this may be perfectly fine. In other cases, such as a cookie used for keeping you logged in, you'd likely want the cookie to stay valid even after leaving or closing the browser, or even a short-lived one that expires even if the browser stays open (like with many banking apps).
 
 Persistent cookies need to be given either an expiry date or a maximum age (if you give both then the maximum age is used and the expiry date is ignored). They will remain valid until expiry, after which they cannot be used.
 
