@@ -151,6 +151,7 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 
 1. This [video on CSS custom properties](https://www.youtube.com/watch?v=PHO6TBq_auI) is a great introduction. Go ahead and watch it.
 1. Read through MDN's [Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#inheritance_of_custom_properties) page starting at the "Inheritance of custom properties" section.
+1. Practice Hands-on [CSS Variables](https://www.youtube.com/watch?v=oZPR_78wCnY) and apply that knowledge to create dark mode, light mode.
 1. Watch [Using CSS custom properties](https://www.youtube.com/watch?v=_2LwjfYc1x8) by Kevin Powell, which shows neat ways to use custom properties.
 1. Open the inspector on this page to inspect the styles and see how Odin uses some custom properties.
 
