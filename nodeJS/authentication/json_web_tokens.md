@@ -8,10 +8,40 @@ An alternative approach to authentication, and one that is common with REST APIs
 
 This section contains a general overview of topics that you will learn in this lesson.
 
+- Cross-Origin Resource Sharing (CORS).
 - JSON web tokens (JWTs).
 - Stateless authentication.
 - Differences between authentication with sessions and JWTs.
 - Implementing basic stateless authentication with JWTs.
+
+### CORS
+
+Before we dive into JWTs, we need to address a "little" thing called Cross-Origin Resource Sharing (CORS). In this lesson, since it's a very common use case for stateless authentication with JWTs, we'll look at all of this from the perspective of a site fetching from a REST API hosted on a separate domain. This means that any requests and responses between client and server will be "cross-origin" (e.g. from `foo.com` to `bar.com`, or `localhost:5173` to `localhost:3000`).
+
+For requests sent to servers by another server (not a browser), cross-origin requests won't be a problem. For security reasons, however, by default browsers block access to certain cross-origin resources via the [Same-Origin Policy (SOP)](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Same-origin_policy), such as when requests are made with `fetch()`. For example, if `localhost:5173` tries to `fetch` from `localhost:3000`, by default you'd get a big fat error about cross-origin requests being blocked.
+
+Of course, sometimes we do want and need to make a cross-origin request; this is where CORS comes in. CORS is what lets us relax the SOP in order to allow access to certain cross-origin resources by letting us do things such as (but not limited to) whitelisting particular origins or allowing access to specific headers that would otherwise have been blocked, or even specifying certain HTTP verbs that'd be allowed. By setting the right headers on the server, CORS will unblock access to the requests we want to make (while anything else will remain blocked).
+
+#### Setting CORS headers
+
+Going forward, you're going to be making applications with separate front and back ends, which will be served on separate domains (just like how you'll have made the Weather App and Shopping Cart projects, only you'll be making the server stuff yourself too). The examples in this lesson will be within that context (we won't be walking you through any full app setup, just discussing the things related to stateless authentication and JWTs).
+
+The most straightforward way to set the necessary CORS headers on your server is to use the [`cors` npm package](https://www.npmjs.com/package/cors), which provides an Express middleware that we can configure with certain options. For example, if for our entire app we wanted to whitelist only `localhost` on port 5173, allow the sending of `User-Agent` and `Authorization` headers but only if the request is a `GET`, `POST` or `DELETE`, we could set something like this:
+
+```javascript
+const cors = require("cors");
+
+// somewhere before routes are defined
+app.use(cors({
+  origin: "http://localhost:5173",
+  allowedHeaders: ["User-Agent", "Authorization"],
+  methods: ["GET", "POST", "DELETE"],
+}));
+```
+
+Ultimately, you'd configure whatever you need, so check out the docs for the package. Your needs will likely be very simple at first, but of course in the future, you may run into more situations that require further CORS configuration.
+
+Now with that out of the way, let's discuss JWTs.
 
 ### JWTs
 
@@ -55,7 +85,7 @@ if (user?.password === req.body.password) {
 }
 ```
 
-There are many ways JWTs can be sent to and from servers, such as in a request or response's headers or body, or via httpOnly cookies. In this lesson, since it's a very common use case for stateless authentication with JWTs, we'll look at this from the perspective of a site fetching from a REST API hosted on a different domain. Since we have not yet covered how to handle cookies when the client and server are deployed on different domains, the example above sends the JWT back to the client via the response body. Once received by the client, it can be extracted and stored somewhere like local storage (if we sent it in a cookie, it'd just live on the client in that cookie).
+There are many ways JWTs can be sent to and from servers, such as in a request or response's headers or body, or via httpOnly cookies. Since we have not yet covered how to handle cookies when the client and server are deployed on different domains, the example above sends the JWT back to the client via the response body. Once received by the client, it can be extracted and stored somewhere like local storage (if we sent it in a cookie, it'd just live on the client in that cookie).
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
@@ -117,6 +147,7 @@ This change of mechanism does come with some caveats but they will be discussed 
 
 <div class="lesson-content__panel" markdown="1">
 
+1. It can get quite in depth so no need to dive too deep, but do skim the [MDN docs for CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS#the_http_response_headers) for a little more info than we touched on so far.
 1. Read through [Postman's article "What is JWT?"](https://blog.postman.com/what-is-jwt/) for a little more on JWTs themselves.
 
 </div>
