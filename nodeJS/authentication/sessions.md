@@ -84,7 +84,6 @@ const pool = new Pool({
   // add your db configuration
 });
 
-const isProduction = process.env.NODE_ENV === "production";
 const app = express();
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
@@ -98,8 +97,8 @@ app.use(session({
   saveUninitialized: false,
   secret: process.env.SESSION_SECRET,
   cookie: {
-    httpOnly: isProduction,
-    secure: isProduction,
+    httpOnly: true,
+    secure: true,
     maxAge: 2 * 24 * 60 * 60 * 1000, // 2 days
   },
 }));
@@ -134,7 +133,7 @@ We then set a **session secret** which we define in our `.env` file since it's, 
 
 #### Cookie options
 
-Lastly, we pass in options for the cookies that will be created by express-session. In our example, we set a 2-day expiry and conditionally set the `httpOnly` and `secure` properties so that they're only true when in production. This is so that when we're developing locally with localhost, we can still access the cookie via `document.cookie` on the front end if necessary, and still allow the cookie to be set over HTTP (we only want to limit the cookie to HTTPS connections when deployed).
+Lastly, we pass in options for the cookies that will be created by express-session. In our example, we set a 2-day expiry as well as setting the `httpOnly` and `secure` properties. The cookie cannot be read via client-side JavaScript and will not be sent over insecure HTTP, only HTTPS (and localhost as the sole exception, even if that doesn't use HTTPS).
 
 ### Creating users
 
