@@ -49,13 +49,13 @@ if (user?.password === req.body.password) {
     { expiresIn: "1d" },
   );
 
-  res.set({Authorization: `Bearer ${token}`}).json("Login successful");
+  res.json({ token });
 } else {
   res.status(401).json("Incorrect username or password");
 }
 ```
 
-There are many ways JWTs can be sent to and from servers, such as in the response's "Authorization" header via the [Bearer scheme](https://security.stackexchange.com/questions/108662) or via httpOnly cookies. Since we have not yet covered how to handle cookies when the client and server are deployed on different domains, the example above sends the JWT as a bearer token in the response's Authorization header. The JWT can live on the client in a variety of ways. If we sent it via a cookie, it'd live on the client in that cookie. In our example, we'd extract it from the response and store it somewhere, such as in local storage.
+There are many ways JWTs can be sent to and from servers, such as in a request or response's headers or body, or via httpOnly cookies. In this lesson, since it's a very common use case for stateless authentication with JWTs, we'll look at this from the perspective of a site fetching from a REST API hosted on a different domain. Since we have not yet covered how to handle cookies when the client and server are deployed on different domains, the example above sends the JWT back to the client via the response body. Once received by the client, it can be extracted and stored somewhere like local storage (if we sent it in a cookie, it'd just live on the client in that cookie).
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
@@ -69,11 +69,24 @@ Remember that JWTs are sent to and stored on the client. If a malicious party is
 
 So when a user successfully logs in, the server generates and sends a signed JWT in response. What about for incoming requests to routes we want to protect?
 
-The client must attach the JWT to any such requests, whether that's through `fetch` in a script or when using something like Postman. In our case, we'll do the same as earlier and write to the "Authorization" header using the format `Bearer <JWT>`. Just like with the Sessions lesson, any routes we want to protect will need a middleware to authenticate the request first. However, instead of saving a session server-side, we only need to extract the JWT and verify its signature, which can also be done with the `jsonwebtoken` library. For example:
+The client must attach the JWT to any such requests, whether that's through `fetch` in a script or when using something like Postman. Since we are not using cookies for transport, another alternative as per the [JWT specification RFC 7523](https://www.rfc-editor.org/info/rfc7523/) is to send it as a [Bearer token](https://security.stackexchange.com/questions/108662/why-is-bearer-required-before-the-token-in-authorization-header-in-a-http-re) in the request's `Authorization` header using the format `Bearer <JWT>` (this is only necessary for sending requests to a server, not for server responses). For example:
+
+```javascript
+// somewhere in a client-side script
+const response = await fetch(apiUrl, {
+  headers: {
+    "Authorization": `Bearer ${token}`,
+  },
+});
+
+// rest of script...
+```
+
+On the server side, just like with the Sessions lesson, any routes we want to protect will need a middleware to authenticate the request first. However, instead of saving a session to a server-side store, we only need to extract the JWT and verify its signature, which can also be done with the `jsonwebtoken` library. For example:
 
 ```javascript
 // in an authentication middleware
-const token = req.get("authorization")?.split(" ")[1];
+const token = req.get("Authorization")?.split(" ")[1];
 try {
   const { id } = jwt.verify(token, process.env.SECRET);
   const { rows } = await pool.query(
@@ -92,7 +105,7 @@ try {
 
 Upon successful verification, the payload is returned and can be handled however necessary; in the example above, we query our database for the right user details, assign what we need to `req.user`, then the next middleware is called. If the token is not valid, whether that's from it having expired or not valid or even non-existent, or if the user no longer exists, an error is thrown which we can then catch and unauthorize the request, responding to the client with a 401 since we do not know who they are. The authentication and database query can also be handled in separate middleware functions if you wish.
 
-Essentially, this is a similar process to our previous session-based authentication system only since the authentication data came with the JWT payload, we did not need to make an additional database call to grab that data from a session.
+Essentially, this is a similar process to our previous session-based authentication system, only since the authentication data came with the JWT payload, we did not need to make an additional database call to grab that data from a session.
 
 ### Logging out with JWTs
 
