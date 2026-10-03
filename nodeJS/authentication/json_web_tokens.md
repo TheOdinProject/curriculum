@@ -69,7 +69,7 @@ Remember that JWTs are sent to and stored on the client. If a malicious party is
 
 So when a user successfully logs in, the server generates and sends a signed JWT in response. What about for incoming requests to routes we want to protect?
 
-The client must attach the JWT to any such requests, whether that's through `fetch` in a script or when using something like Postman. In our case, we'll do the same as earlier and write to the "Authorization" header using the format `Bearer: <JWT>`. Just like with the Sessions lesson, any routes we want to protect will need a middleware to authenticate the request first. However, instead of saving a session server-side, we only need to extract the JWT and verify its signature, which can also be done with the `jsonwebtoken` library. For example:
+The client must attach the JWT to any such requests, whether that's through `fetch` in a script or when using something like Postman. In our case, we'll do the same as earlier and write to the "Authorization" header using the format `Bearer <JWT>`. Just like with the Sessions lesson, any routes we want to protect will need a middleware to authenticate the request first. However, instead of saving a session server-side, we only need to extract the JWT and verify its signature, which can also be done with the `jsonwebtoken` library. For example:
 
 ```javascript
 // in an authentication middleware
