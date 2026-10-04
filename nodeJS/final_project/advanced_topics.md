@@ -8,7 +8,6 @@ This section contains a general overview of topics that you will learn in this l
 
 - Content Security Policy.
 - Logging.
-- Cross-Site Request Forgery.
 - Internationalisation.
 - Cross-Origin Resource Sharing.
 - Rate limiting.
@@ -54,19 +53,6 @@ Eventually, you might want to adapt your app to a wider range of audiences aroun
 
 MDN documentations also accommodate a wide range of languages! For example, <https://developer.mozilla.org/fr/> will display all your pages in MDN in French! C'est pratique, non?
 
-### Cross-Origin Resource Sharing
-
-Previously on the blog API project, when we want to share data across two different origins, we'll have to configure reverse proxies on our platform that we host our SPA. Recall that reverse proxies allow requests from our front end app to travel to our back end as if both apps were on the same origin (or first-party). When there is no reverse proxy in-between, that is when we will have to be concerned about Cross-Origin Resource Sharing.
-
-Cross-Origin Resource Sharing (CORS) is a mechanism that allows a server to grant access to its resources from different origins. Let's take the blog API project as an example. Suppose you have the following origins for both your front-end React app and your Express app:
-
-- `https://www.my-blog-app.com`
-- `https://www.my-blog-app-api.com`
-
-Normally, browsers will restrict cross-origin HTTP requests due to security concerns - without that restriction, any site you visited could read your data from any other site you happened to be logged into. So if we want to enable resource sharing across a different origin, we'll have to configure our API to accept `my-blog-app` as one of its allowed origins.
-
-Depending on whether or not a request is a [simple request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS#simple_requests), a pre-flight request (a request to verify before our request) might be made to determine if such request could be safely made. This is done automatically by the browser via an `OPTIONS` request, using headers like `Access-Control-Request-Method` and `Origin` to ask the server what's allowed. Either way, the request's origin must still be validated by the `Access-Control-Allow-Origin` header.
-
 ### Rate limiting
 
 Just like how your city has speed limit signs, [rate limiting](https://www.cloudflare.com/learning/bots/what-is-rate-limiting) is a technique that tracks a user's number of requests and puts a limit on how many times they can access a resource, such as how many requests they're allowed per day. This becomes especially important as your API grows, protecting you from [Denial of Service](https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/) attacks.
@@ -84,3 +70,12 @@ That was quite a lot that we covered. Hopefully by being aware of these concepts
 1. [ExpressJS' security best practices](https://expressjs.com/en/advanced/best-practice-security/) will help you well in securing your Express app. This guide also suggests a few libraries that could be helpful, should you want to tighten up your app's security without doing everything from scratch.
 
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What does Content Security Policy protect your app from?](#content-security-policy)
+- [When logging, what kind of information should not appear?](#logging)
+- [What is Cross-Site Request Forgery?](#cross-site-request-forgery)
+- [Why is rate limiting needed on sensitive routes?](#rate limiting)
