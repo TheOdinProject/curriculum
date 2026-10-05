@@ -55,7 +55,36 @@ Earlier in the course, we made monolithic applications; the servers we made were
 
 The problem comes when each end is hosted on separate domains, where requests are "third party" (or "cross site"). Nowadays, browsers are not very happy to set third-party cookies, and you may have already heard about [restrictions on third-party cookies across browsers](https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/Third-party_cookies#how_do_browsers_handle_third-party_cookies) over the last few years. This will pose a problem with our third-party session cookies! We'd send them from the server, but the client won't set them, meaning no login persistence!
 
-We *could* handle this by purchasing a custom domain and setting things up so our separate client and server are both on that domain, meaning our session cookies would be first-party cookies, but that's out of the scope of this curriculum. So what can we do instead?
+We have options:
+
+- We *could* handle this by purchasing a custom domain and setting things up so our separate client and server are both on that domain, meaning our session cookies would be first-party cookies, but that's out of the scope of this curriculum.
+- Cookies Having Independent Partitioned State (CHIPS)
+- Reverse proxies
+
+#### CHIPS
+
+Part of why third-party cookies have so many restrictions now is because they were not necessarily restricted to the site they were set on. If two unrelated sites embedded content from some third-party site and the third-party site would set and read cookies on them, the embed in one site could still read the cookie set by the embed on the other site even if completely unrelated.
+
+The wonderfully named [CHIPS](https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/Third-party_cookies/Partitioned_cookies) is, as of writing this, a somewhat new browser feature that's basically just a fancy way of restricting third-party cookies to a particular site. This makes for far fewer privacy concerns, since a service would only be able to read cookies on a site if they were "partitioned" to that site in the first place. As a result, browsers are much happier setting these third-party cookies than unpartioned ones.
+
+Partitioning a session cookie with express-session is fairly straightforward. Since requests would still be cross-origin, you'd still need to include credentials in your `fetch` requests and set up CORS as you'd expect to.You can then make a cookie `Partitioned` simply by setting the appropriate option in the session `cookie` configuration, for example:
+
+```javascript
+const isProduction = process.env.NODE_ENV === 'production';
+
+app.use(
+  session({
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      httpOnly: true,
+      secure: isProduction,
+      partitioned: isProduction, // partitioned cookies only work if secure is also set
+      maxAge: 2 * 24 * 60 * 60 * 1000,
+    },
+  }),
+);
+```
 
 #### Reverse proxies
 
