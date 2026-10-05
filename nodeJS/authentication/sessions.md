@@ -98,7 +98,7 @@ app.use(session({
   secret: process.env.SESSION_SECRET,
   cookie: {
     httpOnly: true,
-    secure: true,
+    secure: process.env.NODE_ENV === "production",
     maxAge: 2 * 24 * 60 * 60 * 1000, // 2 days
   },
 }));
@@ -133,7 +133,7 @@ We then set a **session secret** which we define in our `.env` file since it's, 
 
 #### Cookie options
 
-Lastly, we pass in options for the cookies that will be created by express-session. In our example, we set a 2-day expiry as well as setting the `httpOnly` and `secure` properties. The cookie cannot be read via client-side JavaScript and will not be sent over insecure HTTP, only HTTPS (and localhost as the sole exception, even if that doesn't use HTTPS).
+Lastly, we pass in options for the cookies that will be created by express-session. In our example, we set an httpOnly cookie with a 2-day expiry. We also conditionally make it a secure cookie when in production so that it can still be set over localhost, which uses HTTP instead of HTTPS. Yes... we know that Chrome and Firefox make an exception for secure cookies on localhost but unfortunately this is just a behavior specific to express-session (which they've at least documented).
 
 ### Creating users
 
