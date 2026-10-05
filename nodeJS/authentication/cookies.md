@@ -39,6 +39,10 @@ HttpOnly cookies will still be attached to requests sent with JavaScript on the 
 
 If set, prevents the cookie from being sent with a request/response if not using HTTPS (localhost, which uses HTTP, is the only exception) which ensures the cookie won't be sent via unencrypted and insecure means.
 
+#### Partitioned
+
+This only works if set alongside `Secure` and is to do with third-party cookies, something that will become very relevant later in the course. Browsers now restrict a lot of things involving third-party cookies, but partitioned cookies enforce certain limitations that address some privacy concerns in order to still allow using them for legitimate purposes.
+
 ### Regulations and cookie consent
 
 Depending on where you live, you may have come across cookie consent banners when accessing some sites. There are some regulations, such as the [General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation), that restrict the use of cookies unless certain conditions are met. Different regulations will affect different countries, such as [EU GDPR covering all European Union countries](https://thoropass.com/blog/compliance/gdpr-countries/).
