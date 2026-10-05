@@ -101,11 +101,12 @@ Remember that JWTs are sent to and stored on the client. If a malicious party is
 
 So when a user successfully logs in, the server generates and sends a signed JWT in response. What about for incoming requests to routes we want to protect?
 
-The client must attach the JWT to any such requests, whether that's through `fetch` in a script or when using something like Postman. Since we are not using cookies for transport, another alternative as per the [JWT specification RFC 7523](https://www.rfc-editor.org/info/rfc7523/) is to send it as a [Bearer token](https://security.stackexchange.com/questions/108662/why-is-bearer-required-before-the-token-in-authorization-header-in-a-http-re) in the request's `Authorization` header using the format `Bearer <JWT>` (this is only necessary for sending requests to a server, not for server responses). For example:
+The client must attach the JWT to any such requests, whether that's through `fetch` in a script or when using something like Postman. Since we are not using cookies for transport, another alternative as per the [JWT specification RFC 7523](https://www.rfc-editor.org/info/rfc7523/) is to send it as a [Bearer token](https://security.stackexchange.com/questions/108662/why-is-bearer-required-before-the-token-in-authorization-header-in-a-http-re) in the request's `Authorization` header using the format `Bearer <JWT>` (this is only necessary for sending requests to a server, not for server responses). This header is also considered a "[credential](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#including_credentials)"; credentials include some other headers as well as HTTP cookies. By default, credentials are only attached to same-origin requests, so we'd need to manually ensure it gets included for our cross-origin request. For example:
 
 ```javascript
 // somewhere in a client-side script
 const response = await fetch(apiUrl, {
+  credentials: "include",
   headers: {
     "Authorization": `Bearer ${token}`,
   },
