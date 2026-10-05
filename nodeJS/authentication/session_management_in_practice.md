@@ -88,11 +88,11 @@ app.use(
 
 #### Reverse proxies
 
-A reverse proxy is a server that takes requests from a client and then forwards that request to another server, like a middleman. This versatile thing is one option for our third-party session cookie dilemma and the simplest to implement in terms of this curriculum's scope.
+An alternative approach is via a "reverse proxy". A reverse proxy is a server that takes requests from a client and then forwards that request to another server, like a middleman. The idea is that instead of sending requests directly to the main server, the client sends a request to the reverse proxy, which would be hosted on the same domain as the client. The reverse proxy would then forward that request to our main server. Our main server would then respond to the reverse proxy, which would then forward the response back to the client.
 
-The idea is that instead of sending requests directly to the main server, the client sends a request to the reverse proxy, which would be hosted on the same domain as the client. The reverse proxy would then forward that request to our main server. Our main server would then respond to the reverse proxy, which would then forward the response back to the client. The important thing here is that the reverse proxy and client are hosted on the same domain, which would mean, as far as the client is concerned, everything is first party, not third party. This includes any cookies, and we know browsers are very happy setting first-party cookies.
+The important thing here is that the reverse proxy and client are hosted on the same domain, which would mean, as far as the client is concerned, everything is first party, not third party. This includes any cookies (we know browsers are very happy setting first-party cookies) but it also means the SOP doesn't get involved with blocking anything and CORS won't be relevant.
 
-Fortunately for us, at the time of writing, both Netlify and Vercel allow us to set up reverse proxies on the same domain as the client without much work (unfortunately Cloudflare Pages does not support proxying to a different domain). Remember how with SPAs hosted on Netlify or Vercel, you'd need a "rewrite rule" to ensure all routes would still work if you refreshed the page or accessed them directly via the address bar? For example, Netlify would have required a `_redirects` file containing something like:
+Fortunately for us, at the time of writing, Vite (for development) and both Netlify and Vercel (for production) allow us to set up reverse proxies on the same domain as the client without much work (unfortunately, Cloudflare Pages does not support proxying to a different domain). Remember how with SPAs hosted on Netlify or Vercel, you'd need a "rewrite rule" to ensure all routes would still work if you refreshed the page or accessed them directly via the address bar? For example, Netlify would have required a `_redirects` file containing something like:
 
 ```text
 /* /index.html 200
@@ -104,16 +104,41 @@ This would tell Netlify to "serve `index.html` for any route (not just `/`)", th
 /api/* https://super-awesome-main-server-wow.com/:splat  200
 ```
 
-This would redirect any requests for a client-side endpoint beginning with `/api` (just an example - can be anything you want) to the equivalent endpoint on `https://super-awesome-main-server-wow.com`.
+This would redirect any requests for a client-side endpoint beginning with `/api` (just an example - can be anything you want) to the equivalent endpoint on `https://super-awesome-main-server-wow.com` (without the `/api` segment).
 
-So if your front end is hosted on `https://super-awesome-client-wow.netlify.app`. Instead of POSTing directly to `https://super-awesome-main-server-wow.com/sessions`, you would POST to `https://super-awesome-client-wow.netlify.app/api/sessions`. Since Netlify and Vercel both support reverse proxying to another domain, they would forward that request to `https://super-awesome-main-server-wow.com/sessions`. You would also need to [make sure your Express server can trust reverse proxies](https://expressjs.com/en/guide/behind-proxies.html) by adding something like this to your server setup:
+So if your front end is hosted on `https://super-awesome-client-wow.netlify.app`. Instead of POSTing directly to `https://super-awesome-main-server-wow.com/sessions`, you would POST to `https://super-awesome-client-wow.netlify.app/api/sessions`. Since Netlify and Vercel both support reverse proxying to another domain, they would forward that request to `https://super-awesome-main-server-wow.com/sessions`.
+
+With Vite's dev server, it's a similar thing. You can configure the [Vite dev server's proxy settings](https://vite.dev/config/server-options#server-proxy) to act as a reverse proxy. For example:
+
+```javascript
+// vite.config.js
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  server: {
+    proxy: {
+      "/api": {
+        // or whatever your dev back end URL is
+        target: "http://localhost:3000",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ""),
+    },
+  },
+});
+```
+
+This would allow for the same thing as with the Netlify example above. If the dev server is served on `http://localhost:5173`, any requests sent to endpoints beginning with `/api` will be rewritten to `http://localhost:3000` without the `/api` segment.
+
+Finally, you would also need to [make sure your Express server can trust reverse proxies](https://expressjs.com/en/guide/behind-proxies.html) by adding something like this to your server setup:
 
 ```javascript
 // somewhere early in app.js
 app.set('trust proxy', 1);
 ```
 
-In most cases, a value of 1 should suffice, though it's entirely possible that, depending on where your server is hosted, a larger number is needed. Together, you can ensure a simpler and more secure stateful solution for session management while still having your client hosted on Netlify or Vercel and your server hosted separately on one of the [PaaS options from the Deployment lesson](https://www.theodinproject.com/lessons/node-path-nodejs-deployment#our-recommended-paas-services).
+In most cases, a value of 1 should suffice, though it's entirely possible that, depending on where your server is hosted, a larger number is needed.
+
+Ultimately, we're not recommending any specific approach here. How you decide to approach your coming projects is up to you; we just want to introduce you to relevant concepts that you can play around with and explore further yourself. At this point, you've got a lot of power at your fingertips!
 
 ### Assignment
 
