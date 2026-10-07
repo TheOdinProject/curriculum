@@ -135,4 +135,4 @@ All of the above may have you wondering why you'd use importmaps all things cons
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Blog post on using `importmap`](https://blog.kiprosh.com/rails-7-brings-import-maps-into-the-limelight/)
-- [The import map specification](https://github.com/WICG/import-maps) should cover any other questions you may have on the subject.
+- [MDN's documentation on `importmap`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script/type/importmap) should cover any other questions you may have on the subject.
