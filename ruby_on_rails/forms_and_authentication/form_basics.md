@@ -90,6 +90,8 @@ You may have noticed in the above examples that Rails is always sending a parame
 
 If Rails processes form input and the parameters lack the `authenticity_token` or its value doesn't match what Rails expects, Rails will raise an error rather than continue with processing the request. This keeps your site secure against these types of attacks.
 
+Rails only checks this token on non-GET requests that change data — POST, PATCH, PUT, and DELETE. GET requests are treated as safe, read-only operations and are never CSRF-protected. Read [Rails Guides on CSRF Countermeasures](https://guides.rubyonrails.org/security.html#csrf-countermeasures).
+
 ### Form helpers: form_with
 
 Rails tries to make your life as easy as it can, so naturally it provides you with helper methods that automate some of the repetitive parts of creating forms. That doesn't mean you don't need to know how to create forms the "old fashioned" way... it's actually MORE important to know your form fundamentals when using helpers because you'll need to really understand what's going on behind the scenes if something breaks.
@@ -204,7 +206,7 @@ Forms aren't really designed to natively delete objects because browsers only su
 You get Rails to add this to your form by passing an option to `form_with` called `:method`, e.g.:
 
 ```ruby
-  form_with(url: search_path, method: "patch")
+  form_with(url: user_profile_path, method: "patch")
 ```
 
 ### Controller-side refresher
