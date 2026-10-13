@@ -54,12 +54,12 @@ For learning purposes so far, doing everything yourself was very important to un
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read Passport's [authentication concepts overview](https://www.passportjs.org/concepts/authentication/), then the page on [strategies](https://www.passportjs.org/concepts/authentication/strategies/).
+1. Read [Passport's authentication concepts overview](https://www.passportjs.org/concepts/authentication/), then the page on [Passport's strategies](https://www.passportjs.org/concepts/authentication/strategies/).
 1. Passport's official documentation can be somewhat lacking. Although it hasn't been updated for a while, [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs) is a handy thing if you want to better understand some aspects of *how* Passport works.
-1. Skim Better Auth's [Express integration guide](https://www.better-auth.com/docs/integrations/express) to see how it gets used in an Express app.
+1. Skim [Better Auth's Express integration guide](https://www.better-auth.com/docs/integrations/express) to see how it gets used in an Express app.
 
    As a quick note, to handle Better Auth’s ESM-only nature, you’ll need to make use of [Node’s automatic module detection](https://nodejs.org/api/packages.html#syntax-detection). Its docs are also written entirely in TypeScript, so you’ll have to translate the examples to JavaScript as you go.
 
-1. Read Better Auth's [OAuth documentation](https://www.better-auth.com/docs/concepts/oauth) to see what adding multiple sign-in providers looks like in practice.
+1. Read [Better Auth's OAuth documentation](https://www.better-auth.com/docs/concepts/oauth) to see what adding multiple sign-in providers looks like in practice.
 
 </div>
