@@ -2,6 +2,7 @@ name: MarkdownLint
 on:
   pull_request:
     paths:
+      - 'package*.json'
       - 'markdownlint/**'
       - '!markdownlint/docs/**'
 
