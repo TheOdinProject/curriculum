@@ -111,10 +111,10 @@ In case you've forgotten, scroll back up and look at how you would use XHR to do
 
 Let's change up our API for this example. We're going to walk through an example using fetch with the [giphy](https://giphy.com/) API to display a random gif on a webpage. The API requires you [sign up to giphy and get a free API key](https://developers.giphy.com/docs/api/#quick-start-guide).
 
-Giphy has several methods for searching and finding GIFs which you can read about in their documentation. Today we're just going to use the 'translate' endpoint because it's the simplest one for our purposes. You can find the appropriate URL in their documentation by scrolling down [to the translate endpoint information from Giphy](https://developers.giphy.com/docs/api/endpoint#translate). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/translate` and that it requires 2 parameters, your `api_key` and a `search term`. There are other optional parameters that you could include in your query to narrow down your results. For example, the `rating` parameter allows you to look for content at different levels of sensitivity. If you put it all together correctly (with YOUR API key) you should get something like this::
+Giphy has several methods for searching and finding GIFs which you can read about in their documentation. Today we're just going to use the 'random' endpoint because it's the simplest one for our purposes. You can find the appropriate URL in their documentation by scrolling down [to the random endpoint information from Giphy](https://developers.giphy.com/docs/api/endpoint/random). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/random` and that it requires an `api_key` parameter. You can also provide a `tag` parameter to narrow down the GIFs returned. There are other optional parameters that you could include in your query. For example, the `rating` parameter allows you to look for content at different levels of sensitivity. If you put it all together correctly (with YOUR API key) you should get something like this::
 
 ```javascript
-'https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats&rating=g'
+'https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g'
 // of course we're searching for cats
 ```
 
@@ -152,7 +152,7 @@ Adding fetch with our URL from above is also relatively easy:
 ```html
 <script>
   const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats&rating=g')
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
     .then(function(response) {
       console.log(response.json());
     });
@@ -164,7 +164,7 @@ You should now be able to open the HTML file in your browser, and while you won'
 ```html
 <script>
   const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats&rating=g')
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
     .then(function(response) {
       return response.json();
     })
@@ -183,7 +183,7 @@ To get to the data we need to drill down through the layers of the object until 
 ```html
 <script>
   const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats&rating=g')
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
     .then(function(response) {
       return response.json();
     })
@@ -198,7 +198,7 @@ Running the file should now log the URL of the image. All that's left to do is s
 ```html
 <script>
   const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats&rating=g')
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
     .then(function(response) {
       return response.json();
     })
@@ -208,9 +208,9 @@ Running the file should now log the URL of the image. All that's left to do is s
 </script>
 ```
 
-If all goes well, you should see a new image on the page every time you refresh!
+If all goes well, you should see a randomly selected image on the page every time you refresh!
 
-If you've gotten lost along the way, check out this [jsbin project demonstrating fetching from giphy](http://jsbin.com/canofar/edit?html,output). Besides the glorious styling, this is what your version should look like.
+If you've gotten lost along the way, check out this [jsbin project demonstrating fetching from giphy](http://jsbin.com/jomuniyuzo/edit?html,output). Besides the glorious styling, this is what your version should look like.
 
 While we are pushing this API key to the frontend, this isn't something you should do with any key that is not free. Keys used on the client-side are considered public knowledge, so caution must be taken with sensitive and non-free keys. Handling keys without pushing them to the frontend will be taught in later sections if you haven't already learned it in the Ruby course.
 
