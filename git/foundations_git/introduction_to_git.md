@@ -8,9 +8,9 @@ Going forward, we assume you have already followed our [Setting Up Git](https://
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain what Git and GitHub are and the differences between the two.
-- Describe the differences between Git and a text editor in terms of what they save and their record keeping.
-- Describe why Git is useful for an individual developer and a team of developers.
+- What Git and GitHub are, and how they differ from each other.
+- The differences between Git and a text editor in terms of what they "save".
+- Why Git is useful for both individual developers and teams.
 
 ### Version control
 
