@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 A *save* in a text editor records all of the words in a document as a single file. You are only ever given one record of the file, such as `essay.doc`, unless you make duplicate copies like `essay-draft1.doc`, `essay-draft2.doc` and `essay-final.doc` (which is difficult to remember to do and keep track of).
 
-However, a "save" (known as a "commit") in Git records differences in the files and folders *and* keeps a **historical record of each save**. This feature is a game changer. As an individual developer, Git enables you to review how your project grows and to easily look at or restore file states from the past. Once connected to a network, Git allows you to push your project to a remote storage facility such as GitHub (or other alternatives such as Bitbucket, Beanstalk or GitLab), like "saving to the cloud". This of course helps for sharing and collaborating with other developers.
+However, a "save" (known as a "commit") in Git records a snapshot of the files and folders at that point in time. At the same time, Git keeps a historical record of each snapshot. This feature is a game changer. As an individual developer, Git enables you to review how your project grows and to easily look at or restore file states from the past. Once connected to a network, Git allows you to push your project to a remote storage facility such as GitHub (or other alternatives such as Bitbucket, Beanstalk or GitLab), like "saving to the cloud". This of course helps for sharing and collaborating with other developers.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
