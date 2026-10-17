@@ -40,6 +40,6 @@ For now, let's learn more about what Git is and why it's so powerful!
 
 1. Read chapters 1.1 through 1.3 from the [Getting Started section of Pro Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) to learn the differences between local, centralized, and distributed version control systems.
 1. Watch ["What is Git?" explained in 2 minutes](https://www.youtube.com/watch?v=2ReR1YJrNOM) - a video about what Git is and how it can improve the workflow of both an individual and a team of developers.
-1. Take a look at [The Odin Project's `curriculum` repository on GitHub](https://github.com/TheOdinProject/curriculum). This is where all the lessons are stored as well as where proposals are discussed and updates are reviewed and merged! While you're there, look at all [our contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
+1. Take a look at [The Odin Project's `curriculum` repository on GitHub](https://github.com/TheOdinProject/curriculum). This is where all the lessons are stored as well as where proposals are discussed and updates are reviewed and merged! While you're there, look at all [our curriculum contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors?all=1) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
 
 </div>
