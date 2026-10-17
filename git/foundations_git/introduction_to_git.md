@@ -14,17 +14,25 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Version control
 
-A *save* in a text editor records all of the words in a document as a single file. You are only ever given one record of the file, such as `essay.doc`, unless you make duplicate copies (which is difficult to remember to do and keep track of):
+A *save* in a text editor records all of the words in a document as a single file. You are only ever given one record of the file, such as `essay.doc`, unless you make duplicate copies like `essay-draft1.doc`, `essay-draft2.doc` and `essay-final.doc` (which is difficult to remember to do and keep track of).
 
-`essay-draft1.doc`, `essay-draft2.doc`, `essay-final.doc`
+However, a "save" (known as a "commit") in Git records differences in the files and folders *and* keeps a **historical record of each save**. This feature is a game changer. As an individual developer, Git enables you to review how your project grows and to easily look at or restore file states from the past. Once connected to a network, Git allows you to push your project to a remote storage facility such as GitHub (or other alternatives such as Bitbucket, Beanstalk or GitLab), like "saving to the cloud". This of course helps for sharing and collaborating with other developers.
 
-However, a *save* in Git records differences in the files and folders AND keeps a **historical record of each save**. This feature is a game changer. As an individual developer, Git enables you to review how your project grows and to easily look at or restore file states from the past. Once connected to a network, Git allows you to push your project to GitHub or other alternatives such as: Bitbucket, Beanstalk, or GitLab for sharing and collaborating with other developers.
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-Please note, we **only** support GitHub within our curriculum, and will not help troubleshoot the alternatives.
+#### Git remote platform support
 
-While Git works on your *local* machine, GitHub is a *remote* storage facility on the web for all your coding projects. This means that by learning Git, you will get to showcase your portfolio on GitHub! This is really important because almost all software development companies consider using Git to be an **essential skill** for modern web developers. Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
+The Odin Project uses GitHub for remote storage. We will not be able to support the use of alternatives like GitLab or Bitbucket, whether that's to provide alternative instructions or troubleshooting problems.
 
-For now, let's learn what Git is and why it's so powerful!
+</div>
+
+### Git vs GitHub
+
+While Git works on your *local* machine, GitHub is a *remote* storage facility on the web for all your coding projects. This means that by learning Git, you will get to showcase your portfolio on GitHub! This is really important because almost all software development companies consider using a version control system like Git to be an **essential skill** for modern web developers. Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
+
+Git and GitHub work together. The general idea is that you do your work on your local machine using Git to manage your "saves", then store things remotely by "pushing" to GitHub. If needs be, you can "pull" from GitHub to download and sync your local machine with the remote. This is extra valuable for collaborative work, allowing everyone to stay in sync with changes coming from all over the place. People can also review work on GitHub and manage how changes from different places come together.
+
+For now, let's learn more about what Git is and why it's so powerful!
 
 ### Assignment
 
