@@ -32,7 +32,7 @@ Using an authentication library gives us a single API we can use for all of the 
 
 ### Authentication libraries
 
-We are going to briefly cover two libraries (though these are by no means the only ones) for handling authentication in Node.js: Passport and Better Auth.
+We are going to briefly talk about two libraries (though these are by no means the only ones) for handling authentication in Node.js: Passport and Better Auth.
 
 #### Passport
 
