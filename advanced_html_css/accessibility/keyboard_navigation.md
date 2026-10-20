@@ -42,7 +42,7 @@ buttons.forEach(button => {
 
 Of course, this example then makes it *less* understandable for screen reader users (remember, these "buttons" won't provide any context). Not only does using the `<button>` element provide the context screen reader users need, but they're focusable and have event handling for keyboards *by default*: pressing the <kbd>Space</kbd> or <kbd>Enter</kbd> keys on a keyboard when a `<button>` has focus will trigger the "click" event.
 
-The point is that you need to make sure that any interactive elements are focusable by and have event handling for keyboards. Using the correct semantic HTML can make this a lot easier of a goal to accomplish, but if you ever need to use an element that isn't focusable or doesn't have any event handling by default, then you need to add both of those functionalities in manually.
+The point is that you need to make sure that any interactive elements are focusable and have event handling for keyboards. Using the correct semantic HTML can make this a lot easier of a goal to accomplish, but if you ever need to use an element that isn't focusable or doesn't have any event handling by default, then you need to add both of those functionalities in manually.
 
 ### Focus styles
 
