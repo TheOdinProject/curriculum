@@ -44,7 +44,7 @@ Now that we have nvm installed, we can use it to install Node.
 1. We need to tell nvm which version of Node to use when we run the `node` command. It's easy, just run the following command:
 
    ```bash
-   nvm use --lts
+   nvm alias default 'lts/*'
    ```
 
    We have told nvm to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons.
