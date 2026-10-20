@@ -7,7 +7,7 @@ At this point you should know enough to use Express to make some fun interactive
 <div class="lesson-content__panel" markdown="1">
 
 1. Set up a basic Express app by installing Express and EJS. Set up a basic index route and run your server. Create the required folders and files as discussed in the previous lessons.
-1. We are going to have 2 routes, the index (`"/"`) and a "new message" form (`"/new"`).
+1. We are going to have 2 routes, the index (`"/"`) and a "new message" form (`"/new"`). How you organize these routes is up to you.
 1. Create a module called `db.js`. This is where all your messages will live:
 
    ```javascript
