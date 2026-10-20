@@ -45,4 +45,3 @@ Let's dive in and start looking at Node server-side code! We will be hopping aro
    - Look into the [Node events module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-events.en.md).
 
 </div>
-
