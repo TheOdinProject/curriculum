@@ -18,7 +18,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Basic stuff
 
-If you're still shaky on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](https://www.theodinproject.com/lessons/ruby-on-rails-active-record-basics) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
+If you're still shaky on basic associations, go back and check out the [Basic Associations lesson](https://www.theodinproject.com/lessons/ruby-on-rails-basic-associations) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
 
 #### Foreign keys and class names
 
