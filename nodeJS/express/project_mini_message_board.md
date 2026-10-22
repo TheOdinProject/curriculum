@@ -25,8 +25,9 @@ At this point you should know enough to use Express to make some fun interactive
    ];
    ```
 
-1. Next, in your index template (in the `"views"` folder) loop through the messages array and for each one, display the user, text and the date the message was added. Don't forget to make your messages available to your template by including it in the `res.render` 'locals' object (e.g. `res.render("index", { title: "Mini Messageboard", messages: messages })`). Consider adding a controller here to display all messages.
-1. Next, let's set up the new message form. In the router add a `router.get()` for the `"/new"` route and point it to a template named `"form"`. In the views directory create your `form` template. Add a heading, 2 inputs (one for the author's name and one for the message text) and a submit button. To have the form make a network request you will need to define it with both a method and an action like so (we will learn how to handle forms in a later lesson):
+1. First, let's add a controller to load all messages to your inedx view! Create a controller for the index (`"/"`) endpoint and call `res.render` (e.g. `res.render("index", { title: "Mini Messageboard", messages: messages })`)
+1. Next, in your index template (in the `"views"` folder) loop through the messages array and for each one, display the user, text and the date the message was added.
+1. Next, let's set up the new message form. For the `"/new"` route, render a form to post your messages. In the views directory create your `form` template. Add a heading, 2 inputs (one for the author's name and one for the message text) and a submit button. To have the form make a network request you will need to define it with both a method and an action like so (we will learn how to handle forms in a later lesson):
 
    ```html
    <form method="POST" action="/new">
@@ -41,10 +42,8 @@ At this point you should know enough to use Express to make some fun interactive
    app.use(express.urlencoded({ extended: true }));
    ```
 
-   Then, inside your middleware, you can access any property that you need from the `req.body` object to obtain the submitted values. For example, if we want to extract the author's name, we can do so by accessing `req.body.author`.
-
+1. Then, inside any middleware after it, you can access any property that you need from the `req.body` object to obtain the submitted values. For example, if we want to extract the author's name, we can do so by accessing `req.body.author`.
 1. To handle the form submission, add a controller to the `POST /new` route. In it, push a new message object into the `messages` array with the form data submitted.
-
 1. Once we have successfully added a new message, redirect users back to the index route so that they can see all the current messages.
 1. At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
 1. Add an "open" button or link next to every message to open a new page with the message details.
