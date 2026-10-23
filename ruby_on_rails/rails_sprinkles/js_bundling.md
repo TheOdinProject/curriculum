@@ -117,7 +117,7 @@ The error is gone which means the bundler was able to resolve it since it was pr
         ╵        "./controllers"
 ```
 
-With this error, the bundler is wanting to look for a package name called `controllers`, but we're instead wanting to import code from the `javascript/controllers/` directory in our project. To properly handle this, we can do what it says and change this this to a relative path:
+With this error, the bundler is wanting to look for a package name called `controllers`, but we're instead wanting to import code from the `javascript/controllers/` directory in our project. To properly handle this, we can do what it says and change this to a relative path:
 
 ```javascript
 // app/javascript/application.js
