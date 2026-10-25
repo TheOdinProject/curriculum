@@ -39,17 +39,7 @@ Now that we have nvm installed, we can use it to install Node.
    Downloading and installing Node vXX.xx.x...
    ```
 
-   If not, close the terminal, re-open it and run `nvm install --lts` again.
-
-1. We need to tell nvm which version of Node to use when we run the `node` command. It's easy, just run the following command:
-
-   ```bash
-   nvm alias default 'lts/*'
-   ```
-
-   We have told nvm to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons.
-
-   Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with the Xs replaced with actual numbers).
+   If not, close the terminal, re-open it and run `nvm install --lts` again. Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with the Xs replaced with actual numbers).
 
    Installing Node also installs npm alongside it. Run `npm -v` and like above you should see `XX.xx.x` or something similar.
 
