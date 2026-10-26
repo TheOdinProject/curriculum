@@ -293,13 +293,13 @@ This was a lot of material, but you should have a healthy appreciation for the b
 #### Querying basics
 
 1. Read the first 6 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
-1. Read sections 7 and 21 to learn about [grouping and aggregate functions](https://guides.rubyonrails.org/active_record_querying.html#grouping).
-1. Skim section 8 to learn about [overriding conditions](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).
-1. Read section 12 of the same Rails guide to see how Rails lets you play with [joining tables together](https://guides.rubyonrails.org/active_record_querying.html#joining-tables).
+1. Read sections 10 and 19 to learn about [grouping and aggregate functions](https://guides.rubyonrails.org/active_record_querying.html#grouping-records).
+1. Skim section 11 to learn about [overriding clauses](https://guides.rubyonrails.org/active_record_querying.html#overriding-clauses).
+1. Read section 15 of the same Rails guide to see how Rails lets you play with [joining tables together](https://guides.rubyonrails.org/active_record_querying.html#joining-tables).
 
 #### Advanced querying
 
-1. Read section 14 in the [Rails Guide on Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes) for a look at scopes. Again, you don't necessarily need to memorize all the details of scopes, but you should understand the concept and when it might be useful.
+1. Read section 17 in the [Rails Guide on Active Record Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes) for a look at scopes. Again, you don't necessarily need to memorize all the details of scopes, but you should understand the concept and when it might be useful.
 1. Read [How to Use Enums in Rails](https://blog.saeloun.com/2022/01/05/how-to-use-enums-in-rails/).
 
 </div>
