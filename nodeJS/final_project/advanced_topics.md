@@ -9,7 +9,7 @@ This section contains a general overview of topics that you will learn in this l
 - Content Security Policy.
 - Logging.
 - Internationalisation.
-- Cross-Origin Resource Sharing.
+- Cross-Site Request Forgery.
 - Rate limiting.
 
 ### Content Security Policy
