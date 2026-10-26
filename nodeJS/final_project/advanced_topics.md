@@ -67,6 +67,6 @@ We covered quite a lot. Hopefully by being aware of these concepts, you are now 
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [ExpressJS' security best practices](https://expressjs.com/en/advanced/best-practice-security/) will help you well in securing your Express app. This guide also suggests a few libraries that could be helpful, should you want to tighten up your app's security without doing everything from scratch.
+1. [ExpressJS' security best practices](https://expressjs.com/en/advanced/best-practice-security/) can help you well in securing your Express app. This guide also suggests a few libraries that could be helpful, should you want to tighten up your app's security without doing everything from scratch.
 
 </div>
