@@ -61,7 +61,7 @@ This is commonly employed on sensitive endpoints, like ones involving authentica
 
 ### Conclusion
 
-That was quite a lot that we covered. Hopefully by being aware of these concepts, you are now able to imagine what goes on under the hood of the software you are using in your everyday life.
+We covered quite a lot. Hopefully by being aware of these concepts, you are now able to imagine what goes on under the hood of the software you are using in your everyday life.
 
 ### Assignment
 
