@@ -175,8 +175,6 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
 
 1. Now, sign in to [our Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
 
-   - **(Optional) Link your GitHub to your Discord profile:** Click the gear icon to the right of your username to open `User Settings`. Go to `Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile" is toggled on. This will allow others to see what you're working on and vice versa!
-
 1. Here are some guidelines before you dive in:
 
    - **Read the rules and FAQ:** Please take the time to read and understand our rules and FAQ. On the left sidebar in Discord, navigate to `TOP META`-> `rules` and `faq`.
