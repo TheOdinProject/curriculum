@@ -49,7 +49,7 @@ This section contains a general overview of topics that you will learn in this l
 
       </div>
 
-   1. **(Optional) Link your GitHub to your Discord profile:** Click the gear icon to the right of your username to open `User Settings`. Go to `Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile" is toggled on. This will allow others to see what you're working on and vice versa!
+   1. **(Optional) Link your GitHub to your Discord profile:** In Discord, click the gear icon to the right of your username to open `User Settings`. Go to `Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile" is toggled on. This will allow others to see what you're working on and vice versa!
 
 1. For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
 
