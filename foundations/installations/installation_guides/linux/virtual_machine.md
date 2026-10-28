@@ -16,11 +16,11 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.1: Download VirtualBox
 
-[Download VirtualBox for Windows hosts version 7.2.4 (last known working version)](https://download.virtualbox.org/virtualbox/7.2.4/VirtualBox-7.2.4-170995-Win.exe).
+[Download VirtualBox for Windows hosts version 7.2.22 (last known working version)](https://download.virtualbox.org/virtualbox/7.2.22/VirtualBox-7.2.22-175245-Win.exe).
 
 #### Step 1.2: Download Xubuntu
 
-There are thousands of distributions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading Xubuntu, which is a lightweight flavor of Ubuntu. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. Click on the `Direct Downloads` button on the [24.04 release page for Xubuntu](https://xubuntu.org/release/24.04/), find your nearest server location and click on it. There are a few files listed here, download the one ending in `.iso`, which will also be the largest one (around 4 gigabytes). If you find the download speed slow, you can download the [Xubuntu `.iso` directly from the official Ubuntu image server](https://cdimage.ubuntu.com/xubuntu/releases/noble/release/), as the previous link points to a US-based server.
+There are thousands of distributions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading Xubuntu, which is a lightweight flavor of Ubuntu. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. Click on the `Direct Downloads` button on the [24.04 release page for Xubuntu](https://xubuntu.org/release/24.04/), find your nearest server location and click on it. There are a few files listed here, download the one named `xubuntu-24.04.5-desktop-amd64.iso` (around 5 gigabytes). If you find the download speed slow, you can download the [Xubuntu `.iso` directly from the official Ubuntu image server](https://cdimage.ubuntu.com/xubuntu/releases/noble/release/), as the previous link points to a US-based server. Wherever you download it from, make sure you get this exact file, as older versions with similar names may be listed next to it.
 
 If you reach the download page and are unsure about what version to choose, it is recommended that you pick the Long-Term Support (LTS) version 24.04 (Noble Numbat). You may be tempted to choose a more recent release, but this version is tried and tested by the Odin Project community and therefore the most reliable option for the purposes of this curriculum.
 
@@ -181,7 +181,7 @@ The next few screens will go by automatically during the installation process. T
 
 ![Installer progress](../../installations/imgs/23_installation_in_progress.png)
 
-Once you have reached this screen that signals the installation has been successfully completed. You are now being prompted to exit your live desktop environment so you can boot your newly installed Xubuntu OS on your VM. Click **Restart now** to continue the process. If you end up clicking Continue testing and wish to continue, just click the ![Whisker Icon](../../installations/imgs/00_whisker_icon.png), click Log Out, and then click Restart. After restarting and you end up sitting on a black screen for a long time please have some patience. If it goes longer than 10 minutes then please close the VM and start again manually.
+Once you have reached this screen that signals the installation has been successfully completed. You are now being prompted to exit your live desktop environment so you can boot your newly installed Xubuntu OS on your VM. Click **Restart now** to continue the process. If you end up clicking Continue testing and wish to continue, just click the ![Whisker Icon](../../installations/imgs/00_whisker_icon.png), click Log Out, and then click Restart. After restarting and you end up sitting on a black screen for a long time, click inside the VM window and press <kbd>Enter</kbd>, as the installer may be waiting for you to confirm that the installation media has been removed. If nothing happens, please have some patience. If it goes longer than 10 minutes then please close the VM and start again manually.
 
 ![Installation complete](../../installations/imgs/24_installation_complete.png)
 
@@ -294,6 +294,7 @@ Here are some tips to help you get started in a virtual environment:
 #### Frequent issues/questions
 
 - If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** in VirtualBox and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
+- If audio in your VM crackles, close and `power off` the VM, click **Settings -> Audio** in VirtualBox and set **Audio Controller** to **Intel HD Audio**.
 - Running out of space? Look at these [instructions for increasing VM disk space from the TOP Discord server](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
 - Are you using a touchscreen? [Watch a video on how to enable touchscreen controls for VirtualBox](https://www.youtube.com/watch?v=hW-iyHHoDy4).
 
