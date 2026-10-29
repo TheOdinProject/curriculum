@@ -12,13 +12,13 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Why a community is awesome for you
 
-Learning web development will be a long and arduous journey, but you can make the marathon a lot more fun by getting involved in our Discord community. No matter what pace you are doing our curriculum, there will always be people a few steps ahead of you that are willing to help. Furthermore, helping others that are a few steps behind you is a great way to deepen your own understanding and make your learning stick.
+Learning web development will be a long and arduous journey, but you can make the marathon a lot more fun by getting involved in our Discord community. No matter at what pace you are doing our curriculum, there will always be people a few steps ahead of you who are willing to help. Furthermore, helping others that are a few steps behind you is a great way to deepen your own understanding and make your learning stick.
 
 When you're slogging through the desert of despair, where your code doesn't work or even make sense to you anymore, you can find an oasis of knowledge and encouragement in our community. Veterans at The Odin Project love to help fill in knowledge gaps and provide new insights and perspectives on how to improve your code. We've all been there before!
 
 Remember that project you struggled so hard to figure out and that you're so proud of finishing? Through our community, you will get to share your work and progress with those who fully appreciate how much hard work went into it.
 
-### Why a community is awesome for Odin
+### Why a community is awesome for The Odin Project
 
 We are working hard to update existing lessons and produce new content, so we would love to hear your feedback on the lessons and projects. We hope you find the lessons fun, engaging, and informative, and the projects challenging but achievable. So please let us know your thoughts!
 
@@ -34,7 +34,7 @@ If these methods don't yield a solution for you, then it's time to reach out to 
 
 ### Asking for help
 
-So you've spent some time struggling to solve the problem on your own, and now it's time to fire up the Odin Discord and ask for help. The first thing to keep in mind is [don't ask to ask](https://dontasktoask.com/). While this is a simple idea (with a pretty catchy motto!), it can help you get answers to your questions much faster and will make it easier to others to feel comfortable offering you help.
+So you've spent some time struggling to solve the problem on your own, and now it's time to fire up The Odin Project Discord server and ask for help. The first thing to keep in mind is [don't ask to ask](https://dontasktoask.com/). While this is a simple idea (with a pretty catchy motto!), it can help you get answers to your questions much faster and will make it easier for others to feel comfortable offering you help.
 
 In addition, when you ask your questions, you should help the community help you by putting together a great question.
 
@@ -48,7 +48,7 @@ When asking your question, please remember to include the context:
 
 If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it, or use the PrtScn and paste keyboard shortcuts. If you don’t know how to take a screenshot on your computer, this is a good time to use your favorite search engine.
 
-Screenshots are great for showing the output of commands or error messages in the command line. Screenshots are also great for showing the output from your code such as how the output looks visually on a webpage or console outputs in the browser. However, you should always include the corresponding files containing the error. Even if it is a short amount of code, providing it in the discord server in the proper format along with a screenshot of the output is helpful to those debugging it rather than just a screenshot. When you do share a screenshot of the output or how it looks visually make sure to push your project to GitHub or share your corresponding code using an appropriate online REPL (such as [CodePen](https://codepen.io)) so that others can comb through and debug the code. The screenshot of the output and the correlating code that can recreate the problem will help make it easier to understand the problem for people helping you. You'll learn all about GitHub very soon.
+Screenshots are great for showing the output of commands or error messages in the command line. Screenshots are also great for showing the output from your code such as how the output looks visually on a webpage or console outputs in the browser. However, you should always include the corresponding files containing the error. Even if it is a short amount of code, providing it in the Discord server in the proper format along with a screenshot of the output is helpful to those debugging it rather than just a screenshot. When you do share a screenshot of the output or how it looks visually make sure to push your project to GitHub or share your corresponding code using an appropriate online REPL (such as [CodePen](https://codepen.io)) so that others can comb through and debug the code. The screenshot of the output and the correlating code that can recreate the problem will help make it easier to understand the problem for people helping you. You'll learn all about GitHub very soon.
 
 Sometimes there might be no one around to help you with your issue. That is the ideal time to get familiar with the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search). Search for specific keywords or error messages to see if anyone else had a similar issue before and how they solved it!
 
@@ -82,7 +82,7 @@ Your Multiple Lines of Colorful Code
 
 ### Chat features
 
-- Have fun with giphys: type `/gif hi` to say hi to everyone.
+- Have fun with GIFs: type `/gif hi` to say hi to everyone.
 - Type `/` to see all chat commands.
 - Show your appreciation to those who help you with `@username ++`.
 - Don't forget to visit all the available rooms!
@@ -131,7 +131,7 @@ Instead of answering these questions, politely ask them to use a search engine f
 
 #### 9. Do not answer questions covered in our curriculum
 
-If you know that the answer is provided in our curriculum, ask them where they are at in the curriculum.
+If you know that the answer is provided in our curriculum, ask them where they are in the curriculum.
 
 If they have not reached that portion of the curriculum, let them know they will learn it in the future.
 
@@ -145,7 +145,7 @@ When helping someone it can be easy to spot other problems in their code. Resolv
 
 It is common for students to not understand the importance of using a debugger to look at the values of their variables at different points in their program. When students are getting unexpected values, politely encourage them to use a debugger with our bot command `/debug`.
 
-#### 12. Watch for students that need to take a step back
+#### 12. Watch for students who need to take a step back
 
 It is common for students to focus too hard on a problem and not be able to clearly see everything. When this situation arises, politely encourage them to step back from the problem and take a break. Oftentimes, stepping away from a problem will help them see the bigger picture and how to solve it.
 
@@ -171,9 +171,11 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
 
 <div class="lesson-content__panel" markdown="1">
 
-1. First, [create a free GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
+1. First, [create a free Discord account](https://discord.com/register) if you don’t already have one.
 
-1. Now, sign in to [our Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
+1. Next, watch Discord's official overview video: [How Discord Works in 148,000 Milliseconds or Less](https://www.youtube.com/watch?v=TJ13BA3-NR4). In under two and a half minutes, it walks through core concepts like servers, text channels, and voice channels so you can navigate the app comfortably.
+
+1. Now, join [our Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an `#introductions` channel which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat channels for every development topic covered in our curriculum. Head over to the chat and start exploring!
 
 1. Here are some guidelines before you dive in:
 
