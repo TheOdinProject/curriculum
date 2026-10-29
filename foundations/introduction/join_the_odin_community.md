@@ -173,7 +173,7 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
 
 1. First, [create a free Discord account](https://discord.com/register) if you don’t already have one.
 
-1. Next, watch Discord's official overview video: [How Discord Works in 148,000 Milliseconds or Less](https://www.youtube.com/watch?v=TJ13BA3-NR4). In under two and a half minutes, it walks through core concepts like servers, text channels, and voice channels so you can navigate the app comfortably.
+1. If you're not familiar with Discord, watch their official overview video: [How Discord Works in 148,000 Milliseconds or Less](https://www.youtube.com/watch?v=TJ13BA3-NR4). In under two and a half minutes, it walks through core concepts like servers, text channels, and voice channels so you can navigate the app comfortably.
 
 1. Now, join [our Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an `#introductions` channel which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat channels for every development topic covered in our curriculum. Head over to the chat and start exploring!
 
