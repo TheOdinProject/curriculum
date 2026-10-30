@@ -43,8 +43,7 @@ At this point you should know enough to use Express to make some fun interactive
    ```
 
 1. Then, inside any middleware after it, you can access any property that you need from the `req.body` object to obtain the submitted values. For example, if we want to extract the author's name, we can do so by accessing `req.body.author`.
-1. To handle the form submission, add a controller to the `POST /new` route. In it, push a new message object into the `messages` array with the form data submitted.
-1. Once we have successfully added a new message, redirect users back to the index route so that they can see all the current messages.
+1. To handle the form submission, add a controller to the `POST /new` route. In it, push a new message object into the `messages` array with the form data submitted. Once you have successfully added a new message, redirect users back to the index route so that they can see all the current messages.
 1. At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
 1. Add an "open" button or link next to every message to open a new page with the message details.
 1. Push your project to GitHub.
