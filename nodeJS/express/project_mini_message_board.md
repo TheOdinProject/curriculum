@@ -26,7 +26,7 @@ At this point you should know enough to use Express to make some fun interactive
    ```
 
 1. First, let's add a controller to load all messages to your index view! Create a controller for the index (`"/"`) endpoint and call `res.render` (e.g. `res.render("index", { title: "Mini Messageboard", messages: messages })`).
-1. Next, in your index template (in the `"views"` folder) loop through the messages array and for each one, display the user, text and the date the message was added.
+1. Next, in your index view, loop through the messages array and for each one, display the author name, text, and the date the message was added.
 1. Next, let's set up the new message form. For the `"/new"` route, render a form to post your messages. In the views directory create your `form` template. Add a heading, 2 inputs (one for the author's name and one for the message text) and a submit button. To have the form make a network request you will need to define it with both a method and an action like so (we will learn how to handle forms in a later lesson):
 
    ```html
