@@ -138,7 +138,7 @@ Refresh the index page in the browser and try clicking the about link again, it 
 
 #### Relative links with and without ./
 
-For relative paths starting in the current directory, in some cases you don't actually need to include the `./` at the start. HTML links are one such example. The following two links will both work the same way as the missing `./` in the second one is implicitly added:
+For relative paths starting in the current directory, in some cases you don't actually need to include the `./` at the start. HTML links are one such example. The following two links will both work the same way, as the missing `./` in the second one is implicitly added:
 
 ```html
 <a href="./pages/about.html">About</a>
