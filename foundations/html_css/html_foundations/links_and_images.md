@@ -109,32 +109,21 @@ Back in the index page, add the following anchor element to create a link to the
   <h1>Homepage</h1>
   <a href="https://www.theodinproject.com/about">About The Odin Project</a>
 
-  <a href="about.html">About</a>
+  <a href="./about.html">About</a>
 </body>
 ```
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
-This works because the index and about page are in the same directory. That means we can use its name (`about.html`) as the link's `href` value.
+This works because the index and about page are in the same directory. The `./` at the start means "the current directory", so the path basically translates to "in the current directory, go to `about.html`".
 
-But we will usually want to organize our website directories a little better. Normally we would only have the `index.html` at the root directory and all other HTML files in their own directory.
+We would usually want to organize our website directories a little better, however. Normally, we would only have the `index.html` at the root directory and all other HTML files in their own directory.
 
 Create a directory named `pages` within the `odin-links-and-images` directory and move the `about.html` file into this new directory.
 
-Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the about page file has changed.
+Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the about page file has changed; now when the link looks "in the current directory for `about.html`", it finds nothing.
 
-To fix this, we just need to update the about link `href` value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
-
-```html
-<body>
-  <h1>Homepage</h1>
-  <a href="pages/about.html">About</a>
-</body>
-```
-
-Refresh the index page in the browser and try clicking the about link again, it should now be back in working order.
-
-In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending `./` before the link will in most cases prevent such issues. By adding  `./` you are specifying to your code that it should start looking for the file/directory *relative* to the `current` directory.
+To fix this, we just need to update the about link `href` value to include the `pages` directory since that is now the new location of the `about.html` file *relative* to the `index.html` file.
 
 ```html
 <body>
@@ -142,6 +131,25 @@ In many cases, this will work just fine; however, you can still run into unexpec
   <a href="./pages/about.html">About</a>
 </body>
 ```
+
+Refresh the index page in the browser and try clicking the about link again, it should now be back in working order.
+
+<div class="lesson-note" markdown="1">
+
+#### Relative links with and without ./
+
+For relative paths starting in the current directory, in some cases you don't actually need to include the `./` at the start. HTML links are one such example. The following two links will both work the same way, as the missing `./` in the second one is implicitly added:
+
+```html
+<a href="./pages/about.html">About</a>
+<a href="pages/about.html">About</a>
+```
+
+There are other things that also allow you to omit `./` when using a relative path starting from the current directory. However, not everything works this way. For some things, such as JavaScript modules (which you'll encounter later in the curriculum), if you want to use a relative path starting from the current directory, you *must* include the leading `./` (so something like `a/b` and `./a/b` would *not* be treated the same way).
+
+So while you can technically omit the starting `./` in HTML just fine, and you will invariably see this done in the wild sometimes, you may personally wish to just always lead with `./` if starting from the current directory. That way, you don't get caught out when dealing with something that actually requires them.
+
+</div>
 
 #### A metaphor
 
