@@ -331,11 +331,3 @@ With time, you are going to be better at adhering to rules but perhaps more impo
 1. [Watch Sandi Metz' "Rules"](https://www.youtube.com/watch?v=npOGOmkxuio) for a lovely exploration of the what, why and how of rules generally and also in the Ruby context.
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- If you're curious about RuboCop's history and how it works [Bozhidar Batsov's All About RuboCop talk](https://www.youtube.com/watch?v=nrHjVCuVsGA) should be a satisfying listen.
-- [Vincius Stock's Improving the development experience with language servers talk](https://www.youtube.com/watch?v=kEfXPTm1aCI) is great for people who want to know more about Language Server Protocol, specifically the Ruby one.
-- [Honeybadger's article about Rubocop](https://www.honeybadger.io/blog/linting-formatting-ruby/) might give you a different perspective and introduce some features not covered in the lesson.
