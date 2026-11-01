@@ -357,11 +357,3 @@ After that, you will enjoy all the benefits of using `Ruby LSP` and its `RuboCop
 1. Check out [Ruby LSP VSCode extension's README](https://github.com/Shopify/ruby-lsp/tree/main/vscode#readme).
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Listen to one of Bundler's maintainers talk about managing dependencies in Ruby](https://www.youtube.com/watch?v=j2V-A8vvLP0) or alternatively, [read the talk](https://andre.arko.net/2015/04/28/how-does-bundler-work-anyway/).
-- [More on semantic versioning—perhaps conventional commits will make more sense to you now!](https://semver.org)
-- [If you'd like an alternative take on the lesson, Connor Stack's article might be of help](https://medium.com/@connorstack/understanding-ruby-load-require-gems-bundler-and-rails-autoloading-from-the-bottom-up-3b422902ca0).
