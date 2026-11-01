@@ -17,9 +17,3 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
   1. Post your solution below!
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Not directly helpful, but here are some [Ruby game libraries](https://www.ruby-toolbox.com/categories/game_libraries) for fun.
