@@ -291,7 +291,7 @@ node db/populatedb.js <production-db-url>
 1. Update the above project we've been working on.
     1. Implement environment variables for db connection information.
     1. Add search functionality via query parameters on the index route. For example, `GET /?search=sup` should return all usernames containing `sup`. DON'T implement this in JavaScript, search should be done in SQL.
-    1. Add a new route `GET /delete` that displays a page with a form asking the user to confirm that they want to delete all usernames from the database. Submitting the form should send a `POST /delete` request that deletes all usernames.
+    1. Add a new route `GET /delete`. This should display a page with a form asking the user to confirm that they want to delete all usernames from the database. Submitting the form should send a `POST /delete` request that deletes all usernames.
 1. In our previous Mini Message Board project, we implemented ephemeral messages using an array i.e. the messages would reset when server restarted. We want data persistence. Go back to this project and implement it with a PostgreSQL db and `pg`.
    - Deploy a new db on a hosting service you choose, and obtain its connection information.
    - Create a `messages` table, populate it with data if you wish. This should be done via a script.
