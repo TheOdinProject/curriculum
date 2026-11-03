@@ -37,7 +37,6 @@ The hiring process for internships is usually similar to but not quite as rigoro
 
 1. You can learn a bit about the perspective of hiring managers by reading blog posts about how to hire developers.  No need to go crazy, but try to get a picture of why they're hiring you:
 
-    - Read about [The Best Way to Hire Software Developers](http://insights.dice.com/2013/05/31/hiring-software-developers/).
     - Read this blog post about [How to Hire Talent](http://lifeofaprogrammanager.blogspot.com/2006/06/how-to-hire-talent.html).
     - [Joel Spolsky has a lengthy diatribe on hiring developers](http://www.joelonsoftware.com/articles/FindingGreatDevelopers.html), which should give you an idea of the need and pain of hiring great engineers.
     - [Joel Spolsky's Guerrilla Guide to Interviewing (version 3.0)](http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html).  Look for "people who are 1. Smart, and 2. Get things done".
