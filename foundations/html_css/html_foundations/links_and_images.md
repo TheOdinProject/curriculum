@@ -195,7 +195,7 @@ When you download a file from the internet, Windows has a security feature that 
 
 1. Right click on the new download at the bottom of the chrome window and select "Show in folder".
 
-   1. Alternatively, if you do not see anything at the bottom of the chrome window, open the "Customize and control Google Chrome kebab menu and select the "Downloads" item. This will show all of your downloads, each with its own "Show in folder" button.
+   1. Alternatively, if you do not see anything at the bottom of the chrome window, open the "Customize and control Google Chrome" kebab menu and select the "Downloads" item. This will show all of your downloads, each with its own "Show in folder" button.
 
 1. Rename the image to `dog.jpg`.
 
