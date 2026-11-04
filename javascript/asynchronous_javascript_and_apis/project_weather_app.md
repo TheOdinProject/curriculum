@@ -1,8 +1,8 @@
 ### Introduction
 
-Use everything we've been discussing to create a weather forecast site using the Visual Crossing API from previous lessons. You should be able to search for a specific location and toggle displaying the data in Fahrenheit or Celsius.
+Use everything we've been discussing to create a weather forecast site. You should be able to search for a specific location and toggle displaying the data in Fahrenheit or Celsius.
 
-You should change the look of the page based on the data, maybe by changing the color of the background or by adding images that describe the weather. (You could even use the Giphy API to find appropriate weather-related gifs and display them). Feel free to use promises or async/await in your code, though you should try to become comfortable with both.
+You should change the look of the page based on the data, maybe by changing the color of the background or by adding images that describe the weather. Feel free to use promises or async/await in your code, though you should try to become comfortable with both.
 
 ### API keys, secrets, and security
 
@@ -13,6 +13,8 @@ When talking about API keys and security you'll often hear "Never trust the clie
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
+Use the [Visual Crossing Weather API](https://www.visualcrossing.com/weather-api/) for this project. Fortunately, it does not require signing up nor does it require an API key; free users get up to 1000 queries per day. For specifics on usage, refer to their API documentation. Feel free to play around with their [query builder](https://www.visualcrossing.com/weather-query-builder/) tool as well (as of writing, the query builder provides URLs with an API key field, but this can be omitted).
 
 1. Set up a blank HTML document with the appropriate links to your JavaScript and CSS files.
 1. Write the functions that hit the API. You're going to want functions that can take a location and return the weather data for that location. For now, just `console.log()` the information.
