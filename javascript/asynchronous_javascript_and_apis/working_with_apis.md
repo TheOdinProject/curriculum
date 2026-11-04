@@ -23,10 +23,10 @@ https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timel
 
 The specifics for using any API are usually documented on the service's website. Check out the [Visual Crossing API Documentation](https://www.visualcrossing.com/resources/documentation/weather-api/timeline-weather-api/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
 
-You'll probably get an error like this:
+Here's an example of the kind of response you'll receive from the API:
 
 ```text
-No API key or session found. Please verify that your API key parameter is correct.
+{"queryCost":1,"latitude":51.5072,"longitude":-0.1275,"resolvedAddress":"london","address":"london","timezone":"Europe/London","tzoffset":0.0,"description":"Similar temperatures continuing with a chance of rain Tuesday & Wednesday.","days":[{"datetime":"2026-11-04","datetimeEpoch":1793750400,"tempmax":50.3,"tempmin":47.7,"temp":49.1,"feelslikemax":50.3,"feelslikemin":42.1,"feelslike":44.9,"dew":39.4,"humidity":70.1,"wbgt":45.9,"precip":0.032,"precipprob":26.0,"precipcover":12.5,"preciptype":["rain"],"precipremote":null,"reflectivity":null,"snow":0.0,"snowdepth":0.0,"windgust":31.1,"windspeed":20.3,"winddir":66.3,"pressure":1029.0,"cloudcover":96.2,"visibility":10.6,"solarradiation":50.9,"solarenergy":4.4,"uvindex":3.0,"uvindex2":null,"severerisk":0.0,"windspeedmax":20.3,"windspeedmean":12.5,"windspeedmin":7.6,"cape":13.0,"cin":-12.0,"lightningrisk":0.0,"hailrisk":0.0,"sunrise":"06:59:15","sunset":"16:28:16","moonphase":0.83,"conditions":"Overcast","description":"Cloudy skies throughout the day.","icon":"cloudy","stations":["EGWU","EGLL","D5621","EGLC"]
 ```
 
 This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request. With Visual Crossing, that's as a query string parameter:
@@ -39,7 +39,7 @@ As you can imagine, an API key is random and unique to you. As such, services li
 
 Issuing API keys allows an API service to better track abuse of their systems and data. Additionally, it can also be a way for those services to mitigate and recuperate operating costs. Visual Crossing, for example, provides not only a free tier but a variety of paid tiers that can cost up to 150 USD/month! After all, running servers costs money, and APIs are no exception. While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing weather app that gets used all over the world... you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
 
-As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, Visual Crossing's free version allows 1000 calls/requests per day with a limited amount of information (albeit sufficient for a pet project). On the other hand, the Enterprise version provides unlimited API calls per month, has Energy data, Maritime data... all those bells and whistles ([details about Visual Crossing's pricing](https://www.visualcrossing.com/weather-data-editions) if you're curious). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
+As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, Visual Crossing's free version allows 1000 calls/requests per day with a limited amount of information (albeit sufficient for a pet project). On the other hand, the Enterprise version provides unlimited API calls per month, has Energy data, Maritime data... all those bells and whistles ([details about Visual Crossing's pricing](https://www.visualcrossing.com/weather-data-pricing/) if you're curious). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
 
 Because your API key is **your** key to these services and data, securing them is an important habit, especially if you are using a paid tier. There are plenty of bots that crawl GitHub repositories solely for hardcoded/unsecured API keys, allowing bad agents to then access and [utilize the services and data you've paid for](https://web.archive.org/web/20150102022540/http://www.devfactor.net/2014/12/30/2375-amazon-mistake/). In fact, the more eagle-eyed readers may have noticed a problem with the demonstration above: The API key is right there in the URL request. It would not take much for an internet traffic sniffer to pick up on the API key, least of all someone looking over your shoulder!
 
@@ -57,7 +57,7 @@ Back to Visual Crossing. Go ahead and [create a free Visual Crossing account](ht
 
 #### Visual Crossing's query builder
 
-Curious how to construct queries? Check out [Visual Crossing's query builder](https://www.visualcrossing.com/weather/weather-data-services)! This will help you build a query with the region as the only input. Play around with the location and query options. Neat, isn't it? The output uses the "Grid" tab, but our query is in the "API" tab, and we want to learn *how* the query was structured. Click on the "API" tab and it will show the query that led to the grid format you just saw.
+Curious how to construct queries? Check out [Visual Crossing's query builder](https://www.visualcrossing.com/weather-query-builder/)! This will help you build a query with the region as the only input. Play around with the location and query options. Neat, isn't it? The output uses the "Grid" tab, but our query is in the "Builder API Query" tab, and we want to learn *how* the query was structured. Click on the "Builder API Query" tab and it will show the query that led to the grid format you just saw.
 
 </div>
 
@@ -92,7 +92,7 @@ request.send(null);
 
 Ouch. That was painful.
 
-Developers, feeling the pain of having to write that stuff out, began writing 3rd party libraries to take care of this and make it much easier to use. Some of the more popular libraries are [axios](https://github.com/mzabriskie/axios) and [superagent](https://github.com/visionmedia/superagent), both of which have their strengths and weaknesses.
+Developers, feeling the pain of having to write that stuff out, began writing 3rd party libraries to take care of this and make it much easier to use. Some of the more popular libraries are [axios](https://github.com/axios/axios) and [superagent](https://github.com/forwardemail/superagent), both of which have their strengths and weaknesses.
 
 More recently, however, web browsers have begun to implement a new native function for making HTTP requests, and that's the one we're going to use and stick with for now. Meet fetch:
 
