@@ -104,17 +104,17 @@ A couple of years ago the main way to access API data in your code was using an 
 ```javascript
 // Just getting XHR is a mess!
 if (window.XMLHttpRequest) { // Mozilla, Safari, ...
-  request = new XMLHttpRequest();
+  request = new XMLHttpRequest();
 } else if (window.ActiveXObject) { // IE
-  try {
-    request = new ActiveXObject('Msxml2.XMLHTTP');
-  }
-  catch (e) {
-    try {
-      request = new ActiveXObject('Microsoft.XMLHTTP');
-    }
-    catch (e) {}
-  }
+  try {
+    request = new ActiveXObject('Msxml2.XMLHTTP');
+  } catch (Msxml2Error) {
+    try {
+      request = new ActiveXObject('Microsoft.XMLHTTP');
+    } catch (MicrosoftError) {
+
+    }
+  }
 }
 
 // Open, send.
@@ -131,11 +131,11 @@ Nowadays, however, web browsers have a simpler native function for making HTTP r
 ```javascript
 // URL (required), options (optional)
 fetch('https://url.com/some/url')
-  .then(function(response) {
+  .then(function(response) {
     // Successful response :)
   })
   .catch(function(err) {
-    // Error :(
+    // Error :(
   });
 ```
 
@@ -153,13 +153,13 @@ For now, we're going to keep all of this in a single HTML file. So go ahead and 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Document</title>
 </head>
 <body>
-  <img src="#">
-  <script>
-  </script>
+  <img src="#">
+  <script>
+  </script>
 </body>
 </html>
 ```
@@ -168,7 +168,7 @@ In the script tag, let's start by selecting the image element and assigning it t
 
 ```html
 <script>
-  const img = document.querySelector('img');
+  const img = document.querySelector('img');
 </script>
 ```
 
@@ -176,11 +176,11 @@ Adding fetch with our URL from above is also relatively easy:
 
 ```html
 <script>
-  const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
-    .then(function(response) {
-      console.log(response.json());
-    });
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
+    .then(function(response) {
+      console.log(response.json());
+    });
 </script>
 ```
 
@@ -188,14 +188,14 @@ You should now be able to open the HTML file in your browser, and while you won'
 
 ```html
 <script>
-  const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(response) {
-      console.log(response);
-    });
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(response) {
+      console.log(response);
+    });
 </script>
 ```
 
@@ -207,14 +207,14 @@ To get to the data we need to drill down through the layers of the object until 
 
 ```html
 <script>
-  const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(response) {
-      console.log(response.data.images.original.url);
-    });
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(response) {
+      console.log(response.data.images.original.url);
+    });
 </script>
 ```
 
@@ -222,14 +222,14 @@ Running the file should now log the URL of the image. All that's left to do is s
 
 ```html
 <script>
-  const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(response) {
-      img.src = response.data.images.original.url;
-    });
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(response) {
+      img.src = response.data.images.original.url;
+    });
 </script>
 ```
 
