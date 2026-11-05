@@ -6,60 +6,100 @@ One of the most powerful things a web developer can do is fetching data from a s
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain what an API is.
-- Explain broadly how access to an API works.
-- Explain how to fetch and extract data from an API.
-- Explain why your API request might be blocked by the browser, and how to fix this.
+- What APIs are.
+- How access to an API works.
+- How to fetch and extract data from an API.
 
 ### APIs
 
-Servers created to provide functionality and serve data for external use (in websites or apps) often do so using APIs, or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
+Servers created to provide functionality and serve data for external use (in websites or apps) often do so using [Application Programming Interfaces (APIs)](https://www.youtube.com/watch?v=s7wmiS2mSXY).
 
-There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, [Visual Crossing](https://www.visualcrossing.com/weather-api) has a weather API that has several types of data you can request. To get the current weather in a specific location, you can pass in the name of a city into the path of the URL, like so:
-
-```text
-https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/london
-```
-
-The specifics for using any API are usually documented on the service's website. Check out the [Visual Crossing API Documentation](https://www.visualcrossing.com/resources/documentation/weather-api/timeline-weather-api/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
-
-You'll probably get an error like this:
+There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, [GIPHY](https://giphy.com/) has an API for GIFs. You can check out the [GIPHY API documentation](https://developers.giphy.com/docs/api/) for more specific usage information. To get a random cat GIF from GIPHY's API, you can pass search queries into a URL like so:
 
 ```text
-No API key or session found. Please verify that your API key parameter is correct.
+https://api.giphy.com/v1/gifs/random?rating=g&tag=cats
 ```
 
-This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request. With Visual Crossing, that's as a query string parameter:
+Go ahead and paste the URL above into your browser (we'll wait).
+
+You’ll probably get an HTTP error response like this:
+
+```json
+{
+  "data": [],
+  "meta": {
+    "status": 401,
+    "msg": "Unauthorized",
+    "response_id": ""
+  }
+}
+```
+
+This brings us to another point about many APIs: keys.
+
+### API keys
+
+In many cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request in some way. With GIPHY, that's as a query string parameter:
 
 ```text
-https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/london?key=11111111111111111
+https://api.giphy.com/v1/gifs/random?rating=g&tag=cats&api_key=8472697968737880827974696784
 ```
 
-As you can imagine, an API key is random and unique to you. As such, services like Visual Crossing can correlate your API key to your requests of their data, including how much and how often you are requesting it.
+As you can imagine, an API key is random and unique to you. As such, services like GIPHY can correlate your API key to your requests of their data, including what you're requesting and how often you are requesting it.
 
-Issuing API keys allows an API service to better track abuse of their systems and data. Additionally, it can also be a way for those services to mitigate and recuperate operating costs. Visual Crossing, for example, provides not only a free tier but a variety of paid tiers that can cost up to 150 USD/month! After all, running servers costs money, and APIs are no exception. While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing weather app that gets used all over the world... you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
+Issuing API keys allows an API service to better track abuse of their systems and data. Additionally, it can also be a way for those services to mitigate and recuperate operating costs. After all, running servers costs money and APIs are no exception! While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing images app that gets used all over the world... you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
 
-As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, Visual Crossing's free version allows 1000 calls/requests per day with a limited amount of information (albeit sufficient for a pet project). On the other hand, the Enterprise version provides unlimited API calls per month, has Energy data, Maritime data... all those bells and whistles ([details about Visual Crossing's pricing](https://www.visualcrossing.com/weather-data-editions) if you're curious). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
+As such, you'll find that many API services provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, the GIPHY API has a free version that allows 100 calls (a.k.a. requests) per hour. On the other hand, the production version provides unlimited API calls for a custom pricing agreement. So if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
 
-Because your API key is **your** key to these services and data, securing them is an important habit, especially if you are using a paid tier. There are plenty of bots that crawl GitHub repositories solely for hardcoded/unsecured API keys, allowing bad agents to then access and [utilize the services and data you've paid for](https://web.archive.org/web/20150102022540/http://www.devfactor.net/2014/12/30/2375-amazon-mistake/). In fact, the more eagle-eyed readers may have noticed a problem with the demonstration above: The API key is right there in the URL request. It would not take much for an internet traffic sniffer to pick up on the API key, least of all someone looking over your shoulder!
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-At this point in the curriculum, though, this point is largely moot. After all, we're leveraging free access to APIs, and the majority of our apps are only going to be used by us and the people that view our portfolios. Just make a note of the severe limitations of using API keys as demonstrated above for now. Securing API keys requires handling things server-side, and we are only focusing on the frontend concepts here. If you are in the Full Stack JavaScript pathway, the backend will be covered later in the curriculum.
+#### API attribution
 
-Back to Visual Crossing. Go ahead and [create a free Visual Crossing account](https://www.visualcrossing.com/sign-up) to obtain an API key. You can find your API key in your account profile page. Once you have your key, try making a new request with the city of your choice, and the API key passed in as query string parameters, like the example above. You'll hopefully see a proper response, something like:
-
-```JSON
-{"queryCost":1,"latitude":51.5064,"longitude":-0.12721,"resolvedAddress":"London, England, United Kingdom","address":"london","timezone":"Europe/London","tzoffset":1.0,"description":"Similar temperatures continuing with a chance of rain tomorrow, Tuesday & Thursday.","days":[{"datetime":"2024-07-06","datetimeEpoch":1720220400,"tempmax":61.4,"tempmin":53.1,"temp":57.8,"feelslikemax":61.4,"feelslikemin":53.1,"feelslike":57.8,"dew":51.3,"humidity":79.7,"precip":0.457,"precipprob":100.0,"precipcover":75.0,"preciptype":["rain"],"snow":0.0,"snowdepth":0.0,"windgust":35.3,"windspeed":21.9,"winddir":262.6,"pressure":1001.8,"cloudcover":70.5,"visibility":8.3,"solarradiation":147.5,"solarenergy":12.9,"uvindex":6.0,"severerisk":10.0,"sunrise":"04:52:02","sunriseEpoch":1720237922,"sunset":"21:18:20","sunsetEpoch":1720297100,"moonphase":0.02,"conditions":"Rain, Partially cloudy","description":"Partly cloudy throughout the day with a chance of rain throughout the day.","icon":"rain","stations":["EGWU","EGLL","D5621","EGLC"]}]}
-```
-
-(This preview above is just the tip of the iceberg, the actual response is a lot longer!)
-
-<div class="lesson-note" markdown="1">
-
-#### Visual Crossing's query builder
-
-Curious how to construct queries? Check out [Visual Crossing's query builder](https://www.visualcrossing.com/weather/weather-data-services)! This will help you build a query with the region as the only input. Play around with the location and query options. Neat, isn't it? The output uses the "Grid" tab, but our query is in the "API" tab, and we want to learn *how* the query was structured. Click on the "API" tab and it will show the query that led to the grid format you just saw.
+In many cases, APIs will require some form of attribution for use in apps, especially ones allowing free use. Attribution instructions would usually be detailed in their documentation in some way if required. For example, [GIPHY API attribution](https://developers.giphy.com/docs/api/#quick-start-guide) involves displaying "Powered By GIPHY" wherever the API is being used.
 
 </div>
+
+Because your API key is **your** key to these services and data, securing them is an important habit, especially if you are using a paid tier. There are plenty of bots that crawl GitHub repositories solely for hardcoded/unsecured API keys, [allowing bad agents to then access and utilize the services and data you've paid for](https://web.archive.org/web/20150102022540/http://www.devfactor.net/2014/12/30/2375-amazon-mistake/). In fact, the more eagle-eyed readers may have noticed a problem with the demonstration above: The API key is right there in the URL request. Since the URL would be sent from the client (a browser), it would not take much for an internet traffic sniffer to pick up on the API key, least of all someone looking over your shoulder!
+
+At this point in the curriculum, though, this point is largely moot. After all, we're leveraging free access to APIs, and the majority of our apps are only going to be used by us and the people that view our portfolios. Just make a note of the severe limitations of using API keys as demonstrated above for now. Securing API keys requires handling things server-side, and we are only focusing on the frontend concepts here. If you are in the Full Stack JavaScript pathway, the back end will be covered later in the curriculum.
+
+Back to GIPHY. Go ahead and [create a free GIPHY account](https://giphy.com/join) then head over to the [GIPHY developer dashboard](https://developers.giphy.com/dashboard/) to obtain an API key. Once you have your key, try the previous request again but with your key passed in as the `api_key` query string parameter. You'll hopefully see a proper response, something like this (which we've truncated):
+
+```json
+{
+  "data": {
+    "type": "gif",
+    "id": "LgKYWVyOtjtHgJlXhE",
+    "url": "https://giphy.com/gifs/night-led3an-led3-LgKYWVyOtjtHgJlXhE",
+    "slug": "night-led3an-led3-LgKYWVyOtjtHgJlXhE",
+    "bitly_gif_url": "https://gph.is/g/aKPMvql",
+    "bitly_url": "https://gph.is/g/aKPMvql",
+    "embed_url": "https://giphy.com/embed/LgKYWVyOtjtHgJlXhE",
+    "username": "led3an",
+    "source": "",
+    "title": "You And Me Love GIF",
+    "rating": "g",
+    "content_url": "",
+    "source_tld": "",
+    "source_post_url": "",
+    "is_sticker": 0,
+    "import_datetime": "2026-09-18 05:04:13",
+    "trending_datetime": "0000-00-00 00:00:00",
+    "images": {
+      "original": {
+        "height": "450",
+        "width": "450",
+        "size": "6631786",
+        "url": "https://media0.giphy.com/media/v1.Y2lkPTRhYzNiM2FhZGEycnB5d2lxM2pmZW83eHZhMzNxejE4a3FobHd3bG13bHF2eXhoNCZlcD12MV9naWZzX3JhbmRvbSZjdD1n/LgKYWVyOtjtHgJlXhE/giphy.gif",
+        "mp4_size": "405600",
+        "mp4": "https://media0.giphy.com/media/v1.Y2lkPTRhYzNiM2FhZGEycnB5d2lxM2pmZW83eHZhMzNxejE4a3FobHd3bG13bHF2eXhoNCZlcD12MV9naWZzX3JhbmRvbSZjdD1n/LgKYWVyOtjtHgJlXhE/giphy.mp4",
+        "webp_size": "1329736",
+        "webp": "https://media0.giphy.com/media/v1.Y2lkPTRhYzNiM2FhZGEycnB5d2lxM2pmZW83eHZhMzNxejE4a3FobHd3bG13bHF2eXhoNCZlcD12MV9naWZzX3JhbmRvbSZjdD1n/LgKYWVyOtjtHgJlXhE/giphy.webp",
+        "frames": "65",
+        "hash": "6ebcf82d860832b690c6bb00e946c23e"
+      },
+// and more ...
+```
 
 Congratulations on making your first API request!
 
@@ -72,17 +112,17 @@ A couple of years ago the main way to access API data in your code was using an 
 ```javascript
 // Just getting XHR is a mess!
 if (window.XMLHttpRequest) { // Mozilla, Safari, ...
-  request = new XMLHttpRequest();
+  request = new XMLHttpRequest();
 } else if (window.ActiveXObject) { // IE
-  try {
-    request = new ActiveXObject('Msxml2.XMLHTTP');
-  }
-  catch (e) {
-    try {
-      request = new ActiveXObject('Microsoft.XMLHTTP');
-    }
-    catch (e) {}
-  }
+  try {
+    request = new ActiveXObject('Msxml2.XMLHTTP');
+  } catch (Msxml2Error) {
+    try {
+      request = new ActiveXObject('Microsoft.XMLHTTP');
+    } catch (MicrosoftError) {
+
+    }
+  }
 }
 
 // Open, send.
@@ -94,31 +134,24 @@ Ouch. That was painful.
 
 Developers, feeling the pain of having to write that stuff out, began writing 3rd party libraries to take care of this and make it much easier to use. Some of the more popular libraries are [axios](https://github.com/mzabriskie/axios) and [superagent](https://github.com/visionmedia/superagent), both of which have their strengths and weaknesses.
 
-More recently, however, web browsers have begun to implement a new native function for making HTTP requests, and that's the one we're going to use and stick with for now. Meet fetch:
+Nowadays, however, web browsers have a simpler native function for making HTTP requests, and that's the one we're going to use and stick with for now. Meet `fetch`:
 
 ```javascript
 // URL (required), options (optional)
 fetch('https://url.com/some/url')
-  .then(function(response) {
+  .then(function(response) {
     // Successful response :)
   })
   .catch(function(err) {
-    // Error :(
+    // Error :(
   });
 ```
 
 In case you've forgotten, scroll back up and look at how you would use XHR to do the same thing. While you're admiring how nice and clean that code is, notice the `.then()` and `.catch()` functions there. Do you remember what those are? (PROMISES!)
 
-Let's change up our API for this example. We're going to walk through an example using fetch with the [giphy](https://giphy.com/) API to display a random gif on a webpage. The API requires you [sign up to giphy and get a free API key](https://developers.giphy.com/docs/api/#quick-start-guide).
+Let's walk through an example using fetch with the GIPHY API to display a random GIF on a webpage.
 
-Giphy has several methods for searching and finding GIFs which you can read about in their documentation. Today we're just going to use the 'random' endpoint because it's the simplest one for our purposes. You can find the appropriate URL in the [Giphy `random` endpoint documentation](https://developers.giphy.com/docs/api/endpoint/random). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/random` and that it requires an `api_key` parameter. You can also provide a `tag` parameter to narrow down the GIFs returned. There are other optional parameters that you could include in your query. For example, the `rating` parameter allows you to look for content at different levels of sensitivity. If you put it all together correctly (with YOUR API key) you should get something like this:
-
-```javascript
-'https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g'
-// of course we're searching for cats
-```
-
-Go ahead and try that URL (with YOUR API key) in a browser. If everything goes well you should get a relatively long string of data and no errors.
+Giphy has several methods for searching and finding GIFs which you can read about in their documentation. We'll stick with the `random` endpoint because it's the simplest one for our purposes. You can find the appropriate URL in the [Giphy `random` endpoint documentation](https://developers.giphy.com/docs/api/endpoint/random). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/random` and that it requires an `api_key` parameter. There are other optional parameters that you could include in your query, such as the `tag` parameter to narrow down what GIF could be returned, as well as the `rating` parameter which allows you to look for content at different levels of sensitivity. That's how we got the full API URL earlier.
 
 ### Let's do this
 
@@ -128,22 +161,22 @@ For now, we're going to keep all of this in a single HTML file. So go ahead and 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Document</title>
 </head>
 <body>
-  <img src="#">
-  <script>
-  </script>
+  <img src="#">
+  <script>
+  </script>
 </body>
 </html>
 ```
 
-In the script tag, let's start by selecting the image element and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
+In the script tag, let's start by selecting the image element and assigning it to a variable so that we can change the URL once we've received it from the GIPHY API.
 
 ```html
 <script>
-  const img = document.querySelector('img');
+  const img = document.querySelector('img');
 </script>
 ```
 
@@ -151,11 +184,11 @@ Adding fetch with our URL from above is also relatively easy:
 
 ```html
 <script>
-  const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
-    .then(function(response) {
-      console.log(response.json());
-    });
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
+    .then(function(response) {
+      console.log(response.json());
+    });
 </script>
 ```
 
@@ -163,14 +196,14 @@ You should now be able to open the HTML file in your browser, and while you won'
 
 ```html
 <script>
-  const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(response) {
-      console.log(response);
-    });
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(response) {
+      console.log(response);
+    });
 </script>
 ```
 
@@ -182,14 +215,14 @@ To get to the data we need to drill down through the layers of the object until 
 
 ```html
 <script>
-  const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(response) {
-      console.log(response.data.images.original.url);
-    });
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(response) {
+      console.log(response.data.images.original.url);
+    });
 </script>
 ```
 
@@ -197,20 +230,18 @@ Running the file should now log the URL of the image. All that's left to do is s
 
 ```html
 <script>
-  const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(response) {
-      img.src = response.data.images.original.url;
-    });
+  const img = document.querySelector('img');
+  fetch('https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY_HERE&tag=cats&rating=g')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(response) {
+      img.src = response.data.images.original.url;
+    });
 </script>
 ```
 
 If all goes well, you should see a randomly selected image on the page every time you refresh!
-
-While we are pushing this API key to the frontend, this isn't something you should do with any key that is not free. Keys used on the client-side are considered public knowledge, so caution must be taken with sensitive and non-free keys. Handling keys without pushing them to the frontend will be taught in later sections if you haven't already learned it in the Ruby course.
 
 ### Assignment
 
@@ -218,7 +249,7 @@ While we are pushing this API key to the frontend, this isn't something you shou
 
 1. Check out this [list of Public APIs](https://github.com/n0shake/Public-APIs) and let your imagination go wild.
 1. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
-1. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to manage some errors (e.g. invalid URL). Keep in mind that if the API responds, even with something like a `404 Not Found` or some other non-2XX status response, that is still a valid response and `fetch` will therefore not throw an error, meaning the `.catch()` will not run. It may still end up running if your following JavaScript code throws an error, such as trying to access a property of `undefined`, or even if you manually throw an error yourself.
+1. Add a search box so users can search for specific GIFs. You should also investigate adding a `.catch()` to manage some errors (e.g. invalid URL). Keep in mind that if the API responds, even with something like a `404 Not Found` or some other non-2XX status response, that is still a valid response and `fetch` will therefore not throw an error, meaning the `.catch()` will not run. It may still end up running if your following JavaScript code throws an error, such as trying to access a property of `undefined`, or even if you manually throw an error yourself.
 
    If you want to conditionally handle any situations where the API does not give you the desired response (e.g. a `404 Not Found` or similar), you will need to do this manually in your `.then()`. Check out [MDN's docs for the Response object](https://developer.mozilla.org/en-US/docs/Web/API/Response) for some useful properties.
 
