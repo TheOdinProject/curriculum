@@ -8,7 +8,7 @@ You should change the look of the page based on the data, maybe by changing the 
 
 <div class="lesson-content__panel" markdown="1">
 
-Use the [Visual Crossing Weather API](https://www.visualcrossing.com/weather-api/) for this project. Fortunately, it does not require signing up nor does it require an API key; free users get up to 1000 queries per day. For specifics on usage, refer to their API documentation. Feel free to play around with their [query builder](https://www.visualcrossing.com/weather-query-builder/) tool as well (as of writing, the query builder provides URLs with an API key field, but this can be omitted).
+Use the [Visual Crossing Weather API](https://www.visualcrossing.com/weather-api/) for this project. Fortunately, it does not require signing up nor does it require an API key; free users get up to 1000 queries per day. For specifics on usage, refer to their API documentation. Feel free to play around with their [query builder](https://www.visualcrossing.com/weather-query-builder/) tool as well (as of writing, the query builder provides URLs with an API key field, but this can be omitted). As with many free APIs, check their documentation for attribution requirements/instructions.
 
 1. Set up a blank HTML document with the appropriate links to your JavaScript and CSS files.
 1. Write the functions that hit the API. You're going to want functions that can take a location and return the weather data for that location. For now, just `console.log()` the information.

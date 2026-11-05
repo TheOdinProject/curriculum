@@ -51,6 +51,14 @@ Issuing API keys allows an API service to better track abuse of their systems an
 
 As such, you'll find that many API services provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, the GIPHY API has a free version that allows 100 calls (a.k.a. requests) per hour. On the other hand, the production version provides unlimited API calls for a custom pricing agreement. So if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
 
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### API attribution
+
+In many cases, APIs will require some form of attribution for use in apps, especially ones allowing free use. Attribution instructions would usually be detailed in their documentation in some way if required. For example, [GIPHY API attribution](https://developers.giphy.com/docs/api/#quick-start-guide) involves displaying "Powered By GIPHY" wherever the API is being used.
+
+</div>
+
 Because your API key is **your** key to these services and data, securing them is an important habit, especially if you are using a paid tier. There are plenty of bots that crawl GitHub repositories solely for hardcoded/unsecured API keys, [allowing bad agents to then access and utilize the services and data you've paid for](https://web.archive.org/web/20150102022540/http://www.devfactor.net/2014/12/30/2375-amazon-mistake/). In fact, the more eagle-eyed readers may have noticed a problem with the demonstration above: The API key is right there in the URL request. Since the URL would be sent from the client (a browser), it would not take much for an internet traffic sniffer to pick up on the API key, least of all someone looking over your shoulder!
 
 At this point in the curriculum, though, this point is largely moot. After all, we're leveraging free access to APIs, and the majority of our apps are only going to be used by us and the people that view our portfolios. Just make a note of the severe limitations of using API keys as demonstrated above for now. Securing API keys requires handling things server-side, and we are only focusing on the frontend concepts here. If you are in the Full Stack JavaScript pathway, the back end will be covered later in the curriculum.
