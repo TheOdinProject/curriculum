@@ -53,7 +53,7 @@ As the software installs, the progress bar might appear to be stuck; just wait f
 
 #### Step 2.2: New Virtual Machine
 
-Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen. Click on Settings, and select Expert. Then return to the start screen. 
+Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen. Click on Settings, and select Expert. Then return to the start screen.
 
 ![VirtualBox settings & Expert mode](../../installations/imgs/virtualbox_expert.png)
 
