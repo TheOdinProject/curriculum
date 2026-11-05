@@ -20,7 +20,7 @@ There are multiple ways of requesting data from an API, but all of them basicall
 https://api.giphy.com/v1/gifs/random?rating=g&tag=cats
 ```
 
-Go ahead and paste the weather URL above into your browser (we'll wait).
+Go ahead and paste the URL above into your browser (we'll wait).
 
 You’ll probably get an error like this:
 
