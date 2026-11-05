@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### APIs
 
-Servers created to provide functionality and serve data for external use (in websites or apps) often do so using APIs, or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
+Servers created to provide functionality and serve data for external use (in websites or apps) often do so using [Application Programming Interfaces (APIs)](https://www.youtube.com/watch?v=s7wmiS2mSXY).
 
 There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, [GIPHY](https://giphy.com/) has an API for GIFs. You can check out the [GIPHY API documentation](https://developers.giphy.com/docs/api/) for more specific usage information. To get a random cat GIF from GIPHY's API, you can pass search queries into a URL like so:
 
