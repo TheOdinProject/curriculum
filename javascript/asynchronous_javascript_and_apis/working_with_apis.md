@@ -55,7 +55,7 @@ Because your API key is **your** key to these services and data, securing them i
 
 At this point in the curriculum, though, this point is largely moot. After all, we're leveraging free access to APIs, and the majority of our apps are only going to be used by us and the people that view our portfolios. Just make a note of the severe limitations of using API keys as demonstrated above for now. Securing API keys requires handling things server-side, and we are only focusing on the frontend concepts here. If you are in the Full Stack JavaScript pathway, the back end will be covered later in the curriculum.
 
-Back to GIPY. Go ahead and [create a free GIPHY account](https://giphy.com/join) then head over to the [GIPHY developer dashboard](https://developers.giphy.com/dashboard/) to obtain an API key. Once you have your key, try the previous request again but with your key passed in as the `api_key` query string parameter. You'll hopefully see a proper response, something like this (which we've truncated):
+Back to GIPHY. Go ahead and [create a free GIPHY account](https://giphy.com/join) then head over to the [GIPHY developer dashboard](https://developers.giphy.com/dashboard/) to obtain an API key. Once you have your key, try the previous request again but with your key passed in as the `api_key` query string parameter. You'll hopefully see a proper response, something like this (which we've truncated):
 
 ```json
 {
