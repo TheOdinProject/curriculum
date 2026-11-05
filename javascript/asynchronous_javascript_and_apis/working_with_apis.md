@@ -22,7 +22,7 @@ https://api.giphy.com/v1/gifs/random?rating=g&tag=cats
 
 Go ahead and paste the URL above into your browser (we'll wait).
 
-You’ll probably get an error like this:
+You’ll probably get an HTTP error response like this:
 
 ```json
 {
