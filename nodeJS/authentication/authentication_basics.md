@@ -379,7 +379,7 @@ You should now be able to log in using the new user you've created (the one with
    1. [Passport Local Configuration](https://www.youtube.com/watch?v=xMEOT9J0IvI)
    1. [Passport Local Strategy Usage](https://www.youtube.com/watch?v=fGrSmBk9v-4)
 
-   **Note** that these videos use MongoDB and `connect-mongo`, you can translate them to use PostgreSQL and [`connect-pg-simple`](https://www.npmjs.com/package/connect-pg-simple) respectively.
+   Note that while these videos use MongoDB and `connect-mongo`, you can translate them to use PostgreSQL and [`connect-pg-simple`](https://www.npmjs.com/package/connect-pg-simple) respectively.
 1. In [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs), you can explore more comprehensive explanations of some of Passport's main functions, gaining a deeper understanding of what each function accomplishes.
 
 </div>
