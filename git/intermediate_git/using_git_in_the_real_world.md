@@ -24,11 +24,14 @@ Here is a visual representation of the workflow with Git and GitHub that illustr
 <pre class="mermaid">
 
 graph TD;
-    A[Upstream Repository: TheOdinProject/curriculum] -->|git fetch upstream/main| B[Local Repository: main];
-    B -->|git checkout your_branch_name| C[Local Repository: your_branch_name];
-    C -->|git push origin your_branch_name| D[Your Fork on GitHub];
-    D -->|Create Pull Request to Upstream| E[Pull Request on GitHub];
-    E -->|Maintainers Merge PR to Upstream| A[Upstream Repository: TheOdinProject/curriculum];
+    A[Upstream Repository: TheOdinProject/curriculum] -->|git fetch upstream| B[Local Repository: refs updated];
+    B -->|"`git checkout main
+            git merge upstream/main`"| C[Local Repository: main updated];
+    C -->|"`git checkout your_branch_name
+            git merge main`"| D[Local Repository: your_branch_name updated];
+    D -->|git push origin your_branch_name| E[Your Fork on GitHub];
+    E -->|Create Pull Request to Upstream| F[Pull Request on GitHub];
+    F -->|Maintainers Merge PR to Upstream| A[Upstream Repository: TheOdinProject/curriculum];
 
 </pre>
 
