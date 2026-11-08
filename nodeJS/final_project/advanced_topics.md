@@ -43,7 +43,7 @@ const form = document.querySelector("form");
 form.submit();
 ```
 
-Assuming you are still logged in and your banking app's cookies still persist, disaster has already been struck! "Wait, I just want to see kittens! Why is my money gone?!" Yikes, you don't want that, right? [Cross-Site Request Forgery (CSRF) attacks](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF) are just that: tricking a user into performing a state-changing request to a certain target site from a malicious site. In this case, a form was automatically submit the moment you landed on `cutekittnes.com` and a banking transaction was silently performed.
+Assuming you are still logged in and your banking app's cookies still persist, disaster has already been struck! "Wait, I just want to see kittens! Why is my money gone?!" Yikes, you don't want that, right? [Cross-Site Request Forgery (CSRF) attacks](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF) are just that: tricking a user into performing a state-changing request to a certain target site from a malicious site. In this case, a form was automatically submit the moment you landed on `cutekittens.com` and a banking transaction was silently performed.
 
 So what could you do about it? One of the most common methods is to use a CSRF token. Every time you prompt your user to perform some state-changing request in your application, check for a hidden, unpredictable key (this could be embedded inside a `<form>` or an HTTP request header). Then, in your app, carry out the request if and only if the token is valid.
 
