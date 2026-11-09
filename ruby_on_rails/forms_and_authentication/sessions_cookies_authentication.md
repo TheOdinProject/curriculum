@@ -196,10 +196,3 @@ Configuration will be dependent on your use case.  Do you want to make the user 
 Authentication can appear to be a fairly complicated topic -- there are a lot of moving parts.  At it's core, though, you're just checking whether the person making a request is actually a signed in user who has the permissions to do so, all by using browser cookies in some form or another.
 
 This lesson should have given you some appreciation for how complicated login systems can potentially get but it should also have removed the veil from the websites you've visited countless times.  Auth isn't rocket science and you'll shortly be building it into your own applications.
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Authentication in Rails 3.1 from Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than we can explain it.
-- [All About Cookies (.org)](http://www.allaboutcookies.org/)
