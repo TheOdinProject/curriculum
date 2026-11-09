@@ -18,9 +18,13 @@ So if you end up with some unexpected behavior like this it's either because of 
 
 The cascade is what determines which rules actually get applied to our HTML. There are different factors that the cascade uses to determine this. We will examine three of these factors, which will hopefully help you avoid those frustrating "I hate CSS" moments.
 
+#### Origin
+
+Browsers often implement their own default styles for many elements, such as emboldening headings or putting borders around buttons etc. We will dive deeper into browser default styles and managing the differences between browsers later in the curriculum, but for now, what's most important is to know that *your* CSS takes priority over any browser default CSS. If a button has multiple `border` values coming from both the browser and your custom CSS, your CSS will always override what the browser set by default.
+
 #### Specificity
 
-A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
+Even after favoring your CSS over any browser default styles, you may still have multiple rules in your CSS that target the same element. In this situation now, CSS declarations that are more specific will take precedence over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
 
 1. ID selectors (most specific selector)
 1. Class selectors
