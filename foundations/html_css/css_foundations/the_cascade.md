@@ -150,37 +150,9 @@ h1 {
 
 In this example, rule 2 would have higher specificity and the `orange` value would take precedence for this element. Rule 2 uses a type selector, which has the lowest specificity value. But rule 1 uses the universal selector (`*`) which has no specificity value.
 
-#### Inheritance
-
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't. You can find out if a property is inherited or not by going to its docs on MDN and heading to the **Formal Definition** section. For example, the [CSS `color` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) indicates that `color` is an inherited property, while the [`display` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition) indicates that `display` is not.
-
-The exception to this is when directly targeting an element, as this always beats inheritance:
-
-```html
-<!-- index.html -->
-
-<div id="parent">
-  <div class="child"></div>
-</div>
-```
-
-```css
-/* styles.css */
-
-#parent {
-  color: red;
-}
-
-.child {
-  color: blue;
-}
-```
-
-Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
-
 #### Rule order
 
-The final factor, the end of the line, the tie-breaker of the tie-breakers. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
+Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
 
 Whichever rule was the *last* defined is the winner.
 
@@ -196,7 +168,32 @@ Whichever rule was the *last* defined is the winner.
 }
 ```
 
-For an element that has both the `alert` and `warning` classes, the cascade would run through every other factor, including inheritance (none here) and specificity (neither rule is more specific than the other). Since the `.warning` rule was the last one defined, and no other factor was able to determine which rule to apply, it's the one that gets applied to the element.
+For an element that has both the `alert` and `warning` classes, specificity is the same (neither rule is more specific than the other). Since the `.warning` rule was the last one defined, and no other factor was able to determine which rule to apply, it's the one that gets applied to the element.
+
+#### Inheritance
+
+Inheritance refers to certain CSS properties that, if not directly applied to an element, are inherited from the element's parent. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't. You can find out if a property is inherited or not by going to its docs on MDN and heading to the **Formal Definition** section. For example, the [CSS `color` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) indicates that `color` is an inherited property, while the [`display` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition) indicates that `display` is not.
+
+This only comes into play when an element has not been directly given a value for an inheritable style. For example:
+
+```html
+<div id="parent">
+  <div class="child"></div>
+</div>
+```
+
+```css
+#parent {
+  color: red;
+}
+
+.child {
+  color: blue;
+}
+```
+
+Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
+
 
 ### Assignment
 
