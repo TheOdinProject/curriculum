@@ -178,7 +178,8 @@ This only comes into play when an element has not been directly given a value fo
 
 ```html
 <div id="parent">
-  <div class="child"></div>
+  <div class="has-own-color"></div>
+  <div class="no-own-color"></div>
 </div>
 ```
 
@@ -187,13 +188,14 @@ This only comes into play when an element has not been directly given a value fo
   color: red;
 }
 
-.child {
+.has-own-color {
   color: blue;
 }
 ```
 
-Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
+The div with the `has-own-color` class would have `color: blue` set because it's directly targeted by the `.has-own-color` rule. Inheritance would not come into play at all here, regardless of the specificity of any selectors targeting ancestor elements (like `#parent`).
 
+However, the div with the `no-own-color` class does not have a `color` property given directly to it via any rule. Since `color` is an inheritable property, instead of using the initial value for that property, it'll use whatever its parent uses. In this case, that's the div with the `parent` ID, which has `color: red` directly applied to it via the `#parent` rule. As a result, the div with the `no-own-color` class will also have red text color, even though we did not directly give it that color.
 
 ### Assignment
 
