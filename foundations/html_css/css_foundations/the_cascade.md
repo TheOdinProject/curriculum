@@ -176,7 +176,7 @@ For an element that has both the `alert` and `warning` classes, specificity is t
 
 #### Inheritance
 
-Inheritance refers to certain CSS properties that, if not directly applied to an element, are inherited from the element's parent. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't. You can find out if a property is inherited or not by going to its docs on MDN and heading to the **Formal Definition** section. For example, the [CSS `color` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) indicates that `color` is an inherited property, while the [`display` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition) indicates that `display` is not.
+Inheritance refers to certain CSS properties that, if not directly applied to an element (whether from our own custom CSS or the browser's default CSS), are inherited from the element's parent. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't. You can find out if a property is inherited or not by going to its docs on MDN and heading to the **Formal Definition** section. For example, the [CSS `color` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) indicates that `color` is an inherited property, while the [`display` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition) indicates that `display` is not.
 
 This only comes into play when an element has not been directly given a value for an inheritable style. For example:
 
