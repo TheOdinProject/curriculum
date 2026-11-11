@@ -18,9 +18,13 @@ So if you end up with some unexpected behavior like this it's either because of 
 
 The cascade is what determines which rules actually get applied to our HTML. There are different factors that the cascade uses to determine this. We will examine three of these factors, which will hopefully help you avoid those frustrating "I hate CSS" moments.
 
+#### Origin
+
+Browsers often implement their own default styles for many elements, such as emboldening headings or putting borders around buttons etc. We will dive deeper into browser default styles and managing the differences between browsers later in the curriculum, but for now, what's most important is to know that *your* CSS takes priority over any browser default CSS. If a button has multiple `border` values coming from both the browser and your custom CSS, your CSS will always override what the browser set by default.
+
 #### Specificity
 
-A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
+Even after favoring your CSS over any browser default styles, you may still have multiple rules in your CSS that target the same element. In this situation now, CSS declarations that are more specific will take precedence over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
 
 1. ID selectors (most specific selector)
 1. Class selectors
@@ -150,37 +154,9 @@ h1 {
 
 In this example, rule 2 would have higher specificity and the `orange` value would take precedence for this element. Rule 2 uses a type selector, which has the lowest specificity value. But rule 1 uses the universal selector (`*`) which has no specificity value.
 
-#### Inheritance
-
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't. You can find out if a property is inherited or not by going to its docs on MDN and heading to the **Formal Definition** section. For example, the [CSS `color` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) indicates that `color` is an inherited property, while the [`display` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition) indicates that `display` is not.
-
-The exception to this is when directly targeting an element, as this always beats inheritance:
-
-```html
-<!-- index.html -->
-
-<div id="parent">
-  <div class="child"></div>
-</div>
-```
-
-```css
-/* styles.css */
-
-#parent {
-  color: red;
-}
-
-.child {
-  color: blue;
-}
-```
-
-Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
-
 #### Rule order
 
-The final factor, the end of the line, the tie-breaker of the tie-breakers. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
+Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
 
 Whichever rule was the *last* defined is the winner.
 
@@ -196,7 +172,34 @@ Whichever rule was the *last* defined is the winner.
 }
 ```
 
-For an element that has both the `alert` and `warning` classes, the cascade would run through every other factor, including inheritance (none here) and specificity (neither rule is more specific than the other). Since the `.warning` rule was the last one defined, and no other factor was able to determine which rule to apply, it's the one that gets applied to the element.
+For an element that has both the `alert` and `warning` classes, specificity is the same (neither rule is more specific than the other). Since the `.warning` rule was the last one defined, and no other factor was able to determine which rule to apply, it's the one that gets applied to the element.
+
+#### Inheritance
+
+Inheritance refers to certain CSS properties that, if not directly applied to an element (whether from our own custom CSS or the browser's default CSS), are inherited from the element's parent. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't. You can find out if a property is inherited or not by going to its docs on MDN and heading to the **Formal Definition** section. For example, the [CSS `color` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) indicates that `color` is an inherited property, while the [`display` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition) indicates that `display` is not.
+
+This only comes into play when an element has not been directly given a value for an inheritable style. For example:
+
+```html
+<div id="parent">
+  <div class="has-own-color"></div>
+  <div class="no-own-color"></div>
+</div>
+```
+
+```css
+#parent {
+  color: red;
+}
+
+.has-own-color {
+  color: blue;
+}
+```
+
+The div with the `has-own-color` class would have `color: blue` set because it's directly targeted by the `.has-own-color` rule. Inheritance would not come into play at all here, regardless of the specificity of any selectors targeting ancestor elements (like `#parent`).
+
+However, the div with the `no-own-color` class does not have a `color` property given directly to it via any rule. Since `color` is an inheritable property, instead of using the initial value for that property, it'll use whatever its parent uses. In this case, that's the div with the `parent` ID, which has `color: red` directly applied to it via the `#parent` rule. As a result, the div with the `no-own-color` class will also have red text color, even though we did not directly give it that color.
 
 ### Assignment
 
