@@ -48,6 +48,7 @@ Sometimes *there is more than one fastest path*. Examples of this are shown belo
 
 </div>
 
+1. Think very carefully about the problem *before* diving into or even thinking about any code. The task is to find the shortest number of moves required (via any valid path), so think about it and break it down in plain English first. Simplify the context if you need to. Start with finding problems *then* thinking about appropriate solutions for them, don't try to start with structures or algorithms before looking for ways to use them.
 1. Think about the rules of the board and knight, and make sure to follow them.
 1. From every square, multiple moves are possible. Choose a data structure that will allow you to work with them. Don't allow any moves to go off the board.
 1. Both DFS and BFS are viable here, though think carefully about how each of them work. One of them will require you to handle the possibility of getting stuck in an endless cycle.
