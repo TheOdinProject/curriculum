@@ -139,7 +139,7 @@ end
 #=> ["10.00", "-15.00", "25.00", "30.00", "-24.00", "-70.00", "999.00"]
 ```
 
-You can also write explicit return statements from a block. This works the same way as an explicit return works in a method. This might be useful if you need some kind of [guard clause](https://blog.techatpower.com/never-let-your-guard-down-533605891528).
+You can also write explicit return statements from a block. This works the same way as an explicit return works in a method. This might be useful if you need some kind of [guard clause](https://medium.com/tech-at-power/never-let-your-guard-down-533605891528).
 
 In the above examples, the value that we yield to the block in `transaction_statement` is captured by the block and assigned to the named parameter (the variable inside the pipes, in this case `|transaction|`). This works the same way it does in enumerable methods like `#each` and `#map`.
 
