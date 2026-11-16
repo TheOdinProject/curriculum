@@ -126,10 +126,10 @@ h1 {
 ```
 
 1. the minimum value `1.5rem`
-1. the scaling value `5vw`
+1. the preferred value `5vw`
 1. the maximum value `3rem`
 
-The `clamp()` CSS function uses these values to set the minimum value, scaling value and maximum value. In the above example, this would mean the minimum acceptable font-size would be `1.5rem` and the maximum would be `3rem`.
+The `clamp()` CSS function uses these values to set the minimum value, preferred value and maximum value. In the above example, this would mean the minimum acceptable font-size would be `1.5rem` and the maximum would be `3rem`.
 
 A font-size of `5vw` is set in-between. The value `5vw` allows the font-size to scale according to the viewport's width, but the size is restricted by the minimum and maximum values we've set.
 
