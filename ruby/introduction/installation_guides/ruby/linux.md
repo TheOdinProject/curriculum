@@ -75,7 +75,7 @@ It's finally time to install Ruby using `rbenv`!
 1. Inside the terminal, run this command:
 
    ```bash
-   rbenv install 3.4.6 --verbose
+   rbenv install 3.4.12 --verbose
    ```
 
    This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [funny jumping goats video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
@@ -101,7 +101,7 @@ It's finally time to install Ruby using `rbenv`!
 1. Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, run:
 
    ```bash
-   rbenv global 3.4.6
+   rbenv global 3.4.12
    ```
 
 1. Now check the version of Ruby your system is using by running:
@@ -113,7 +113,7 @@ It's finally time to install Ruby using `rbenv`!
    The above command should return something similar to the below, where x represents the version available at the time you installed Ruby:
 
    ```bash
-   ruby 3.4.6pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
+   ruby 3.4.12pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
    ```
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!

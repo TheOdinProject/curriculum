@@ -74,7 +74,7 @@ Now you're ready to install Ruby. We're going to use a tool called `rbenv`, whic
 
 #### Step 3: Install Ruby
 
-We can now (finally) install Ruby! Our curriculum currently uses version 3.4.6, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
+We can now (finally) install Ruby! Our curriculum currently uses version 3.4.12, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
 1. First, let's upgrade `ruby-build`:
 
@@ -85,7 +85,7 @@ We can now (finally) install Ruby! Our curriculum currently uses version 3.4.6, 
 1. Now we're ready to install our desired version of Ruby:
 
    ```bash
-   rbenv install 3.4.6 --verbose
+   rbenv install 3.4.12 --verbose
    ```
 
    This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [funny jumping goats video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
@@ -93,10 +93,10 @@ We can now (finally) install Ruby! Our curriculum currently uses version 3.4.6, 
 1. Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, run:
 
    ```bash
-   rbenv global 3.4.6
+   rbenv global 3.4.12
    ```
 
-1. Now double check that this worked by checking that the current Ruby version in use is 3.4.6:
+1. Now double check that this worked by checking that the current Ruby version in use is 3.4.12:
 
    ```bash
    ruby -v
@@ -105,7 +105,7 @@ We can now (finally) install Ruby! Our curriculum currently uses version 3.4.6, 
    You should get an output with a version number **similar** to this:
 
    ```bash
-   ruby 3.4.6pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
+   ruby 3.4.12pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
    ```
 
    If you don't see the output above, close and reopen the terminal window, then run the command again.
