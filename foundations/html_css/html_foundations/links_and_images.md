@@ -238,13 +238,11 @@ Save the `index.html` file and open it in a browser to view Charles in all his g
 
 #### Images you use should be free for your intended purpose
 
-There are many free images available but make sure to give credit to the creator of the image in your project.
+Many free images online are under some kind of license. Depending on the license, you may be required to credit the creator or provider of the image in some way.
 
-An easy way to provide credit is to include the creator's name and contact info in a README file in your repository, or give [attribution](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US).
+Typically, with image sites, you'll be able to look at their support/FAQs (or somewhere similar) and find details about whether you need to give attribution or not for images you use. You can also always search online for ways to give attribution for a specific license if needed.
 
-To find them - Google images and in image results -> Tools -> Usage rights -> "Creative Commons". Choose & click on an image and click license details.
-
-We recommend that you always review the license requirements of any images you want to use.
+If you're unsure whether a free image you find can be used or not, it won't hurt to just look for something else you can use.
 
 </div>
 
