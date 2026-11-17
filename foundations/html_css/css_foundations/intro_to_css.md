@@ -334,7 +334,7 @@ img {
 
 For example, if an image's original size was 500px height and 1000px width, using the above CSS would result in a height of 250px.
 
-These properties work in conjunction with the height and width attributes in the HTML. It’s best to include both of these properties and the HTML attributes for image elements, even if you don’t plan on adjusting the values from the image file’s original ones. When these values aren’t included, if an image takes longer to load than the rest of the page contents, it won’t take up any space on the page at first but will suddenly cause a drastic shift of the other page contents once it does load in. Explicitly stating a `height` and `width` prevents this from happening, as space will be “reserved” on the page and appear blank until the image loads.
+You won't always be writing separate CSS rules for every image, however. You will often find yourself writing more generic rules that can apply to multiple `<img>` elements. Therefore, these properties often work in conjunction with the `height` and `width` attributes of the `<img>` element(s) in the HTML. Those attributes give the browser details of the image in advance, which allows it to calculate the aspect ratio and use it alongside any CSS applied (such as above) to reserve the correct amount of space before the image has fully loaded. Otherwise, it can lead to "layout shift" when space is only created for the image after it has fully loaded.
 
 ### Additional methods for adding CSS to HTML
 
