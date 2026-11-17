@@ -87,6 +87,7 @@ Your time is limited and your options are endless. So, you should understand wha
     - [LinkedIn](https://www.linkedin.com/) - your profile acts like your virtual resume and first impressions are important. Put some time into [optimizing your profile](https://www.samanthaming.com/blog/tips-to-optimize-your-linkedin-profile-for-developers/). Then start following companies you would like to work at or find interesting, and individuals you can learn from. Engage with their content with questions and comments and consider creating your own content about your developer journey. Connect with people who engage with you and aim to make these connections genuine by looking at someone’s profile and finding something in common to talk about.
     - [Discord](https://discord.com/) - there’s likely a discord channel dedicated to a given language or framework where you can ask questions and get help. You can sign up for Discord and search for what you are interested in e.g., NodeJS, Ruby on Rails, and request to join.
     - Open Source projects - when you have the skill set and confidence to contribute to open-source projects, you will be working directly with project maintainers and contributors. It is a great way to connect with other developers while working towards a common good.
+    - [First Ruby Friend](https://firstrubyfriend.org) - a free mentorship programme for people on the Ruby path, pairing early-career developers with friendly volunteer mentors for six half-hour calls. The programme is sometimes open for applications, so check the site to see if it is currently accepting applications.
 
 </div>
 
@@ -96,4 +97,3 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [How to use LinkedIn as a developer to get a job in tech](https://www.youtube.com/watch?v=SG5Sb5WTV_g)
 - [How to Network: a Guide for Remote Software Developers & Engineers](https://arc.dev/developer-blog/how-to-network-as-remote-developer/)
-- [First ruby friend](https://firstrubyfriend.org): people on the ruby path can find free mentorship from friendly volunteers here.
