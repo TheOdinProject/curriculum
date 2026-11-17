@@ -31,7 +31,7 @@ Both conformance levels have exceptions that don't need to follow the contrast r
 
 At this point you might be thinking, "18.66 pixels? 4.5:1? How the heck am I supposed to remember these numbers? Wait, how am I supposed to calculate the ratios in the first place?!" Luckily for you, you don't have to!
 
-[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) is a fantastic tool for checking contrast ratios. Just enter the HEX code of the foreground and background colors and it calculates what conformance levels, if any, the contrast ratio passes. The page also has a link for a link contrast checker, which goes over what the contrast ratio should be if a text link isn't underlined.
+[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) is a fantastic tool for checking contrast ratios. Just enter the HEX code of the foreground and background colors and it calculates what conformance levels, if any, the contrast ratio passes. The page also has a link for a contrast checker, which goes over what the contrast ratio should be if a text link isn't underlined.
 
 You can also check the contrast ratio of the text within an element using your browser's dev tools. In **Chrome**, click the "element picker" tool in the Elements tab, then hover over an element on the web page. This displays a tooltip showing the contrast ratio under the Accessibility section. You can also view the contrast ratio by selecting an element with text in the Elements tab and clicking on the color picker tool for the "color" property in the Styles pane.
 
