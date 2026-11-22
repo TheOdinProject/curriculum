@@ -97,6 +97,8 @@ That's basically it. One more time, from the top:
 1. Write your test case/example with `it`.
 1. Write your expectation using `expect`. The `expect` method is also chained with `.to` for positive expectations, or `.to_not`/`.not_to` for negative expectations. We prefer `.not_to`. Also, limit one expect clause per test case.
 
+There are many other [RSpec matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/) that let you `expect` different things, not just `eql`, so explore the docs in your own time.
+
 #### Passing code
 
 Let's move on. Run `rspec` from the directory root, and watch the output.
@@ -198,41 +200,30 @@ At this point, refactoring isn't necessary. The `#add` method is essentially a o
 
 <div class="lesson-content__panel" markdown="1">
 
-It's time to put your newfound knowledge to good use. Let's break our `Calculator` test.
+1. Briefly look over [BetterSpecs' recommended RSpec styling and syntax](http://www.betterspecs.org/) and focus on the first six guidelines.
+1. It's time to put your newfound knowledge to good use. Let's break our `Calculator` test.
+   1. Firstly, let's implement a new test case for your `#add` method, written out for you below. Run the test to see the failure. Write the minimum code necessary to get **both** tests to pass, then refactor if necessary.
 
-1. Let's implement a new test case for your `#add` method, written out for you below. Run the test to see the failure. Write the minimum code necessary to get **both** tests to pass, then refactor if necessary.
+      ```ruby
+      #spec/calculator_spec.rb
 
-   ```ruby
-   #spec/calculator_spec.rb
-   
-   RSpec.describe Calculator do
-     describe "#add" do
-       it "returns the sum of two numbers" do
-         # removed for brevity
-       end
-   
-       # add this
-       it "returns the sum of more than two numbers" do
-         calculator = Calculator.new
-         expect(calculator.add(2, 5, 7)).to eql(14)
-       end
-     end
-   end
-   ```
+      RSpec.describe Calculator do
+        describe "#add" do
+          it "returns the sum of two numbers" do
+            # removed for brevity
+          end
 
-1. Write a test for a new `Calculator` method (`#multiply`, `#subtract`, or `#divide`) using a new `describe` block. Include at least one `it` block with an appropriate expectation clause. Get it to pass, and refactor if necessary.
-1. In the terminal, try running your failing or passing tests with `rspec --format documentation`. What's different?
-1. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information, you can read more about [configuring RSpec](http://rspec.info/features/3-12/rspec-core/configuration/).
+          # add this
+          it "returns the sum of more than two numbers" do
+            calculator = Calculator.new
+            expect(calculator.add(2, 5, 7)).to eql(14)
+          end
+        end
+      end
+      ```
+
+   1. Write a test for a new `Calculator` method (`#multiply`, `#subtract`, or `#divide`) using a new `describe` block. Include at least one `it` block with an appropriate expectation clause. Get it to pass, and refactor if necessary.
+   1. In the terminal, try running your failing or passing tests with `rspec --format documentation`. What's different?
+   1. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information, you can read more about [configuring RSpec](http://rspec.info/features/3-12/rspec-core/configuration/).
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This Youtube video gives an excellent [overview of the fundamentals of RSpec](https://www.youtube.com/watch?v=K6RPMhcRICE), and gives a brief overview of some concepts that will be mentioned in the next lesson.
-- For a more thorough overview of RSpec, read through the [RSpec section of Ruby Monsta’s "Testing for Beginners" book](http://testing-for-beginners.rubymonstas.org/rspec.html).
-- Briefly look over [RSpec's other matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/) if you haven't done so already.
-- Briefly look over [BetterSpecs' recommended RSpec styling and syntax](http://www.betterspecs.org/) and read through the first six guidelines.
-- This [RSpec Cheat Sheet](https://devhints.io/rspec) should help you avoid Googling every new bit of syntax.
-- [Getting Started with RSpec Part 1](https://mindovermiles262.medium.com/getting-started-with-rspec-part-1-9418909f5e53): Solidify these concepts with a shameless plug from another Odin Project contributor.

@@ -46,10 +46,3 @@ Only write exactly enough code to make your test pass. Oftentimes, you'll end up
 1. Build Connect Four! Just be sure to keep it TDD.
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Stack Overflow has an [RSpec Mock Object example](http://stackoverflow.com/questions/3622604/rspec-mock-object-example).
-- Tutorials Point has an article about [RSpec Writing Specs](https://www.tutorialspoint.com/rspec/rspec_writing_specs.htm).
