@@ -8,8 +8,8 @@ Folks, we're here to tell you there *IS* a better way. Hoping is for that exam y
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand what test-driven development (TDD) is, and why it's important.
-- Understand the three stages of a TDD cycle.
+- What test-driven development (TDD) is and why it's important.
+- The three stages of a TDD cycle.
 
 ### What is test-driven development?
 
