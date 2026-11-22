@@ -6,9 +6,9 @@ In the previous lesson, we established the utility of [test-driven development](
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Know what RSpec is.
-- Know how to install RSpec.
-- Understand the basic RSpec syntax: `describe` and `it`.
+- What RSpec is.
+- How to install RSpec.
+- Basic RSpec syntax: `describe` and `it`.
 
 ### Introduction to RSpec
 
