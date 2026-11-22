@@ -26,7 +26,7 @@ Boot up your terminal and punch in `gem install rspec` to install RSpec. Once th
 
 Finally, `cd` into a project directory that you wish to configure for use with RSpec and type `rspec --init` to initialize RSpec within the project. This will generate two files, `.rspec` and `spec/spec_helper.rb`, such that your project might look like:
 
-```bash
+```text
 project
   |__lib
   |   |__calculator.rb
@@ -50,14 +50,14 @@ rspec --init
 
 As expected, the output will read:
 
-```bash
+```text
   create   .rspec
   create   spec/spec_helper.rb
 ```
 
 Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked... maybe take a short break, or come say hello to us in [our Discord server](https://discord.gg/fbFCkYabZB)!
 
-```bash
+```text
 No examples found.
 
 
@@ -68,7 +68,7 @@ Finished in 0.00037 seconds (files took 0.21108 seconds to load)
 Let's add our first test. Let's say we want to create a calculator with a few methods that we want to test. True to TDD, we will write the tests prior to the code. The `spec/` folder is where all your tests will live. Using `touch` on the command line or through your text editor, create `calculator_spec.rb` within the `spec/` folder and add the following lines:
 
 ```ruby
-#spec/calculator_spec.rb
+# spec/calculator_spec.rb
 
 RSpec.describe Calculator do
   describe "#add" do
@@ -87,7 +87,7 @@ First, `RSpec.describe` is an RSpec keyword that defines an "Example Group", or 
 The `it` keyword defines an individual example (aka, test). `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of [RSpec's equality matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/), `eql`:
 
 ```ruby
-  expect(calculator.add(5, 2)).to eql(7)
+expect(calculator.add(5, 2)).to eql(7)
 ```
 
 That's basically it. One more time, from the top:
@@ -101,7 +101,7 @@ That's basically it. One more time, from the top:
 
 Let's move on. Run `rspec` from the directory root, and watch the output.
 
-```bash
+```text
 An error occurred while loading ./spec/calculator_spec.rb.
 Failure/Error:
   RSpec.describe Calculator do
@@ -126,7 +126,7 @@ Finished in 0.0004 seconds (files took 0.16461 seconds to load)
 So our first test returned an error. This is unsurprising. `NameError` is essentially telling us that RSpec looked for a `Calculator` class, but couldn't find one. So let's create it. From your project root, create a `lib/` folder, and inside, `calculator.rb` with your class. We'll also go ahead and begin the `#add` method, otherwise RSpec will give us a similar error as the previous one when it looks for it:
 
 ```ruby
-#lib/calculator.rb
+# lib/calculator.rb
 
 class Calculator
   def add(a,b)
@@ -137,17 +137,17 @@ end
 Finally, we must also tell the spec where the `Calculator` class is being defined. This is easily done with `require`:
 
 ```ruby
-#spec/calculator_spec.rb
+# spec/calculator_spec.rb
 require './lib/calculator'  #=> add this
 
 RSpec.describe Calculator do
-  #...
+  # ...
 end
 ```
 
 If you were to run `rspec` this time, you'd get your first failure!
 
-```bash
+```text
 F
 
 Failures:
@@ -167,7 +167,6 @@ Finished in 0.28565 seconds (files took 0.6273 seconds to load)
 Failed examples:
 
 rspec ./spec/calculator_spec.rb:5 # Calculator#add returns the sum of two numbers
-
 ```
 
 Our first failure is denoted by the `F` at the top of the output. Congratulations! You've made it to the "red" portion of the "red-green-refactor" cycle of TDD. RSpec provides a list of all the failures, with the expected vs. actual output of the method being tested. At the bottom of your output, RSpec also points to the line of the failing test, which in this case is where our `it` block started.
@@ -175,7 +174,7 @@ Our first failure is denoted by the `F` at the top of the output. Congratulation
 Getting this method to "green" shouldn't be too difficult. RSpec clearly provides a reason for the failure: it expected the output to be `7` when we provided the method with `(5, 2)` as the parameters. Instead, it returned `nil`. Why might that be? Well, our `#add` *does* take two parameters...but it does nothing with them! Add the minimum amount of code necessary to get your test to pass:
 
 ```ruby
-#lib/calculator.rb
+# lib/calculator.rb
 
 class Calculator
   def add(a,b)
@@ -186,7 +185,7 @@ end
 
 Then, run the test again to get a single dot, letting you know that your test has passed:
 
-```bash
+```text
 .
 
 Finished in 0.0032 seconds (files took 0.14864 seconds to load)
