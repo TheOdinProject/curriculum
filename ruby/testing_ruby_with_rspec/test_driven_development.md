@@ -40,14 +40,9 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 <div class="lesson-content__panel" markdown="1">
 
 1. Read up on the [9 Benefits of Test-Driven Development](https://www.madetech.com/blog/9-benefits-of-test-driven-development) for additional insight on this practice. Note that many of these points are not specific to TDD, but are also applicable to testing in general.
-1. For a more rounded take, consider DHH's ["TDD is Dead. Long Live Testing"](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html), which sparked controversial conversations on what TDD is, what it has become, and what it should be.
+1. Opinions and philosophies on testing and TDD can differ from person to person. To get a more rounded take, go through both of the following:
+   - [DHH's "TDD is Dead. Long Live Testing"](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html), which sparked controversial conversations on what TDD is, what it has become, and what it should be.
+   - [Counter arguments for DHH's “TDD is Dead. Long Live Testing”](https://www.youtube.com/watch?v=PCEHRFHKZSk).
 1. James Sinclair's article explains more about [the why/how and value behind TDD](https://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/) and also includes some great examples of how to apply it. While the examples are in JavaScript, the focus is on the value behind the TDD approach.
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This video that provides [counter arguments for DHH's “TDD is Dead. Long Live Testing” article](https://www.youtube.com/watch?v=PCEHRFHKZSk) from the assignment.
-- For a more rounded taken on TDD, watch or listen to this [series of talks on the pros and cons of TDD](https://martinfowler.com/articles/is-tdd-dead/).
