@@ -1,3 +1,6 @@
+<!-- TODO: Restructure to conform to style guide -->
+<!-- markdownlint-disable TOP004 -->
+
 ### Introduction
 
 Interviewing is right up there with public speaking in the hierarchy of fears for most people.  Not only are you performing for someone else but they're actively judging you the whole time... yikes!
@@ -60,8 +63,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 - [Exponent.com](https://www.tryexponent.com/practice?ref=pramp&utm_source=pramp&utm_campaign=pramp_banner) allows you to prepare for coding interviews and practice your coding skills with peers.
 - [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 - [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
-- [How to Ace Your Technical Interview](http://insights.dice.com/2014/10/12/ace-technical-interview/)
-- [How You Can Stand Out in Your Next Web Developer Interview](http://blog.udacity.com/2015/01/how-to-stand-out-in-your-web-developer-interview.html)
+- [How You Can Stand Out in Your Next Web Developer Interview](https://www.udacity.com/blog/how-to-stand-out-in-your-web-developer-interview/)
 - [Post on The Interview](https://martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
 - Read [40 Key Computer Science Concepts Explained In Layman’s Terms](https://web.archive.org/web/20220901190653/http://carlcheo.com/compsci)
 - [Google's Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html) (advanced)
