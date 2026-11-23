@@ -26,4 +26,7 @@ See [license.md](https://github.com/TheOdinProject/curriculum/blob/main/license.
 
 ___
 
+
+Hey, apologies for the changes to this file. I was testing a few Git workflows. Thanks for your understanding! 
+
 Created by [Erik Trautman](http://www.github.com/eriktrautman).
