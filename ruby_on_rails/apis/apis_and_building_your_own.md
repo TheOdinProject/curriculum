@@ -194,6 +194,8 @@ In the next lesson, we'll cover working with other people's APIs, which can add 
 
   1. Read the [Rails Guide on Controllers](https://guides.rubyonrails.org/v7.2/action_controller_overview.html#rendering) section 7 to learn about rendering JSON and XML.
 
+  1. Rails let us build API-only applications with ease! The first three sections of [Rails Guide on Using Rails for API-only Applications](https://guides.rubyonrails.org/v8.1/api_app.html#why-use-rails-for-json-apis-questionmark) should be enough for you to build get going.
+
 </div>
 
 ### Additional resources
