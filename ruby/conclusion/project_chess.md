@@ -10,6 +10,8 @@ The main difference is that this problem has the broadest scope of anything you'
 
 This is a great project to have as a part of your portfolio going forward because it shows you can take on something with a lot of different components to it.
 
+If you're feeling stuck, you should visit the community Discord!
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -36,12 +38,3 @@ This is a great project to have as a part of your portfolio going forward becaus
 1. Build a very basic AI computer player (perhaps who does a random legal move).
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Illustrated rules of Chess](http://www.chessvariants.org/d.chess/chess.html)
-- [Chess notation for humans and computers](https://en.wikipedia.org/wiki/Chess_notation)
-- If you're feeling stuck, you should visit the community Discord!
-- Once you have completed the project, check out this [discussion on writing chess in Ruby](http://rubyquiz.com/quiz35.html) from RubyQuiz. **Warning**: this resource contains a blueprint for how to complete this project. That means, if you decide to peruse it, you won't get the opportunity to dig into this problem.
