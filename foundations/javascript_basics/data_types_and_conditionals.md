@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A **string** is a piece of text... and is a fundamental building block of the language.
 
 1. Read and code along with this [MDN tutorial on strings in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings). Skip the `Concatenation in context` section, as it covers concepts we will cover in a later lesson on DOM Manipulation.
-1. Go through [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings. A **method** is a bit of functionality built into the language or specific data types.
+1. Go through [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings. A **method** is a bit of functionality built into the language for specific data types.
 1. There are many more built-in string methods than what the previous resource showed. You don't need to read through this let alone memorize things, but you ought to be aware of the [MDN documentation for strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String). You'll find much more information about strings here as well as an exhaustive reference of built-in methods, so bookmark it!
 
 ### Conditionals
