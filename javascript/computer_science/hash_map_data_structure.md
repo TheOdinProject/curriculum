@@ -144,7 +144,7 @@ With our new function we will have different hash codes for the names `"Sara"` a
 
 #### Minimizing collisions
 
-Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions.
+Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions. For more information, read this StackOverflow discussion on the [usages of prime numbers in hash functions](https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier/299748).
 
 </div>
 
@@ -205,11 +205,3 @@ The growth of our hash map has the complexity of `O(n)` at all times.
 - Watch this video from CS50 that explains the concept of [hash maps using buckets](https://www.youtube.com/watch?v=btT4bCOvqjs).
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This discussion goes through the [usages of prime numbers in hash functions](https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier/299748).
-- The [pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle) mathematically guarantees collisions when there are more nodes than boxes.
-- Check out [Hashing](https://samwho.dev/hashing/) if you want to get a better fundamental understanding of hash functions.
