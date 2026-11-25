@@ -60,7 +60,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 ### Links
 
 - [Peerfect.net](https://peerfect.net/) free online practice for behavioral, technical, and coding mock interviews with peers.
-- [Exponent.com](https://www.tryexponent.com/practice?ref=pramp&utm_source=pramp&utm_campaign=pramp_banner) allows you to prepare for coding interviews and practice your coding skills with peers.
+- [aced.io](https://www.aced.io/practice) allows you to prepare for coding interviews and practice your coding skills with peers.
 - [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 - [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
 - [How You Can Stand Out in Your Next Web Developer Interview](https://www.udacity.com/blog/how-to-stand-out-in-your-web-developer-interview/)
