@@ -28,11 +28,3 @@ This section contains a general overview of topics that you will learn in this l
   1. Watch [Telusko's video on data structures and algorithms](https://youtu.be/iZmDcfTtcNg?si=7t1q8GxYJjkYH9d4) for a quick overview of DSA, and why companies may be interested in hiring candidates familiar with DSA.
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science).
-- [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm).
-- [Map of Computer Science](https://youtu.be/SzJ46YA_RaA).
