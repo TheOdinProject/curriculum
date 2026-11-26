@@ -73,9 +73,3 @@ Now it's time for you to practice:
 1. Rebuild each of [the methods in the table at the end of the README](https://github.com/TheOdinProject/custom_enumerable_project#methods) and make sure they all pass the tests associated with them.
 
 </div>
-
-#### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Jason Mattingly has a useful article on [Writing Your Own Enumerables in Ruby](https://jsonmattingly.medium.com/writing-your-own-enumerables-in-ruby-18db4fa0e5fe).
