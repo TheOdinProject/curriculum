@@ -674,9 +674,3 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 1. Read the [Ruby docs on pattern matching](https://docs.ruby-lang.org/en/3.4/syntax/pattern_matching_rdoc.html). They cover quite a lot of ground.
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [An Introduction to Pattern Matching in Ruby](https://blog.appsignal.com/2021/07/28/introduction-to-pattern-matching-in-ruby.html) from AppSignal should be another useful perspective on the material.
