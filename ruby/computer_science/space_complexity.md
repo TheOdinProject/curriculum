@@ -157,10 +157,3 @@ On top of these considerations, you also need to balance the readability of your
 1. This [article on recursion and space complexity](https://dev.to/elmarshall/recursion-and-space-complexity-13gc) offers a little more context to recursive functions and their space complexity.
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Space Complexity in Data Structure](https://www.scaler.com/topics/data-structures/space-complexity-in-data-structure/) article for a more comprehensive overview of space complexity in Data Sctructures and Algorithms.
-- Video on [Space Complexity and Big O Gotchhas](https://www.youtube.com/watch?v=rHM3zWgnPVA).
