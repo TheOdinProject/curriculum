@@ -20,7 +20,7 @@ The word "scoping" essentially asks, "Where is a certain variable available to m
 
 Before ECMAScript 6, JavaScript had a single keyword to declare a variable, `var`. These variables can be redefined and updated, and are said to be defined within the **function scope**, meaning, they are only available within the function they are declared in.
 
-In ECMAScript 6, the keywords `let` and `const` were introduced. While `var` variables were function scoped, these allow you to define variables that are **block scoped** - basically, scoping the variable to only be available within the closest set of `{ curly braces }` in which it was defined. These braces can be those of a `for` loop, `if-else` condition, or any other similar construct, and are called, a block. Let's see an example to sum this all up.
+In ECMAScript 6, the keywords `let` and `const` were introduced. While `var` variables were function scoped, `let` and `const` allow you to define variables that are **block scoped** - basically, scoping the variable to only be available within the closest set of `{ curly braces }` in which it was defined. These braces can be those of a `for` loop, `if-else` condition, or any other similar construct, and are called a block. Let's see an example to sum this all up.
 
 ```javascript
 // This is a global variable
