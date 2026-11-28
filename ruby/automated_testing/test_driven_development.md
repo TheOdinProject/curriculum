@@ -212,4 +212,4 @@ TODO: Exercise: TDD a class that has a collaborator which doesn't exist yet usin
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-Read ["TDD is Dead. Long Live Testing"](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html) by DHH for an anti-TDD viewpoint
+Read ["TDD is Dead. Long Live Testing"](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html) by DHH for an anti-TDD viewpoint
